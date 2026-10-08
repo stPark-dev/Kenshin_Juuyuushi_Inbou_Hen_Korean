@@ -1,9 +1,11 @@
 {
  "_rules": {
   "basis": "D1: 한국 정발 만화 『바람의 검심』 표기",
-  "transliteration": "만화 관례: 첫소리 거센소리(켄신·카오루·타카니), つ=츠, 장음 생략(소지로·사이토). 게임 오리지널 이름도 같은 관례.",
+  "transliteration": "일본어 발음으로 음역(한자음 금지). 기존 한국 정발 표기가 있으면 그대로 따른다. 만화 관례: 첫소리 거센소리(켄신·카오루·타카니), つ=츠, 장음은 대체로 생략, 촉음은 적절히 반영(햣키).",
   "roles": "직함·역할 화자는 한국어 일반명사",
-  "status": "candidate = 원칙상 확정 후보, check = 읽기·정체 확인 필요, approved = 사용자 확인 완료"
+  "status": "approved = 사용자 확인, provisional = 사용자가 잠정 채택(미검증), candidate = 원칙상 후보, check = 확인 필요",
+  "honorifics": "경칭(さん·殿·先生 등)은 문맥에 맞게 한국어로 옮긴다.",
+  "unresolved": "게임 오리지널 인물 중 읽기가 확인되지 않은 이름은 status=provisional로 두고 게임 안 확인 대상으로 남긴다."
  },
  "terms": [
   {
@@ -109,8 +111,8 @@
    "ja": "燕",
    "ko": "츠바메",
    "kind": "canon",
-   "status": "check",
-   "note": "산조 츠바메인지 확인 필요"
+   "status": "approved",
+   "note": "산조 츠바메(三条燕)"
   },
   {
    "ja": "宗次郎",
@@ -197,8 +199,7 @@
    "ja": "朱羅",
    "ko": "슈라",
    "kind": "game",
-   "status": "check",
-   "note": "읽기 확인 필요"
+   "status": "approved"
   },
   {
    "ja": "隼人",
@@ -251,9 +252,9 @@
   {
    "ja": "津南",
    "ko": "츠난",
-   "kind": "game",
-   "status": "check",
-   "note": "읽기 확인 필요"
+   "kind": "canon",
+   "status": "approved",
+   "note": "츠키오카 츠난(月岡津南)"
   },
   {
    "ja": "晋太郎",
@@ -308,7 +309,7 @@
    "ko": "알랭",
    "kind": "game",
    "status": "check",
-   "note": "프랑스식(알랭)인지 영어식(앨런)인지 확인 필요"
+   "note": "프랑스(Alain)/영어(Alan) 출신을 대본 문맥으로 확인 후 결정"
   },
   {
    "ja": "藍",
@@ -332,8 +333,7 @@
    "ja": "碧",
    "ko": "미도리",
    "kind": "game",
-   "status": "check",
-   "note": "아오이/미도리 읽기 확인 필요"
+   "status": "approved"
   },
   {
    "ja": "靖宏",
@@ -349,17 +349,17 @@
   },
   {
    "ja": "百鬼",
-   "ko": "햐키",
+   "ko": "햣키",
    "kind": "game",
-   "status": "check",
-   "note": "읽기(햐키/모모키) 확인 필요"
+   "status": "approved",
+   "note": "촉음 반영"
   },
   {
    "ja": "恭昌",
    "ko": "야스마사",
    "kind": "game",
-   "status": "check",
-   "note": "읽기 확인 필요"
+   "status": "provisional",
+   "note": "게임 안 읽기 미검증"
   },
   {
    "ja": "修二",
@@ -371,22 +371,21 @@
    "ja": "年念",
    "ko": "넨넨",
    "kind": "game",
-   "status": "check",
-   "note": "읽기 확인 필요"
+   "status": "approved"
   },
   {
    "ja": "陳念",
    "ko": "친넨",
    "kind": "game",
-   "status": "check",
-   "note": "읽기 확인 필요"
+   "status": "provisional",
+   "note": "게임 안 읽기 미검증"
   },
   {
    "ja": "美姫",
    "ko": "미키",
    "kind": "game",
-   "status": "check",
-   "note": "읽기 확인 필요"
+   "status": "provisional",
+   "note": "게임 안 읽기 미검증"
   },
   {
    "ja": "沙織",
@@ -396,10 +395,10 @@
   },
   {
    "ja": "徳重",
-   "ko": "토쿠시게",
+   "ko": "도쿠시게",
    "kind": "game",
-   "status": "check",
-   "note": "읽기 확인 필요"
+   "status": "provisional",
+   "note": "사용자 잠정안. 첫소리 거센소리 관례로는 토쿠시게 — 사용자 확인 대기"
   },
   {
    "ja": "健吉",
@@ -435,8 +434,7 @@
    "ja": "誠真",
    "ko": "세이신",
    "kind": "game",
-   "status": "check",
-   "note": "읽기 확인 필요"
+   "status": "approved"
   },
   {
    "ja": "寛平",
@@ -520,8 +518,8 @@
    "ja": "太",
    "ko": "후토시",
    "kind": "game",
-   "status": "check",
-   "note": "읽기 확인 필요"
+   "status": "provisional",
+   "note": "게임 안 읽기 미검증"
   },
   {
    "ja": "右近",
@@ -551,8 +549,8 @@
    "ja": "歌姫",
    "ko": "가희",
    "kind": "role",
-   "status": "check",
-   "note": "'가희'/'가수' 중 선택. 고유 호칭일 수 있음"
+   "status": "approved",
+   "note": "가수 이벤트 칭호로 쓰일 때 가희. 일반 직업으로 쓰이면 여가수"
   },
   {
    "ja": "男",
@@ -685,6 +683,18 @@
    "ko": "도적",
    "kind": "role",
    "status": "candidate"
+  },
+  {
+   "ja": "三条燕",
+   "ko": "산조 츠바메",
+   "kind": "canon",
+   "status": "approved"
+  },
+  {
+   "ja": "月岡津南",
+   "ko": "츠키오카 츠난",
+   "kind": "canon",
+   "status": "approved"
   }
  ]
 }
