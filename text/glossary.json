@@ -793,7 +793,7 @@
    "ko": "난리",
    "kind": "game",
    "status": "approved",
-   "note": "南里家·南里沙織. 사용자 확정(2026-10-08). 등장: ZROUP14,ZROUP15,ZROUP16,ZROUP17,ZROUP18,ZROUP29,ZROUP41,ZROUP45,ZROUP47,ZROUP50"
+   "note": "南里家=난리 가문(공손한 말에서는 난리 댁). 南里家·南里沙織. 사용자 확정(2026-10-08). 등장: ZROUP14,ZROUP15,ZROUP16,ZROUP17,ZROUP18,ZROUP29,ZROUP41,ZROUP45,ZROUP47,ZROUP50"
   },
   {
    "ja": "時川",
@@ -1739,6 +1739,1658 @@
    "kind": "game",
    "status": "provisional",
    "note": "대장간 草葉堂 주인. 독음 미확인. ZROUP20"
+  },
+  {
+   "ja": "鬼火の兆治",
+   "ko": "도깨비불 쵸지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "별명+이름. 鬼火=도깨비불. ZROUP32, 41"
+  },
+  {
+   "ja": "兆治",
+   "ko": "쵸지",
+   "kind": "game",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "親分",
+   "ko": "두목",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "薫の声",
+   "ko": "카오루의 목소리",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "警官",
+   "ko": "경관",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "文太",
+   "ko": "분타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP25, 44"
+  },
+  {
+   "ja": "秋人",
+   "ko": "아키토",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "平次",
+   "ko": "헤이지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "渋川町",
+   "ko": "시부카와 마을",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01,ZROUP02,ZROUP03"
+  },
+  {
+   "ja": "新八郎",
+   "ko": "신파치로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "清子",
+   "ko": "키요코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "美鈴",
+   "ko": "미스즈",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "お竹",
+   "ko": "오타케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "房江",
+   "ko": "후사에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "おきく",
+   "ko": "오키쿠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "さくら",
+   "ko": "사쿠라",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "琴音",
+   "ko": "코토네",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "ハナ",
+   "ko": "하나",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "恭子",
+   "ko": "쿄코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "小夏",
+   "ko": "코나츠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "千代春",
+   "ko": "치요하루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "大左衛門",
+   "ko": "다이자에몬",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "メアリー",
+   "ko": "메리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "ジェフ",
+   "ko": "제프",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "ウォルター",
+   "ko": "월터",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "ポール",
+   "ko": "폴",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "お鈴",
+   "ko": "오스즈",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "権太",
+   "ko": "곤타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "喜助",
+   "ko": "키스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "光治",
+   "ko": "코지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "吾平",
+   "ko": "고헤이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "左平",
+   "ko": "사헤이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "源三",
+   "ko": "겐조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "金弥",
+   "ko": "킨야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "孝子",
+   "ko": "타카코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "葉月",
+   "ko": "하즈키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "晋吉",
+   "ko": "신키치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "アニー",
+   "ko": "애니",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "フランク",
+   "ko": "프랭크",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "善吉郎",
+   "ko": "젠키치로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "于左衛門",
+   "ko": "우자에몬",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "志織",
+   "ko": "시오리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "マリア",
+   "ko": "마리아",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "しんご",
+   "ko": "신고",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "勘助",
+   "ko": "칸스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "健太",
+   "ko": "켄타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "与兵衛",
+   "ko": "요헤에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "寅次郎",
+   "ko": "토라지로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "小雪",
+   "ko": "코유키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "伝八",
+   "ko": "덴파치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "クリス",
+   "ko": "크리스",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "ティナ",
+   "ko": "티나",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "彦六",
+   "ko": "히코로쿠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "千春",
+   "ko": "치하루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "悠次",
+   "ko": "유지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "新吉",
+   "ko": "신키치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "辰朗",
+   "ko": "타츠로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "小百合",
+   "ko": "사유리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "大山",
+   "ko": "오야마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "大野",
+   "ko": "오노",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "桂",
+   "ko": "카츠라",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP01"
+  },
+  {
+   "ja": "左近児",
+   "ko": "사콘지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "左千夫",
+   "ko": "사치오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "日光",
+   "ko": "닛코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02,ZROUP14"
+  },
+  {
+   "ja": "邦松",
+   "ko": "쿠니마츠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "うめ",
+   "ko": "우메",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "由美子",
+   "ko": "유미코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "舞子",
+   "ko": "마이코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "美代",
+   "ko": "미요",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "鶴子",
+   "ko": "츠루코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "硯考",
+   "ko": "켄코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "誠一",
+   "ko": "세이이치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "裕之",
+   "ko": "히로유키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "義輝",
+   "ko": "요시테루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "風子",
+   "ko": "후코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "三蔵",
+   "ko": "산조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "小太郎",
+   "ko": "코타로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02,ZROUP13"
+  },
+  {
+   "ja": "豊吉",
+   "ko": "토요키치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "良彰",
+   "ko": "요시아키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "剛史",
+   "ko": "타케시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "良仁",
+   "ko": "요시히토",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP02"
+  },
+  {
+   "ja": "片桐",
+   "ko": "카타기리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP03"
+  },
+  {
+   "ja": "あゆむ",
+   "ko": "아유무",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "もえ",
+   "ko": "모에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "那津",
+   "ko": "나츠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "竜子",
+   "ko": "타츠코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "みなみ屋",
+   "ko": "미나미야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "小桃",
+   "ko": "코모모",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "石田屋",
+   "ko": "이시다야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "仙八",
+   "ko": "센파치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "田口屋",
+   "ko": "타구치야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "孝夫",
+   "ko": "타카오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "要蔵",
+   "ko": "요조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "可奈子",
+   "ko": "카나코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "てつお",
+   "ko": "테츠오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "伝蔵",
+   "ko": "덴조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "やすお",
+   "ko": "야스오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "朝斎",
+   "ko": "초사이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "伊助",
+   "ko": "이스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "冬也",
+   "ko": "후유야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "お祐",
+   "ko": "오유",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "雪乃",
+   "ko": "유키노",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "ツタ江",
+   "ko": "츠타에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "均",
+   "ko": "히토시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "良太",
+   "ko": "료타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "みさき",
+   "ko": "미사키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "泉",
+   "ko": "이즈미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "藤音",
+   "ko": "후지네",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "雪之丞",
+   "ko": "유키노조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "咲子",
+   "ko": "사키코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "豊田",
+   "ko": "토요타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "斉",
+   "ko": "타다시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "武志",
+   "ko": "타케시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "勇太",
+   "ko": "유타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "竹彦",
+   "ko": "타케히코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "まい",
+   "ko": "마이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "須恵子",
+   "ko": "스에코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "お美代",
+   "ko": "오미요",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "ひろみ",
+   "ko": "히로미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "楽太",
+   "ko": "라쿠타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "鈴華",
+   "ko": "스즈카",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "豊作",
+   "ko": "호사쿠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "才子",
+   "ko": "사이코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "お菊",
+   "ko": "오키쿠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "こより",
+   "ko": "코요리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "真一",
+   "ko": "신이치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "蛍",
+   "ko": "호타루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "徹",
+   "ko": "토루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "東京",
+   "ko": "도쿄",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "早苗",
+   "ko": "사나에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "君枝",
+   "ko": "키미에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "聡史",
+   "ko": "사토시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "千秋",
+   "ko": "치아키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "板倉",
+   "ko": "이타쿠라",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "実",
+   "ko": "미노루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "横浜",
+   "ko": "요코하마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "鈴世",
+   "ko": "스즈요",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "竜一郎",
+   "ko": "류이치로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "鴻一",
+   "ko": "코이치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "裕紀",
+   "ko": "유키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "栄一",
+   "ko": "에이치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "直樹",
+   "ko": "나오키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP13"
+  },
+  {
+   "ja": "フーディニ",
+   "ko": "후디니",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "伊香保の森",
+   "ko": "이카호 숲",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "修平",
+   "ko": "슈헤이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "雅",
+   "ko": "미야비",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "綿貫亭",
+   "ko": "와타누키테이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "栄十郎",
+   "ko": "에이주로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "菅原堂",
+   "ko": "스가와라도",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "芳和",
+   "ko": "요시카즈",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "山口商店",
+   "ko": "야마구치 상점",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "ミーコ",
+   "ko": "미코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "義男",
+   "ko": "요시오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "白虎屋",
+   "ko": "뱟코야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "風間家",
+   "ko": "카자마 댁",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "すみれ",
+   "ko": "스미레",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "初二郎",
+   "ko": "하츠지로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "貫治",
+   "ko": "칸지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "くみ",
+   "ko": "쿠미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "素子",
+   "ko": "모토코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "お晴",
+   "ko": "오하루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "勇作",
+   "ko": "유사쿠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "伊庭八郎",
+   "ko": "이바 하치로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "えみこ",
+   "ko": "에미코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "清丈",
+   "ko": "키요타케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "銀三郎",
+   "ko": "긴자부로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "金太郎",
+   "ko": "킨타로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "香子",
+   "ko": "쿄코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "光吉郎",
+   "ko": "코키치로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "てるひこ",
+   "ko": "테루히코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "君恵",
+   "ko": "키미에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "征蔵",
+   "ko": "세이조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "ゴロウ",
+   "ko": "고로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "定子",
+   "ko": "사다코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "哲也",
+   "ko": "테츠야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "晴郎",
+   "ko": "하루오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "亨",
+   "ko": "토루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "勤",
+   "ko": "츠토무",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "政行",
+   "ko": "마사유키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "周一",
+   "ko": "슈이치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "一機",
+   "ko": "카즈키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP14"
+  },
+  {
+   "ja": "沼田",
+   "ko": "누마타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP15"
+  },
+  {
+   "ja": "美浦",
+   "ko": "미호",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP16"
+  },
+  {
+   "ja": "紫乃",
+   "ko": "시노",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP16"
+  },
+  {
+   "ja": "麻生",
+   "ko": "아소",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP17"
+  },
+  {
+   "ja": "伊香保",
+   "ko": "이카호",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP18"
+  },
+  {
+   "ja": "河童",
+   "ko": "갓파",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP18"
+  },
+  {
+   "ja": "前川旅館",
+   "ko": "마에카와 여관",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "ジュリー",
+   "ko": "줄리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "北里",
+   "ko": "키타사토",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "平治",
+   "ko": "헤이지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "うり",
+   "ko": "우리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "小池商店",
+   "ko": "코이케 상점",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "音羽",
+   "ko": "오토와",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "お絹",
+   "ko": "오키누",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "泰子",
+   "ko": "야스코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "半兵衛",
+   "ko": "한베에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "里美",
+   "ko": "사토미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "定助",
+   "ko": "사다스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "小梅",
+   "ko": "코우메",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "斎之進",
+   "ko": "사이노신",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "ブライアン",
+   "ko": "브라이언",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "マリー",
+   "ko": "마리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "真之助",
+   "ko": "신노스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "たいち",
+   "ko": "타이치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "こうた",
+   "ko": "코타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "ゆうこ",
+   "ko": "유코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "茂平",
+   "ko": "모헤이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "クレア",
+   "ko": "클레어",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "あや",
+   "ko": "아야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "巌",
+   "ko": "이와오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "智美",
+   "ko": "토모미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "慎二",
+   "ko": "신지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "アンダーソン",
+   "ko": "앤더슨",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "リリィ",
+   "ko": "릴리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "右吉",
+   "ko": "우키치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "左吉",
+   "ko": "사키치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "中吉",
+   "ko": "츄키치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "豪助",
+   "ko": "고스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "相子",
+   "ko": "아이코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "ジャック",
+   "ko": "잭",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "お澄",
+   "ko": "오스미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "エミリア",
+   "ko": "에밀리아",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "健",
+   "ko": "켄",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "水代",
+   "ko": "미즈요",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "きよし",
+   "ko": "키요시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "武",
+   "ko": "타케시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "陽子",
+   "ko": "요코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "ゲイン",
+   "ko": "게인",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "ジャン",
+   "ko": "장",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "義光",
+   "ko": "요시미츠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "正平",
+   "ko": "쇼헤이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "寛至",
+   "ko": "칸지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "光世",
+   "ko": "미츠요",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP20"
+  },
+  {
+   "ja": "下仁田",
+   "ko": "시모니타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP22"
+  },
+  {
+   "ja": "石岡",
+   "ko": "이시오카",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP23"
   }
  ]
 }

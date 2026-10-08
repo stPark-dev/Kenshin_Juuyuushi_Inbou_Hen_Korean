@@ -1,0 +1,926 @@
+{
+ "ZROUP20:363ac": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:363c4": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:363dc": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:363f4": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:3640c": {
+  "src_hash": "247d90a2bbf9",
+  "ko": "^4c7^N^!c9카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36448": {
+  "src_hash": "3d161548449b",
+  "ko": "^4c9^N^!c7카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36484": {
+  "src_hash": "556198ebc4ee",
+  "ko": "^4c9^N^!c9카미야　카오루^cc7묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:364c0": {
+  "src_hash": "ae5e6d646981",
+  "ko": "^4c9^N^!c9카미야　카오루^cc9묘진　야히코^cc7설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:364fc": {
+  "src_hash": "40e614e22b2c",
+  "ko": "^4c9^N^!c9카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc7그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36538": {
+  "src_hash": "97a6805e861b",
+  "ko": "^4　요코하마^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36544": {
+  "src_hash": "15c1379a775e",
+  "ko": "히데유키^c　어서 오세요！^c　편안한 숙소，마에카와 여관에 잘 오셨습니다！여행의 피로를 풀고 가시지 않겠어요？^c　하룻밤에 단돈 ５０전이에요！^s",
+  "status": "draft",
+  "note": "NEW NAME: 前川旅館=마에카와 여관"
+ },
+ "ZROUP20:365c8": {
+  "src_hash": "2b55dca6ada3",
+  "ko": "히데유키^c　……손님，돈이 모자라잖아요．^c　구경만 하시면 곤란해요．^c　자，나가 주세요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:3663c": {
+  "src_hash": "a5daad801c6d",
+  "ko": "히데유키^c　잠깐만요，손님！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:3665c": {
+  "src_hash": "ff69d06425c3",
+  "ko": "히데유키^c　함부로 안쪽에 들어가시면 안 돼요．묵으실 때는 저한테 한마디 해 주세요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:366b8": {
+  "src_hash": "2f98fb8e0bf7",
+  "ko": "히데유키^c　다녀오세요！즐거운 여행 되세요！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:366e0": {
+  "src_hash": "28e2e4154c1d",
+  "ko": "줄리^c　어서 오세요！^c　여기는，호텔 키타사토임니다．^c　하룻밤，７０전임니다만，^c　묵으시겠슴니까？^s",
+  "status": "draft",
+  "note": "NEW NAME: ジュリー=줄리; NEW NAME: 北里=키타사토. Foreign accent rendered with nonstandard spelling"
+ },
+ "ZROUP20:36750": {
+  "src_hash": "0d7ff870db4b",
+  "ko": "줄리^c　……손님！！^c　돈，모자라요오！^c　다시 오는 것，좋아요．^c　다음엔，돈，가져오세요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:367c8": {
+  "src_hash": "8c19e6ad9a88",
+  "ko": "줄리^c　잠깐，손님！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:367ec": {
+  "src_hash": "f63ca8d512bc",
+  "ko": "줄리^c　함부로，안쪽에 들어가는 거，안 돼요！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36814": {
+  "src_hash": "9bb31ca7f12f",
+  "ko": "줄리^c　다녀오세요！！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36838": {
+  "src_hash": "7e5916df5c56",
+  "ko": "헤이지^c　외국 손님이 늘어서요．”키타사토 여관”에서 ”호텔 키타사토”로 이름을 바꿨답니다．",
+  "status": "draft",
+  "note": "NEW NAME: 平治=헤이지"
+ },
+ "ZROUP20:368a0": {
+  "src_hash": "2ab04535c038",
+  "ko": "헤이지^c　카운터에 있는 사람은 제 아내랍니다．^c　어떻습니까？미인이지 않나요？^c　전에는 제가 앉아 있었는데요，아내 쪽이 평판이 좋아서 교대했지요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36944": {
+  "src_hash": "0dea8fd1727e",
+  "ko": "헤이지^c　저희 호텔에서 느긋하게 여행의 피로를 풀고 가세요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36988": {
+  "src_hash": "dee35fee0be4",
+  "ko": "우리^c　어서 오세요！^c　코이케 상점에 잘 오셨어요．^c　잡아먹거나 하지 않을 테니까 천천히 둘러보세요＠",
+  "status": "draft",
+  "note": "NEW NAME: うり=우리; NEW NAME: 小池商店=코이케 상점. Speaker reading 우리 coincides with Korean word for we; uncertain, review"
+ },
+ "ZROUP20:36a00": {
+  "src_hash": "d33329b2cafa",
+  "ko": "우리^c　감사합니다．^c　또 와 주시길 기다릴게요～＠",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36a48": {
+  "src_hash": "dec1bd7ae85a",
+  "ko": "카즈히사^c　어서 오십쇼！^c　대장간 쿠사바도에 잘 오셨습니다．^c　오늘은 무슨 일로？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36a9c": {
+  "src_hash": "2d5dcc47cd43",
+  "ko": "카즈히사^c　감사합니다！^c　또 오십쇼！！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36ad0": {
+  "src_hash": "f8bf877fdeff",
+  "ko": "오토와^c　여행자분……，시부카와라는 마을을 아시나요？^c　그 마을로 제 손녀딸이 시집을 갔답니다．^c　……만나 보시지 않았나요？",
+  "status": "draft",
+  "note": "NEW NAME: 音羽=오토와"
+ },
+ "ZROUP20:36b58": {
+  "src_hash": "a040323be38d",
+  "ko": "오토와^c　손녀딸 이름은 후미코라고 해요．^c　후미코의 남편은 시오바라라는 마을 출신이랍니다．^c　어떤 마을일까요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36bd4": {
+  "src_hash": "7c1d1c0466a5",
+  "ko": "히데유키^c　어라？손님，일찍 일어나셨네요．일행분들은 아직 푹 주무시고 계시죠？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36c34": {
+  "src_hash": "ed323340d8ec",
+  "ko": "히데유키^c　한가하시면 산책이라도 하시는 게 어떠세요？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36c74": {
+  "src_hash": "841d31407857",
+  "ko": "히데유키^c　……그러세요．^c　뭐，그것도 괜찮겠죠．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36cac": {
+  "src_hash": "944cae90d3a9",
+  "ko": "히데유키^c　그럼 다녀오십시오．^c　너무 멀리 가지는 마세요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36cf8": {
+  "src_hash": "ba63e8c87056",
+  "ko": "소지로^c　날씨가 좋네요．^c　당신도 드실래요？^c　여기 경단，맛있어요．^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36d58": {
+  "src_hash": "457af20e6522",
+  "ko": "소지로^c　그래요？^c　……좀 아쉽네．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36d8c": {
+  "src_hash": "9d3f32282443",
+  "ko": "소지로^c　자，드세요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36da8": {
+  "src_hash": "fe8e8d53781a",
+  "ko": "소지로^c　맛있죠？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36dc8": {
+  "src_hash": "3ab835e793a2",
+  "ko": "소지로^c　다행이다．^c　마음에 들어 하셔서．^c　자，선물로 하나 더 드릴게요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36e20": {
+  "src_hash": "1e0ad1dc50aa",
+  "ko": "c6경단c7을 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36e3c": {
+  "src_hash": "ec662ca5acc4",
+  "ko": "소지로^c　정말 날씨 좋다．^c　당신도 그렇게 생각하죠？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36e80": {
+  "src_hash": "82094fc7c08d",
+  "ko": "소지로^c　늘 이런 날씨면 여행하기도 편할 텐데．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36ec4": {
+  "src_hash": "93578dac8071",
+  "ko": "소지로^c　슬슬 가 볼까．^c　아주머니，계산해 주세요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36efc": {
+  "src_hash": "37b8251b4d68",
+  "ko": "오키누^c　손님，도쿄에 가시는 겐가？",
+  "status": "draft",
+  "note": "NEW NAME: お絹=오키누"
+ },
+ "ZROUP20:36f2c": {
+  "src_hash": "fdb8ab0103d3",
+  "ko": "소지로^c　어라？티 났나요？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36f54": {
+  "src_hash": "e29c789f1b68",
+  "ko": "오키누^c　도쿄 구경인가？^c　……좋겠구먼．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36f80": {
+  "src_hash": "f2ce1bbc6b83",
+  "ko": "소지로^c　뭐……그런 셈이죠．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36fa8": {
+  "src_hash": "e58debf01f4a",
+  "ko": "소지로^c　그럼……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:36fc4": {
+  "src_hash": "aebbc7d39de8",
+  "ko": "소지로^c　건강하세요．^c　또 어디선가 만나면 좋겠네요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37000": {
+  "src_hash": "27e1f1491b45",
+  "ko": "히데유키^c　다녀오셨어요．^c　뭐 재미있는 일 있었나요？",
+  "status": "draft",
+  "note": "Shortened to fit fixed slot (unknown ref): dropped the softener (anything... perhaps); meaning kept"
+ },
+ "ZROUP20:3703c": {
+  "src_hash": "a66d76a4819d",
+  "ko": "히데유키^c　그거 잘됐네요．^c　슬슬 일행분들도 일어나셨을 거예요．^c　방에 가 보시는 게 어떠세요？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:370b8": {
+  "src_hash": "366e585f1a59",
+  "ko": "히데유키의 목소리^c　손니이이이임！！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:370d8": {
+  "src_hash": "2000acc36126",
+  "ko": "히데유키^c　안 되잖아요，손님！^c　멀리 가지 마시라고 했잖아요？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37138": {
+  "src_hash": "6c0824c88284",
+  "ko": "히데유키^c　손님한테 무슨 일이 생기면 일행분들한테 혼나요．^c　부탁이니까 너무 무리하지 마세요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:371b8": {
+  "src_hash": "593fb559ce19",
+  "ko": "남자 목소리^c　거기 서라아아앗！！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:371d4": {
+  "src_hash": "169d3013b001",
+  "ko": "미사오^c　끈질기네，정말！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:371f0": {
+  "src_hash": "ac8d81ca440c",
+  "ko": "미사오^c　저기，거기 머리띠 두른 사람！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37218": {
+  "src_hash": "556aa0bad558",
+  "ko": "미사오^c　저기，거기 단발머리 애！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:3723c": {
+  "src_hash": "f9218c0212af",
+  "ko": "미사오^c　무서운 얼굴의 아저씨들이 내 얘기를 물어보면 적당히 둘러대 줘．부탁해！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37294": {
+  "src_hash": "bdd45b58e2c0",
+  "ko": "불한당^c　쳇！^c　그 계집애，어디로 간 거야！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:372cc": {
+  "src_hash": "ad442ec3d91e",
+  "ko": "불한당^c　어이，거기 너！이쪽으로 이상한 차림의 여자가 오지 않았냐？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37318": {
+  "src_hash": "3601fd62204f",
+  "ko": "불한당^c　그래．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37330": {
+  "src_hash": "095166148054",
+  "ko": "불한당^c　저쪽을 찾아보자．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37354": {
+  "src_hash": "8c83bef079b7",
+  "ko": "불한당^c　그 꼬맹이！^c　찾기만 하면 가만 안 둔다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37390": {
+  "src_hash": "52df8d77e87d",
+  "ko": "미사오^c　후우우우，살았다．^c　고마워．^c　답례로 이거 줄게．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:373dc": {
+  "src_hash": "e708b7240f24",
+  "ko": "c6건빵c7을 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:373f8": {
+  "src_hash": "7338176ec275",
+  "ko": "미사오^c　정말 무례한 놈들이야．^c　사람한테 계집애니 꼬맹이니……^c　……나한테는 마키마치 미사오라는 엄연한 이름이 있다고！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37478": {
+  "src_hash": "be5007195aa5",
+  "ko": "미사오^c　자 그럼……나 슬슬 가 봐야겠다．^c　사람을 찾는 여행 중이거든．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:374c4": {
+  "src_hash": "cd0b5d9bd10b",
+  "ko": "미사오^c　너도 여행 중이지？^c　서로 힘내자．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37500": {
+  "src_hash": "8be705be9cb3",
+  "ko": "불한당^c　그래！그래서？^c　그 여자는 어느 쪽으로 갔지？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37540": {
+  "src_hash": "3b3a47665c75",
+  "ko": "불한당^c　좋아！저쪽이군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37564": {
+  "src_hash": "6a1ee3e3f3ae",
+  "ko": "세이주로^c　뭐냐，넌？^c　볼일이 없으면 저리 가라．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:375a4": {
+  "src_hash": "fc2691c1e73b",
+  "ko": "세이주로^c　또 너냐……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:375c4": {
+  "src_hash": "89531d96257e",
+  "ko": "세이주로^c　……이런，느긋하게 차 한 잔 마실 수도 없군……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37604": {
+  "src_hash": "cbfe538a504a",
+  "ko": "세이주로^c　주인장，값은 여기 두고 가겠다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37634": {
+  "src_hash": "01b752de4b12",
+  "ko": "세이주로^c　너……칼 따위 들고 제법 검객 행세냐？^c　그런 거 들고 다녀 봤자 앞으로 좋은 꼴 못 본다．^c　버려라．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:376c0": {
+  "src_hash": "cf4d3192b248",
+  "ko": "세이주로^c　……정말이지，내 바보 제자랑 똑같은 눈을 하고는……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37708": {
+  "src_hash": "aa48d2ffecc9",
+  "ko": "세이주로^c　네가 무엇을 위해 검을 휘두르는지는 모르겠다만，이것만은 기억해 둬라．^c　검은 흉기．^c　검술은 살인술．^c　어떤 듣기 좋은 말이나 명분을 입에 올려도 그것이 진실이다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:377c4": {
+  "src_hash": "f64619233927",
+  "ko": "세이주로^c　……네 생각대로 살아 봐라．^c　그게 옳은 길이든 그릇된 길이든 네가 고른 너의 인생이다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37834": {
+  "src_hash": "fe37150848c7",
+  "ko": "세이주로^c　좋은 얼굴이다．내 바보 제자에게 뒤지지 않을 만큼……말이지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37878": {
+  "src_hash": "ece83a781488",
+  "ko": "세이주로^c　다시 만날 일도 없겠지．^c　……잘 있어라．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:378b0": {
+  "src_hash": "126e00357079",
+  "ko": "야스코^c　어서 와．^c　여긴 오키누 할머니의 경단 가게야．나는 가끔 도와주러 와．^c　왜냐면 이 가게엔 여러 손님이 오거든．^c　멋진 남자분이라든가……，^c　귀여운 꼬마라든가…………우후후＠",
+  "status": "draft",
+  "note": "NEW NAME: 泰子=야스코"
+ },
+ "ZROUP20:3798c": {
+  "src_hash": "b07f44d59c2b",
+  "ko": "야스코^c　어서 와．^c　여긴 오키누 할머니의 경단 가게야．나는 가끔 도와주러 와．^c　왜냐면 이 가도를 지나는 사람들과 만날 수 있거든．^c　……물론 너희와의 만남도 그중 하나야．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37a60": {
+  "src_hash": "b0dd710fc877",
+  "ko": "한베에^c　여행자 양반……，오키누 할멈의 경단은 일품이라네．야스코가 끓인 차도 아주 맛있지．^c　기회가 되면 한번 맛보시게．",
+  "status": "draft",
+  "note": "NEW NAME: 半兵衛=한베에"
+ },
+ "ZROUP20:37af4": {
+  "src_hash": "5dc2c87c1726",
+  "ko": "한베에^c　……맛있구먼．^c　여기서 느긋하게 차를 마시는 게 내 일과라네．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37b4c": {
+  "src_hash": "c96bec678a35",
+  "ko": "사토미^c　여행자세요……？^c　여기까지 오면 요코하마는 금방이에요．힘내세요．",
+  "status": "draft",
+  "note": "NEW NAME: 里美=사토미"
+ },
+ "ZROUP20:37b98": {
+  "src_hash": "1416a7d16a20",
+  "ko": "사다스케^c　이 마을 남쪽에는 항구가 있다네．",
+  "status": "draft",
+  "note": "NEW NAME: 定助=사다스케"
+ },
+ "ZROUP20:37bc0": {
+  "src_hash": "622be7790769",
+  "ko": "코우메^c　항구에 어디 건지 모를 이상한 배가 서 있더라．",
+  "status": "draft",
+  "note": "NEW NAME: 小梅=코우메"
+ },
+ "ZROUP20:37c04": {
+  "src_hash": "fc0c068cc29e",
+  "ko": "사이노신^c　그건 말이지，물엿이라는 거라네．",
+  "status": "draft",
+  "note": "NEW NAME: 斎之進=사이노신"
+ },
+ "ZROUP20:37c30": {
+  "src_hash": "3e92a375ef72",
+  "ko": "브라이언^c　이 끈적끈적한，당신의 나쁜 것은 무엇임니까？",
+  "status": "draft",
+  "note": "NEW NAME: ブライアン=브라이언. PUN-PROVISIONAL: foreigner garbles the word for creepy into your bad (thing); meaning-only, broken phrasing kept"
+ },
+ "ZROUP20:37c78": {
+  "src_hash": "3a32a477535d",
+  "ko": "마리^c　에엣！접착제나 뭔가를 착각한 거 아니에요？",
+  "status": "draft",
+  "note": "NEW NAME: マリー=마리"
+ },
+ "ZROUP20:37cc4": {
+  "src_hash": "4ad9a0119fd0",
+  "ko": "신노스케^c　나도 배에 태워 주면 좋겠다．",
+  "status": "draft",
+  "note": "NEW NAME: 真之助=신노스케"
+ },
+ "ZROUP20:37cf0": {
+  "src_hash": "cb43a8544946",
+  "ko": "타이치^c　내가 이 마을 대장이다아．",
+  "status": "draft",
+  "note": "NEW NAME: たいち=타이치"
+ },
+ "ZROUP20:37d14": {
+  "src_hash": "fa9fb436a8ee",
+  "ko": "타이치^c　어이，너도 우리 패거리에 끼워 줄까？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37d44": {
+  "src_hash": "d9ff1a4717f7",
+  "ko": "코타^c　있잖아，수다 떠는 거 좋아해？^c　왜냐면……형들，여러 사람한테 말을 걸고 다니잖아．",
+  "status": "draft",
+  "note": "NEW NAME: こうた=코타"
+ },
+ "ZROUP20:37dac": {
+  "src_hash": "9dd2c4752935",
+  "ko": "코타^c　있잖아，수다 떠는 거 좋아해？^c　왜냐면……누나들，여러 사람한테 말을 걸고 다니잖아．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37e14": {
+  "src_hash": "3aa11ffd7b05",
+  "ko": "유코^c　나，좋은 신부가 될 수 이쓸까？",
+  "status": "draft",
+  "note": "NEW NAME: ゆうこ=유코. Baby-talk lisp rendered as nonstandard spelling"
+ },
+ "ZROUP20:37e44": {
+  "src_hash": "9f98f2915aba",
+  "ko": "유코^c　나는 말이야，크면 오빠의 신부가 될 꼬야＠",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37e90": {
+  "src_hash": "5e2adc04ac6d",
+  "ko": "모헤이^c　뭐 하러 왔느냐！^c　집에는 절대 못 들인다．^c　……………………라고 할 줄 알았지？^c　좀 놀랐느냐？^c　그냥 농담이니라．^c　자，사양 말고 들어오너라．",
+  "status": "draft",
+  "note": "NEW NAME: 茂平=모헤이"
+ },
+ "ZROUP20:37f28": {
+  "src_hash": "1e4b74733a1a",
+  "ko": "클레어^c　안냥하세요．^c　좋은 날씽이에요．",
+  "status": "draft",
+  "note": "NEW NAME: クレア=클레어. Mangled greeting and weather word rendered as misspellings"
+ },
+ "ZROUP20:37f58": {
+  "src_hash": "345f2382b37b",
+  "ko": "클레어^c　이 마을 서쪽에 수도원이 있는 데스네．당신은 벌써 가 봤슴－니까？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37fa8": {
+  "src_hash": "af6057dc882e",
+  "ko": "아야^c　있잖아，시스타가 뭐야？",
+  "status": "draft",
+  "note": "NEW NAME: あや=아야"
+ },
+ "ZROUP20:37fcc": {
+  "src_hash": "01ef39dd242e",
+  "ko": "아야^c　언니 리본，예쁘다＠",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:37ff4": {
+  "src_hash": "304e417074d7",
+  "ko": "이와오^c　마을이 급속히 발전했다만……^c　나는 따라갈 수가 없구먼．",
+  "status": "draft",
+  "note": "NEW NAME: 巌=이와오"
+ },
+ "ZROUP20:38038": {
+  "src_hash": "b7b8870a2434",
+  "ko": "토모미^c　남편은 열쇠를 잃어버려서 집에 못 들어간다고 믿고 있어요．^c　잠겨 있지도 않은데……．",
+  "status": "draft",
+  "note": "NEW NAME: 智美=토모미"
+ },
+ "ZROUP20:380a0": {
+  "src_hash": "6bf0af30803e",
+  "ko": "신지^c　열쇠를 잃어버려서 말이야……，^c　집에 못 들어가．",
+  "status": "draft",
+  "note": "NEW NAME: 慎二=신지"
+ },
+ "ZROUP20:380dc": {
+  "src_hash": "3fd852fa316d",
+  "ko": "앤더슨^c　Ｏｈ，이거，우리 메리켄의 맛，^c　쇼쿠라토네～．^c　꼬마，갖고 싶어요？",
+  "status": "draft",
+  "note": "NEW NAME: アンダーソン=앤더슨"
+ },
+ "ZROUP20:38138": {
+  "src_hash": "e8819ed08b82",
+  "ko": "야히코^c　사람 무시하지 마！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38154": {
+  "src_hash": "9925e34498c5",
+  "ko": "카오루^c　이 녀석！^c　제대로 고맙다고 해야지！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38180": {
+  "src_hash": "238b2001858f",
+  "ko": "카오루^c　……………………………………………　………………………………………땡．",
+  "status": "draft",
+  "note": "PUN-PROVISIONAL: Kaoru stalls on the first syllable of a mangled thank-you"
+ },
+ "ZROUP20:381d0": {
+  "src_hash": "d833552f663e",
+  "ko": "앤더슨^c　땡？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:381e8": {
+  "src_hash": "d3178783ef6b",
+  "ko": "카오루^c　땡큐，웨로모초？",
+  "status": "draft",
+  "note": "PUN-PROVISIONAL: mangled English/Spanish thank you very much"
+ },
+ "ZROUP20:3820c": {
+  "src_hash": "d1c9d3093959",
+  "ko": "앤더슨^c　……………．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:3822c": {
+  "src_hash": "c3b2d7af63e4",
+  "ko": "앤더슨^c　ＨＡＨＡＨＡ！！^c　나 사실은，스페인 사람이네～．^c　아가씨의 스페인어，^c　무～초，무～초요～．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:382a8": {
+  "src_hash": "157ed641ee51",
+  "ko": "c6초콜릿c7을 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:382c8": {
+  "src_hash": "405a40226d96",
+  "ko": "앤더슨^c　맛있었지요，^c　그 쇼쿠라토．^c　그런 얼굴 해도，이제 없어요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38328": {
+  "src_hash": "f5731e509558",
+  "ko": "릴리^c　바닥 위에 앉다니이……．",
+  "status": "draft",
+  "note": "NEW NAME: リリィ=릴리"
+ },
+ "ZROUP20:38350": {
+  "src_hash": "b99ea779f933",
+  "ko": "릴리^c　일일이 신발을 벗다니이……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:3837c": {
+  "src_hash": "d0e130105b52",
+  "ko": "우키치^c　이래 봬도 우리 선생님은 엄청난 부자란 말이다．",
+  "status": "draft",
+  "note": "NEW NAME: 右吉=우키치"
+ },
+ "ZROUP20:383bc": {
+  "src_hash": "90df3c24ff19",
+  "ko": "우키치^c　이래 봬도 우리 선생님은 하나도 인기가 없단 말이다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:383f8": {
+  "src_hash": "d634881800ec",
+  "ko": "사키치^c　그렇지만 하나도 인기가 없단 말이다．",
+  "status": "draft",
+  "note": "NEW NAME: 左吉=사키치"
+ },
+ "ZROUP20:38420": {
+  "src_hash": "b65cd7eac9f0",
+  "ko": "사키치^c　그렇지만 돈도 집도 있단 말이다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:3844c": {
+  "src_hash": "b50c45a20833",
+  "ko": "츄키치^c　에헴！",
+  "status": "draft",
+  "note": "NEW NAME: 中吉=츄키치"
+ },
+ "ZROUP20:38460": {
+  "src_hash": "3e463ac5cc27",
+  "ko": "츄키치^c　훌쩍！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38474": {
+  "src_hash": "02ee524fc0ed",
+  "ko": "고스케^c　어릴 때부터 가난해서……．^c　하지만 지금은 막대한 부와 절대적인 권력을 손에 넣었습니다．",
+  "status": "draft",
+  "note": "NEW NAME: 豪助=고스케"
+ },
+ "ZROUP20:384d0": {
+  "src_hash": "9c5fa9f588da",
+  "ko": "아이코^c　우리 남편은 말뿐이라서……．",
+  "status": "draft",
+  "note": "NEW NAME: 相子=아이코"
+ },
+ "ZROUP20:384fc": {
+  "src_hash": "e8701d1bab45",
+  "ko": "잭^c　마이 허니가 도망가 버렸습니다……．",
+  "status": "draft",
+  "note": "NEW NAME: ジャック=잭"
+ },
+ "ZROUP20:3852c": {
+  "src_hash": "002b1f225442",
+  "ko": "오스미^c　매일 청소하러 오는데，^c　어떻게 이렇게까지！^c　……싶을 정도로 더러워．^c　이래서야 원……．",
+  "status": "draft",
+  "note": "NEW NAME: お澄=오스미"
+ },
+ "ZROUP20:3859c": {
+  "src_hash": "a1758f8a81f4",
+  "ko": "에밀리아^c　딱히 아픈 게 아니에요．^c　일어나기가 귀찮을 뿐이에요．^c　정말 그것뿐인데，^c　그가 뭔가 오해하고 있는 것 같아서……．",
+  "status": "draft",
+  "note": "NEW NAME: エミリア=에밀리아"
+ },
+ "ZROUP20:38628": {
+  "src_hash": "54f77183a639",
+  "ko": "켄^c　아가씨는 줄곧 누워만 계셔서……．",
+  "status": "draft",
+  "note": "NEW NAME: 健=켄"
+ },
+ "ZROUP20:38650": {
+  "src_hash": "2c56feb7a40b",
+  "ko": "미즈요^c　……어머？^c　어디서 뵌 적이 있던가요？^c　제가 이 저택에 오기 전에는 시부카와 마을에 있었으니，거기서 뵌 걸까요……．",
+  "status": "draft",
+  "note": "NEW NAME: 水代=미즈요 (reading unconfirmed)"
+ },
+ "ZROUP20:386d8": {
+  "src_hash": "2903b312eb2b",
+  "ko": "미즈요^c　서양 저택은 정말 청소가 힘들어요．^c　……왜냐하면 다들 신발을 신은 채로 돌아다니거든요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38740": {
+  "src_hash": "1d0cfb960c8c",
+  "ko": "키요시^c　커다란 집이다아．",
+  "status": "draft",
+  "note": "NEW NAME: きよし=키요시"
+ },
+ "ZROUP20:38760": {
+  "src_hash": "e14131caa0f3",
+  "ko": "타케시^c　주인 어른이 안 계셔서 몰래 아이를 데려왔습니다．",
+  "status": "draft",
+  "note": "NEW NAME: 武=타케시 (same reading as a different ZROUP02 character)"
+ },
+ "ZROUP20:387a0": {
+  "src_hash": "5fa41cb5c2ac",
+  "ko": "요코^c　우리 남편，멋지지？",
+  "status": "draft",
+  "note": "NEW NAME: 陽子=요코"
+ },
+ "ZROUP20:387c8": {
+  "src_hash": "59e142bb1f57",
+  "ko": "요코^c　우리 남편도 멋지지만，^c　당신도 꽤 미남이네！！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38818": {
+  "src_hash": "9ddf582dae1b",
+  "ko": "게인^c　지금까지 고생의 연속이었지만，이 작은 섬나라에서 드디어 노력을 보상받았습니다．",
+  "status": "draft",
+  "note": "NEW NAME: ゲイン=게인"
+ },
+ "ZROUP20:38874": {
+  "src_hash": "a59d68dbdbfd",
+  "ko": "장^c　나，우키요에 공부하고 있슴니다！^c　거기 큐트한 걸！^c　모델，해 주지 않겠슴니까？",
+  "status": "draft",
+  "note": "NEW NAME: ジャン=장"
+ },
+ "ZROUP20:388dc": {
+  "src_hash": "c0d72bb5dcf0",
+  "ko": "카오루^c　어，나？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:388ec": {
+  "src_hash": "b9cda3fc2f82",
+  "ko": "장^c　……………………………＠^c　ＯＨ！！^c　당신，베리 프리티네！^c　답례로，이거，받아 주세요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38960": {
+  "src_hash": "414a59ae7c38",
+  "ko": "c6카미야 카오루・１c7 그림책을 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38988": {
+  "src_hash": "459e6fcd0970",
+  "ko": "카오루^c　아，감사합니다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:389ac": {
+  "src_hash": "4f0588348ffe",
+  "ko": "장^c　좋은 공부가 됐슴니다．^c　정말，감사함니다～．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:389f0": {
+  "src_hash": "c93060265160",
+  "ko": "요시미츠^c　마을 건달한테 몽타주를 부탁받았거든．^c　여자애 그림인데……．^c　근데 이제 필요 없대．^c　그러니까 이거 줄게．",
+  "status": "draft",
+  "note": "NEW NAME: 義光=요시미츠"
+ },
+ "ZROUP20:38a80": {
+  "src_hash": "7e01ea38f91a",
+  "ko": "c6마키마치 미사오c7 그림책을 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38aa4": {
+  "src_hash": "188be54c362d",
+  "ko": "요시미츠^c　모처럼 그렸는데……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38ac8": {
+  "src_hash": "715e66591f02",
+  "ko": "쇼헤이^c　야히코 군，일류 검객 히무라 군의 싸움을 잘 봐 두게나．^c　음후후후……．",
+  "status": "draft",
+  "note": "NEW NAME: 正平=쇼헤이"
+ },
+ "ZROUP20:38b28": {
+  "src_hash": "5faa7b5a96b7",
+  "ko": "칸지^c　궁극기는 정해진 단에 오르면 익힙니다．^c　저도 정진해서 빨리 익히고 싶어요！",
+  "status": "draft",
+  "note": "NEW NAME: 寛至=칸지 (reading unconfirmed). New term: ultimate technique = 궁극기"
+ },
+ "ZROUP20:38b84": {
+  "src_hash": "87569b80f42d",
+  "ko": "미츠요^c　이 도장에는 외국인들도 자주 구경 오거든．^c　……그런데 ”진검 백인 잡기를 가르쳐 줘”라든가 ”수리검은 어떻게 던져？”라고 물어봐도 말이지……．^c　……있잖아，아는 사람 중에 닌자 없어？",
+  "status": "draft",
+  "note": "NEW NAME: 光世=미츠요"
+ },
+ "ZROUP20:38c4c": {
+  "src_hash": "2ea977078cdb",
+  "ko": "사범^c　무슨 볼일인가？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38c64": {
+  "src_hash": "4477587ceba5",
+  "ko": "사범^c　누가 수련하겠나？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38c84": {
+  "src_hash": "1d7d3a597b18",
+  "ko": "사범^c　그럼 시작하지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38ca0": {
+  "src_hash": "343562c317d9",
+  "ko": "사범^c　알겠네．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38cb4": {
+  "src_hash": "634601776d9f",
+  "ko": "사범^c　수고했네．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP20:38cc8": {
+  "src_hash": "94376bfa30fd",
+  "ko": "사범^c　그럼 설명하겠네．^c　화면 밖에서 도장생들이 잇달아 나타나 공격해 온다．^c　그들은 도복 색에 따라 공격 방법이 달라서 c2초록c7 도복은 c2상단c7，c5분홍c7 도복은 c5중단c7，c3파랑c7 도복은 c3하단c7 공격을 해 온다．^c　이에 맞서 이쪽은 적이 멈춰 선 순간에 c2△c7 버튼으로 c2상단c7，c5□c7 버튼으로 c5중단c7，c3×c7 버튼으로 c3하단c7 공격을 할 수 있다．^c　이 도장에서는 c6난타기c7 수련을 할 수 있다．^c　c2상단c7 공격에는 c3하단c7을，c5중단c7 공격에는 c2상단c7을，c3하단c7 공격에는 c5중단c7을 내는 걸세．^c　알겠나？",
+  "status": "draft",
+  "note": "New term: rapid-strike technique = 난타기"
+ }
+}
