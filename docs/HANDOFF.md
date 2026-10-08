@@ -1,6 +1,6 @@
 # 작업 인계 (2026-10-08 기준)
 
-다른 컴퓨터에서 이 문서만 보고 이어갈 수 있게 정리했다. 근거와 세부 결과는 `docs/survey.md`, 결정은 `docs/decisions.md`(D1–D22), 번역 규칙은 `docs/style.md`에 있다.
+다른 컴퓨터에서 이 문서만 보고 이어갈 수 있게 정리했다. 근거와 세부 결과는 `docs/survey.md`, 결정은 `docs/decisions.md`(D1–D23), 번역 규칙은 `docs/style.md`에 있다.
 
 ## 1. 한눈에 보는 상태
 
@@ -106,11 +106,11 @@ python3 tools/build.py --src original/*.bin --out build/kenshin_ko.bin \
 |---|---|
 | 神爪 독음 | 카미츠메로 확정(D19, ZROUP41 퀴즈 데이터의 정답 かみつめ) |
 | 牛革草 최종명 | 우혁초 잠정. 아이템 설명·효과 확인 후 |
-| ZROUP41 (독음 퀴즈) | 별도 현지화 대상. 정답 판정 구조부터 분석 |
+| ZROUP41 (퀴즈) | 해결(D23): 데이터 첫 선택지가 정답, 표시 순서는 섞임. 현지화한 문제도 정상 판정 |
 | 말장난·수수께끼 | note `PUN-PROVISIONAL` / `LOCALIZE-RIDDLE` 행을 정식 패치 전 현지화 |
 | 대형 장면 파일 | 해결(D21): 번역 ZROUP24 434,672B 로딩·대화·덧붙인 문자열 표시 확인. 이보다 커지면 다시 시험 |
 | 메뉴·아이템 이름 | 아이템 표 174개가 실행 파일의 압축 데이터(RAM `0x8003A09C`에 풀림)에 있음 → 메뉴 번역은 실행 파일 압축 해제·재압축(또는 재배치) 경로가 필요. 메뉴가 어떤 글꼴을 쓰는지도 미확인 |
-| 참조 없는 문자열 646개 | 미사용 대사일 가능성. 실행으로 확인 전까지 원래 칸 안에 맞춤. 단 ZROUP17 유리·사이조 이벤트 약 60행이 여기에 속해 실제 사용 가능성 높음(D14) → 참조 방식 조사 |
+| 참조 없는 문자열 646개 | 미사용 대사일 가능성. 원래 칸 안에 맞춤. ZROUP17 유리·사이조 이벤트 71행은 ZROUP29가 실제로 쓰는 사본으로 확인(D23) |
 | 이름 입력, 전투, 타이틀 그림, 엔딩 크레딧, 영상 자막 | 미조사. 오프닝 프롤로그 대화는 영상(RU*.MOV)에 박힌 글자로 판단 |
 | `^N` 이름 폭 | 96px(6글자) 예산. 이름 입력 조사 후 실제 최대 길이로 조정 |
 
@@ -119,7 +119,7 @@ python3 tools/build.py --src original/*.bin --out build/kenshin_ko.bin \
 1. `text/glossary.json`의 `check` 항목(새로 편입한 지명·용어 19개 포함)을 원문 문맥으로 확인 → 불확실한 것은 사용자 확인.
 2. `text/glossary_items.json`의 `check` 56개 사용자 확인.
 3. ~~대형 장면 시험(ZROUP24)~~ 완료(D21).
-4. 대사 초벌 완료. 런타임 확인 우선순위(`goto_scene.py`로 장면 바로 진입): ~~가로형 메뉴(D17), 종이 스모 능력치 칸~~ 완료(D22), ZROUP17 참조 없는 이벤트(ZROUP29 사본 여부), ZROUP41 퀴즈 정답 판정. 그다음 용어집 check 항목 사용자 확인, 남은 PUN-PROVISIONAL·LOCALIZE-RIDDLE 행 정리 전에 새 장면의 화자·이름을 용어집에 먼저 등록 → 에이전트 병렬, 검수, 커밋. 잠정 용어(今十勇士, 南里) 사용자 결정 반영.
+4. 대사 초벌 완료. 런타임 확인 우선순위(`goto_scene.py`로 장면 바로 진입): ~~가로형 메뉴(D17), 종이 스모 능력치 칸~~ 완료(D22), ~~ZROUP17 참조 없는 이벤트, ZROUP41 퀴즈 정답 판정~~ 완료(D23). 그다음 용어집 check 항목 사용자 확인, 남은 PUN-PROVISIONAL·LOCALIZE-RIDDLE 행 정리 전에 새 장면의 화자·이름을 용어집에 먼저 등록 → 에이전트 병렬, 검수, 커밋. 잠정 용어(今十勇士, 南里) 사용자 결정 반영.
 5. 메뉴·아이템 이름 경로 조사(실행 파일 압축 형식 해석).
 
 ## 8. 런타임 확인 방법
@@ -142,6 +142,7 @@ DuckStation 포터블을 `C:\Users\S.T.Park\tools\duckstation\`에 두었다(`po
 python tools/re/route_win.py build/kenshin_ko.cue work/shots 10          # 새 게임 → ZROUP40 마을 대화 캡처
 python tools/re/goto_scene.py build/kenshin_ko.cue 24 work/g24 12 4      # 첫 장면 로딩을 ZROUP24로 돌려 진입
 python tools/re/goto_scene.py build/kenshin_ko.cue 40 work/p40 0 --text 888   # 첫 대화 대신 스크립트 0x888(동료 메뉴) 실행
+python tools/re/goto_scene.py build/kenshin_ko.cue 41 work/q41 0 --text 3046 --op 30 --skip 300   # 말 걸지 않고 퀴즈 첫 문제
 ```
 
 - 타이틀 감지 기준 이미지 `work/ref_title_menu_win.png`: 타이틀 메뉴 화면을 `winds.grab()`으로 찍어 `crop((150,370,370,510))`.

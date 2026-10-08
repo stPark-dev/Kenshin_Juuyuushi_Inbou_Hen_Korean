@@ -9,7 +9,10 @@ happens at the dialogue's window op (0x47), before a window is open, so a routin
 that opens its own window shows it where it should.
 Breakpoints must be set before the recompiler first compiles the code, so both are
 armed at the title screen; one added later to already-run code never fires.
-usage: goto_scene.py image.cue scene outdir presses [interval] [from_scene] [--text OFFSET]
+--skip N lets the first N window ops of the new scene pass (a place-name label
+on entry is one). --op 30 switches at the next frame yield (VM op 0x30) instead,
+so no NPC has to be reached; the scene's own thread then runs the routine.
+usage: goto_scene.py image.cue scene outdir presses [interval] [from_scene] [--text OFFSET [--skip N]]
 """
 import os
 import re
@@ -30,6 +33,16 @@ TEXT = None
 if "--text" in args:
     i = args.index("--text")
     TEXT = int(args[i + 1], 16)
+    del args[i : i + 2]
+OPS = {0x47: 0x801D890C, 0x30: 0x801D84FC}  # VM op -> handler (dispatch table 0x801D7D20)
+if "--op" in args:
+    i = args.index("--op")
+    TEXT_OP = OPS[int(args[i + 1], 16)]
+    del args[i : i + 2]
+SKIP = 0
+if "--skip" in args:
+    i = args.index("--skip")
+    SKIP = int(args[i + 1])
     del args[i : i + 2]
 CUE, SCENE, OUT, PRESSES = args[0], int(args[1]), args[2], int(args[3])
 STEP = float(args[4]) if len(args) > 4 else 4
@@ -82,6 +95,9 @@ def watch():
                 r.send(f"z0,{SET_SCENE:x},4")
                 hit.append(a0)
                 print(f"  -> {SCENE}", flush=True)
+        elif pc == TEXT_OP and hit and len(hit) <= SKIP:
+            hit.append(pc)
+            print(f"  window op {len(hit) - 1} skipped", flush=True)
         elif pc == TEXT_OP and hit:
             base = int.from_bytes(r.read_mem(BASE_PTR, 4), "little")
             r.send(f"z0,{TEXT_OP:x},4")
