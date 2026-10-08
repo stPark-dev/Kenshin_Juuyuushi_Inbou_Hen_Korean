@@ -75,29 +75,43 @@ def _wrap(line, last_limit):
     return out
 
 
+def _pieces(text):
+    """Split at both line breaks: ^c, and ^! (a hard break used between menu
+    options and after a name whose length varies, e.g. "^N殿の^!　思うように")."""
+    return [seg.split("^!") for seg in text.split("^c")]
+
+
 def layout(text, limit=LINE_PX):
-    """Lay out ^c-separated lines. A line followed by a break may use BREAK_PX
-    (a full 288px line plus ^c leaves a blank line); the last line may use LINE_PX.
-    A line without typed spaces may keep the source's width when `limit` exceeds
-    LINE_PX (status-style rows padded with N;)."""
-    segs, lines = text.split("^c"), []
-    for i, seg in enumerate(segs):
-        final = LINE_PX if i == len(segs) - 1 else BREAK_PX
-        if " " not in tokens(seg):
-            allowed = max(final, limit) if limit > LINE_PX else final
-            if width(seg) > allowed:
-                raise ValueError(f"line exceeds {allowed}px and has no space to break at: {seg!r}")
-            lines.append(seg)
-        else:
-            lines += _wrap(seg, final)
-    return "^c".join(lines)
+    """Lay out lines separated by ^c or ^!. A line followed by a break may use
+    BREAK_PX (a full 288px line plus ^c leaves a blank line); the last line may
+    use LINE_PX. A line without typed spaces may keep the source's width when
+    `limit` exceeds LINE_PX (status-style rows padded with N;). Menu rows (^4...)
+    are never wrapped: an inserted ^c would split an option."""
+    menu = text.startswith("^4")
+    segs = _pieces(text)
+    out = []
+    for i, parts in enumerate(segs):
+        laid = []
+        for j, part in enumerate(parts):
+            last = i == len(segs) - 1 and j == len(parts) - 1
+            final = LINE_PX if last or menu else BREAK_PX
+            if menu or " " not in tokens(part):
+                allowed = max(final, limit) if limit > LINE_PX else final
+                if width(part) > allowed:
+                    what = "menu option" if menu else "line"
+                    raise ValueError(f"{what} exceeds {allowed}px and has no space to break at: {part!r}")
+                laid.append(part)
+            else:
+                laid.append("^c".join(_wrap(part, final)))
+        out.append("^!".join(laid))
+    return "^c".join(out)
 
 
 def source_limit(src_raw):
     """Line limit for a translation: 288px, or the widest source line if the
     original consumer already displays wider lines (e.g. status windows)."""
     src = src_raw.decode("cp932")
-    return max([LINE_PX] + [width(seg) for seg in src.split("^c")])
+    return max([LINE_PX] + [width(p) for parts in _pieces(src) for p in parts])
 
 
 def assign_codes(hangul, reserved):

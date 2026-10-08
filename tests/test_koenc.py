@@ -96,14 +96,33 @@ def test_name_token_counts_as_six_characters():
 
 
 def test_limit_is_at_least_the_widest_source_line():
-    # a status-style line wider than 288px in the source (304px with the name budget)
-    src = ("\u3000^4^N^!" + "体力" + "N;" * 20).encode("cp932")
-    ko = "\u3000^4^N^!" + "체력" + "N;" * 20
-    assert koenc.width(ko) == koenc.width(src.decode("cp932")) == 16 + 96 + 32 + 160
+    # a status-style line wider than 288px in the source, padded with N; (no break point)
+    src = ("　" + "体力" + "N;" * 34).encode("cp932")
+    ko = "　" + "체력" + "N;" * 34
+    assert koenc.width(ko) == koenc.width(src.decode("cp932")) == 16 + 32 + 272
     koenc.encode(ko, src, koenc.assign_codes({"체", "력"}, set()))
     # but it may not grow beyond the source width
-    with pytest.raises(ValueError, match="304px"):
+    with pytest.raises(ValueError, match="320px"):
         koenc.encode(ko + "가", src, koenc.assign_codes({"체", "력", "가"}, set()))
+
+
+def test_hard_break_splits_lines_for_width():
+    # ^! is a line break: the status row is a name line and a stats line, each measured alone
+    src = ("　^4^N^!" + "体力" + "N;" * 20).encode("cp932")
+    assert koenc.source_limit(src) == koenc.LINE_PX
+    # dialogue: the piece before ^! is wrapped on its own and keeps the ^! in place
+    ko = "켄신^c" + SP + "가" * 6 + " " + "가" * 6 + "^!" + SP + "나" * 6 + " " + "나" * 6
+    out = koenc.layout(ko)
+    assert out.count("^!") == 1
+    assert all(koenc.width(p) <= koenc.LINE_PX for s in out.split("^c") for p in s.split("^!"))
+
+
+def test_menu_options_are_never_wrapped():
+    # options separated by ^! together exceed 288px; each fits, so nothing is inserted
+    menu = "^4c7카오루의 일상^!c9도쿄부 사족 묘진 야히코^!c9싸움 일등 사가라 사노스케^!c9안 한다^s"
+    assert koenc.layout(menu) == menu
+    with pytest.raises(ValueError, match="menu option"):
+        koenc.layout("^4c7" + "가 " * 20 + "^!c9나^s")
 
 
 def test_layout_accepts_explicit_limit():
