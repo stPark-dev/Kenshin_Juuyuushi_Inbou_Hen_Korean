@@ -755,17 +755,17 @@
   },
   {
    "ja": "神爪",
-   "ko": "카미즈메",
+   "ko": "카미츠메",
    "kind": "place",
-   "status": "provisional",
-   "note": "D11: 임시 통일. ZROUP41 독음 퀴즈 정답 검증 필수. 정답이 다르면 용어집 전체 변경. 카미츠메 혼용 금지"
+   "status": "approved",
+   "note": "D19: ZROUP41 독음 퀴즈 정답(첫 선택지 かみつめ). 사용자 확정 2026-10-08"
   },
   {
    "ja": "神爪流",
-   "ko": "카미즈메류",
+   "ko": "카미츠메류",
    "kind": "term",
-   "status": "provisional",
-   "note": "神爪 결정을 따름"
+   "status": "approved",
+   "note": "神爪=카미츠메(D19)"
   },
   {
    "ja": "割り符",
@@ -4612,7 +4612,7 @@
   },
   {
    "ja": "一角鮫",
-   "ko": "잇카쿠자메 /",
+   "ko": "잇카쿠자메",
    "kind": "game",
    "status": "candidate",
    "note": "새 이름(번역 메모에서 수집). 등장: ZROUP45"
@@ -5050,6 +5050,300 @@
    "kind": "role",
    "status": "candidate",
    "note": ""
+  },
+  {
+   "ja": "紅葉",
+   "ko": "모미지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "佐々木",
+   "ko": "사사키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "仮名垣魯文",
+   "ko": "카나가키 로분",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "安愚楽鍋",
+   "ko": "아구라나베",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "東京府",
+   "ko": "도쿄부",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "スリエ・サーカス",
+   "ko": "슐리에 서커스",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "ザンギリ頭",
+   "ko": "단발머리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "チョンマゲ",
+   "ko": "상투",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "西郷隆盛",
+   "ko": "사이고 타카모리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "西南戦争",
+   "ko": "세이난 전쟁",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "城山",
+   "ko": "시로야마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "上野戦争",
+   "ko": "우에노 전쟁",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "慶応義塾",
+   "ko": "게이오 의숙",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "福沢諭吉",
+   "ko": "후쿠자와 유키치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "彰義隊",
+   "ko": "쇼기타이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "板橋",
+   "ko": "이타바시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "縁切り榎",
+   "ko": "인연 끊는",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "田原坂",
+   "ko": "타바루자카",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "熊本",
+   "ko": "쿠마모토",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "私学校",
+   "ko": "사학교",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "庄屋",
+   "ko": "촌장",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "里長",
+   "ko": "이장",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "一揆",
+   "ko": "농민 봉기",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "北辰一刀流",
+   "ko": "북진일도류",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "千葉玄武館",
+   "ko": "치바 겐부칸",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "斎藤練兵館",
+   "ko": "사이토 렌페이칸",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "鏡新明智流",
+   "ko": "경신명지류",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "桃井士学館",
+   "ko": "모모이 시가쿠칸",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "坂本竜馬",
+   "ko": "사카모토 료마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "桂小五郎",
+   "ko": "카츠라 코고로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "武市半平太",
+   "ko": "타케치 한페이타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "上田馬之助",
+   "ko": "우에다 우마노스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "伊庭軍兵衛秀業",
+   "ko": "이바 군베에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "江戸四大道場",
+   "ko": "에도 사대",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "近藤勇",
+   "ko": "콘도 이사미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "試衛館",
+   "ko": "시에이칸",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "中越流",
+   "ko": "중월류",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "猿飛佐助幸吉",
+   "ko": "사루토비 사스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "関ヶ原",
+   "ko": "세키가하라",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "大阪の陣",
+   "ko": "오사카 전투",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "豊臣秀頼",
+   "ko": "토요토미 히데요리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "薩摩",
+   "ko": "사츠마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
   }
  ]
 }
