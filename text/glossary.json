@@ -4973,6 +4973,83 @@
    "kind": "game",
    "status": "candidate",
    "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "平野",
+   "ko": "히라노",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP24"
+  },
+  {
+   "ja": "おのぶ",
+   "ko": "오노부",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP24"
+  },
+  {
+   "ja": "美智子",
+   "ko": "미치코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP24"
+  },
+  {
+   "ja": "雄二",
+   "ko": "유지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP24"
+  },
+  {
+   "ja": "妻・あや",
+   "ko": "아내・아야",
+   "kind": "role",
+   "status": "candidate",
+   "note": "ZROUP24 화자"
+  },
+  {
+   "ja": "真人",
+   "ko": "마사토",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP24. 독음 미확인(마코토 가능)"
+  },
+  {
+   "ja": "見知らぬ少年",
+   "ko": "낯선 소년",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "忠士",
+   "ko": "타다시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP24"
+  },
+  {
+   "ja": "店の客Ｃ",
+   "ko": "가게 손님Ｃ",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "子供",
+   "ko": "아이",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "たぬき",
+   "ko": "너구리",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
   }
  ]
 }
