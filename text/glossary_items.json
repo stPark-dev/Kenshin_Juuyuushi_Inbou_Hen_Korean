@@ -1,0 +1,1864 @@
+{
+ "_source": "executable compressed data, unpacked at RAM 0x8003A09C (pointer array of 174 u32); index = item ID. In-game menus likely read names from here (not from scene text) — separate patch path, to be surveyed.",
+ "_fields": "id, ja, ko, status(approved/provisional/candidate/check), note, contexts{scene: count in scene text}",
+ "items": [
+  {
+   "id": 0,
+   "ja": "００００００",
+   "ko": "００００００",
+   "status": "approved",
+   "note": "더미 항목. 원문 유지",
+   "contexts": {}
+  },
+  {
+   "id": 1,
+   "ja": "血止めチンキ",
+   "ko": "지혈 팅크",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP01": 1,
+    "ZROUP24": 1,
+    "ZROUP33": 2,
+    "ZROUP41": 1,
+    "ZROUP98": 1
+   }
+  },
+  {
+   "id": 2,
+   "ja": "熊の油",
+   "ko": "곰기름",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP01": 1,
+    "ZROUP10": 2,
+    "ZROUP41": 1,
+    "ZROUP45": 2,
+    "ZROUP98": 1
+   }
+  },
+  {
+   "id": 3,
+   "ja": "人丹",
+   "ko": "인단",
+   "status": "check",
+   "note": "仁丹류 휴대 환약. 표기 확인",
+   "contexts": {
+    "ZROUP04": 2,
+    "ZROUP10": 6,
+    "ZROUP14": 3,
+    "ZROUP32": 2,
+    "ZROUP37": 2,
+    "ZROUP41": 1,
+    "ZROUP47": 3
+   }
+  },
+  {
+   "id": 4,
+   "ja": "牛革草",
+   "ko": "우혁초",
+   "status": "provisional",
+   "note": "D11: 효과 확인 후 확정",
+   "contexts": {
+    "ZROUP02": 1,
+    "ZROUP04": 2,
+    "ZROUP05": 2,
+    "ZROUP07": 1,
+    "ZROUP09": 2,
+    "ZROUP10": 4,
+    "ZROUP17": 4,
+    "ZROUP18": 2,
+    "ZROUP22": 1,
+    "ZROUP23": 2,
+    "ZROUP26": 4,
+    "ZROUP27": 2,
+    "ZROUP32": 2,
+    "ZROUP33": 1,
+    "ZROUP34": 2,
+    "ZROUP37": 2,
+    "ZROUP38": 1,
+    "ZROUP45": 2,
+    "ZROUP98": 1
+   }
+  },
+  {
+   "id": 5,
+   "ja": "天門冬",
+   "ko": "천문동",
+   "status": "candidate",
+   "note": "한약재 표준명",
+   "contexts": {
+    "ZROUP04": 2,
+    "ZROUP07": 1,
+    "ZROUP10": 2,
+    "ZROUP17": 2,
+    "ZROUP37": 2,
+    "ZROUP38": 2
+   }
+  },
+  {
+   "id": 6,
+   "ja": "緑柏丸",
+   "ko": "녹백환",
+   "status": "check",
+   "note": "한자음",
+   "contexts": {
+    "ZROUP09": 2,
+    "ZROUP11": 2,
+    "ZROUP16": 2,
+    "ZROUP17": 2,
+    "ZROUP18": 2,
+    "ZROUP22": 2,
+    "ZROUP23": 6,
+    "ZROUP27": 2,
+    "ZROUP33": 4
+   }
+  },
+  {
+   "id": 7,
+   "ja": "杏竹豆",
+   "ko": "행죽두",
+   "status": "check",
+   "note": "정체 불명, 한자음",
+   "contexts": {
+    "ZROUP01": 1,
+    "ZROUP04": 2,
+    "ZROUP10": 2,
+    "ZROUP23": 2,
+    "ZROUP27": 2,
+    "ZROUP34": 2,
+    "ZROUP38": 2,
+    "ZROUP98": 1
+   }
+  },
+  {
+   "id": 8,
+   "ja": "草の黄",
+   "ko": "애기똥풀",
+   "status": "approved",
+   "note": "D11",
+   "contexts": {
+    "ZROUP01": 1,
+    "ZROUP04": 2,
+    "ZROUP10": 4,
+    "ZROUP17": 2,
+    "ZROUP45": 2,
+    "ZROUP98": 1
+   }
+  },
+  {
+   "id": 9,
+   "ja": "茜草丸",
+   "ko": "천초환",
+   "status": "check",
+   "note": "茜草=꼭두서니(천초근)",
+   "contexts": {
+    "ZROUP05": 2,
+    "ZROUP10": 2,
+    "ZROUP17": 4,
+    "ZROUP23": 4,
+    "ZROUP24": 6,
+    "ZROUP27": 2,
+    "ZROUP38": 2,
+    "ZROUP98": 1
+   }
+  },
+  {
+   "id": 10,
+   "ja": "兵法指南",
+   "ko": "병법 지남서",
+   "status": "check",
+   "note": "",
+   "contexts": {
+    "ZROUP10": 2,
+    "ZROUP17": 2,
+    "ZROUP22": 1,
+    "ZROUP37": 2
+   }
+  },
+  {
+   "id": 11,
+   "ja": "兵法秘伝",
+   "ko": "병법 비전서",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP09": 2,
+    "ZROUP10": 8,
+    "ZROUP17": 2,
+    "ZROUP18": 2,
+    "ZROUP22": 1,
+    "ZROUP37": 2,
+    "ZROUP98": 1
+   }
+  },
+  {
+   "id": 12,
+   "ja": "臨機の護符",
+   "ko": "임기응변의 부적",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP09": 2,
+    "ZROUP10": 4,
+    "ZROUP11": 2,
+    "ZROUP17": 4,
+    "ZROUP18": 2,
+    "ZROUP22": 1,
+    "ZROUP23": 4,
+    "ZROUP29": 4,
+    "ZROUP33": 2,
+    "ZROUP34": 2,
+    "ZROUP98": 1
+   }
+  },
+  {
+   "id": 13,
+   "ja": "鼈甲",
+   "ko": "대모",
+   "status": "check",
+   "note": "鼈甲=거북 등껍질 공예 재료",
+   "contexts": {
+    "ZROUP25": 3
+   }
+  },
+  {
+   "id": 14,
+   "ja": "真珠",
+   "ko": "진주",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP06": 3,
+    "ZROUP25": 1
+   }
+  },
+  {
+   "id": 15,
+   "ja": "瑪瑙",
+   "ko": "마노",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP09": 2,
+    "ZROUP10": 6,
+    "ZROUP16": 2,
+    "ZROUP25": 1,
+    "ZROUP44": 1
+   }
+  },
+  {
+   "id": 16,
+   "ja": "珊瑚",
+   "ko": "산호",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP11": 2,
+    "ZROUP18": 2,
+    "ZROUP44": 1
+   }
+  },
+  {
+   "id": 17,
+   "ja": "琥珀",
+   "ko": "호박",
+   "status": "candidate",
+   "note": "보석 호박(琥珀)",
+   "contexts": {
+    "ZROUP17": 2,
+    "ZROUP25": 1,
+    "ZROUP37": 2
+   }
+  },
+  {
+   "id": 18,
+   "ja": "瑠璃",
+   "ko": "청금석",
+   "status": "check",
+   "note": "瑠璃(유리)=청금석",
+   "contexts": {
+    "ZROUP16": 2,
+    "ZROUP18": 2
+   }
+  },
+  {
+   "id": 19,
+   "ja": "翡翠",
+   "ko": "비취",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP17": 2,
+    "ZROUP22": 2,
+    "ZROUP23": 6,
+    "ZROUP33": 4
+   }
+  },
+  {
+   "id": 20,
+   "ja": "弁慶草",
+   "ko": "꿩의비름",
+   "status": "check",
+   "note": "弁慶草 식물명",
+   "contexts": {
+    "ZROUP05": 2,
+    "ZROUP10": 2,
+    "ZROUP17": 2,
+    "ZROUP18": 2,
+    "ZROUP23": 2,
+    "ZROUP24": 1,
+    "ZROUP26": 2,
+    "ZROUP33": 2,
+    "ZROUP34": 2,
+    "ZROUP41": 2
+   }
+  },
+  {
+   "id": 21,
+   "ja": "蛇髭丹",
+   "ko": "사자단",
+   "status": "check",
+   "note": "蛇髭丹, 한자음",
+   "contexts": {
+    "ZROUP17": 1,
+    "ZROUP22": 1,
+    "ZROUP27": 2,
+    "ZROUP34": 2,
+    "ZROUP41": 1,
+    "ZROUP45": 2
+   }
+  },
+  {
+   "id": 22,
+   "ja": "虎杖丹",
+   "ko": "호장단",
+   "status": "check",
+   "note": "虎杖=호장근",
+   "contexts": {
+    "ZROUP10": 2,
+    "ZROUP16": 2,
+    "ZROUP17": 4,
+    "ZROUP22": 1,
+    "ZROUP26": 2,
+    "ZROUP27": 2,
+    "ZROUP34": 2,
+    "ZROUP41": 1
+   }
+  },
+  {
+   "id": 23,
+   "ja": "羊蹄丹",
+   "ko": "양제단",
+   "status": "check",
+   "note": "羊蹄=소리쟁이",
+   "contexts": {
+    "ZROUP17": 4,
+    "ZROUP23": 6,
+    "ZROUP26": 2,
+    "ZROUP33": 6,
+    "ZROUP34": 2,
+    "ZROUP41": 1
+   }
+  },
+  {
+   "id": 24,
+   "ja": "旅支度道具",
+   "ko": "여행 채비 도구",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP09": 2,
+    "ZROUP10": 2,
+    "ZROUP34": 2,
+    "ZROUP98": 1
+   }
+  },
+  {
+   "id": 25,
+   "ja": "逆刃刀",
+   "ko": "역날검",
+   "status": "candidate",
+   "note": "원작 용어",
+   "contexts": {
+    "ZROUP41": 6,
+    "ZROUP49": 1
+   }
+  },
+  {
+   "id": 26,
+   "ja": "逆刃刀・真打",
+   "ko": "역날검・진타",
+   "status": "check",
+   "note": "真打. 원작 표기 확인",
+   "contexts": {
+    "ZROUP41": 2
+   }
+  },
+  {
+   "id": 27,
+   "ja": "竹刀",
+   "ko": "죽도",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP41": 3
+   }
+  },
+  {
+   "id": 28,
+   "ja": "長竹刀",
+   "ko": "긴 죽도",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 29,
+   "ja": "木刀・桜",
+   "ko": "목도・벚나무",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 30,
+   "ja": "木刀・白樺",
+   "ko": "목도・자작나무",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP10": 2
+   }
+  },
+  {
+   "id": 31,
+   "ja": "八角木刀",
+   "ko": "팔각 목도",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP10": 1
+   }
+  },
+  {
+   "id": 32,
+   "ja": "木刀・樫",
+   "ko": "목도・떡갈나무",
+   "status": "check",
+   "note": "樫",
+   "contexts": {}
+  },
+  {
+   "id": 33,
+   "ja": "木刀・枇杷",
+   "ko": "목도・비파나무",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP27": 2
+   }
+  },
+  {
+   "id": 34,
+   "ja": "木刀・黒檀",
+   "ko": "목도・흑단",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP16": 2,
+    "ZROUP98": 1
+   }
+  },
+  {
+   "id": 35,
+   "ja": "小太刀",
+   "ko": "소태도",
+   "status": "check",
+   "note": "小太刀(코다치). 원작 표기 확인",
+   "contexts": {
+    "ZROUP41": 1,
+    "ZROUP47": 6,
+    "ZROUP95": 1,
+    "ZROUP99": 1
+   }
+  },
+  {
+   "id": 36,
+   "ja": "日本刀",
+   "ko": "일본도",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 37,
+   "ja": "数打ち物",
+   "ko": "대량 생산 칼",
+   "status": "check",
+   "note": "数打ち物",
+   "contexts": {}
+  },
+  {
+   "id": 38,
+   "ja": "野鍛冶の太刀",
+   "ko": "시골 대장장이의 태도",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 39,
+   "ja": "無銘の逸品",
+   "ko": "무명의 명품",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP05": 2
+   }
+  },
+  {
+   "id": 40,
+   "ja": "尖兵拵え",
+   "ko": "선봉의 칼",
+   "status": "check",
+   "note": "尖兵拵え",
+   "contexts": {
+    "ZROUP05": 2,
+    "ZROUP10": 1
+   }
+  },
+  {
+   "id": 41,
+   "ja": "復古刀",
+   "ko": "복고도",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 42,
+   "ja": "相州伝",
+   "ko": "소슈덴",
+   "status": "check",
+   "note": "相州伝(유파명)",
+   "contexts": {}
+  },
+  {
+   "id": 43,
+   "ja": "備前伝",
+   "ko": "비젠덴",
+   "status": "check",
+   "note": "備前伝(유파명)",
+   "contexts": {}
+  },
+  {
+   "id": 44,
+   "ja": "国光",
+   "ko": "쿠니미츠",
+   "status": "candidate",
+   "note": "도공·명검 이름은 일본어 음",
+   "contexts": {}
+  },
+  {
+   "id": 45,
+   "ja": "清麿",
+   "ko": "키요마로",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP18": 2
+   }
+  },
+  {
+   "id": 46,
+   "ja": "村正",
+   "ko": "무라마사",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP23": 2,
+    "ZROUP38": 2
+   }
+  },
+  {
+   "id": 47,
+   "ja": "大和守安定",
+   "ko": "야마토노카미 야스사다",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 48,
+   "ja": "長船清光",
+   "ko": "오사후네 키요미츠",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP17": 2
+   }
+  },
+  {
+   "id": 49,
+   "ja": "虎徹",
+   "ko": "코테츠",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP29": 4,
+    "ZROUP37": 2,
+    "ZROUP41": 1
+   }
+  },
+  {
+   "id": 50,
+   "ja": "菊一文字",
+   "ko": "키쿠이치몬지",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP16": 1,
+    "ZROUP23": 2
+   }
+  },
+  {
+   "id": 51,
+   "ja": "小烏丸",
+   "ko": "코가라스마루",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP23": 2,
+    "ZROUP26": 2,
+    "ZROUP33": 1
+   }
+  },
+  {
+   "id": 52,
+   "ja": "　",
+   "ko": "　",
+   "status": "approved",
+   "note": "빈 항목. 원문 유지",
+   "contexts": {}
+  },
+  {
+   "id": 53,
+   "ja": "青嵐",
+   "ko": "세이란",
+   "status": "check",
+   "note": "青嵐, 명검 이름",
+   "contexts": {
+    "ZROUP39": 3
+   }
+  },
+  {
+   "id": 54,
+   "ja": "凍雲",
+   "ko": "토운",
+   "status": "check",
+   "note": "凍雲, 명검 이름",
+   "contexts": {
+    "ZROUP39": 3
+   }
+  },
+  {
+   "id": 55,
+   "ja": "十字紋の懐剣",
+   "ko": "십자문 단검",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 56,
+   "ja": "九字切の太刀",
+   "ko": "구자 새긴 태도",
+   "status": "check",
+   "note": "九字切",
+   "contexts": {
+    "ZROUP33": 2,
+    "ZROUP37": 1
+   }
+  },
+  {
+   "id": 57,
+   "ja": "直刀・鬼首",
+   "ko": "직도・오니쿠비",
+   "status": "check",
+   "note": "鬼首",
+   "contexts": {
+    "ZROUP33": 1
+   }
+  },
+  {
+   "id": 58,
+   "ja": "外套",
+   "ko": "외투",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP07": 1,
+    "ZROUP10": 2,
+    "ZROUP33": 2,
+    "ZROUP38": 2,
+    "ZROUP41": 1,
+    "ZROUP98": 1
+   }
+  },
+  {
+   "id": 59,
+   "ja": "石綿外套",
+   "ko": "석면 외투",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP07": 1,
+    "ZROUP10": 1
+   }
+  },
+  {
+   "id": 60,
+   "ja": "鉄糸外套",
+   "ko": "철사 외투",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP10": 1,
+    "ZROUP38": 2,
+    "ZROUP98": 1
+   }
+  },
+  {
+   "id": 61,
+   "ja": "道着",
+   "ko": "도복",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 4,
+    "ZROUP12": 4,
+    "ZROUP13": 4,
+    "ZROUP14": 4,
+    "ZROUP20": 4,
+    "ZROUP42": 4,
+    "ZROUP47": 4
+   }
+  },
+  {
+   "id": 62,
+   "ja": "鉢巻き",
+   "ko": "머리띠",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP08": 1,
+    "ZROUP11": 2
+   }
+  },
+  {
+   "id": 63,
+   "ja": "鉢金",
+   "ko": "이마 가리개",
+   "status": "check",
+   "note": "鉢金",
+   "contexts": {
+    "ZROUP10": 2
+   }
+  },
+  {
+   "id": 64,
+   "ja": "革手袋",
+   "ko": "가죽 장갑",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP08": 1,
+    "ZROUP09": 2
+   }
+  },
+  {
+   "id": 65,
+   "ja": "手甲",
+   "ko": "토시",
+   "status": "check",
+   "note": "手甲",
+   "contexts": {
+    "ZROUP16": 2,
+    "ZROUP22": 1
+   }
+  },
+  {
+   "id": 66,
+   "ja": "鎖帷子",
+   "ko": "사슬 갑옷",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP16": 4,
+    "ZROUP18": 2,
+    "ZROUP33": 2,
+    "ZROUP45": 2
+   }
+  },
+  {
+   "id": 67,
+   "ja": "石綿鎖帷子",
+   "ko": "석면 사슬 갑옷",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP16": 2,
+    "ZROUP18": 2,
+    "ZROUP33": 2,
+    "ZROUP45": 2
+   }
+  },
+  {
+   "id": 68,
+   "ja": "白外套",
+   "ko": "흰 외투",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP33": 2,
+    "ZROUP41": 1
+   }
+  },
+  {
+   "id": 69,
+   "ja": "６９",
+   "ko": "６９",
+   "status": "approved",
+   "note": "더미 항목. 원문 유지",
+   "contexts": {}
+  },
+  {
+   "id": 70,
+   "ja": "割り符イの１",
+   "ko": "부절 이１",
+   "status": "approved",
+   "note": "D11",
+   "contexts": {
+    "ZROUP14": 1
+   }
+  },
+  {
+   "id": 71,
+   "ja": "割り符イの２",
+   "ko": "부절 이２",
+   "status": "approved",
+   "note": "D11",
+   "contexts": {
+    "ZROUP22": 1
+   }
+  },
+  {
+   "id": 72,
+   "ja": "割り符イの３",
+   "ko": "부절 이３",
+   "status": "approved",
+   "note": "D11",
+   "contexts": {
+    "ZROUP06": 1
+   }
+  },
+  {
+   "id": 73,
+   "ja": "割り符ロの１",
+   "ko": "부절 로１",
+   "status": "approved",
+   "note": "D11",
+   "contexts": {
+    "ZROUP03": 1
+   }
+  },
+  {
+   "id": 74,
+   "ja": "割り符ロの２",
+   "ko": "부절 로２",
+   "status": "approved",
+   "note": "D11",
+   "contexts": {
+    "ZROUP10": 1
+   }
+  },
+  {
+   "id": 75,
+   "ja": "割り符ロの３",
+   "ko": "부절 로３",
+   "status": "approved",
+   "note": "D11",
+   "contexts": {
+    "ZROUP01": 1
+   }
+  },
+  {
+   "id": 76,
+   "ja": "割り符ハの１",
+   "ko": "부절 하１",
+   "status": "approved",
+   "note": "D11",
+   "contexts": {
+    "ZROUP27": 1
+   }
+  },
+  {
+   "id": 77,
+   "ja": "割り符ハの２",
+   "ko": "부절 하２",
+   "status": "approved",
+   "note": "D11",
+   "contexts": {
+    "ZROUP21": 1
+   }
+  },
+  {
+   "id": 78,
+   "ja": "割り符ハの３",
+   "ko": "부절 하３",
+   "status": "approved",
+   "note": "D11",
+   "contexts": {
+    "ZROUP17": 1,
+    "ZROUP29": 1,
+    "ZROUP45": 1
+   }
+  },
+  {
+   "id": 79,
+   "ja": "水晶玉",
+   "ko": "수정 구슬",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP01": 5,
+    "ZROUP04": 6,
+    "ZROUP13": 3,
+    "ZROUP22": 1,
+    "ZROUP41": 1
+   }
+  },
+  {
+   "id": 80,
+   "ja": "緑の藻",
+   "ko": "초록 수초",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP08": 1
+   }
+  },
+  {
+   "id": 81,
+   "ja": "黄の藻",
+   "ko": "노란 수초",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP08": 1
+   }
+  },
+  {
+   "id": 82,
+   "ja": "茶の藻",
+   "ko": "갈색 수초",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP08": 1
+   }
+  },
+  {
+   "id": 83,
+   "ja": "青の藻",
+   "ko": "파란 수초",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP08": 1
+   }
+  },
+  {
+   "id": 84,
+   "ja": "解毒薬",
+   "ko": "해독제",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP06": 3,
+    "ZROUP08": 12,
+    "ZROUP41": 3,
+    "ZROUP50": 1
+   }
+  },
+  {
+   "id": 85,
+   "ja": "大きな鍵",
+   "ko": "큰 열쇠",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP10": 2
+   }
+  },
+  {
+   "id": 86,
+   "ja": "地下庭園の花",
+   "ko": "지하 정원의 꽃",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 1,
+    "ZROUP10": 2
+   }
+  },
+  {
+   "id": 87,
+   "ja": "汚れた鉢巻き",
+   "ko": "더러운 머리띠",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP11": 1
+   }
+  },
+  {
+   "id": 88,
+   "ja": "備忘録",
+   "ko": "비망록",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP14": 2,
+    "ZROUP16": 1
+   }
+  },
+  {
+   "id": 89,
+   "ja": "歌姫の手紙",
+   "ko": "가희의 편지",
+   "status": "candidate",
+   "note": "歌姫=가희(D8)",
+   "contexts": {
+    "ZROUP24": 1
+   }
+  },
+  {
+   "id": 90,
+   "ja": "火焔の書",
+   "ko": "화염의 서",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP39": 20
+   }
+  },
+  {
+   "id": 91,
+   "ja": "花の鍵",
+   "ko": "꽃의 열쇠",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP22": 1
+   }
+  },
+  {
+   "id": 92,
+   "ja": "鳥の鍵",
+   "ko": "새의 열쇠",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP22": 1
+   }
+  },
+  {
+   "id": 93,
+   "ja": "風の鍵",
+   "ko": "바람의 열쇠",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP22": 1
+   }
+  },
+  {
+   "id": 94,
+   "ja": "月の鍵",
+   "ko": "달의 열쇠",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP22": 1
+   }
+  },
+  {
+   "id": 95,
+   "ja": "雪の鍵",
+   "ko": "눈의 열쇠",
+   "status": "candidate",
+   "note": "雪",
+   "contexts": {
+    "ZROUP22": 1
+   }
+  },
+  {
+   "id": 96,
+   "ja": "地の鍵",
+   "ko": "땅의 열쇠",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP22": 1
+   }
+  },
+  {
+   "id": 97,
+   "ja": "水の鍵",
+   "ko": "물의 열쇠",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP22": 1
+   }
+  },
+  {
+   "id": 98,
+   "ja": "火の鍵",
+   "ko": "불의 열쇠",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP22": 1
+   }
+  },
+  {
+   "id": 99,
+   "ja": "憤怒の鏡",
+   "ko": "분노의 거울",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP33": 1
+   }
+  },
+  {
+   "id": 100,
+   "ja": "貪欲の鏡",
+   "ko": "탐욕의 거울",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 101,
+   "ja": "傲慢の鏡",
+   "ko": "오만의 거울",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP33": 1
+   }
+  },
+  {
+   "id": 102,
+   "ja": "飽食の鏡",
+   "ko": "포식의 거울",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP33": 1
+   }
+  },
+  {
+   "id": 103,
+   "ja": "肉欲の鏡",
+   "ko": "육욕의 거울",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP33": 1
+   }
+  },
+  {
+   "id": 104,
+   "ja": "怠惰の鏡",
+   "ko": "나태의 거울",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP33": 1
+   }
+  },
+  {
+   "id": 105,
+   "ja": "嫉妬の鏡",
+   "ko": "질투의 거울",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP33": 1
+   }
+  },
+  {
+   "id": 106,
+   "ja": "アメ",
+   "ko": "사탕",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 2,
+    "ZROUP41": 4,
+    "ZROUP47": 1
+   }
+  },
+  {
+   "id": 107,
+   "ja": "柏餅",
+   "ko": "카시와모치",
+   "status": "check",
+   "note": "떡갈잎 떡",
+   "contexts": {
+    "ZROUP06": 1
+   }
+  },
+  {
+   "id": 108,
+   "ja": "お饅頭",
+   "ko": "만주",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP47": 2
+   }
+  },
+  {
+   "id": 109,
+   "ja": "お団子",
+   "ko": "경단",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP20": 3,
+    "ZROUP34": 1
+   }
+  },
+  {
+   "id": 110,
+   "ja": "お煎餅",
+   "ko": "전병",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP13": 3,
+    "ZROUP42": 3
+   }
+  },
+  {
+   "id": 111,
+   "ja": "水飴",
+   "ko": "물엿",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP47": 1
+   }
+  },
+  {
+   "id": 112,
+   "ja": "ビスケット",
+   "ko": "비스킷",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP01": 1,
+    "ZROUP02": 2,
+    "ZROUP14": 1,
+    "ZROUP41": 1,
+    "ZROUP47": 1
+   }
+  },
+  {
+   "id": 113,
+   "ja": "チョコレート",
+   "ko": "초콜릿",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 2,
+    "ZROUP20": 1,
+    "ZROUP41": 1
+   }
+  },
+  {
+   "id": 114,
+   "ja": "乾パン",
+   "ko": "건빵",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP20": 1
+   }
+  },
+  {
+   "id": 115,
+   "ja": "枯れた花",
+   "ko": "시든 꽃",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 116,
+   "ja": "赤い花",
+   "ko": "빨간 꽃",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP01": 3,
+    "ZROUP02": 4
+   }
+  },
+  {
+   "id": 117,
+   "ja": "黄色い花",
+   "ko": "노란 꽃",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 2,
+    "ZROUP06": 2
+   }
+  },
+  {
+   "id": 118,
+   "ja": "青い花",
+   "ko": "파란 꽃",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 4,
+    "ZROUP14": 2,
+    "ZROUP47": 2
+   }
+  },
+  {
+   "id": 119,
+   "ja": "白い花",
+   "ko": "흰 꽃",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP01": 3,
+    "ZROUP02": 4
+   }
+  },
+  {
+   "id": 120,
+   "ja": "桃色の花",
+   "ko": "분홍 꽃",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 4,
+    "ZROUP13": 2,
+    "ZROUP42": 2
+   }
+  },
+  {
+   "id": 121,
+   "ja": "紫の花",
+   "ko": "보라 꽃",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 4,
+    "ZROUP25": 1
+   }
+  },
+  {
+   "id": 122,
+   "ja": "赤い実",
+   "ko": "빨간 열매",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP01": 3,
+    "ZROUP02": 4
+   }
+  },
+  {
+   "id": 123,
+   "ja": "黄色の実",
+   "ko": "노란 열매",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 2
+   }
+  },
+  {
+   "id": 124,
+   "ja": "桃色の実",
+   "ko": "분홍 열매",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 4,
+    "ZROUP46": 3
+   }
+  },
+  {
+   "id": 125,
+   "ja": "白い実",
+   "ko": "흰 열매",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 7
+   }
+  },
+  {
+   "id": 126,
+   "ja": "青い実",
+   "ko": "파란 열매",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 4,
+    "ZROUP13": 3,
+    "ZROUP42": 3
+   }
+  },
+  {
+   "id": 127,
+   "ja": "紫の根",
+   "ko": "보라 뿌리",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP01": 4,
+    "ZROUP02": 4
+   }
+  },
+  {
+   "id": 128,
+   "ja": "赤い根",
+   "ko": "빨간 뿌리",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 4,
+    "ZROUP13": 2,
+    "ZROUP42": 2
+   }
+  },
+  {
+   "id": 129,
+   "ja": "古びた刀",
+   "ko": "낡은 칼",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP32": 2,
+    "ZROUP39": 1
+   }
+  },
+  {
+   "id": 130,
+   "ja": "調合した薬",
+   "ko": "조제한 약",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 1,
+    "ZROUP44": 1
+   }
+  },
+  {
+   "id": 131,
+   "ja": "腹痛薬",
+   "ko": "복통약",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 132,
+   "ja": "めまい薬",
+   "ko": "현기증약",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 133,
+   "ja": "二日酔い薬",
+   "ko": "숙취약",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 134,
+   "ja": "悪寒薬",
+   "ko": "오한약",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 135,
+   "ja": "熱さまし",
+   "ko": "해열제",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 136,
+   "ja": "咳止め薬",
+   "ko": "기침약",
+   "status": "candidate",
+   "note": "",
+   "contexts": {}
+  },
+  {
+   "id": 137,
+   "ja": "青い根",
+   "ko": "파란 뿌리",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP02": 7
+   }
+  },
+  {
+   "id": 138,
+   "ja": "恵さんの薬",
+   "ko": "메구미 씨의 약",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP26": 1
+   }
+  },
+  {
+   "id": 139,
+   "ja": "思い出の錦絵",
+   "ko": "추억의 니시키에",
+   "status": "check",
+   "note": "錦絵(채색 목판화)",
+   "contexts": {}
+  },
+  {
+   "id": 140,
+   "ja": "花",
+   "ko": "꽃",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP01": 7,
+    "ZROUP02": 32,
+    "ZROUP04": 3,
+    "ZROUP05": 4,
+    "ZROUP06": 2,
+    "ZROUP07": 3,
+    "ZROUP08": 3,
+    "ZROUP09": 3,
+    "ZROUP10": 14,
+    "ZROUP11": 7,
+    "ZROUP12": 1,
+    "ZROUP13": 2,
+    "ZROUP14": 2,
+    "ZROUP16": 3,
+    "ZROUP17": 3,
+    "ZROUP18": 3,
+    "ZROUP22": 1,
+    "ZROUP24": 2,
+    "ZROUP25": 2,
+    "ZROUP27": 3,
+    "ZROUP29": 3,
+    "ZROUP34": 2,
+    "ZROUP41": 2,
+    "ZROUP42": 2,
+    "ZROUP47": 2,
+    "ZROUP50": 12,
+    "ZROUP97": 2
+   }
+  },
+  {
+   "id": 141,
+   "ja": "紙力士１",
+   "ko": "종이 스모 인형１",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 142,
+   "ja": "紙力士２",
+   "ko": "종이 스모 인형２",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 143,
+   "ja": "紙力士３",
+   "ko": "종이 스모 인형３",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 144,
+   "ja": "紙力士４",
+   "ko": "종이 스모 인형４",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 145,
+   "ja": "紙力士５",
+   "ko": "종이 스모 인형５",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 146,
+   "ja": "紙力士６",
+   "ko": "종이 스모 인형６",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 147,
+   "ja": "紙力士７",
+   "ko": "종이 스모 인형７",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 148,
+   "ja": "紙力士８",
+   "ko": "종이 스모 인형８",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 149,
+   "ja": "紙力士９",
+   "ko": "종이 스모 인형９",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 150,
+   "ja": "紙力士１０",
+   "ko": "종이 스모 인형１０",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 151,
+   "ja": "紙力士１１",
+   "ko": "종이 스모 인형１１",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 152,
+   "ja": "紙力士１２",
+   "ko": "종이 스모 인형１２",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 153,
+   "ja": "紙力士１３",
+   "ko": "종이 스모 인형１３",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 154,
+   "ja": "紙力士１４",
+   "ko": "종이 스모 인형１４",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 155,
+   "ja": "紙力士１５",
+   "ko": "종이 스모 인형１５",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 156,
+   "ja": "紙力士１６",
+   "ko": "종이 스모 인형１６",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 157,
+   "ja": "紙力士１７",
+   "ko": "종이 스모 인형１７",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 158,
+   "ja": "紙力士１８",
+   "ko": "종이 스모 인형１８",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 159,
+   "ja": "紙力士１９",
+   "ko": "종이 스모 인형１９",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 160,
+   "ja": "紙力士２０",
+   "ko": "종이 스모 인형２０",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 161,
+   "ja": "紙力士２１",
+   "ko": "종이 스모 인형２１",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 162,
+   "ja": "紙力士２２",
+   "ko": "종이 스모 인형２２",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 163,
+   "ja": "紙力士２３",
+   "ko": "종이 스모 인형２３",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 164,
+   "ja": "紙力士２４",
+   "ko": "종이 스모 인형２４",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 165,
+   "ja": "紙力士２５",
+   "ko": "종이 스모 인형２５",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 166,
+   "ja": "紙力士２６",
+   "ko": "종이 스모 인형２６",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 167,
+   "ja": "紙力士２７",
+   "ko": "종이 스모 인형２７",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 168,
+   "ja": "紙力士２８",
+   "ko": "종이 스모 인형２８",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 169,
+   "ja": "紙力士２９",
+   "ko": "종이 스모 인형２９",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 170,
+   "ja": "紙力士３０",
+   "ko": "종이 스모 인형３０",
+   "status": "check",
+   "note": "紙力士 장난감",
+   "contexts": {}
+  },
+  {
+   "id": 171,
+   "ja": "髪飾り",
+   "ko": "머리 장식",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP34": 3
+   }
+  },
+  {
+   "id": 172,
+   "ja": "蒼紫の手紙",
+   "ko": "아오시의 편지",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP08": 1
+   }
+  },
+  {
+   "id": 173,
+   "ja": "香炉",
+   "ko": "향로",
+   "status": "candidate",
+   "note": "",
+   "contexts": {
+    "ZROUP37": 11
+   }
+  }
+ ]
+}
