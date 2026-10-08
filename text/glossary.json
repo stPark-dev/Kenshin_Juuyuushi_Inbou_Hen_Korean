@@ -4035,6 +4035,55 @@
    "kind": "game",
    "status": "candidate",
    "note": "새 이름(번역 메모에서 수집). 등장: ZROUP42"
+  },
+  {
+   "ja": "相楽隊長",
+   "ko": "사가라 대장",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "적보대 대장 사가라 소조(相楽総三). 사노스케의 스승"
+  },
+  {
+   "ja": "相楽総三",
+   "ko": "사가라 소조",
+   "kind": "canon",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "赤報隊",
+   "ko": "적보대",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "원작 용어"
+  },
+  {
+   "ja": "お船",
+   "ko": "오후네",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP45. お舟(ZROUP12)와 다른 인물일 수 있음"
+  },
+  {
+   "ja": "猿次郎",
+   "ko": "사루지로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP45"
+  },
+  {
+   "ja": "雫",
+   "ko": "시즈쿠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP45"
+  },
+  {
+   "ja": "海龍",
+   "ko": "카이류",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP45 배·인물 이름. 문맥 확인"
   }
  ]
 }
