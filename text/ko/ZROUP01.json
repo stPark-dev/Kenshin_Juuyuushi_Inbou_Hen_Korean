@@ -811,9 +811,9 @@
  },
  "ZROUP01:4b3bc": {
   "src_hash": "01d3d8059cf8",
-  "ko": "c6사가라 사노스케c7가 동료가 되었다！^cc6부절 로의 ３c7을 손에 넣었다．",
+  "ko": "c6사가라 사노스케c7가 동료가 되었다！^cc6부절 로３c7을 손에 넣었다．",
   "status": "draft",
-  "note": "割り符ロの３ -> 부절 로의 ３ (iroha label ロ transliterated as 로; check item naming in other scenes)"
+  "note": "割り符ロの３ -> 부절 로의 ３ (iroha label ロ transliterated as 로; check item naming in other scenes) / D11: 割り符 イロハ → 부절 이/로/하 + 숫자"
  },
  "ZROUP01:4b3fc": {
   "src_hash": "272a449d1c40",
@@ -1399,7 +1399,7 @@
  },
  "ZROUP01:4cbc0": {
   "src_hash": "b60123ae6ec6",
-  "ko": "곤타^c　전투 중에 쓸 수 있는 도구는 여러 가지 있지만，^c　풀의 노랑이나 행죽두를 잘 쓰면 승률이 쑥 올라간다고！！",
+  "ko": "곤타^c　전투 중에 쓸 수 있는 도구는 여러 가지 있지만，^c　애기똥풀이나 행죽두를 잘 쓰면 승률이 쑥 올라간다고！！",
   "status": "draft",
   "note": "items 草の黄=풀의 노랑, 杏竹豆=행죽두 are guesses; align with item table"
  },

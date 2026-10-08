@@ -733,17 +733,17 @@
   },
   {
    "ja": "草の黄",
-   "ko": "황초",
+   "ko": "애기똥풀",
    "kind": "item",
-   "status": "check",
-   "note": "아이템. 의미 불확실"
+   "status": "approved",
+   "note": "D11: クサノオウ(Chelidonium majus), 한국명 애기똥풀(생약명 백굴채)"
   },
   {
    "ja": "牛革草",
    "ko": "우혁초",
    "kind": "item",
-   "status": "check",
-   "note": "아이템. 한자음"
+   "status": "provisional",
+   "note": "D11: 일반 식물명 미확인. 아이템 설명·효과 확인 후 최종 승인"
   },
   {
    "ja": "我孫子",
@@ -751,6 +751,27 @@
    "kind": "place",
    "status": "check",
    "note": "지명(아비코 숲)"
+  },
+  {
+   "ja": "神爪",
+   "ko": "카미즈메",
+   "kind": "place",
+   "status": "provisional",
+   "note": "D11: 임시 통일. ZROUP41 독음 퀴즈 정답 검증 필수. 정답이 다르면 용어집 전체 변경. 카미츠메 혼용 금지"
+  },
+  {
+   "ja": "神爪流",
+   "ko": "카미즈메류",
+   "kind": "term",
+   "status": "provisional",
+   "note": "神爪 결정을 따름"
+  },
+  {
+   "ja": "割り符",
+   "ko": "부절",
+   "kind": "item",
+   "status": "approved",
+   "note": "D11: イ/ロ/ハ → 이/로/하 유지, 숫자는 원본 아이템 번호 그대로(예: 부절 로３). 월드맵 이동 범위를 넓히는 아이템"
   }
  ]
 }
