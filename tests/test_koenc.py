@@ -111,3 +111,23 @@ def test_layout_accepts_explicit_limit():
     with pytest.raises(ValueError):
         koenc.layout(line)
     assert koenc.layout(line, limit=304) == line
+
+
+def test_line_followed_by_break_is_at_most_272px():
+    # 16 (indent) + 17 syllables = 288px: fine as the last line, but not before ^c
+    full = SP + "가" * 17
+    assert koenc.layout("화자^c" + full) == "화자^c" + full
+    with pytest.raises(ValueError):
+        koenc.layout("화자^c" + full + "^c" + SP + "나")
+    # with a space it is wrapped so that the line before the break is <= 272px
+    out = koenc.layout("화자^c" + SP + "가" * 8 + " " + "가" * 8 + "^c" + SP + "나")
+    assert all(koenc.width(l) <= 272 for l in out.split("^c")[:-1])
+
+
+def test_long_source_line_does_not_widen_dialogue_with_spaces():
+    # source relied on the game's auto-wrap (one 480px line); the translation has spaces,
+    # so it must still be wrapped by us at word boundaries
+    src = ("剣心^c　" + "あ" * 29).encode("cp932")
+    ko = "켄신^c" + SP + " ".join(["가나다라"] * 6)
+    out = koenc.encode(ko, src, koenc.assign_codes(set("켄신가나다라"), set()))
+    assert out.count(b"^c") >= 2

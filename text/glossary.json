@@ -695,6 +695,20 @@
    "ko": "츠키오카 츠난",
    "kind": "canon",
    "status": "approved"
+  },
+  {
+   "ja": "流浪人",
+   "ko": "유랑인",
+   "kind": "term",
+   "status": "check",
+   "note": "한국 정발 만화 용어 확인 필요"
+  },
+  {
+   "ja": "神谷活心流",
+   "ko": "카미야 활심류",
+   "kind": "term",
+   "status": "check",
+   "note": "한국 정발 만화 용어 확인 필요"
   }
  ]
 }

@@ -21,6 +21,7 @@ import script
 
 SP = "　"
 LINE_PX = 288
+BREAK_PX = 272  # a line followed by ^c; all 468 source lines of exactly 288px are last lines
 TOKEN = re.compile(r"\^.|[cC][0-9a-fA-F]|N[!-~]|n[!-~]| |.", re.S)
 NAME_PX = 96  # ^N inserts a character name; budget 6 full-width characters until name entry is surveyed
 FIRST_CODE = 0x889F  # first code verified to render Hangul at runtime
@@ -55,18 +56,19 @@ def width(line):
     return sum(_tok_width(t) for t in tokens(line))
 
 
-def _wrap(line, limit):
+def _wrap(line, last_limit):
+    """Split at typed spaces: pieces before a break <= BREAK_PX, the final piece <= last_limit."""
     toks, out = tokens(line), []
-    while sum(_tok_width(t) for t in toks) > limit:
+    while sum(_tok_width(t) for t in toks) > last_limit:
         acc, cut = 0, None
         for i, t in enumerate(toks):
             acc += _tok_width(t)
-            if acc > limit:
+            if acc > BREAK_PX:
                 break
             if t == " ":  # only typed spaces; N; may be alignment padding from the source
                 cut = i
         if cut is None:
-            raise ValueError(f"line exceeds {limit}px and has no space to break at: {''.join(toks)!r}")
+            raise ValueError(f"line exceeds {last_limit}px and has no space to break at: {''.join(toks)!r}")
         out.append("".join(toks[:cut]))
         toks = [SP] + toks[cut + 1 :]
     out.append("".join(toks))
@@ -74,9 +76,20 @@ def _wrap(line, limit):
 
 
 def layout(text, limit=LINE_PX):
-    lines = []
-    for seg in text.split("^c"):
-        lines += _wrap(seg, limit)
+    """Lay out ^c-separated lines. A line followed by a break may use BREAK_PX
+    (a full 288px line plus ^c leaves a blank line); the last line may use LINE_PX.
+    A line without typed spaces may keep the source's width when `limit` exceeds
+    LINE_PX (status-style rows padded with N;)."""
+    segs, lines = text.split("^c"), []
+    for i, seg in enumerate(segs):
+        final = LINE_PX if i == len(segs) - 1 else BREAK_PX
+        if " " not in tokens(seg):
+            allowed = max(final, limit) if limit > LINE_PX else final
+            if width(seg) > allowed:
+                raise ValueError(f"line exceeds {allowed}px and has no space to break at: {seg!r}")
+            lines.append(seg)
+        else:
+            lines += _wrap(seg, final)
     return "^c".join(lines)
 
 
