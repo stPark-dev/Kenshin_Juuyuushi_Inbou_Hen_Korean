@@ -1,0 +1,878 @@
+{
+ "ZROUP95:15af8": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15b10": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15b28": {
+  "src_hash": "6cafd84dcdfc",
+  "ko": "^4ca모두의 켄신^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15b3c": {
+  "src_hash": "3db45b70c645",
+  "ko": "^4ca카오루의 일상^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15b4c": {
+  "src_hash": "4a316460b025",
+  "ko": "^4ca카미야가의 두 사람^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15b60": {
+  "src_hash": "4bea441e9ef9",
+  "ko": "^4ca도쿄부 사족　묘진 야히코^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15b7c": {
+  "src_hash": "aa2d06588075",
+  "ko": "^4ca네즈와 그 부하들^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15b94": {
+  "src_hash": "54498b0b0673",
+  "ko": "^4ca싸움 일등　사가라 사노스케^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15bb0": {
+  "src_hash": "5726200330a3",
+  "ko": "^4ca오니와반슈 두령　시노모리 아오시^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15bd0": {
+  "src_hash": "e0c93ffe63a6",
+  "ko": "^4ca고집쟁이^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15be4": {
+  "src_hash": "534204987ac5",
+  "ko": "^4ca후지타 고로 즉　사이토 하지메^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15c00": {
+  "src_hash": "71a76783ea8e",
+  "ko": "^4ca켄신조 등장^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15c14": {
+  "src_hash": "139d038fdf30",
+  "ko": "^4ca악 한 글자^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15c24": {
+  "src_hash": "2e611b92320e",
+  "ko": "^4ca최강이라는 두 글자를 위해^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15c44": {
+  "src_hash": "8e4633529a0d",
+  "ko": "^4ca빼놓을 수 없는 것^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15c5c": {
+  "src_hash": "ca5ebc3a5e55",
+  "ko": "^4ca신선조 삼번대 조장　사이토 하지메^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15c7c": {
+  "src_hash": "03f9a53294d0",
+  "ko": "^4ca이다텐의 일격^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15c90": {
+  "src_hash": "5fa05537a985",
+  "ko": "^4ca길상천의 화신^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15ca4": {
+  "src_hash": "2c0e9fbdd45e",
+  "ko": "^4ca타이틀１７^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15cb8": {
+  "src_hash": "007913410a60",
+  "ko": "^4ca타이틀１８^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15ccc": {
+  "src_hash": "d172a5f94bee",
+  "ko": "^4ca타이틀１９^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15ce0": {
+  "src_hash": "afa4a125ac9c",
+  "ko": "^4ca카미야가 식객　히무라 켄신^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15cfc": {
+  "src_hash": "d46af4394722",
+  "ko": "^4ca타이틀２１^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15d10": {
+  "src_hash": "3b8e361199ff",
+  "ko": "^4ca타이틀２２^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15d24": {
+  "src_hash": "e17fd2ba6bdc",
+  "ko": "^4ca타이틀２３^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15d38": {
+  "src_hash": "b682c20eea88",
+  "ko": "^4ca타이틀２４^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15d4c": {
+  "src_hash": "eed91763d66f",
+  "ko": "^4ca타이틀２５^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15d60": {
+  "src_hash": "afd1c014c4a3",
+  "ko": "^4ca타이틀２６^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15d74": {
+  "src_hash": "1a704b8693e9",
+  "ko": "^4ca타이틀２７^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15d88": {
+  "src_hash": "1d80df78f181",
+  "ko": "^4ca타이틀２８^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15d9c": {
+  "src_hash": "1eba4700e052",
+  "ko": "^4ca타이틀２９^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15db0": {
+  "src_hash": "6e220b3c7800",
+  "ko": "^4ca타이틀３０^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15dc4": {
+  "src_hash": "9acfdcd238c1",
+  "ko": "^4ca타이틀３１^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15dd8": {
+  "src_hash": "0bb9ce0c05e5",
+  "ko": "^4ca타이틀３２^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15dec": {
+  "src_hash": "a845c6f54baa",
+  "ko": "^4ca타이틀３３^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15e00": {
+  "src_hash": "dac40c5b916a",
+  "ko": "^4ca타이틀３４^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15e14": {
+  "src_hash": "8c72c2341926",
+  "ko": "^4ca타이틀３５^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15e28": {
+  "src_hash": "1939086a320b",
+  "ko": "^4ca타이틀３６^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15e3c": {
+  "src_hash": "2fe27a1b58be",
+  "ko": "^4ca타이틀３７^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15e50": {
+  "src_hash": "2eaa2ab443c7",
+  "ko": "^4ca타이틀３８^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15e64": {
+  "src_hash": "a81bae2c99eb",
+  "ko": "^4ca타이틀３９^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15e78": {
+  "src_hash": "dada087e532f",
+  "ko": "^4ca타이틀４０^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15e8c": {
+  "src_hash": "e478ff381fc9",
+  "ko": "^4ca타이틀４１^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15ea0": {
+  "src_hash": "0242ecec62d9",
+  "ko": "^4ca시노모리 아오시　소태도 이도류^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15ec0": {
+  "src_hash": "18345e95fe5a",
+  "ko": "^4ca타이틀４３^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15ed4": {
+  "src_hash": "f338f03aa63a",
+  "ko": "^4ca타이틀４４^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15ee8": {
+  "src_hash": "62f62a97e2a3",
+  "ko": "^4ca타이틀４５^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15efc": {
+  "src_hash": "ead8032e031b",
+  "ko": "^4ca타이틀４６^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15f10": {
+  "src_hash": "d585ebebea11",
+  "ko": "^4ca타이틀４７^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15f24": {
+  "src_hash": "28cee78396b0",
+  "ko": "^4ca타이틀４８^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15f38": {
+  "src_hash": "62ad8eb12ea3",
+  "ko": "^4ca타이틀４９^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15f4c": {
+  "src_hash": "77beb37d4ab7",
+  "ko": "^4ca타이틀５０^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15f60": {
+  "src_hash": "9f4166460190",
+  "ko": "^4ca타이틀５１^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15f74": {
+  "src_hash": "32c97a0c5c3c",
+  "ko": "^4ca타이틀５２^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15f88": {
+  "src_hash": "fd145c4e45da",
+  "ko": "^4준비！^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15f94": {
+  "src_hash": "6d2c28e270ce",
+  "ko": "^4c6시작！^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15fa4": {
+  "src_hash": "c72e01ff903d",
+  "ko": "^4남은c3N;N;N;N;c7　초^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15fc0": {
+  "src_hash": "3009fef3ef9a",
+  "ko": "^4c7계속한다c9포기한다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:15fe0": {
+  "src_hash": "442150b88f00",
+  "ko": "^4c9계속한다c7포기한다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16000": {
+  "src_hash": "7975d8b7dc6e",
+  "ko": "^4c6시간 끝！^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16014": {
+  "src_hash": "db04863c26c1",
+  "ko": "^4ca그림책c7퍼즐c7끝낸다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16034": {
+  "src_hash": "8e15f6a9c45b",
+  "ko": "^4c7그림책ca퍼즐c7끝낸다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16054": {
+  "src_hash": "12149ddd58f1",
+  "ko": "^4c7그림책c7퍼즐ca끝낸다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16074": {
+  "src_hash": "e749dbf8840a",
+  "ko": "^4ca히무라 켄신・１^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16088": {
+  "src_hash": "a4069015c6f6",
+  "ko": "^4ca히무라 켄신・２^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:1609c": {
+  "src_hash": "b2e5e861a492",
+  "ko": "^4ca인키리 발도재^s",
+  "status": "draft",
+  "note": "NEW NAME: 人斬り抜刀斎=인키리 발도재"
+ },
+ "ZROUP95:160b0": {
+  "src_hash": "e6e2efafa47c",
+  "ko": "^4ca카미야 카오루・１^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:160c4": {
+  "src_hash": "0f9bb3e35f8f",
+  "ko": "^4ca카미야 카오루・２^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:160d8": {
+  "src_hash": "12861153de6f",
+  "ko": "^4ca카미야 카오루・３^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:160ec": {
+  "src_hash": "74114e5a9a1d",
+  "ko": "^4ca묘진 야히코・１^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16100": {
+  "src_hash": "4937dc749d9a",
+  "ko": "^4ca묘진 야히코・２^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16114": {
+  "src_hash": "9a2e9fd9e23f",
+  "ko": "^4ca묘진 야히코・３^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16128": {
+  "src_hash": "6edfdb245ac2",
+  "ko": "^4ca사가라 사노스케・１^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16140": {
+  "src_hash": "c156af8480ca",
+  "ko": "^4ca사가라 사노스케・２^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16158": {
+  "src_hash": "6e11d9d6344c",
+  "ko": "^4ca싸움꾼 잔자^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:1616c": {
+  "src_hash": "8f8408851798",
+  "ko": "^4ca사이토 하지메・１^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16180": {
+  "src_hash": "27126a826eb5",
+  "ko": "^4ca사이토 하지메・２^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16194": {
+  "src_hash": "84288a6dd728",
+  "ko": "^4ca사이토 하지메・３^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:161a8": {
+  "src_hash": "c139000dedf0",
+  "ko": "^4ca시노모리 아오시・１^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:161c0": {
+  "src_hash": "d28bd064ba4a",
+  "ko": "^4ca시노모리 아오시・２^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:161d8": {
+  "src_hash": "427c4a663a29",
+  "ko": "^4ca시노모리 아오시・３^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:161f0": {
+  "src_hash": "8d92480a4737",
+  "ko": "^4ca세키하라 타에^s",
+  "status": "draft",
+  "note": "NEW NAME: 関原妙=세키하라 타에"
+ },
+ "ZROUP95:16200": {
+  "src_hash": "e6412ce1570b",
+  "ko": "^4ca산조 츠바메^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16210": {
+  "src_hash": "d6b6cfdb9fe7",
+  "ko": "^4ca타카니 메구미^s",
+  "status": "draft",
+  "note": "NEW NAME: 高荷恵=타카니 메구미"
+ },
+ "ZROUP95:16220": {
+  "src_hash": "467d4b8828f3",
+  "ko": "^4ca마키마치 미사오^s",
+  "status": "draft",
+  "note": "NEW NAME: 巻町操=마키마치 미사오"
+ },
+ "ZROUP95:16230": {
+  "src_hash": "9158a4a5d6eb",
+  "ko": "^4ca히코 세이주로^s",
+  "status": "draft",
+  "note": "NEW NAME: 比古清十郎=히코 세이주로"
+ },
+ "ZROUP95:16244": {
+  "src_hash": "a4d817d83d71",
+  "ko": "^4ca천검의 소지로^s",
+  "status": "draft",
+  "note": "NEW NAME: 天剣=천검"
+ },
+ "ZROUP95:16258": {
+  "src_hash": "ebfbc3200a8b",
+  "ko": "^4ca명왕의 안지^s",
+  "status": "draft",
+  "note": "NEW NAME: 明王=명왕"
+ },
+ "ZROUP95:1626c": {
+  "src_hash": "86503816771f",
+  "ko": "^4ca사가라 소조^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:1627c": {
+  "src_hash": "11998c4872c4",
+  "ko": "^4ca히지카타 토시조^s",
+  "status": "draft",
+  "note": "NEW NAME: 土方歳三=히지카타 토시조"
+ },
+ "ZROUP95:1628c": {
+  "src_hash": "598069d64d1e",
+  "ko": "^4ca오키타 소지^s",
+  "status": "draft",
+  "note": "NEW NAME: 沖田総司=오키타 소지"
+ },
+ "ZROUP95:1629c": {
+  "src_hash": "b1b479e76c97",
+  "ko": "^4ca이바 하치로^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:162ac": {
+  "src_hash": "478f8eed7f19",
+  "ko": "^4ca사나다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:162b8": {
+  "src_hash": "eb42e35cf299",
+  "ko": "^4ca모치즈키^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:162c4": {
+  "src_hash": "10988b8afdbf",
+  "ko": "^4ca사이조^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:162d0": {
+  "src_hash": "85796deab75e",
+  "ko": "^4ca유리^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:162dc": {
+  "src_hash": "d02f14811a72",
+  "ko": "^4ca운노^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:162e8": {
+  "src_hash": "e378b11471c2",
+  "ko": "^4ca코키치^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:162f4": {
+  "src_hash": "36015ddc0c68",
+  "ko": "^4ca세이카이^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16300": {
+  "src_hash": "9c67a59dc352",
+  "ko": "^4ca이사^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:1630c": {
+  "src_hash": "ed7e7a4f533d",
+  "ko": "^4ca카케이^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16318": {
+  "src_hash": "4af0f0011cb2",
+  "ko": "^4ca아나야마^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16324": {
+  "src_hash": "e3813c5154eb",
+  "ko": "^4ca네즈^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16330": {
+  "src_hash": "ca0394442e1b",
+  "ko": "^4ca작화・와츠키 노부히로^s",
+  "status": "draft",
+  "note": "CREDIT"
+ },
+ "ZROUP95:16348": {
+  "src_hash": "445957d4bb2d",
+  "ko": "^c^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16350": {
+  "src_hash": "e063e442ae11",
+  "ko": "^4c7　N0N1：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16360": {
+  "src_hash": "5ab259abeac0",
+  "ko": "^4c7　N0N2：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16370": {
+  "src_hash": "34d49d38bbc0",
+  "ko": "^4c7　N0N3：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16380": {
+  "src_hash": "32b2def6a68d",
+  "ko": "^4c7　N0N4：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16390": {
+  "src_hash": "0c6e211d7158",
+  "ko": "^4c7　N0N5：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:163a0": {
+  "src_hash": "0f7592d52490",
+  "ko": "^4c7　N0N6：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:163b0": {
+  "src_hash": "53682398fd85",
+  "ko": "^4c7　N0N7：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:163c0": {
+  "src_hash": "2ca45e8f6458",
+  "ko": "^4c7　N0N8：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:163d0": {
+  "src_hash": "f4a9d6df422f",
+  "ko": "^4c7　N0N9：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:163e0": {
+  "src_hash": "86a9480b8540",
+  "ko": "^4c7　N1N0：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:163f0": {
+  "src_hash": "1d1b668e9c00",
+  "ko": "^4c7　N1N1：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16400": {
+  "src_hash": "0572f1d6952d",
+  "ko": "^4c7　N1N2：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16410": {
+  "src_hash": "eb95f7506a76",
+  "ko": "^4c7　N1N3：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16420": {
+  "src_hash": "66657428f34c",
+  "ko": "^4c7　N1N4：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16430": {
+  "src_hash": "053d496543b6",
+  "ko": "^4c7　N1N5：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16440": {
+  "src_hash": "c30d17ae89ff",
+  "ko": "^4c7　N1N6：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16450": {
+  "src_hash": "3eb0f913a40c",
+  "ko": "^4c7　N1N7：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16460": {
+  "src_hash": "0bd90df038f5",
+  "ko": "^4c7　N1N8：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16470": {
+  "src_hash": "d9257d9df1be",
+  "ko": "^4c7　N1N9：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16480": {
+  "src_hash": "171020aedb55",
+  "ko": "^4c7　N2N0：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16490": {
+  "src_hash": "4c2c3fe72b89",
+  "ko": "^4c7　N2N1：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:164a0": {
+  "src_hash": "7c3712aa3c9a",
+  "ko": "^4c7　N2N2：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:164b0": {
+  "src_hash": "472fd95190c6",
+  "ko": "^4c7　N2N3：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:164c0": {
+  "src_hash": "7dc2c0b19e82",
+  "ko": "^4c7　N2N4：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:164d0": {
+  "src_hash": "e55714403556",
+  "ko": "^4c7　N2N5：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:164e0": {
+  "src_hash": "d4f78e999e02",
+  "ko": "^4c7　N2N6：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:164f0": {
+  "src_hash": "7e51f2dc5219",
+  "ko": "^4c7　N2N7：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16500": {
+  "src_hash": "29fff30e5619",
+  "ko": "^4c7　N2N8：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16510": {
+  "src_hash": "b0da39a081c2",
+  "ko": "^4c7　N2N9：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16520": {
+  "src_hash": "b58790bdc369",
+  "ko": "^4c7　N3N0：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16530": {
+  "src_hash": "da69db87bccb",
+  "ko": "^4c7　N3N1：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16540": {
+  "src_hash": "fa3cc4d43c79",
+  "ko": "^4c7　N3N2：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16550": {
+  "src_hash": "5300ce12c0d7",
+  "ko": "^4c7　N3N3：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16560": {
+  "src_hash": "471b9832676e",
+  "ko": "^4c7　N3N4：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16570": {
+  "src_hash": "f714f7b54d8a",
+  "ko": "^4c7　N3N5：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16580": {
+  "src_hash": "5afdf3f68886",
+  "ko": "^4c7　N3N6：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:16590": {
+  "src_hash": "5d4a67b25b52",
+  "ko": "^4c7　N3N7：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:165a0": {
+  "src_hash": "01aa5e27ba05",
+  "ko": "^4c7　N3N8：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:165b0": {
+  "src_hash": "d0bd1b264486",
+  "ko": "^4c7　N3N9：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:165c0": {
+  "src_hash": "2e4531bd3a5b",
+  "ko": "^4c7　N4N0：^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP95:165d0": {
+  "src_hash": "031d4a1e8390",
+  "ko": "^4c7　N4N1：^s",
+  "status": "draft",
+  "note": ""
+ }
+}

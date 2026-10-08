@@ -307,10 +307,10 @@
   },
   {
    "ja": "アラン",
-   "ko": "알랭",
+   "ko": "앨런",
    "kind": "game",
-   "status": "check",
-   "note": "프랑스(Alain)/영어(Alan) 출신을 대본 문맥으로 확인 후 결정"
+   "status": "candidate",
+   "note": "ZROUP44: 페리의 손자, 영어를 섞어 말함 → 영어 이름 Alan"
   },
   {
    "ja": "藍",
@@ -4084,6 +4084,895 @@
    "kind": "game",
    "status": "candidate",
    "note": "ZROUP45 배·인물 이름. 문맥 확인"
+  },
+  {
+   "ja": "亮平",
+   "ko": "료헤이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "朋美",
+   "ko": "토모미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "圭子",
+   "ko": "케이코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "穂波",
+   "ko": "호나미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "富久恵",
+   "ko": "후쿠에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "賢志",
+   "ko": "켄지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "春樹",
+   "ko": "하루키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "丈太郎",
+   "ko": "조타로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "大吾",
+   "ko": "다이고",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "涼二",
+   "ko": "료지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "広樹",
+   "ko": "히로키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "浩志",
+   "ko": "히로시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "史郎",
+   "ko": "시로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "将和",
+   "ko": "마사카즈",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "勇",
+   "ko": "이사무",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "満治",
+   "ko": "미츠지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "俊則",
+   "ko": "토시노리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "美由紀",
+   "ko": "미유키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "つかさ",
+   "ko": "츠카사",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "善助",
+   "ko": "젠스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "三四郎",
+   "ko": "산시로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "カイ",
+   "ko": "카이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "沙羅",
+   "ko": "사라",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "冬道",
+   "ko": "후유미치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "さやか",
+   "ko": "사야카",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "一平",
+   "ko": "잇페이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP43"
+  },
+  {
+   "ja": "大和",
+   "ko": "야마토",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "小太",
+   "ko": "코타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "篠",
+   "ko": "시노",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "ジャネット",
+   "ko": "자넷",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "麻子",
+   "ko": "아사코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "甚助",
+   "ko": "진스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "寅次朗",
+   "ko": "토라지로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "おタツ",
+   "ko": "오타츠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "ジェーン",
+   "ko": "제인",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "ロバート",
+   "ko": "로버트",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "エリック",
+   "ko": "에릭",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "禅之丞",
+   "ko": "젠노조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "満紀子",
+   "ko": "마키코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "グレッグ",
+   "ko": "그렉",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "ロザンナ",
+   "ko": "로잔나",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "夢子",
+   "ko": "유메코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "忠也",
+   "ko": "타다야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "シンシア",
+   "ko": "신시아",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "歌丸",
+   "ko": "우타마루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "彦十郎",
+   "ko": "히코주로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "晴彦",
+   "ko": "하루히코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "芳丈",
+   "ko": "요시타케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "蔵前",
+   "ko": "쿠라마에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "克子",
+   "ko": "카츠코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "ウィリアム",
+   "ko": "윌리엄",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "功男",
+   "ko": "이사오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "デイブ",
+   "ko": "데이브",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "直哉",
+   "ko": "나오야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "隆夫",
+   "ko": "타카오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "浩之助",
+   "ko": "코노스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "かなめ",
+   "ko": "카나메",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "サム",
+   "ko": "샘",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "惣一",
+   "ko": "소이치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "盤内",
+   "ko": "반나이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "トム",
+   "ko": "톰",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "満次",
+   "ko": "미츠지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "信也",
+   "ko": "신야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "琢磨",
+   "ko": "타쿠마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "ミック",
+   "ko": "믹",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "ジョディ",
+   "ko": "조디",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "聡次",
+   "ko": "소지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "お夏",
+   "ko": "오나츠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "紋兵衛",
+   "ko": "몬베에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "桃次郎",
+   "ko": "모모지로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "由衣",
+   "ko": "유이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "道雄",
+   "ko": "미치오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "定則",
+   "ko": "사다노리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "みーちゃん",
+   "ko": "미짱",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "コマチ",
+   "ko": "코마치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP44"
+  },
+  {
+   "ja": "一角鮫",
+   "ko": "잇카쿠자메 /",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP45"
+  },
+  {
+   "ja": "朱羅丸",
+   "ko": "슈라마루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP45"
+  },
+  {
+   "ja": "喜代",
+   "ko": "키요",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP45"
+  },
+  {
+   "ja": "信慈",
+   "ko": "신지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP45"
+  },
+  {
+   "ja": "喜成",
+   "ko": "요시나리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP45"
+  },
+  {
+   "ja": "鉱一",
+   "ko": "코이치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP45"
+  },
+  {
+   "ja": "音実",
+   "ko": "오토미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP45"
+  },
+  {
+   "ja": "賢太郎",
+   "ko": "켄타로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP45"
+  },
+  {
+   "ja": "耕作",
+   "ko": "코사쿠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP45"
+  },
+  {
+   "ja": "景",
+   "ko": "케이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP45"
+  },
+  {
+   "ja": "良介",
+   "ko": "료스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP46"
+  },
+  {
+   "ja": "徳川",
+   "ko": "토쿠가와",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP49"
+  },
+  {
+   "ja": "双龍閃",
+   "ko": "쌍룡섬",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP49"
+  },
+  {
+   "ja": "人斬り",
+   "ko": "인키리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP49"
+  },
+  {
+   "ja": "人斬り抜刀斎",
+   "ko": "인키리 발도재",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP95"
+  },
+  {
+   "ja": "関原妙",
+   "ko": "세키하라 타에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP95"
+  },
+  {
+   "ja": "高荷恵",
+   "ko": "타카니 메구미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP95"
+  },
+  {
+   "ja": "巻町操",
+   "ko": "마키마치 미사오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP95"
+  },
+  {
+   "ja": "比古清十郎",
+   "ko": "히코 세이주로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP95"
+  },
+  {
+   "ja": "天剣",
+   "ko": "천검",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP95"
+  },
+  {
+   "ja": "明王",
+   "ko": "명왕",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP95"
+  },
+  {
+   "ja": "土方歳三",
+   "ko": "히지카타 토시조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP95"
+  },
+  {
+   "ja": "沖田総司",
+   "ko": "오키타 소지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP95"
+  },
+  {
+   "ja": "つぼ振り",
+   "ko": "주사위꾼",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP96"
+  },
+  {
+   "ja": "和紙ノ花",
+   "ko": "와시노하나",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "ふすま海",
+   "ko": "후스마우미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "墨ノ河",
+   "ko": "스미노카와",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "鍋牛",
+   "ko": "나베우시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "赤松",
+   "ko": "아카마츠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "鬼雷十",
+   "ko": "오니라이주",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "まんじ菱",
+   "ko": "만지비시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "幹王",
+   "ko": "미키오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "来光",
+   "ko": "라이코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "飛天錦",
+   "ko": "히텐니시키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "左之ヶ島",
+   "ko": "사노가시마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "明神山",
+   "ko": "묘진야마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "豆狸",
+   "ko": "마메다누키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "藤すだれ",
+   "ko": "후지스다레",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "太刀無双",
+   "ko": "타치무소",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "西郷山",
+   "ko": "사이고야마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "竜馬",
+   "ko": "료마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "木戸ヶ岳",
+   "ko": "키도가타케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "大熊",
+   "ko": "오쿠마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "松雲",
+   "ko": "쇼운",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "舟勝海",
+   "ko": "후나카츠우미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "勇岳",
+   "ko": "이사미다케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "土方城",
+   "ko": "히지카타조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "華沖田",
+   "ko": "하나오키타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "魁島田",
+   "ko": "카이시마다",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "鬼ヶ島",
+   "ko": "오니가시마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "浜風",
+   "ko": "하마카제",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
+  },
+  {
+   "ja": "煉釛",
+   "ko": "렌고쿠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP97"
   }
  ]
 }

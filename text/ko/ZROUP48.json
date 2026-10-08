@@ -1,0 +1,44 @@
+{
+ "ZROUP48:6140": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP48:6158": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP48:6170": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP48:6188": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP48:61a0": {
+  "src_hash": "9ee4a5774196",
+  "ko": "^4c7포기한다^!c9처음부터^!c9계속한다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP48:61c8": {
+  "src_hash": "bc8d10343e25",
+  "ko": "^4c9포기한다^!c7처음부터^!c9계속한다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP48:61f0": {
+  "src_hash": "ad99fa31b065",
+  "ko": "^4c9포기한다^!c9처음부터^!c7계속한다^s",
+  "status": "draft",
+  "note": ""
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "ZROUP96:20cf0": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20d08": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20d20": {
+  "src_hash": "bec90a7e293f",
+  "ko": "판에 끼시겠습니까？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20d38": {
+  "src_hash": "523210a7316f",
+  "ko": "다음 판 들어갑니다．되겠습니까？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20d60": {
+  "src_hash": "f4ae5b9434eb",
+  "ko": "^4c7예^cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20d78": {
+  "src_hash": "beabe27bd3bc",
+  "ko": "^4c9예^cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20d90": {
+  "src_hash": "9238388a0c67",
+  "ko": "어느 쪽에 거시겠습니까？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20da8": {
+  "src_hash": "13722ae65156",
+  "ko": "^4c7짝c9홀^s",
+  "status": "draft",
+  "note": "짝홀 노름: 짝수=짝, 홀수=홀"
+ },
+ "ZROUP96:20db8": {
+  "src_hash": "88e84a6327e1",
+  "ko": "^4c9짝c7홀^s",
+  "status": "draft",
+  "note": "짝홀 노름: 짝수=짝, 홀수=홀"
+ },
+ "ZROUP96:20dc8": {
+  "src_hash": "2679941b3c8b",
+  "ko": "얼마를 거시겠습니까？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20de0": {
+  "src_hash": "9380a4ecb3fc",
+  "ko": "손님．^c돈이 없으면 썩 꺼지쇼！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20e10": {
+  "src_hash": "2306c24ebc44",
+  "ko": "^4판돈　c7N;N;N;N;c7전^4밑천c7N;N;N;N;N;N;c7전^s",
+  "status": "draft",
+  "note": "판돈·밑천: 원문과 같은 두 글자로 숫자 자리 유지"
+ },
+ "ZROUP96:20e44": {
+  "src_hash": "b69384cdb8b1",
+  "ko": "오늘 판은 최저 c6N;c7전，최고 c6N;N;c7전으로 하겠습니다요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20e80": {
+  "src_hash": "713e3a864125",
+  "ko": "여러분，오늘은 경기가 좋으신 모양이군요．최저 c6N;N;N;c7，최고 c6N;N;N;N;c7까지 받겠습니다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20ed8": {
+  "src_hash": "f4589aa042aa",
+  "ko": "^4짝：N;N;N;N;전^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20eec": {
+  "src_hash": "9fd3249d3682",
+  "ko": "^4홀：N;N;N;N;전^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20f00": {
+  "src_hash": "15d1ef0b6036",
+  "ko": "^4c6상c7：＋N;N;N;N;c6하c7：－N;N;N;N;c6좌c7：＋N;N;N;N;c6우c7：－N;N;N;N;c4○c7：　결정^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20f5c": {
+  "src_hash": "90bfe3478298",
+  "ko": "짝에 c6N;N;N;N;c7전，되겠습니까？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20f84": {
+  "src_hash": "5fa0c33feced",
+  "ko": "홀에 c6N;N;N;N;c7전，되겠습니까？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20fac": {
+  "src_hash": "f78ecbc2dd10",
+  "ko": "노름꾼^c　그럼，승부！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20fd0": {
+  "src_hash": "9f09ade777f7",
+  "ko": "사노스케^c　젠장，운이 없군！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:20ff4": {
+  "src_hash": "d6b6ee8a9eaa",
+  "ko": "사노스케^c　젠장，이게 어떻게 된 거야！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:21020": {
+  "src_hash": "40c59b51d2b8",
+  "ko": "사노스케^c　이，이럴 리가 없는데……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:21048": {
+  "src_hash": "4a360466d4d9",
+  "ko": "사노스케^c　큭……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:21060": {
+  "src_hash": "b8806c2d222d",
+  "ko": "노름꾼^c　자，계속하자고！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:21080": {
+  "src_hash": "a385c474054f",
+  "ko": "노름꾼^c　슬슬，항복하시지？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:210a4": {
+  "src_hash": "9222bcf6015e",
+  "ko": "노름꾼^c　형씨，입만 살았구먼？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:210d4": {
+  "src_hash": "ad5907ed2271",
+  "ko": "노름꾼^c　상대가 안 되는군．^c　당신，재능이 없어．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:2110c": {
+  "src_hash": "179a62e5b5fe",
+  "ko": "노름꾼^c　손님 나가신다．아 참，^c　잃은 돈은 확실히 갚아야지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:21160": {
+  "src_hash": "89a0fa715e3b",
+  "ko": "주사위꾼^c　꺄악！^c",
+  "status": "draft",
+  "note": "NEW NAME: つぼ振り=주사위꾼 (역할 화자)"
+ },
+ "ZROUP96:21178": {
+  "src_hash": "8fd424844d1d",
+  "ko": "노름꾼^c　읏！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:21190": {
+  "src_hash": "04a58db441fd",
+  "ko": "사노스케^c　사기 주사위！？^c　이 자식，장난질을 쳐．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:211cc": {
+  "src_hash": "426eda0823e3",
+  "ko": "노름꾼^c　히，히이～～～～익！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:211f0": {
+  "src_hash": "3c5514b6a015",
+  "ko": "사노스케^c　쳇，^c　하마터면 속을 뻔했군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:21224": {
+  "src_hash": "ace19d249d61",
+  "ko": "사노스케^c　……그나저나 용케 알아챘네，^c　^N．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:21258": {
+  "src_hash": "8aa7cf2e3f84",
+  "ko": "사노스케^c　다시 봤다．네가 없었으면，^c　큰일 날 뻔했어．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:212a0": {
+  "src_hash": "09312309b3ef",
+  "ko": "사노스케^c　너를 데려온 게，^c　정답이었는지도．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:212d8": {
+  "src_hash": "2ce8a6c4dda6",
+  "ko": "사노스케^c　솔직히 말하면，좀 더 빨리^c　알려 줬으면 했지만 말이야．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP96:2131c": {
+  "src_hash": "11b79db0b369",
+  "ko": "사노스케^c　그럼，갈까．",
+  "status": "draft",
+  "note": ""
+ }
+}

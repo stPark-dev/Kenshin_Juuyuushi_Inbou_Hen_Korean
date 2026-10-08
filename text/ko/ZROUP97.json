@@ -1,0 +1,440 @@
+{
+ "ZROUP97:2689c": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:268b4": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:268cc": {
+  "src_hash": "14f41b8cda3b",
+  "ko": "^4　　토라마루^c계급 마쿠시타^c속도：꾸물꾸물무게：사뿐^c안정：비틀비틀^s",
+  "status": "draft",
+  "note": "창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26914": {
+  "src_hash": "1dbf6c5f720d",
+  "ko": "^4　　와시노하나계급 마쿠시타^c속도：꾸물꾸물무게：묵직^c안정：흐물흐물^s",
+  "status": "draft",
+  "note": "NEW NAME: 和紙ノ花=와시노하나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26960": {
+  "src_hash": "ff434457a732",
+  "ko": "^4　　후스마우미계급 마쿠시타^c속도：그럭저럭무게：훨훨^c안정：비틀비틀^s",
+  "status": "draft",
+  "note": "NEW NAME: ふすま海=후스마우미; 독음 추정(잠정); 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:269ac": {
+  "src_hash": "7e50bcf04bd2",
+  "ko": "^4　스미노카와^c계급 마쿠시타^c속도：그럭저럭무게：사뿐^c안정：흐물흐물^s",
+  "status": "draft",
+  "note": "NEW NAME: 墨ノ河=스미노카와; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:269f8": {
+  "src_hash": "15a149f4ac2a",
+  "ko": "^4　　나베우시^c계급 마쿠시타^c속도：쏜살같이무게：훨훨^c안정：흐물흐물^s",
+  "status": "draft",
+  "note": "NEW NAME: 鍋牛=나베우시; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26a40": {
+  "src_hash": "4fcdb657c300",
+  "ko": "^4　　아카마츠^c계급 주료^c속도：꾸물꾸물무게：사뿐^c안정：듬직함^s",
+  "status": "draft",
+  "note": "NEW NAME: 赤松=아카마츠; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26a88": {
+  "src_hash": "c5e48b56da08",
+  "ko": "^4　오니라이주^c계급 주료^c속도：꾸물꾸물무게：묵직^c안정：비틀비틀^s",
+  "status": "draft",
+  "note": "NEW NAME: 鬼雷十=오니라이주; 독음 추정(잠정); 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26ad4": {
+  "src_hash": "85d4d0433e4b",
+  "ko": "^4　　　만지비시계급 주료^c속도：그럭저럭무게：훨훨^c안정：듬직함^s",
+  "status": "draft",
+  "note": "NEW NAME: まんじ菱=만지비시; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26b20": {
+  "src_hash": "5efb5841e416",
+  "ko": "^4　　　미키오^c계급 주료^c속도：그럭저럭무게：사뿐^c안정：비틀비틀^s",
+  "status": "draft",
+  "note": "NEW NAME: 幹王=미키오; 독음 추정(잠정); 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26b68": {
+  "src_hash": "87455e76ef92",
+  "ko": "^4　　　라이코^c계급 주료^c속도：그럭저럭무게：묵직^c안정：흐물흐물^s",
+  "status": "draft",
+  "note": "NEW NAME: 来光=라이코; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26bb0": {
+  "src_hash": "c3946c47ca09",
+  "ko": "^4　히텐니시키^c계급 히라마쿠^c속도：느릿느릿무게：묵직^c안정：끄떡없음^s",
+  "status": "draft",
+  "note": "NEW NAME: 飛天錦=히텐니시키; PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26bfc": {
+  "src_hash": "f7c51f92dbe9",
+  "ko": "^4　　사노가시마계급 히라마쿠^c속도：느릿느릿무게：육중^c안정：듬직함^s",
+  "status": "draft",
+  "note": "NEW NAME: 左之ヶ島=사노가시마; PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26c48": {
+  "src_hash": "85ff240b5958",
+  "ko": "^4　　묘진야마^c계급 히라마쿠^c속도：그럭저럭무게：훨훨^c안정：끄떡없음^s",
+  "status": "draft",
+  "note": "NEW NAME: 明神山=묘진야마; PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26c94": {
+  "src_hash": "9a4b79a6b01c",
+  "ko": "^4　마메다누키^c계급 히라마쿠^c속도：그럭저럭무게：육중^c안정：흐물흐물^s",
+  "status": "draft",
+  "note": "NEW NAME: 豆狸=마메다누키; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26cdc": {
+  "src_hash": "ad663f3dedcb",
+  "ko": "^4　　후지스다레계급 히라마쿠^c속도：쏜살같이무게：훨훨^c안정：듬직함^s",
+  "status": "draft",
+  "note": "NEW NAME: 藤すだれ=후지스다레; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26d28": {
+  "src_hash": "216d65beb7f6",
+  "ko": "^4　　　타치무소계급 히라마쿠^c속도：쏜살같이무게：묵직^c안정：흐물흐물^s",
+  "status": "draft",
+  "note": "NEW NAME: 太刀無双=타치무소; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26d74": {
+  "src_hash": "96b03394fcc9",
+  "ko": "^4　사이고야마^c계급 코무스비^c속도：꾸물꾸물무게：묵직^c안정：끄떡없음^s",
+  "status": "draft",
+  "note": "NEW NAME: 西郷山=사이고야마; PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26dc0": {
+  "src_hash": "25e9a200482a",
+  "ko": "^4　　　료마^c계급 코무스비^c속도：그럭저럭무게：사뿐^c안정：끄떡없음^s",
+  "status": "draft",
+  "note": "NEW NAME: 竜馬=료마; PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26e08": {
+  "src_hash": "22025f8f4af5",
+  "ko": "^4　　키도가타케계급 코무스비^c속도：그럭저럭무게：묵직^c안정：듬직함^s",
+  "status": "draft",
+  "note": "NEW NAME: 木戸ヶ岳=키도가타케; PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26e54": {
+  "src_hash": "0a84aea2e37c",
+  "ko": "^4　　　오쿠마^c계급 코무스비^c속도：그럭저럭무게：육중^c안정：비틀비틀^s",
+  "status": "draft",
+  "note": "NEW NAME: 大熊=오쿠마; PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26e9c": {
+  "src_hash": "161c6d0187b4",
+  "ko": "^4　　　쇼운^c계급 코무스비^c속도：쏜살같이무게：사뿐^c안정：듬직함^s",
+  "status": "draft",
+  "note": "NEW NAME: 松雲=쇼운; 독음 추정(잠정); PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26ee4": {
+  "src_hash": "194fd2603773",
+  "ko": "^4후나카츠우미^c계급 코무스비^c속도：쏜살같이무게：묵직^c안정：비틀비틀^s",
+  "status": "draft",
+  "note": "NEW NAME: 舟勝海=후나카츠우미; 독음 추정(잠정); PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26f30": {
+  "src_hash": "6fe1a2f0a564",
+  "ko": "^4　이사미다케^c계급 세키와케^c속도：꾸물꾸물무게：육중^c안정：끄떡없음^s",
+  "status": "draft",
+  "note": "NEW NAME: 勇岳=이사미다케; 독음 추정(잠정); PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26f78": {
+  "src_hash": "c4a36653f6aa",
+  "ko": "^4　히지카타조^c계급 세키와케^c속도：그럭저럭무게：육중^c안정：듬직함^s",
+  "status": "draft",
+  "note": "NEW NAME: 土方城=히지카타조; PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:26fc4": {
+  "src_hash": "c9e04a85404a",
+  "ko": "^4　하나오키타^c계급 세키와케^c속도：쏜살같이무게：사뿐^c안정：끄떡없음^s",
+  "status": "draft",
+  "note": "NEW NAME: 華沖田=하나오키타; PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:27010": {
+  "src_hash": "b6ed24d8eb54",
+  "ko": "^4　카이시마다^c계급 세키와케^c속도：쏜살같이무게：육중^c안정：비틀비틀^s",
+  "status": "draft",
+  "note": "NEW NAME: 魁島田=카이시마다; PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:2705c": {
+  "src_hash": "610897c78b6c",
+  "ko": "^4　　　센료산^c계급 오제키^c속도：그럭저럭무게：육중^c안정：끄떡없음^s",
+  "status": "draft",
+  "note": "창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:270a8": {
+  "src_hash": "27cdd1fd03a2",
+  "ko": "^4　오니가시마^c계급 오제키^c속도：쏜살같이무게：묵직^c안정：끄떡없음^s",
+  "status": "draft",
+  "note": "NEW NAME: 鬼ヶ島=오니가시마; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:270f4": {
+  "src_hash": "164698240e21",
+  "ko": "^4　　하마카제^c계급 오제키^c속도：쏜살같이무게：육중^c안정：듬직함^s",
+  "status": "draft",
+  "note": "NEW NAME: 浜風=하마카제; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:2713c": {
+  "src_hash": "caf8625cf4b6",
+  "ko": "^4　　　렌고쿠^c계급 요코즈나^c속도：쏜살같이무게：육중^c안정：끄떡없음^s",
+  "status": "draft",
+  "note": "NEW NAME: 煉釛=렌고쿠; 독음 추정(잠정); PUN-PROVISIONAL 인물 이름을 비튼 시코나; 창 폭 7글자: ^c 앞 줄은 7글자 미만, ^c 없는 이름 줄은 정확히 7글자로 맞춰 자동 줄바꿈 재현. 계급 줄은 쌍점 대신 띄어쓰기"
+ },
+ "ZROUP97:27184": {
+  "src_hash": "27b36f51dbde",
+  "ko": "^4c6토라마루^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27190": {
+  "src_hash": "39821b92b2e4",
+  "ko": "^4c6와시노하나^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:271a0": {
+  "src_hash": "94d89c7235aa",
+  "ko": "^4c6후스마우미^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:271b0": {
+  "src_hash": "723e62cdd1da",
+  "ko": "^4c6스미노카와^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:271c0": {
+  "src_hash": "4a6589f02450",
+  "ko": "^4c6나베우시^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:271cc": {
+  "src_hash": "2f82daeec21c",
+  "ko": "^4c6아카마츠^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:271d8": {
+  "src_hash": "1a2541e83029",
+  "ko": "^4c6오니라이주^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:271e8": {
+  "src_hash": "f431821c448c",
+  "ko": "^4c6만지비시^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:271f8": {
+  "src_hash": "d2ab4eda9f87",
+  "ko": "^4c6미키오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27204": {
+  "src_hash": "c2fa1b5da42b",
+  "ko": "^4c6라이코^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27210": {
+  "src_hash": "cb97effcb71b",
+  "ko": "^4c6히텐니시키^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27220": {
+  "src_hash": "2e8e165c7c68",
+  "ko": "^4c6사노가시마^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27230": {
+  "src_hash": "fbc9bd5521d0",
+  "ko": "^4c6묘진야마^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27240": {
+  "src_hash": "72b26414858a",
+  "ko": "^4c6마메다누키^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:2724c": {
+  "src_hash": "e24d3099ceb6",
+  "ko": "^4c6후지스다레^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:2725c": {
+  "src_hash": "e6646db951c8",
+  "ko": "^4c6타치무소^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:2726c": {
+  "src_hash": "b0992766b616",
+  "ko": "^4c6사이고야마^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:2727c": {
+  "src_hash": "898211d40a4a",
+  "ko": "^4c6료마^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27288": {
+  "src_hash": "46f08ef786a4",
+  "ko": "^4c6키도가타케^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27298": {
+  "src_hash": "dbdc84d95f45",
+  "ko": "^4c6오쿠마^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:272a4": {
+  "src_hash": "d52ff845b4cc",
+  "ko": "^4c6쇼운^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:272b0": {
+  "src_hash": "892ca3ae2686",
+  "ko": "^4c6후나카츠우미^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:272c0": {
+  "src_hash": "c5287124a00b",
+  "ko": "^4c6이사미다케^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:272cc": {
+  "src_hash": "8c66880af7f8",
+  "ko": "^4c6히지카타조^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:272dc": {
+  "src_hash": "74a49d8894a4",
+  "ko": "^4c6하나오키타^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:272ec": {
+  "src_hash": "c744c6f28585",
+  "ko": "^4c6카이시마다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:272fc": {
+  "src_hash": "13038ea7dfce",
+  "ko": "^4c6센료산^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:2730c": {
+  "src_hash": "bb22abee0a8d",
+  "ko": "^4c6오니가시마^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:2731c": {
+  "src_hash": "7f9af788b21c",
+  "ko": "^4c6하마카제^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27328": {
+  "src_hash": "9312eadb2626",
+  "ko": "^4c6렌고쿠^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27334": {
+  "src_hash": "f9184d7ad29f",
+  "ko": "어느 걸로 승부할까요？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:2734c": {
+  "src_hash": "f768290fa340",
+  "ko": "이걸로 괜찮습니까？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27368": {
+  "src_hash": "7dfcd14606c8",
+  "ko": "그만둘까요？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27378": {
+  "src_hash": "36da64914c7f",
+  "ko": "^4핫케요이^s",
+  "status": "draft",
+  "note": "스모 시작 구령 음역"
+ },
+ "ZROUP97:27388": {
+  "src_hash": "a71c61deb632",
+  "ko": "^4노콧타！^s",
+  "status": "draft",
+  "note": "스모 심판 구령(아직 승부 중) 음역"
+ },
+ "ZROUP97:27398": {
+  "src_hash": "26120a65f32e",
+  "ko": "^4당신의 승리！^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:273ac": {
+  "src_hash": "c54f4bcf7817",
+  "ko": "^4당신의 패배！^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:273c0": {
+  "src_hash": "60428fdab22f",
+  "ko": "^4c7획득했다！^s",
+  "status": "draft",
+  "note": "인형 이름이 앞줄에 따로 표시되는 것으로 보여 받침 조사 없이 처리"
+ },
+ "ZROUP97:273d8": {
+  "src_hash": "9377fb0a71e5",
+  "ko": "^4c7빼앗겼다！^s",
+  "status": "draft",
+  "note": "인형 이름이 앞줄에 따로 표시되는 것으로 보여 받침 조사 없이 처리"
+ },
+ "ZROUP97:273ec": {
+  "src_hash": "f4ae5b9434eb",
+  "ko": "^4c7예^cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP97:27404": {
+  "src_hash": "beabe27bd3bc",
+  "ko": "^4c9예^cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ }
+}
