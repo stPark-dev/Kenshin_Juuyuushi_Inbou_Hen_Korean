@@ -792,8 +792,8 @@
    "ja": "南里",
    "ko": "난리",
    "kind": "game",
-   "status": "check",
-   "note": "なんり/みなみさと 독음 미확인. 한국어 '난리'와 겹쳐 어색하면 재검토. 등장: ZROUP14,ZROUP15,ZROUP16,ZROUP17,ZROUP18,ZROUP29,ZROUP41,ZROUP45,ZROUP47,ZROUP50"
+   "status": "provisional",
+   "note": "南里家·南里沙織. 가나 독음 없음. 일본 성씨로는 なんり가 일반적이나 한국어 '난리'와 겹침 → 사용자 결정 대기. 등장: ZROUP14,ZROUP15,ZROUP16,ZROUP17,ZROUP18,ZROUP29,ZROUP41,ZROUP45,ZROUP47,ZROUP50"
   },
   {
    "ja": "時川",
@@ -820,8 +820,8 @@
    "ja": "剣心組",
    "ko": "켄신조",
    "kind": "game",
-   "status": "check",
-   "note": "신선조 패러디로 보임. 문맥 확인. 등장: ZROUP33,ZROUP34,ZROUP47,ZROUP95,ZROUP99"
+   "status": "candidate",
+   "note": "야히코가 일행을 부르는 이름(俺だって剣心組なんだからな), ZROUP47 선택지 剣心組参上. 신선조와 짝. 등장: ZROUP33,ZROUP34,ZROUP47,ZROUP95,ZROUP99"
   },
   {
    "ja": "大黒屋",
@@ -848,8 +848,8 @@
    "ja": "長屋",
    "ko": "공동 주택",
    "kind": "common",
-   "status": "check",
-   "note": "에도식 연립 주택. 나가야로 둘지 문맥 확인. 등장: ZROUP01,ZROUP02,ZROUP03,ZROUP25,ZROUP41,ZROUP44"
+   "status": "candidate",
+   "note": "인물들이 사는 에도식 연립 주택(사노스케·히노야마 하야토). 등장: ZROUP01,ZROUP02,ZROUP03,ZROUP25,ZROUP41,ZROUP44"
   },
   {
    "ja": "皇海山",
@@ -869,15 +869,15 @@
    "ja": "下妻町",
    "ko": "시모츠마 마을",
    "kind": "place",
-   "status": "check",
-   "note": "町(마을/거리)과 村 구분 필요 여부 확인. 등장: ZROUP02,ZROUP10,ZROUP12,ZROUP24,ZROUP41,ZROUP50"
+   "status": "candidate",
+   "note": "지도 표지 ^4　下妻町. 村과 같이 마을로 옮김. 등장: ZROUP02,ZROUP10,ZROUP12,ZROUP24,ZROUP41,ZROUP50"
   },
   {
-   "ja": "三番隊組",
+   "ja": "三番隊組長",
    "ko": "삼번대 조장",
    "kind": "canon",
-   "status": "check",
-   "note": "三番隊組長의 조각으로 보임(사이토). 문맥 확인. 숫자는 ASCII 불가. 등장: ZROUP41,ZROUP47,ZROUP95,ZROUP99"
+   "status": "candidate",
+   "note": "新撰組三番隊組長　斎藤一 → 신선조 삼번대 조장 사이토 하지메. 一番隊組長=일번대 조장. 등장: ZROUP41,ZROUP47,ZROUP95,ZROUP99"
   },
   {
    "ja": "巻町",
@@ -902,17 +902,17 @@
   },
   {
    "ja": "桧ノ山",
-   "ko": "히노산",
-   "kind": "place",
-   "status": "check",
-   "note": "ひのやま/ひのきやま 독음 확인. 등장: ZROUP01,ZROUP03,ZROUP41,ZROUP50"
+   "ko": "히노야마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "인명 桧ノ山隼人=히노야마 하야토. 등장: ZROUP01,ZROUP03,ZROUP41,ZROUP50"
   },
   {
    "ja": "奥山",
    "ko": "오쿠야마",
    "kind": "game",
-   "status": "check",
-   "note": "성씨인지 '깊은 산' 일반어인지 문맥 확인. 등장: ZROUP03,ZROUP24"
+   "status": "candidate",
+   "note": "성씨. 가희 奥山楓=오쿠야마 카에데, 奥山夫婦. 등장: ZROUP03,ZROUP24"
   },
   {
    "ja": "葉隠山",
@@ -925,29 +925,29 @@
    "ja": "牛鍋屋",
    "ko": "소고기 전골집",
    "kind": "common",
-   "status": "check",
-   "note": "아카베코 등. 규나베집 표기와 비교. 등장: ZROUP01,ZROUP24,ZROUP25,ZROUP41"
+   "status": "candidate",
+   "note": "아카베코. 등장: ZROUP01,ZROUP24,ZROUP25,ZROUP41"
   },
   {
    "ja": "霊山",
    "ko": "영산",
-   "kind": "common",
-   "status": "check",
-   "note": "고유 산 이름(레이잔)인지 일반어인지 문맥 확인. 등장: ZROUP06,ZROUP10,ZROUP50"
+   "kind": "place",
+   "status": "candidate",
+   "note": "수행하는 산(誠真). 지명처럼 쓰임. 등장: ZROUP06,ZROUP10,ZROUP50"
   },
   {
-   "ja": "幽霊屋",
+   "ja": "幽霊屋敷",
    "ko": "유령 저택",
    "kind": "common",
-   "status": "check",
-   "note": "幽霊屋敷의 조각으로 보임. 문맥 확인. 등장: ZROUP06,ZROUP32,ZROUP39"
+   "status": "candidate",
+   "note": "등장: ZROUP06,ZROUP32,ZROUP39"
   },
   {
-   "ja": "忍者屋",
+   "ja": "忍者屋敷",
    "ko": "닌자 저택",
-   "kind": "common",
-   "status": "check",
-   "note": "忍者屋敷의 조각으로 보임. 문맥 확인. 등장: ZROUP16,ZROUP17,ZROUP29,ZROUP45"
+   "kind": "place",
+   "status": "candidate",
+   "note": "지도 표지 忍者屋敷·二階/地下 → 닌자 저택·이층/지하. 등장: ZROUP16,ZROUP17,ZROUP29,ZROUP45"
   },
   {
    "ja": "新橋",
@@ -985,25 +985,25 @@
    "note": "등장: ZROUP14"
   },
   {
-   "ja": "塚山",
-   "ko": "츠카야마",
+   "ja": "塚山由太郎",
+   "ko": "츠카야마 유타로",
    "kind": "canon",
-   "status": "check",
-   "note": "츠카야마 유타로(塚山由太郎)로 추정. 문맥 확인. 등장: ZROUP41"
+   "status": "candidate",
+   "note": "ZROUP41 퀴즈. 등장: ZROUP41"
   },
   {
    "ja": "結城",
    "ko": "유키",
    "kind": "game",
-   "status": "check",
-   "note": "성씨 독음 확인. 등장: ZROUP46"
+   "status": "candidate",
+   "note": "海野의 부하 인텔리 남자. 등장: ZROUP46"
   },
   {
    "ja": "剣術小町",
    "ko": "검술 미인",
    "kind": "common",
-   "status": "check",
-   "note": "카오루를 가리키는 별칭인지 문맥 확인. 등장: ZROUP02,ZROUP24,ZROUP41"
+   "status": "candidate",
+   "note": "카오루의 별명(町の人から剣術小町って呼ばれてる). ZROUP41 퀴즈 정답과 일치시킬 것. 등장: ZROUP02,ZROUP24,ZROUP41"
   },
   {
    "ja": "塩原村",
@@ -1035,17 +1035,17 @@
   },
   {
    "ja": "可否茶屋",
-   "ko": "커피집",
-   "kind": "common",
-   "status": "check",
-   "note": "가배다방 등 시대색 표기와 비교. 등장: ZROUP01,ZROUP25"
+   "ko": "가배 찻집",
+   "kind": "place",
+   "status": "candidate",
+   "note": "こぉひぃ를 마시는 메이지 찻집. こぉひぃ=가배. 등장: ZROUP01,ZROUP25"
   },
   {
    "ja": "草葉堂",
    "ko": "쿠사바도",
    "kind": "place",
-   "status": "check",
-   "note": "가게/절 이름 독음 확인. 등장: ZROUP13,ZROUP20,ZROUP42"
+   "status": "candidate",
+   "note": "鍛冶の店 草葉堂 → 대장간 쿠사바도. 등장: ZROUP13,ZROUP20,ZROUP42"
   },
   {
    "ja": "剣術道場",
@@ -1072,8 +1072,8 @@
    "ja": "恵里",
    "ko": "에리",
    "kind": "game",
-   "status": "check",
-   "note": "인명인지 恵+里 조각인지 문맥 확인. 등장: ZROUP25,ZROUP44"
+   "status": "candidate",
+   "note": "인명(화자). 등장: ZROUP25,ZROUP44"
   },
   {
    "ja": "道具屋",
@@ -1107,15 +1107,92 @@
    "ja": "千本屋",
    "ko": "센본야",
    "kind": "place",
-   "status": "check",
-   "note": "가게 이름인지 문맥 확인. 등장: ZROUP41,ZROUP45"
+   "status": "candidate",
+   "note": "상가 이름. 千本屋与兵衛=센본야 요헤에. 등장: ZROUP41,ZROUP45"
   },
   {
    "ja": "新月村",
    "ko": "신게츠 마을",
-   "kind": "place",
-   "status": "check",
-   "note": "しんげつ/みかづき 독음 확인. 등장: ZROUP41"
+   "kind": "canon",
+   "status": "candidate",
+   "note": "원작 교토편 시시오의 근거지. 등장: ZROUP41"
+  },
+  {
+   "ja": "一番隊組長",
+   "ko": "일번대 조장",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "ZROUP41 퀴즈(沖田総司)"
+  },
+  {
+   "ja": "小糸",
+   "ko": "코이토",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP07, 09"
+  },
+  {
+   "ja": "山賊",
+   "ko": "산적",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "天狗",
+   "ko": "텐구",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "番頭",
+   "ko": "지배인",
+   "kind": "role",
+   "status": "candidate",
+   "note": "상점의 지배인"
+  },
+  {
+   "ja": "主人",
+   "ko": "주인",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "大男",
+   "ko": "덩치",
+   "kind": "role",
+   "status": "candidate",
+   "note": "小男와 짝. 문맥상 어색하면 큰 사내"
+  },
+  {
+   "ja": "小男",
+   "ko": "꼬마 사내",
+   "kind": "role",
+   "status": "candidate",
+   "note": "大男와 짝"
+  },
+  {
+   "ja": "謎の声",
+   "ko": "수수께끼의 목소리",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "女の声",
+   "ko": "여자 목소리",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "弥彦の声",
+   "ko": "야히코의 목소리",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
   }
  ]
 }
