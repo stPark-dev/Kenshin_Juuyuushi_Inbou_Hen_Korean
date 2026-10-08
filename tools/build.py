@@ -20,13 +20,14 @@ import grparc
 import iso
 import kfont
 import koenc
+import menuwin
 import refs
 import scenefont
 import script
 import textio
 
 SOURCE_SHA256 = "738f320c105dc7ab63515553112bd78a62041305ee4f3ebfeaf5b7df8bb2abd8"
-VERIFIED_MAX_GROUP = 434672  # translated ZROUP24, loaded and shown at runtime (original max 382,396)
+VERIFIED_MAX_GROUP = 435372  # translated ZROUP24, loaded and shown at runtime (original max 382,396)
 POLICIES = {"dev": {"draft", "reviewed"}, "release": {"reviewed"}}
 
 
@@ -74,13 +75,18 @@ def scene_build(g, ko_map, assets):
     final += [raws[o] for o in moved]
     codes, glyphs = scenefont.build(final, hglyphs, dict(zip(g.font_codes, g.font_glyphs)), assets.namefont)
     out = refs.rebuild(g, raws, codes, glyphs)
+    patches, unfit = menuwin.fit(g, ko_map)
+    out = menuwin.apply(out, patches)  # code bytes keep their offsets in the rebuilt file
     report = {
         "translated": len(raws),
         "in_place": sum(1 for o, r in raws.items() if len(r) < slots[o]),
         "appended": sum(1 for o, r in raws.items() if len(r) >= slots[o]),
         "glyphs": len(codes),
         "size": len(out),
+        "windows": len(patches),
     }
+    if unfit:
+        report["menu_problems"] = [f"0x{off:x}: {'; '.join(p)}" for off, p in unfit]
     return out, report
 
 
@@ -116,6 +122,7 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
             problems.append(f"{scene}: {e}")
             continue
         scenes[scene] = rep
+        problems += [f"{scene}: menu {p}" for p in rep.get("menu_problems", [])]
         if rep["size"] > VERIFIED_MAX_GROUP:
             warnings.append(f"{scene}: {member} is {rep['size']} bytes, above the verified maximum {VERIFIED_MAX_GROUP}")
         changes[name] = grparc.build(grp.replace(member, new))

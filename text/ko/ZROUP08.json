@@ -841,25 +841,25 @@
  },
  "ZROUP08:15f6c": {
   "src_hash": "7fb8b65dfcdf",
-  "ko": "^4c7초록c9파랑c9노랑c9갈색^s",
+  "ko": "^4c7초록^cc9파랑^cc9노랑^cc9갈색^s",
   "status": "draft",
   "note": ""
  },
  "ZROUP08:15f84": {
   "src_hash": "df1f4d4bb164",
-  "ko": "^4c9초록c7파랑c9노랑c9갈색^s",
+  "ko": "^4c9초록^cc7파랑^cc9노랑^cc9갈색^s",
   "status": "draft",
   "note": ""
  },
  "ZROUP08:15f9c": {
   "src_hash": "2ca7d9b35d8e",
-  "ko": "^4c9초록c9파랑c7노랑c9갈색^s",
+  "ko": "^4c9초록^cc9파랑^cc7노랑^cc9갈색^s",
   "status": "draft",
   "note": ""
  },
  "ZROUP08:15fb4": {
   "src_hash": "6eaef8d2442e",
-  "ko": "^4c9초록c9파랑c9노랑c7갈색^s",
+  "ko": "^4c9초록^cc9파랑^cc9노랑^cc7갈색^s",
   "status": "draft",
   "note": ""
  },
@@ -901,13 +901,13 @@
  },
  "ZROUP08:1616c": {
   "src_hash": "c9318b74a74f",
-  "ko": "^4c7지금까지의 일을 말한다．c9포기한다．^s",
+  "ko": "^4c7지금까지의 일을 말한다．^cc9포기한다．^s",
   "status": "draft",
   "note": ""
  },
  "ZROUP08:16198": {
   "src_hash": "5255b93d9e02",
-  "ko": "^4c9지금까지의 일을 말한다．c7포기한다．^s",
+  "ko": "^4c9지금까지의 일을 말한다．^cc7포기한다．^s",
   "status": "draft",
   "note": ""
  }

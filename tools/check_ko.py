@@ -61,6 +61,7 @@ def check_scene(ctx, scene, ko_path):
         except ValueError as e:
             problems.append(f"{scene}: {e}")
         else:
+            problems += [f"{scene}: menu {p}" for p in report.pop("menu_problems", [])]
             if report["size"] > build.VERIFIED_MAX_GROUP:
                 problems.append(f"{scene}: size {report['size']} above verified maximum {build.VERIFIED_MAX_GROUP}")
     return {"scene": scene, "total": len(rows), "translated": len(usable), "problems": problems, "build": report}

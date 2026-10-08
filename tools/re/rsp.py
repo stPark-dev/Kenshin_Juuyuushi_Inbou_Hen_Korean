@@ -58,5 +58,7 @@ class RSP:
 
     def regs(self):
         r = self.send("g")
-        words = [int.from_bytes(bytes.fromhex(r[i : i + 8]), "little") for i in range(0, len(r), 8)]
+        while len(r) < 8 or any(c not in "0123456789abcdefx" for c in r):
+            r = self._packet()  # DuckStation may leave a stray reply (e.g. a stop packet) queued
+        words = [int.from_bytes(bytes.fromhex(r[i : i + 8].replace("x", "0")), "little") for i in range(0, len(r), 8)]
         return words  # r0..r31, sr, lo, hi, bad, cause, pc (gdb mips order)
