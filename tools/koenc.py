@@ -7,7 +7,9 @@ runtime-established; an ASCII 0x20 byte stalls the game's text output).
 Dialogue window (runtime-established, ZROUP40): 288 px per line, 16 px per
 2-byte character, 8 px per N;. Overlong lines are wrapped at the last space and
 continue with a full-width-space indent, as the original text does; the game's
-own wrap ignores word boundaries.
+own wrap ignores word boundaries. Only spaces typed in the translation are break
+points (N; in the source is also used as column padding). ^N (inserted name)
+is budgeted at NAME_PX.
 
 Non-layout tokens (everything except characters, ^c and spaces) must appear in
 the same order as in the source string.
@@ -20,6 +22,7 @@ import script
 SP = "　"
 LINE_PX = 288
 TOKEN = re.compile(r"\^.|[cC][0-9a-fA-F]|N[!-~]|n[!-~]| |.", re.S)
+NAME_PX = 96  # ^N inserts a character name; budget 6 full-width characters until name entry is surveyed
 FIRST_CODE = 0x889F  # first code verified to render Hangul at runtime
 LEADS = list(range(0x88, 0xA0)) + list(range(0xE0, 0xEB))
 
@@ -37,6 +40,8 @@ def _is_layout(tok):
 
 
 def _tok_width(tok):
+    if tok == "^N":
+        return NAME_PX
     if tok in (" ", "N;"):
         return 8
     if len(tok) == 1 and ord(tok) >= 0x80:
@@ -50,29 +55,36 @@ def width(line):
     return sum(_tok_width(t) for t in tokens(line))
 
 
-def _wrap(line):
+def _wrap(line, limit):
     toks, out = tokens(line), []
-    while sum(_tok_width(t) for t in toks) > LINE_PX:
+    while sum(_tok_width(t) for t in toks) > limit:
         acc, cut = 0, None
         for i, t in enumerate(toks):
             acc += _tok_width(t)
-            if acc > LINE_PX:
+            if acc > limit:
                 break
-            if t in (" ", "N;"):
+            if t == " ":  # only typed spaces; N; may be alignment padding from the source
                 cut = i
         if cut is None:
-            raise ValueError(f"line exceeds {LINE_PX}px and has no space to break at: {''.join(toks)!r}")
+            raise ValueError(f"line exceeds {limit}px and has no space to break at: {''.join(toks)!r}")
         out.append("".join(toks[:cut]))
         toks = [SP] + toks[cut + 1 :]
     out.append("".join(toks))
     return out
 
 
-def layout(text):
+def layout(text, limit=LINE_PX):
     lines = []
     for seg in text.split("^c"):
-        lines += _wrap(seg)
+        lines += _wrap(seg, limit)
     return "^c".join(lines)
+
+
+def source_limit(src_raw):
+    """Line limit for a translation: 288px, or the widest source line if the
+    original consumer already displays wider lines (e.g. status windows)."""
+    src = src_raw.decode("cp932")
+    return max([LINE_PX] + [width(seg) for seg in src.split("^c")])
 
 
 def assign_codes(hangul, reserved):
@@ -95,7 +107,7 @@ def assign_codes(hangul, reserved):
 
 
 def encode(text, src_raw, code_of):
-    laid = layout(text)
+    laid = layout(text, source_limit(src_raw))
     toks = tokens(laid)
     src_ctl = [t.raw.decode("ascii") for t in script.tokenize(src_raw) if t.kind != "char" and t.raw not in (b"^c", b"N;")]
     ko_ctl = [t for t in toks if not (len(t) == 1 and t != " ") and not _is_layout(t)]

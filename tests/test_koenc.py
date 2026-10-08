@@ -82,3 +82,32 @@ def test_assign_codes_skips_reserved_and_invalid_trail_bytes():
 def test_assign_codes_capacity_error():
     with pytest.raises(ValueError):
         koenc.assign_codes({chr(0xAC00 + i) for i in range(9000)}, set())
+
+
+def test_alignment_tokens_are_not_break_points():
+    # a status-style line padded with N; and no typed space must not be broken at N;
+    with pytest.raises(ValueError, match="288"):
+        koenc.layout("가" * 15 + "N;" * 12)
+
+
+def test_name_token_counts_as_six_characters():
+    assert koenc.width("^N가") == koenc.NAME_PX + 16
+    assert koenc.NAME_PX == 96
+
+
+def test_limit_is_at_least_the_widest_source_line():
+    # a status-style line wider than 288px in the source (304px with the name budget)
+    src = ("\u3000^4^N^!" + "体力" + "N;" * 20).encode("cp932")
+    ko = "\u3000^4^N^!" + "체력" + "N;" * 20
+    assert koenc.width(ko) == koenc.width(src.decode("cp932")) == 16 + 96 + 32 + 160
+    koenc.encode(ko, src, koenc.assign_codes({"체", "력"}, set()))
+    # but it may not grow beyond the source width
+    with pytest.raises(ValueError, match="304px"):
+        koenc.encode(ko + "가", src, koenc.assign_codes({"체", "력", "가"}, set()))
+
+
+def test_layout_accepts_explicit_limit():
+    line = "가" * 19
+    with pytest.raises(ValueError):
+        koenc.layout(line)
+    assert koenc.layout(line, limit=304) == line

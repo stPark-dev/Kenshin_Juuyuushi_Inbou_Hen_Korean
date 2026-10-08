@@ -1,0 +1,404 @@
+{
+ "ZROUP00:1d8d8": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1d8f0": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1d908": {
+  "src_hash": "cf4eb2994260",
+  "ko": "　^4^N^!ca체력c7N;N;N;N;N;^4n:N;N;N;N;c6기력c7N;N;N;N;N;^4n:N;N;N;N;^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1d950": {
+  "src_hash": "cf4eb2994260",
+  "ko": "　^4^N^!ca체력c7N;N;N;N;N;^4n:N;N;N;N;c6기력c7N;N;N;N;N;^4n:N;N;N;N;^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1d998": {
+  "src_hash": "61a51bdc265f",
+  "ko": "　^4히무라　켄신^cca체력c7N;N;N;N;N;^4n:N;N;N;N;c6기력c7N;N;N;N;N;^4n:N;N;N;N;^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1d9e8": {
+  "src_hash": "c270bed4a571",
+  "ko": "　^4카미야　카오루^cca체력c7N;N;N;N;N;^4n:N;N;N;N;c6기력c7N;N;N;N;N;^4n:N;N;N;N;^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1da38": {
+  "src_hash": "04d907b43689",
+  "ko": "　^4묘진　야히코^cca체력c7N;N;N;N;N;^4n:N;N;N;N;c6기력c7N;N;N;N;N;^4n:N;N;N;N;^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1da88": {
+  "src_hash": "2fa51ca1dbc4",
+  "ko": "　^4사가라　사노스케^cca체력c7N;N;N;N;N;^4n:N;N;N;N;c6기력c7N;N;N;N;N;^4n:N;N;N;N;^s",
+  "status": "draft",
+  "note": "원문은 이름 뒤 ^c 없음. 한국어 이름이 길어 다른 행처럼 ^c 추가. 상태창 실화면 확인 필요"
+ },
+ "ZROUP00:1dad8": {
+  "src_hash": "6bbc7988907e",
+  "ko": "　^4사이토　하지메^cca체력c7N;N;N;N;N;^4n:N;N;N;N;c6기력c7N;N;N;N;N;^4n:N;N;N;N;^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1db28": {
+  "src_hash": "60c6b41a9163",
+  "ko": "　^4시노모리　아오시^cca체력c7N;N;N;N;N;^4n:N;N;N;N;c6기력c7N;N;N;N;N;^4n:N;N;N;N;^s",
+  "status": "draft",
+  "note": "원문은 이름 뒤 ^c 없음. 한국어 이름이 길어 다른 행처럼 ^c 추가. 상태창 실화면 확인 필요"
+ },
+ "ZROUP00:1db78": {
+  "src_hash": "7e6294b975c4",
+  "ko": "켄신^c　^N，^c　그대의 힘을 믿겠소이다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dba8": {
+  "src_hash": "a139611ec0f1",
+  "ko": "켄신^c　^N！ 네 번째는^c　그대에게 맡기겠소이다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dbe0": {
+  "src_hash": "8fc6e66b76dd",
+  "ko": "카오루^c　힘내，^N 군！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dbfc": {
+  "src_hash": "66ab0be046b5",
+  "ko": "카오루^c　^N 군，^c　두 번째는 맡길게！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dc24": {
+  "src_hash": "3198c35313d7",
+  "ko": "카오루^c　다섯 번째는 너야，^N 군！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dc44": {
+  "src_hash": "868f3b430d27",
+  "ko": "카오루^c　마지막은 맡길게！^c　^N 군！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dc6c": {
+  "src_hash": "c8c85189abb8",
+  "ko": "야히코^c　^N，첫 번째는 맡긴다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dc90": {
+  "src_hash": "7a1536b69afc",
+  "ko": "야히코^c　힘내라，^N！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dca8": {
+  "src_hash": "3a5c7203d88b",
+  "ko": "야히코^c　부탁한다，^N！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dcc0": {
+  "src_hash": "860ecb7a1079",
+  "ko": "사노스케^c　^N，^c　제대로 활약하고 와라！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dcec": {
+  "src_hash": "a8a3ac65814d",
+  "ko": "사노스케^c　^N，세 번째는 너다！^c　부탁한다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dd1c": {
+  "src_hash": "946539e0ca46",
+  "ko": "켄신^c　^N 공^c　그대의 힘을 믿겠소이다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dd4c": {
+  "src_hash": "c814f915e1ec",
+  "ko": "켄신^c　^N 공！ 네 번째는^c　그대에게 맡기겠소이다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dd88": {
+  "src_hash": "c710608dda15",
+  "ko": "카오루^c　힘내요，^N 씨！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dda4": {
+  "src_hash": "53d240389c50",
+  "ko": "카오루^c　^N 씨^c　두 번째는 맡길게요！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1ddcc": {
+  "src_hash": "a26f05e76d37",
+  "ko": "카오루^c　다섯 번째는 당신이에요，^c　^N 씨！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1ddf4": {
+  "src_hash": "336e1e8f72c1",
+  "ko": "카오루^c　마지막은 맡길게요！^c　^N 씨！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1de1c": {
+  "src_hash": "daf02eb5d5da",
+  "ko": "켄신^c　첫 번째는 소인이 맡겠소！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1de44": {
+  "src_hash": "708a19e8485b",
+  "ko": "켄신^c　다음은 소인이 상대하겠소！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1de68": {
+  "src_hash": "1fa9245c76e9",
+  "ko": "켄신^c　소인은 세 번째이구려．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1de8c": {
+  "src_hash": "e329954dbe96",
+  "ko": "켄신^c　네 번째는 소인에게 맡겨 주시오！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1deb4": {
+  "src_hash": "714e303a8627",
+  "ko": "켄신^c　다섯 번째는 이 히무라 켄신이^c　상대하겠소．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dee8": {
+  "src_hash": "a76383be13b6",
+  "ko": "켄신^c　여섯 번째，히무라 켄신！^c　미안하지만 봐줄 수는 없소！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1df20": {
+  "src_hash": "97cab01076a6",
+  "ko": "켄신^c　일곱 번째，히무라 켄신！^c　미안하지만 봐줄 수는 없소！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1df58": {
+  "src_hash": "d273ab67a4fa",
+  "ko": "카오루^c　처음은 내가 갈게！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1df74": {
+  "src_hash": "a8c77954445d",
+  "ko": "카오루^c　다음은 내가 상대야！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1df8c": {
+  "src_hash": "22e3ee6f2308",
+  "ko": "카오루^c　세 번째，확실히 맡았어！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dfb0": {
+  "src_hash": "b784051b4ebc",
+  "ko": "카오루^c　네 번째는 나야！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dfc8": {
+  "src_hash": "87b6c6463efd",
+  "ko": "카오루^c　다섯 번째，확실히 맡았어！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1dfec": {
+  "src_hash": "1b3e4fdafd9e",
+  "ko": "카오루^c　여섯 번째，확실히 맡았어！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e010": {
+  "src_hash": "58263a31600a",
+  "ko": "카오루^c　마지막은 나한테 맡겨 줘！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e038": {
+  "src_hash": "5ede7d7a4aae",
+  "ko": "야히코^c　첫 번째，이 묘진 야히코가 상대다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e060": {
+  "src_hash": "35c1f502b0ca",
+  "ko": "야히코^c　다음은 내가 상대다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e07c": {
+  "src_hash": "071391043b5b",
+  "ko": "야히코^c　세 번째는 나다！ 각오해라！！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e0a4": {
+  "src_hash": "346e556756bf",
+  "ko": "야히코^c　이런 녀석，내가 쓰러뜨려 주마！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e0c8": {
+  "src_hash": "6031d6b98477",
+  "ko": "야히코^c　다섯 번째，^c　이 묘진 야히코가 맡았다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e0fc": {
+  "src_hash": "68f38224eb96",
+  "ko": "야히코^c　카미야 활심류，묘진 야히코！^c　자，정정당당하게 승부다！！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e134": {
+  "src_hash": "38875d02624a",
+  "ko": "사노스케^c　첫 번째는 내가 가져간다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e158": {
+  "src_hash": "df367158726b",
+  "ko": "사노스케^c　헤헷，^c　재미있는 싸움이 되겠는걸！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e18c": {
+  "src_hash": "f61fc132f1c8",
+  "ko": "사노스케^c　오우！ 이 녀석은 나한테 맡겨！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e1b8": {
+  "src_hash": "c163421a3e7e",
+  "ko": "사노스케^c　이런 녀석，금방 해치워 주마！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e1e4": {
+  "src_hash": "fdc43f25cfa3",
+  "ko": "사노스케^c　난 다섯 번째로군，알았다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e20c": {
+  "src_hash": "8babb4a76ed0",
+  "ko": "사노스케^c　주인공이란 건 말이야，^c　마지막에 등장하는 법이지！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e248": {
+  "src_hash": "64160136f30c",
+  "ko": "사이토^c　첫 번째는 내가 맡지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e268": {
+  "src_hash": "16b93f71ef99",
+  "ko": "사이토^c　두 번째인가．뭐，좋겠지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e28c": {
+  "src_hash": "e2a1e0363d4c",
+  "ko": "사이토^c　세 번째인가……어지간히 인연 있는 숫자로군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e2b8": {
+  "src_hash": "e437feaa928d",
+  "ko": "사이토^c　분수란 걸^c　뼈저리게 알려 주마．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e2ec": {
+  "src_hash": "00306b7fc8ec",
+  "ko": "사이토^c　이 내가 다섯 번째라니……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e310": {
+  "src_hash": "a1e783e60a16",
+  "ko": "사이토^c　여섯 번째인가．뭐，좋겠지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e334": {
+  "src_hash": "dd0c3a2417ea",
+  "ko": "사이토^c　일곱 번째인가……알았다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e358": {
+  "src_hash": "9fcd9409b8cd",
+  "ko": "아오시^c　내가 먼저 가겠다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e37c": {
+  "src_hash": "5281e2b9bfa0",
+  "ko": "아오시^c　이 녀석은 내 사냥감이다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e39c": {
+  "src_hash": "32b13e5f69ec",
+  "ko": "아오시^c　세 번째인가……．^c　그렇다면 이쪽에서 먼저 치겠다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e3d8": {
+  "src_hash": "5d570ba672c3",
+  "ko": "아오시^c　네 번째인가…………나쁘지 않군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e400": {
+  "src_hash": "38e49fd1fddb",
+  "ko": "아오시^c　다섯 번째로군…………알았다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e428": {
+  "src_hash": "d59f2d50a1b3",
+  "ko": "아오시^c　여섯 번째인가…………뭐，좋다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP00:1e454": {
+  "src_hash": "c1585972880b",
+  "ko": "아오시^c　……………………마지막이로군．",
+  "status": "draft",
+  "note": ""
+ }
+}
