@@ -1215,7 +1215,7 @@
   "src_hash": "664cb6e0f92b",
   "ko": "사쿠라^c　있지，나랑 부부 놀이 안 할래？아빠는 지금 머리가 아파서^c　끙끙 앓고 있거든．",
   "status": "draft",
-  "note": "pun フウフ(夫婦)/フウフウ(huffing) not reproducible; meaning kept"
+  "note": "pun フウフ(夫婦)/フウフウ(huffing) not reproducible; meaning kept / PUN-PROVISIONAL: 말장난 기능 미재현(의미만 보존). 정식 패치 전 현지화 필요"
  },
  "ZROUP01:4c34c": {
   "src_hash": "12308bfd7764",
@@ -1315,15 +1315,15 @@
  },
  "ZROUP01:4c790": {
   "src_hash": "9c22573c25b2",
-  "ko": "다이자에몬^c　소생，이 부인을 구애하는 중이니 방해는 사양하겠소！",
+  "ko": "다이자에몬^c　이 몸은 지금 이 부인께 구애하는 중이니 방해는 사양하겠소！",
   "status": "draft",
-  "note": "NEW NAME: 大左衛門=다이자에몬; his 拙者 rendered 소생 to keep 소인 for Kenshin"
+  "note": "NEW NAME: 大左衛門=다이자에몬; his 拙者 rendered 소생 to keep 소인 for Kenshin / D12: 拙者 → 이 몸(거창한 구애자). 소인은 켄신 전용"
  },
  "ZROUP01:4c7e0": {
   "src_hash": "c228878f9b23",
-  "ko": "다이자에몬^c　부인을 구애하기란 참으로 힘든 일이오．소생，이제 녹초가 되었소．",
+  "ko": "다이자에몬^c　부인을 구애하기란 참으로 힘든 일이오．이 몸도 이제 녹초가 되었소．",
   "status": "draft",
-  "note": ""
+  "note": "D12: 拙者 → 이 몸(거창한 구애자). 소인은 켄신 전용"
  },
  "ZROUP01:4c830": {
   "src_hash": "a9c95e8841e8",
@@ -1587,7 +1587,7 @@
   "src_hash": "2dcc8ddab518",
   "ko": "우자에몬^c　이 다리를 건너지 않고 저쪽으로 건너가려면 어찌하면 좋을꼬？^c　아니아니，재치 문제라네．",
   "status": "draft",
-  "note": "NEW NAME: 于左衛門=우자에몬 (reading uncertain); ハシ wordplay (bridge/edge, Ikkyu riddle) not reproducible"
+  "note": "NEW NAME: 于左衛門=우자에몬 (reading uncertain); ハシ wordplay (bridge/edge, Ikkyu riddle) not reproducible / LOCALIZE-RIDDLE: 橋/端 수수께끼. 정답 판정과 연결될 수 있어 문제·선택지 함께 현지화 필요"
  },
  "ZROUP01:4d568": {
   "src_hash": "4ca7f0575caa",
@@ -1743,7 +1743,7 @@
   "src_hash": "37bbaa19a659",
   "ko": "덴파치^c　아이고，이 근처에 뒷간 없나．강은 있어도 뒷간은 없고……．그러는 사이에 샌다！",
   "status": "draft",
-  "note": "NEW NAME: 伝八=덴파치; カワ/カワヤ pun approximated"
+  "note": "NEW NAME: 伝八=덴파치; カワ/カワヤ pun approximated / PUN-PROVISIONAL: 말장난 기능 미재현(의미만 보존). 정식 패치 전 현지화 필요"
  },
  "ZROUP01:4deb4": {
   "src_hash": "7def8da2c4a5",
