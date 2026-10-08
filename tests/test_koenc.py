@@ -49,6 +49,14 @@ def test_wraps_at_last_space_with_indent():
     assert "".join(lines[1:]).replace(SP, "").replace(" ", "") == "가나다라" * 6
 
 
+def test_wrap_without_indent_continues_without_indent():
+    # narration / system messages have no indent; the game wraps them flush left
+    out = koenc.layout("c6" + "가나다라" + "c7" + " " + " ".join(["가나다라"] * 5))
+    lines = out.split("^c")
+    assert len(lines) > 1
+    assert not any(line.startswith(SP) for line in lines)
+
+
 def test_unbreakable_overlong_line_raises():
     with pytest.raises(ValueError, match="288"):
         koenc.layout("화자^c" + SP + "가" * 18)

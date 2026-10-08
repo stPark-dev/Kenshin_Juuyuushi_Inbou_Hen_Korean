@@ -1,6 +1,6 @@
 # 작업 인계 (2026-10-08 기준)
 
-다른 컴퓨터에서 이 문서만 보고 이어갈 수 있게 정리했다. 근거와 세부 결과는 `docs/survey.md`, 결정은 `docs/decisions.md`(D1–D12), 번역 규칙은 `docs/style.md`에 있다.
+다른 컴퓨터에서 이 문서만 보고 이어갈 수 있게 정리했다. 근거와 세부 결과는 `docs/survey.md`, 결정은 `docs/decisions.md`(D1–D21), 번역 규칙은 `docs/style.md`에 있다.
 
 ## 1. 한눈에 보는 상태
 
@@ -10,9 +10,9 @@
 | 대사 글꼴 | 장면별 글꼴 블록을 번역문 기준으로 재생성 (Galmuri14) |
 | 번역문 길이 증가 | 문자열 풀 끝에 덧붙이고 참조 수정. 10,401개 중 9,726개 가능, 나머지 675개는 원래 칸 안에 맞춰야 함 |
 | 제품 빌드 / 장면 검사 | `tools/build.py` / `tools/check_ko.py` |
-| 초벌 번역 | 58개 장면 10,401줄 전부 완료(검수 D13–D20). ZROUP24만 크기 초과(434,672B) 런타임 확인 필요 |
+| 초벌 번역 | 58개 장면 10,401줄 전부 완료(검수 D13–D20). 크기 초과 ZROUP24(434,672B)도 런타임에서 로딩·표시 확인(D21) |
 | 용어집 | 인물·지명·용어 `text/glossary.json`(자동 추출 후보 59개 검토: 49개 편입, 그중 19개 `check`, 일반어·조각 10개 제외), 아이템 174개 `text/glossary_items.json` |
-| 테스트 | 103개 통과 (원본 데이터가 필요한 테스트는 원본이 있을 때만 실행) |
+| 테스트 | 106개 통과 (원본 데이터가 필요한 테스트는 원본이 있을 때만 실행) |
 
 ## 2. 집 환경 준비
 
@@ -108,7 +108,7 @@ python3 tools/build.py --src original/*.bin --out build/kenshin_ko.bin \
 | 牛革草 최종명 | 우혁초 잠정. 아이템 설명·효과 확인 후 |
 | ZROUP41 (독음 퀴즈) | 별도 현지화 대상. 정답 판정 구조부터 분석 |
 | 말장난·수수께끼 | note `PUN-PROVISIONAL` / `LOCALIZE-RIDDLE` 행을 정식 패치 전 현지화 |
-| 대형 장면 파일 | ZROUP01이 이미 373KB. 382KB(원본 최대)는 한계로 단정하지 않음. ZROUP24로 포인터·텍스트 인덱스·인코딩·실제 로딩 시험 필요 |
+| 대형 장면 파일 | 해결(D21): 번역 ZROUP24 434,672B 로딩·대화·덧붙인 문자열 표시 확인. 이보다 커지면 다시 시험 |
 | 메뉴·아이템 이름 | 아이템 표 174개가 실행 파일의 압축 데이터(RAM `0x8003A09C`에 풀림)에 있음 → 메뉴 번역은 실행 파일 압축 해제·재압축(또는 재배치) 경로가 필요. 메뉴가 어떤 글꼴을 쓰는지도 미확인 |
 | 참조 없는 문자열 646개 | 미사용 대사일 가능성. 실행으로 확인 전까지 원래 칸 안에 맞춤. 단 ZROUP17 유리·사이조 이벤트 약 60행이 여기에 속해 실제 사용 가능성 높음(D14) → 참조 방식 조사 |
 | 이름 입력, 전투, 타이틀 그림, 엔딩 크레딧, 영상 자막 | 미조사. 오프닝 프롤로그 대화는 영상(RU*.MOV)에 박힌 글자로 판단 |
@@ -118,8 +118,8 @@ python3 tools/build.py --src original/*.bin --out build/kenshin_ko.bin \
 
 1. `text/glossary.json`의 `check` 항목(새로 편입한 지명·용어 19개 포함)을 원문 문맥으로 확인 → 불확실한 것은 사용자 확인.
 2. `text/glossary_items.json`의 `check` 56개 사용자 확인.
-3. 대형 장면 시험(ZROUP24): 원본보다 큰 장면 파일로 빌드 → 실행·대사 확인.
-4. 대사 초벌 완료. 런타임 확인 우선순위: ZROUP24 로딩(크기 초과), 가로형 메뉴(D17), 종이 스모 능력치 칸, ZROUP17 참조 없는 이벤트(ZROUP29 사본 여부), ZROUP41 퀴즈 정답 판정. 그다음 용어집 check 항목 사용자 확인, 남은 PUN-PROVISIONAL·LOCALIZE-RIDDLE 행 정리 전에 새 장면의 화자·이름을 용어집에 먼저 등록 → 에이전트 병렬, 검수, 커밋. 잠정 용어(今十勇士, 南里) 사용자 결정 반영.
+3. ~~대형 장면 시험(ZROUP24)~~ 완료(D21).
+4. 대사 초벌 완료. 런타임 확인 우선순위(`goto_scene.py`로 장면 바로 진입): 가로형 메뉴(D17), 종이 스모 능력치 칸, ZROUP17 참조 없는 이벤트(ZROUP29 사본 여부), ZROUP41 퀴즈 정답 판정. 그다음 용어집 check 항목 사용자 확인, 남은 PUN-PROVISIONAL·LOCALIZE-RIDDLE 행 정리 전에 새 장면의 화자·이름을 용어집에 먼저 등록 → 에이전트 병렬, 검수, 커밋. 잠정 용어(今十勇士, 南里) 사용자 결정 반영.
 5. 메뉴·아이템 이름 경로 조사(실행 파일 압축 형식 해석).
 
 ## 8. 런타임 확인 방법
@@ -133,6 +133,20 @@ python3 tools/re/route_town.py :5 work/ref_title_menu_gl.png work/shots 10   # �
 - `route_town.py`는 타이틀 메뉴 참조 이미지가 필요하다. 게임 화면에서 나온 이미지라 저장소에 넣지 않았다. OpenGL 렌더러로 타이틀 메뉴(はじめから/つづきから) 화면을 `import -display :5 -window root -crop 800x610+0+23`로 찍은 뒤 Pillow로 `crop((250,330,550,450))` 해서 `work/ref_title_menu_gl.png`로 저장한다(판정 차이 15 미만).
 - 마을 대화 = ZROUP40. 경로: 타이틀 메뉴에서 Start → 주인공 선택 ○ → 대화 ○.
 - 스크립트 VM 분석: `tools/re/vmspec.py <RAM 덤프> work/vmspec.json`(GDB로 받은 2MB RAM 덤프 필요), 손 검토 명령 정의는 `docs/re/vm_overrides.json`.
+
+## 8.1 Windows에서 런타임 확인 (2026-10-08)
+
+DuckStation 포터블을 `C:\Users\S.T.Park\tools\duckstation\`에 두었다(`portable.txt`, `settings.ini`는 위 설정과 같음, `bios\scph5500.bin`). 키 입력은 창에 PostMessage, 캡처는 PrintWindow라 사용자 화면 포커스를 뺏지 않는다(`tools/re/winds.py`).
+
+```sh
+python tools/re/route_win.py build/kenshin_ko.cue work/shots 10          # 새 게임 → ZROUP40 마을 대화 캡처
+python tools/re/goto_scene.py build/kenshin_ko.cue 24 work/g24 12 4      # 첫 장면 로딩을 ZROUP24로 돌려 진입
+```
+
+- 타이틀 감지 기준 이미지 `work/ref_title_menu_win.png`: 타이틀 메뉴 화면을 `winds.grab()`으로 찍어 `crop((150,370,370,510))`.
+- 장면 전환 함수 `0x801DFE64`(a0=장면 번호, `0x801AF022`에 저장). 새 게임은 28(프롤로그) → 40(마을).
+- 새 DuckStation GDB 서버는 접속하면 이미 멈춘 상태(`?` → `S02`)라 `\x03` 인터럽트에 답하지 않는다. 메모리 읽기는 0x800바이트 단위.
+- GRP 파일 바꿔치기로 장면을 시험하면 원본으로도 멈춘다 → 반드시 `goto_scene.py`처럼 장면 번호를 바꾼다.
 
 ## 9. 알려진 함정
 

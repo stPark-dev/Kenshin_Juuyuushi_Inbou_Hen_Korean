@@ -26,7 +26,7 @@ import script
 import textio
 
 SOURCE_SHA256 = "738f320c105dc7ab63515553112bd78a62041305ee4f3ebfeaf5b7df8bb2abd8"
-ORIGINAL_MAX_GROUP = 382396  # largest original GROUP (ZROUP24); larger sizes are not runtime-verified
+VERIFIED_MAX_GROUP = 434672  # translated ZROUP24, loaded and shown at runtime (original max 382,396)
 POLICIES = {"dev": {"draft", "reviewed"}, "release": {"reviewed"}}
 
 
@@ -116,8 +116,8 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
             problems.append(f"{scene}: {e}")
             continue
         scenes[scene] = rep
-        if rep["size"] > ORIGINAL_MAX_GROUP:
-            warnings.append(f"{scene}: {member} is {rep['size']} bytes, above the verified maximum {ORIGINAL_MAX_GROUP}")
+        if rep["size"] > VERIFIED_MAX_GROUP:
+            warnings.append(f"{scene}: {member} is {rep['size']} bytes, above the verified maximum {VERIFIED_MAX_GROUP}")
         changes[name] = grparc.build(grp.replace(member, new))
     image = iso.apply(raw, iso.plan(raw, disc, changes) if changes else [])
     out = Path(out)

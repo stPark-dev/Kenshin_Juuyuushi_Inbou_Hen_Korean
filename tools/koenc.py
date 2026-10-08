@@ -5,9 +5,10 @@ Nx, nx), plus an ASCII space for word spacing, which becomes N; (8 px,
 runtime-established; an ASCII 0x20 byte stalls the game's text output).
 
 Dialogue window (runtime-established, ZROUP40): 288 px per line, 16 px per
-2-byte character, 8 px per N;. Overlong lines are wrapped at the last space and
-continue with a full-width-space indent, as the original text does; the game's
-own wrap ignores word boundaries. Only spaces typed in the translation are break
+2-byte character, 8 px per N;. Overlong lines are wrapped at the last space; the continuation
+keeps the wrapped line's own indent (a full-width space in speech, none in
+narration and system messages, as at runtime ZROUP28); the game's own wrap
+ignores word boundaries. Only spaces typed in the translation are break
 points (N; in the source is also used as column padding). ^N (inserted name)
 is budgeted at NAME_PX.
 
@@ -59,6 +60,8 @@ def width(line):
 def _wrap(line, last_limit):
     """Split at typed spaces: pieces before a break <= BREAK_PX, the final piece <= last_limit."""
     toks, out = tokens(line), []
+    lead = next((t for t in toks if not re.fullmatch(r"[cC][0-9a-fA-F]", t)), "")
+    indent = [SP] if lead == SP else []
     while sum(_tok_width(t) for t in toks) > last_limit:
         acc, cut = 0, None
         for i, t in enumerate(toks):
@@ -70,7 +73,7 @@ def _wrap(line, last_limit):
         if cut is None:
             raise ValueError(f"line exceeds {last_limit}px and has no space to break at: {''.join(toks)!r}")
         out.append("".join(toks[:cut]))
-        toks = [SP] + toks[cut + 1 :]
+        toks = indent + toks[cut + 1 :]
     out.append("".join(toks))
     return out
 
