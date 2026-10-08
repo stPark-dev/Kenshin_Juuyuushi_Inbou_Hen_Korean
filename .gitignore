@@ -1,0 +1,22 @@
+# original game data and anything derived from it
+original/
+*.bin
+*.BIN
+*.cue
+*.zip
+*.img
+*.ppf
+*.xdelta
+*.state
+build/
+text/script_jp.*
+
+# scratch work, extracted files, emulator dumps
+work/
+
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Japanese source text (regenerated from the disc)
+text/src/

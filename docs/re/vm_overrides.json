@@ -1,0 +1,82 @@
+{
+ "0x47": {
+  "order": [
+   [
+    "raw",
+    1
+   ],
+   [
+    "raw",
+    4
+   ]
+  ],
+  "why": "wait-for-window; normal path: u8 window, u32 packed window params (not a file offset)"
+ },
+ "0x49": {
+  "order": [
+   [
+    "raw",
+    1
+   ],
+   [
+    "ref",
+    4
+   ]
+  ],
+  "why": "set text: u8 window, u32 file offset of string (runtime-traced)"
+ },
+ "0x33": {
+  "order": [
+   [
+    "T",
+    1
+   ]
+  ],
+  "why": "load map: kind-7 ref to name string, helper appends .MDT"
+ },
+ "0x4a": {
+  "order": [
+   [
+    "raw",
+    1
+   ]
+  ],
+  "why": "wait window state==2; proceed path u8 window"
+ },
+ "0x4b": {
+  "order": [
+   [
+    "raw",
+    1
+   ]
+  ],
+  "why": "wait window state==0; proceed path u8 window"
+ },
+ "0x4c": {
+  "order": [
+   [
+    "T",
+    1
+   ]
+  ],
+  "why": "wait on operand flag; proceed path 1 typed"
+ },
+ "0x2d": {
+  "order": [
+   [
+    "raw",
+    1
+   ],
+   [
+    "T",
+    1
+   ]
+  ],
+  "why": "conditional call: u8 condition code (9eb0), typed target (kind 7 = file ref)"
+ },
+ "0x34": {
+  "order": [],
+  "custom": "op34",
+  "why": "u8 mode, T, then mode 2/4:+u32, 3:+u32+T, >=5:+T"
+ }
+}
