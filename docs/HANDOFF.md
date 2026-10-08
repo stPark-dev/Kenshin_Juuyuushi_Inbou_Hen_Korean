@@ -11,7 +11,7 @@
 | 번역문 길이 증가 | 문자열 풀 끝에 덧붙이고 참조 수정. 10,401개 중 9,726개 가능, 나머지 675개는 원래 칸 안에 맞춰야 함 |
 | 제품 빌드 / 장면 검사 | `tools/build.py` / `tools/check_ko.py` |
 | 초벌 번역 | 6개 장면 1,133줄: ZROUP00, 01, 02, 03, 04, 40 (모두 check_ko 0건) |
-| 용어집 | 인물·지명 `text/glossary.json`, 아이템 174개 `text/glossary_items.json`, 지명·용어 후보 59개 `text/glossary_terms_candidates.json`(미검토) |
+| 용어집 | 인물·지명·용어 `text/glossary.json`(자동 추출 후보 59개 검토: 49개 편입, 그중 19개 `check`, 일반어·조각 10개 제외), 아이템 174개 `text/glossary_items.json` |
 | 테스트 | 103개 통과 (원본 데이터가 필요한 테스트는 원본이 있을 때만 실행) |
 
 ## 2. 집 환경 준비
@@ -115,7 +115,7 @@ python3 tools/build.py --src original/*.bin --out build/kenshin_ko.bin \
 
 ## 7. 다음에 할 일 (순서)
 
-1. `text/glossary_terms_candidates.json` 59개 검토(오탐 제거: 部屋·小屋·人組·物屋 등) → `glossary.json`으로 이동, 불확실한 것은 사용자 확인.
+1. `text/glossary.json`의 `check` 항목(새로 편입한 지명·용어 19개 포함)을 원문 문맥으로 확인 → 불확실한 것은 사용자 확인.
 2. `text/glossary_items.json`의 `check` 56개 사용자 확인.
 3. 대형 장면 시험(ZROUP24): 원본보다 큰 장면 파일로 빌드 → 실행·대사 확인.
 4. 두 번째 번역 묶음(에이전트 병렬), 검수, 커밋.

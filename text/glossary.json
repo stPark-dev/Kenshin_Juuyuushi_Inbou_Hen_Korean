@@ -5,7 +5,8 @@
   "roles": "직함·역할 화자는 한국어 일반명사",
   "status": "approved = 사용자 확인, provisional = 사용자가 잠정 채택(미검증), candidate = 원칙상 후보, check = 확인 필요",
   "honorifics": "경칭(さん·殿·先生 등)은 문맥에 맞게 한국어로 옮긴다.",
-  "unresolved": "게임 오리지널 인물 중 읽기가 확인되지 않은 이름은 status=provisional로 두고 게임 안 확인 대상으로 남긴다."
+  "unresolved": "게임 오리지널 인물 중 읽기가 확인되지 않은 이름은 status=provisional로 두고 게임 안 확인 대상으로 남긴다.",
+  "kinds": "canon 원작, game 게임 오리지널 인물, place 지명·가게, term 유파·용어, common 통일할 반복 일반어, role 화자 직함, item 아이템"
  },
  "terms": [
   {
@@ -772,6 +773,349 @@
    "kind": "item",
    "status": "approved",
    "note": "D11: イ/ロ/ハ → 이/로/하 유지, 숫자는 원본 아이템 번호 그대로(예: 부절 로３). 월드맵 이동 범위를 넓히는 아이템"
+  },
+  {
+   "ja": "緋村",
+   "ko": "히무라",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "히무라 켄신의 성. 등장: ZROUP00,ZROUP02,ZROUP12,ZROUP20,ZROUP24,ZROUP25,ZROUP27,ZROUP41,ZROUP45,ZROUP49,ZROUP91,ZROUP95,ZROUP99"
+  },
+  {
+   "ja": "渋川",
+   "ko": "시부카와",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP01,ZROUP02,ZROUP03,ZROUP13,ZROUP14,ZROUP20,ZROUP24,ZROUP25,ZROUP41,ZROUP42,ZROUP44,ZROUP47,ZROUP50"
+  },
+  {
+   "ja": "南里",
+   "ko": "난리",
+   "kind": "game",
+   "status": "check",
+   "note": "なんり/みなみさと 독음 미확인. 한국어 '난리'와 겹쳐 어색하면 재검토. 등장: ZROUP14,ZROUP15,ZROUP16,ZROUP17,ZROUP18,ZROUP29,ZROUP41,ZROUP45,ZROUP47,ZROUP50"
+  },
+  {
+   "ja": "時川",
+   "ko": "토키카와",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP02,ZROUP24,ZROUP41,ZROUP50"
+  },
+  {
+   "ja": "神谷道場",
+   "ko": "카미야 도장",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "등장: ZROUP01,ZROUP02,ZROUP24,ZROUP41,ZROUP44"
+  },
+  {
+   "ja": "新座村",
+   "ko": "니이자 마을",
+   "kind": "place",
+   "status": "candidate",
+   "note": "新座=にいざ(실제 지명 독음). 등장: ZROUP01,ZROUP02,ZROUP06,ZROUP12,ZROUP24,ZROUP41,ZROUP50"
+  },
+  {
+   "ja": "剣心組",
+   "ko": "켄신조",
+   "kind": "game",
+   "status": "check",
+   "note": "신선조 패러디로 보임. 문맥 확인. 등장: ZROUP33,ZROUP34,ZROUP47,ZROUP95,ZROUP99"
+  },
+  {
+   "ja": "大黒屋",
+   "ko": "다이코쿠야",
+   "kind": "place",
+   "status": "candidate",
+   "note": "가게 이름(옥호)은 음역. 등장: ZROUP01,ZROUP03,ZROUP44"
+  },
+  {
+   "ja": "新撰組",
+   "ko": "신선조",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "한국 정발 만화 관례. 등장: ZROUP14,ZROUP41,ZROUP47,ZROUP95,ZROUP99"
+  },
+  {
+   "ja": "相模屋",
+   "ko": "사가미야",
+   "kind": "place",
+   "status": "candidate",
+   "note": "가게 이름(옥호)은 음역. 등장: ZROUP01,ZROUP03,ZROUP44"
+  },
+  {
+   "ja": "長屋",
+   "ko": "공동 주택",
+   "kind": "common",
+   "status": "check",
+   "note": "에도식 연립 주택. 나가야로 둘지 문맥 확인. 등장: ZROUP01,ZROUP02,ZROUP03,ZROUP25,ZROUP41,ZROUP44"
+  },
+  {
+   "ja": "皇海山",
+   "ko": "스카이산",
+   "kind": "place",
+   "status": "candidate",
+   "note": "皇海山=すかいさん(실제 산). 등장: ZROUP13,ZROUP27,ZROUP41,ZROUP42,ZROUP50"
+  },
+  {
+   "ja": "飛天御剣流",
+   "ko": "비천어검류",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "한국 정발 만화 표기. 등장: ZROUP41,ZROUP49"
+  },
+  {
+   "ja": "下妻町",
+   "ko": "시모츠마 마을",
+   "kind": "place",
+   "status": "check",
+   "note": "町(마을/거리)과 村 구분 필요 여부 확인. 등장: ZROUP02,ZROUP10,ZROUP12,ZROUP24,ZROUP41,ZROUP50"
+  },
+  {
+   "ja": "三番隊組",
+   "ko": "삼번대 조장",
+   "kind": "canon",
+   "status": "check",
+   "note": "三番隊組長의 조각으로 보임(사이토). 문맥 확인. 숫자는 ASCII 불가. 등장: ZROUP41,ZROUP47,ZROUP95,ZROUP99"
+  },
+  {
+   "ja": "巻町",
+   "ko": "마키마치",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "마키마치 미사오(巻町操). 등장: ZROUP20,ZROUP41,ZROUP95"
+  },
+  {
+   "ja": "鵜堂",
+   "ko": "우도",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "우도 진에(鵜堂刃衛). 등장: ZROUP27,ZROUP41"
+  },
+  {
+   "ja": "小太刀二刀流",
+   "ko": "소태도 이도류",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "아오시의 검술. 등장: ZROUP47,ZROUP95,ZROUP99"
+  },
+  {
+   "ja": "桧ノ山",
+   "ko": "히노산",
+   "kind": "place",
+   "status": "check",
+   "note": "ひのやま/ひのきやま 독음 확인. 등장: ZROUP01,ZROUP03,ZROUP41,ZROUP50"
+  },
+  {
+   "ja": "奥山",
+   "ko": "오쿠야마",
+   "kind": "game",
+   "status": "check",
+   "note": "성씨인지 '깊은 산' 일반어인지 문맥 확인. 등장: ZROUP03,ZROUP24"
+  },
+  {
+   "ja": "葉隠山",
+   "ko": "하가쿠레산",
+   "kind": "place",
+   "status": "candidate",
+   "note": "등장: ZROUP11,ZROUP24,ZROUP50"
+  },
+  {
+   "ja": "牛鍋屋",
+   "ko": "소고기 전골집",
+   "kind": "common",
+   "status": "check",
+   "note": "아카베코 등. 규나베집 표기와 비교. 등장: ZROUP01,ZROUP24,ZROUP25,ZROUP41"
+  },
+  {
+   "ja": "霊山",
+   "ko": "영산",
+   "kind": "common",
+   "status": "check",
+   "note": "고유 산 이름(레이잔)인지 일반어인지 문맥 확인. 등장: ZROUP06,ZROUP10,ZROUP50"
+  },
+  {
+   "ja": "幽霊屋",
+   "ko": "유령 저택",
+   "kind": "common",
+   "status": "check",
+   "note": "幽霊屋敷의 조각으로 보임. 문맥 확인. 등장: ZROUP06,ZROUP32,ZROUP39"
+  },
+  {
+   "ja": "忍者屋",
+   "ko": "닌자 저택",
+   "kind": "common",
+   "status": "check",
+   "note": "忍者屋敷의 조각으로 보임. 문맥 확인. 등장: ZROUP16,ZROUP17,ZROUP29,ZROUP45"
+  },
+  {
+   "ja": "新橋",
+   "ko": "신바시",
+   "kind": "place",
+   "status": "candidate",
+   "note": "등장: ZROUP24,ZROUP41,ZROUP44"
+  },
+  {
+   "ja": "喧嘩屋",
+   "ko": "싸움꾼",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "사노스케의 옛 칭호(喧嘩屋 斬左). 등장: ZROUP25,ZROUP41,ZROUP95"
+  },
+  {
+   "ja": "絵草紙屋",
+   "ko": "그림책 가게",
+   "kind": "common",
+   "status": "candidate",
+   "note": "등장: ZROUP01,ZROUP24,ZROUP41,ZROUP44"
+  },
+  {
+   "ja": "悠久山",
+   "ko": "유큐잔",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "유큐잔 안지. 등장: ZROUP06,ZROUP41"
+  },
+  {
+   "ja": "小間物屋",
+   "ko": "방물가게",
+   "kind": "common",
+   "status": "candidate",
+   "note": "등장: ZROUP14"
+  },
+  {
+   "ja": "塚山",
+   "ko": "츠카야마",
+   "kind": "canon",
+   "status": "check",
+   "note": "츠카야마 유타로(塚山由太郎)로 추정. 문맥 확인. 등장: ZROUP41"
+  },
+  {
+   "ja": "結城",
+   "ko": "유키",
+   "kind": "game",
+   "status": "check",
+   "note": "성씨 독음 확인. 등장: ZROUP46"
+  },
+  {
+   "ja": "剣術小町",
+   "ko": "검술 미인",
+   "kind": "common",
+   "status": "check",
+   "note": "카오루를 가리키는 별칭인지 문맥 확인. 등장: ZROUP02,ZROUP24,ZROUP41"
+  },
+  {
+   "ja": "塩原村",
+   "ko": "시오바라 마을",
+   "kind": "place",
+   "status": "candidate",
+   "note": "등장: ZROUP13,ZROUP41,ZROUP42"
+  },
+  {
+   "ja": "江戸三大道場",
+   "ko": "에도 삼대 도장",
+   "kind": "term",
+   "status": "candidate",
+   "note": "등장: ZROUP24,ZROUP41"
+  },
+  {
+   "ja": "天然理心流",
+   "ko": "천연이심류",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "신선조 유파. 등장: ZROUP24,ZROUP41"
+  },
+  {
+   "ja": "葵屋",
+   "ko": "아오이야",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "등장: ZROUP41"
+  },
+  {
+   "ja": "可否茶屋",
+   "ko": "커피집",
+   "kind": "common",
+   "status": "check",
+   "note": "가배다방 등 시대색 표기와 비교. 등장: ZROUP01,ZROUP25"
+  },
+  {
+   "ja": "草葉堂",
+   "ko": "쿠사바도",
+   "kind": "place",
+   "status": "check",
+   "note": "가게/절 이름 독음 확인. 등장: ZROUP13,ZROUP20,ZROUP42"
+  },
+  {
+   "ja": "剣術道場",
+   "ko": "검술 도장",
+   "kind": "common",
+   "status": "candidate",
+   "note": "등장: ZROUP24,ZROUP43"
+  },
+  {
+   "ja": "神道無念流",
+   "ko": "신도무념류",
+   "kind": "term",
+   "status": "candidate",
+   "note": "등장: ZROUP24,ZROUP41"
+  },
+  {
+   "ja": "心形刀流",
+   "ko": "심형도류",
+   "kind": "term",
+   "status": "candidate",
+   "note": "등장: ZROUP24,ZROUP41"
+  },
+  {
+   "ja": "恵里",
+   "ko": "에리",
+   "kind": "game",
+   "status": "check",
+   "note": "인명인지 恵+里 조각인지 문맥 확인. 등장: ZROUP25,ZROUP44"
+  },
+  {
+   "ja": "道具屋",
+   "ko": "도구점",
+   "kind": "common",
+   "status": "candidate",
+   "note": "등장: ZROUP25,ZROUP44"
+  },
+  {
+   "ja": "消防組",
+   "ko": "소방조",
+   "kind": "common",
+   "status": "candidate",
+   "note": "등장: ZROUP35"
+  },
+  {
+   "ja": "江戸城",
+   "ko": "에도성",
+   "kind": "place",
+   "status": "candidate",
+   "note": "등장: ZROUP41"
+  },
+  {
+   "ja": "千両山",
+   "ko": "센료산",
+   "kind": "place",
+   "status": "candidate",
+   "note": "등장: ZROUP41,ZROUP97"
+  },
+  {
+   "ja": "千本屋",
+   "ko": "센본야",
+   "kind": "place",
+   "status": "check",
+   "note": "가게 이름인지 문맥 확인. 등장: ZROUP41,ZROUP45"
+  },
+  {
+   "ja": "新月村",
+   "ko": "신게츠 마을",
+   "kind": "place",
+   "status": "check",
+   "note": "しんげつ/みかづき 독음 확인. 등장: ZROUP41"
   }
  ]
 }
