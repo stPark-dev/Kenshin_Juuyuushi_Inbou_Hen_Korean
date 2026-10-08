@@ -1,0 +1,1196 @@
+{
+ "ZROUP06:31afc": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31b14": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31b2c": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31b44": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31b5c": {
+  "src_hash": "247d90a2bbf9",
+  "ko": "^4c7^N^!c9카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31b98": {
+  "src_hash": "3d161548449b",
+  "ko": "^4c9^N^!c7카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31bd4": {
+  "src_hash": "556198ebc4ee",
+  "ko": "^4c9^N^!c9카미야　카오루^cc7묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31c10": {
+  "src_hash": "ae5e6d646981",
+  "ko": "^4c9^N^!c9카미야　카오루^cc9묘진　야히코^cc7설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31c4c": {
+  "src_hash": "40e614e22b2c",
+  "ko": "^4c9^N^!c9카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc7그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31c88": {
+  "src_hash": "1b4d8e457cca",
+  "ko": "^4　니이자 마을^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31c98": {
+  "src_hash": "e9deb015fcba",
+  "ko": "키요시^c　우리 아들 녀석이 갑자기 뭐에 홀린 것처럼 뛰쳐나가 버렸어．",
+  "status": "draft",
+  "note": "NEW NAME: 清=키요시 (reading uncertain)"
+ },
+ "ZROUP06:31cf4": {
+  "src_hash": "d393e9065f34",
+  "ko": "키요시^c　뛰쳐나갔던 아들 녀석이 돌아왔어．^c　그런데 아무것도 기억이 안 난다지 뭐야．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31d58": {
+  "src_hash": "b5e3c07cc0d9",
+  "ko": "에이지^c　뭐야，당신도 내 얘기가 듣고 싶어？^s",
+  "status": "draft",
+  "note": "NEW NAME: 栄次=에이지"
+ },
+ "ZROUP06:31d8c": {
+  "src_hash": "da076254ceea",
+  "ko": "에이지^c　아，그래．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31da0": {
+  "src_hash": "2155ad53777d",
+  "ko": "에이지^c　아，그래．……라고는 해도，잘 기억이 안 나．^c　귀여운 세쌍둥이를 만났는데，정신을 차려 보니 모르는 곳에 있었어．^c　그런데 이런 얘기 들어서 재미있어？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31e50": {
+  "src_hash": "dd0599535965",
+  "ko": "에이지^c　그렇지？그런데 똑같은 걸 물어보고 간 녀석이 또 있어．^c　키가 크고 무뚝뚝한 남자였는데……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31ecc": {
+  "src_hash": "99a1ad39364a",
+  "ko": "에이지^c　그래？실은 똑같은 걸 물어보고 간 녀석이 또 있었거든．^c　키가 크고 무뚝뚝한 남자였는데……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31f40": {
+  "src_hash": "c43fc1ffe0e6",
+  "ko": "에이지^c　뭐야，역시 내 얘기가 듣고 싶다고？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31f74": {
+  "src_hash": "6529b902827a",
+  "ko": "에이지^c　정말이지，별 신기한 일도 다 있다니까．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:31fac": {
+  "src_hash": "d6202becfde9",
+  "ko": "미츠키^c　이 근처에는 마귀할멈이 나온다고．",
+  "status": "draft",
+  "note": "NEW NAME: 美月=미츠키"
+ },
+ "ZROUP06:31fd8": {
+  "src_hash": "84b27ed32192",
+  "ko": "미츠키^c　우리 남편이 마귀할멈한테 잡혀가 버렸어．제발 구해 줘．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32024": {
+  "src_hash": "c2ded5ebe4b4",
+  "ko": "야히코^c　귀，마귀할멈？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3203c": {
+  "src_hash": "a18e7cab4558",
+  "ko": "사노스케^c　이 메이지 세상에 그런 케케묵은 괴물이 있을 리가 없잖아．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32088": {
+  "src_hash": "419ed4342d49",
+  "ko": "미츠키^c　정말이라니까……흑흑．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:320ac": {
+  "src_hash": "98795a44c123",
+  "ko": "카오루^c　어쨌든 남편분이 사라진 건 사실인 것 같네．^c　이것도 네즈 일당의 짓일까．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32110": {
+  "src_hash": "e9904a519147",
+  "ko": "야히코^c　그렇다면 가만둘 수 없지！^c　아줌마，마귀할멈은 어디에 나와？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3215c": {
+  "src_hash": "c5f4808ee6d2",
+  "ko": "미츠키^c　이 마을 서쪽 골짜기야．제발 우리 남편을 구해 줘……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:321a4": {
+  "src_hash": "212f4f8230fb",
+  "ko": "미츠키^c　제발 우리 남편을 구해 줘……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:321d8": {
+  "src_hash": "7ac1a875009c",
+  "ko": "미츠키^c　고마워요．정말 살았어요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32214": {
+  "src_hash": "001046aaa135",
+  "ko": "카오루^c　괜찮아요．^c　그런데 마귀할멈 흉내까지 내면서 뭘 하려고 했던 걸까．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32268": {
+  "src_hash": "27418c132004",
+  "ko": "야히코^c　햣키라는 녀석도 네즈 패거리가 틀림없어．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:322a0": {
+  "src_hash": "7ba1c672e1a6",
+  "ko": "촌장^c　자，오늘은 푹 쉬게나．변변한 대접도 못 하겠지만．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:322f8": {
+  "src_hash": "42333ab8dada",
+  "ko": "사노스케^c　오우，신세 좀 지지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32318": {
+  "src_hash": "30cf89796288",
+  "ko": "여자 목소리^c　꺄아아아아아아앗！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32338": {
+  "src_hash": "08edce4c8e05",
+  "ko": "카오루^c　비명이야！^c　가 보자！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32360": {
+  "src_hash": "78c0b949bc26",
+  "ko": "야히코^c　들었어！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32378": {
+  "src_hash": "a0174026d4bb",
+  "ko": "사노스케^c　그래，저건 비명이다．^c　무슨 일이 생긴 모양이군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:323b0": {
+  "src_hash": "54a83cec8955",
+  "ko": "사노스케^c　무슨 소동이야！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:323c8": {
+  "src_hash": "e6fb789ac641",
+  "ko": "카오루^c　모르겠어．^c　가 보자．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:323f8": {
+  "src_hash": "24302b033af5",
+  "ko": "카오루^c　비명이 들렸어！^c　무슨 일이야！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32420": {
+  "src_hash": "7b7560b84182",
+  "ko": "야히코^c　몰라！^c　아무튼 가 보자．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32454": {
+  "src_hash": "86fe15edfa8c",
+  "ko": "햣키^c　아나야마 님，놈들이 왔습니다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32478": {
+  "src_hash": "645e04230251",
+  "ko": "아나야마^c　뭐라고？^c　네놈，저런 애송이들한테 졌단 말이냐．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:324bc": {
+  "src_hash": "d438ff588cdb",
+  "ko": "햣키^c　예，예에……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:324d4": {
+  "src_hash": "d3b1587435db",
+  "ko": "아나야마^c　뭐，됐다．^c　아무튼 이 몸이 온 이상 더는 방해 못 하게 해 주지．^c　대의를 위해 죽어 줘야겠다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32544": {
+  "src_hash": "00f90b404efe",
+  "ko": "사노스케^c　헷，재미있잖아．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3256c": {
+  "src_hash": "74d06b2fe675",
+  "ko": "야히코^c　할 수 있으면 해 봐라！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32594": {
+  "src_hash": "6c3e7fb5227e",
+  "ko": "진^c　사，살려 줘！^c　나，난 상관없다고．",
+  "status": "draft",
+  "note": "NEW NAME: 仁=진"
+ },
+ "ZROUP06:325cc": {
+  "src_hash": "69e3595b53b2",
+  "ko": "야히코^c　좋아，알았어．이쪽으로 와！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:325f4": {
+  "src_hash": "ab0ee9bbaaeb",
+  "ko": "야히코^c　뭐……라고……？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32610": {
+  "src_hash": "1291d04d1de0",
+  "ko": "카오루^c　야히코！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32624": {
+  "src_hash": "539b31dbbdec",
+  "ko": "아나야마^c　우와핫핫하！^c　이 녀석은 내가 조종하고 있었지．^c　너희처럼 정의로운 척하는 놈들은 이런 수에 금방 걸려든단 말이야．^c　우와핫핫하！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:326bc": {
+  "src_hash": "d318ee1688b3",
+  "ko": "사노스케^c　이 자식！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:326d0": {
+  "src_hash": "cbe5dbafe3ff",
+  "ko": "카오루^c　지금 그럴 때가 아니야！^c　야히코를 구해야 해！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32708": {
+  "src_hash": "a320caa479ec",
+  "ko": "아나야마^c　그래그래，바로 그거다．^c　방해꾼이 없어졌으니 우리는 느긋하게 일 좀 하겠다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32780": {
+  "src_hash": "b4cbb044e91b",
+  "ko": "사노스케^c　큭……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32798": {
+  "src_hash": "ac972f1d7b95",
+  "ko": "야히코^c　으으……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:327ac": {
+  "src_hash": "2e737f6d0f41",
+  "ko": "촌장^c　이거 큰일이군．^c　상처 자체는 대단치 않네만，칼날에 독이 발려 있었던 모양일세．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3280c": {
+  "src_hash": "a6b8bf519df8",
+  "ko": "카오루^c　야히코는……^c　야히코는 어떻게 되는 거예요！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3283c": {
+  "src_hash": "fa206fe483c5",
+  "ko": "촌장^c　이대로는 위험하네．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32860": {
+  "src_hash": "e4cd95ec6dde",
+  "ko": "사노스케^c　무슨 방법 없냐고！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32884": {
+  "src_hash": "8b8283a53411",
+  "ko": "촌장^c　으음，어쩌면……．^c　마을 남쪽에 있는 늪에 어떤 수초가 자란다네．^c　그 수초를 달이면 해독제가 된다고들 하네만．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32910": {
+  "src_hash": "9dd88d526fbb",
+  "ko": "촌장^c　으음，어쩌면……．^c　마을 남쪽에 있는 늪에는 해독제가 되는 식물이 있다고들 하네만．^c",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32974": {
+  "src_hash": "0830e21bb2c0",
+  "ko": "카오루^c　남쪽 늪이군요！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3298c": {
+  "src_hash": "391a5bf81dd0",
+  "ko": "촌장^c　아니，기다리게！^c　실은 요즘 늪 근처에 수상한 남자가 눌러살고 있다네．^c　이 마을에서 이것저것 캐묻고 다니고 있지．^c　놈들 한패라면 위험하네．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32a44": {
+  "src_hash": "2b114195a351",
+  "ko": "카오루^c　그렇다고 야히코를 버려둘 순 없어！^c　그렇지！？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32a94": {
+  "src_hash": "e01af339133e",
+  "ko": "카오루^c　……거짓말이지？^c　야히코를 버리거나 하진 않을 거지？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32ad0": {
+  "src_hash": "7ca3769fbcee",
+  "ko": "사노스케^c　실망했다．이제 너랑은 같이 못 다니겠어．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32b14": {
+  "src_hash": "1780653d0db5",
+  "ko": "사노스케^c　가자，아가씨．^c　저 녀석은 이제 내버려 둬．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32b58": {
+  "src_hash": "d8a3e8d68563",
+  "ko": "카오루^c　………………응．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32b74": {
+  "src_hash": "4d28f448c53c",
+  "ko": "촌장^c　……괜찮겠나？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32b94": {
+  "src_hash": "4bc1ddf8b2b9",
+  "ko": "카오루^c　^N 군！^c　역시 와 주는구나．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32bc0": {
+  "src_hash": "6e6d589c220b",
+  "ko": "카오루^c　^N 씨……^c　다행이에요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32be0": {
+  "src_hash": "0015995ba2f1",
+  "ko": "사노스케^c　참나，놀라게 하지 마．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32c08": {
+  "src_hash": "00015892043d",
+  "ko": "카오루^c　다행이다！^c　그럼 가자．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32c34": {
+  "src_hash": "d245826dc1f1",
+  "ko": "촌장^c　마을 남쪽 늪일세．부디 늪 근처에 사는 남자를 조심하게．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32c8c": {
+  "src_hash": "59f5418d483d",
+  "ko": "촌장^c　오오，그건……．^c　어서 먹여 주게．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32cc4": {
+  "src_hash": "7f98836d82c1",
+  "ko": "촌장^c　요즘 이상한 일이 많아서 말일세．^c　어찌하면 좋을지……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32d04": {
+  "src_hash": "65c2b97b0833",
+  "ko": "촌장^c　조심하게．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32d1c": {
+  "src_hash": "3db47c10e6f6",
+  "ko": "야히코^c　으으……으음……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32d3c": {
+  "src_hash": "88c0c2d706d0",
+  "ko": "카오루^c　야히코！^c　자，이거 마셔．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32d64": {
+  "src_hash": "33819cc6f1bb",
+  "ko": "c6해독제c7를 먹였다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32d7c": {
+  "src_hash": "e8d014e9375d",
+  "ko": "야히코^c　으으……？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32d90": {
+  "src_hash": "735656444b6b",
+  "ko": "카오루^c　괜찮아，야히코！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32da8": {
+  "src_hash": "916bce4f1e88",
+  "ko": "야히코^c　여，여긴……^c　내가 왜……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32dd8": {
+  "src_hash": "26be4876d1bb",
+  "ko": "촌장^c　오오，정신이 들었군．^c　이제 괜찮네．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32e0c": {
+  "src_hash": "ffe6b62a2ccc",
+  "ko": "야히코^c　……그렇지，^c　아나야마한테 당했었지……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32e44": {
+  "src_hash": "47440255b7ce",
+  "ko": "카오루^c　다행이야，야히코！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32e60": {
+  "src_hash": "a27f37aaca74",
+  "ko": "야히코^c　쳇，호들갑은．^c　그보다 이거 봐！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32e9c": {
+  "src_hash": "625752fd3abb",
+  "ko": "사노스케^c　이건……부절이잖아！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32ec0": {
+  "src_hash": "4d29f6e66869",
+  "ko": "야히코^c　응，내가 쓰러졌을 때 아나야마가 다가왔잖아．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32efc": {
+  "src_hash": "7e0040eb9e66",
+  "ko": "카오루^c　너，그 짧은 틈에！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32f24": {
+  "src_hash": "2300fdb39711",
+  "ko": "야히코^c　응．소매치기 솜씨는 아직 녹슬지 않았다고．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32f60": {
+  "src_hash": "25cfa047ab8e",
+  "ko": "카오루^c　……기가 막혀．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32f78": {
+  "src_hash": "874fc8f5aa54",
+  "ko": "사노스케^c　뭐，괜찮잖아．이걸로 야히코도 당한 만큼 갚아 줄 수 있게 됐으니까．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:32fe0": {
+  "src_hash": "b55189c33744",
+  "ko": "야히코^c　그래그래．아나야마 일당의 소굴도 제대로 적혀 있다고．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33024": {
+  "src_hash": "b9ef83f8e183",
+  "ko": "카오루^c　모바라 숲이랑 영산，두 군데가 있는데，^c　아마 모바라 숲 쪽일 거야．",
+  "status": "draft",
+  "note": "NEW NAME: 茂原=모바라"
+ },
+ "ZROUP06:33068": {
+  "src_hash": "514ce40262a6",
+  "ko": "야히코^c　그렇겠지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3307c": {
+  "src_hash": "ee61b7d38f46",
+  "ko": "촌장^c　오늘은 이미 늦었네．^c　묵어 가게나．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:330b0": {
+  "src_hash": "62c645746dcf",
+  "ko": "촌장^c　가겠다면 말리진 않겠네만……^c　조심해서 가게나．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:330f4": {
+  "src_hash": "3a1f36ea2b57",
+  "ko": "섬뜩한 목소리^c　그오우……가아……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3311c": {
+  "src_hash": "c0650767c85f",
+  "ko": "야히코^c　저것도 환각이냐고．^c　눈속임 약이 든 병 같은 건 어디에도 없잖아．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33174": {
+  "src_hash": "86d8ed518de8",
+  "ko": "야히코^c　뭐야，저거．^c　쓰러뜨려도 끝이 없는 것 같아．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:331b4": {
+  "src_hash": "c5a481ef34d6",
+  "ko": "코지^c　손님，묵어 가시겠어요？^c　２０전이에요．^s",
+  "status": "draft",
+  "note": "NEW NAME: 公示=코지 (innkeeper speaker label; literally public notice, possibly a placeholder; reading uncertain)"
+ },
+ "ZROUP06:331ec": {
+  "src_hash": "85c89eda08c8",
+  "ko": "코지^c　손님，^c　함부로 들어오지 마세요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33220": {
+  "src_hash": "e2f6a74d271e",
+  "ko": "야히코^c　뭐 하는 거야！^c　비명 난 곳에 가는 게 먼저잖아！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3325c": {
+  "src_hash": "5bc884e88a26",
+  "ko": "신스케^c　당신한테도 무서운 게 있지？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3328c": {
+  "src_hash": "9a44613a7b85",
+  "ko": "신스케^c　그래？당신 강하구나．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:332b4": {
+  "src_hash": "f5f020ed7257",
+  "ko": "신스케^c　그렇지，그렇지？^c　난 유령이 무서워．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:332ec": {
+  "src_hash": "96d8a73c6f1f",
+  "ko": "신스케^c　숲 안쪽에 낡은 저택이 있는데，거기에 유령이 나온대．^c　이봐，거기 검객 양반．그 칼로 유령 좀 퇴치해 줘．^c　난 이제 너무 무서워서……덜덜．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3339c": {
+  "src_hash": "04ded3bf48f4",
+  "ko": "사노스케^c　어이어이，그건 좀 무리한 부탁 아니냐？^c　보통 유령 퇴치라고 하면 중이 나설 차례잖아．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33414": {
+  "src_hash": "6493500be0f3",
+  "ko": "신스케^c　그러지 말고 부탁해！^c　지푸라기라도 잡고 싶은 심정이라고．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33460": {
+  "src_hash": "daf87fe601b0",
+  "ko": "야히코^c　쳇，우리가 지푸라기냐．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33484": {
+  "src_hash": "4b8cb2e2f692",
+  "ko": "켄신^c　소인도 유령은 전문이 아니라 도움이 될지 모르겠소만……．^c　^N，그대는 상대가 유령이라도 싸울 수 있다고 생각하오？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33508": {
+  "src_hash": "14278384f6b0",
+  "ko": "켄신^c　소인도 유령은 전문이 아니라 도움이 될지 모르겠소만……．^c　^N 공，그대는 상대가 유령이라도 싸울 수 있다고 생각하오？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3358c": {
+  "src_hash": "f9237d5f57a4",
+  "ko": "켄신^c　그렇소……．^c　본래 유령이란 퇴치하는 것이 아니니 말이오．^c　역시 여기서는 절이나 신사에 상담해서 액막이를 받는 것이 가장 좋을 것이오．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33638": {
+  "src_hash": "514ce40262a6",
+  "ko": "야히코^c　그렇겠지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3364c": {
+  "src_hash": "6834e9d8d6cd",
+  "ko": "카오루^c　알겠지？^c　위험한 곳에는 가까이 가지 않는 게 제일이야．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33688": {
+  "src_hash": "88496238ed4a",
+  "ko": "신스케^c　네，네에……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:336a0": {
+  "src_hash": "f017b134e16d",
+  "ko": "사노스케^c　그래도 효과가 없을 땐 다시 우리한테 상담해 봐．^c　마음이 바뀌어 있을지도 모르니까．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33710": {
+  "src_hash": "01ea16b86ff8",
+  "ko": "켄신^c　그렇소……．^c　그렇다면 유령 퇴치를 맡기로 하겠소．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33768": {
+  "src_hash": "1e9859a00238",
+  "ko": "야히코^c　이대로 내버려 둘 수도 없으니까．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:337a0": {
+  "src_hash": "479cd635dcf2",
+  "ko": "카오루^c　그……그렇지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:337b8": {
+  "src_hash": "259b3266a23c",
+  "ko": "켄신^c　어라？카오루 공，안색이 좋지 않은 것 같소만……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:337f4": {
+  "src_hash": "75b4858efb50",
+  "ko": "사노스케^c　뭐야，아가씨는 유령이 무서운 거냐．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33828": {
+  "src_hash": "74ca9bf6d37a",
+  "ko": "야히코^c　난 유령보다 카오루가 훨씬 더 무섭지만．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33868": {
+  "src_hash": "561af234322b",
+  "ko": "카오루^c　뭐라고오！야히코，^c　다시 한번 말해 봐．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:338a8": {
+  "src_hash": "4c0acb7f7943",
+  "ko": "켄신^c　자자，진정하시오．^c　어쨌든 그 유령이 나온다는 저택으로 가 봅시다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3390c": {
+  "src_hash": "e451e65c1c3d",
+  "ko": "신스케^c　믿을 건 당신들뿐이야．^c　힘내 줘．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33948": {
+  "src_hash": "7a756f055283",
+  "ko": "신스케^c　이제 누구라도 좋으니까 빨리 유령 좀 퇴치해 줘．^c　무서워서 밤에 잠도 못 잔다고．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:339a8": {
+  "src_hash": "25ec02b8323e",
+  "ko": "사노스케^c　이거 원，어쩐지 이쪽까지 한심한 기분이 드는군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:339f8": {
+  "src_hash": "90e27e8fcca6",
+  "ko": "신스케^c　이봐，당신！^c　부탁이니까 유령 좀 퇴치해 줘．^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33a38": {
+  "src_hash": "353fe26b07c8",
+  "ko": "사노스케^c　미안하다．가기 싫다는 녀석한테 억지로 시킬 순 없으니까．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33a8c": {
+  "src_hash": "65fbae3cdf03",
+  "ko": "사노스케^c　좋아，그 부탁 확실히 맡았다．좋았어！^c　^N，당장 그 유령 저택이란 데로 가 보자고．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33b00": {
+  "src_hash": "f9a55b498ac0",
+  "ko": "사노스케^c　좋아，그 부탁 확실히 맡았다．좋았어！^c　^N，당장 유령 퇴치나 한판 해 볼까．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33b6c": {
+  "src_hash": "0cd269130294",
+  "ko": "신스케^c　휴우，이제 안심하고 살 수 있겠어．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33ba0": {
+  "src_hash": "8f5e756c173f",
+  "ko": "c6부절 이３c7을 손에 넣었다！！c7",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33bc4": {
+  "src_hash": "069a7ec3536f",
+  "ko": "주인^c　뭐야，돈이 모자라잖아！^c　구경만 할 거면 나가 줘．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33c04": {
+  "src_hash": "aa3e15572118",
+  "ko": "야히코^c　어－－－이．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33c1c": {
+  "src_hash": "b2e01528a1ab",
+  "ko": "야히코^c　오，늦었네．방금 경찰 녀석들이 유령 저택으로 갔어．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33c74": {
+  "src_hash": "59700d207e6c",
+  "ko": "사노스케^c　……그렇다면 지금쯤 숲속이겠군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33c9c": {
+  "src_hash": "954f6762accc",
+  "ko": "카오루^c　아무래도 엇갈린 모양이네．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33cd4": {
+  "src_hash": "80170a2426c7",
+  "ko": "켄신^c　뭐，나머지는 경찰에 맡겨도 괜찮을 것이오．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33d10": {
+  "src_hash": "69ffc67daf23",
+  "ko": "카오루^c　그러네．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33d20": {
+  "src_hash": "e3b4b0433ee7",
+  "ko": "야히코^c　아，맞다맞다．이걸 맡아 뒀었지．^c　탈옥범을 잡은 답례래．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33d7c": {
+  "src_hash": "bc85bbf6ad89",
+  "ko": "켄신^c　어라？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33d8c": {
+  "src_hash": "7cd7de5eb3b5",
+  "ko": "카오루^c　어머，돈이잖아．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33da8": {
+  "src_hash": "0a06b72204b6",
+  "ko": "사노스케^c　이게 금일봉이라는 건가．^c　처음 보는군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33de0": {
+  "src_hash": "f6fe6a713217",
+  "ko": "c6５００전c7을 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33dfc": {
+  "src_hash": "f0cbe05bada5",
+  "ko": "야히코^c　잘됐네，^N．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33e14": {
+  "src_hash": "313abf1a6ae7",
+  "ko": "니나^c　어！노란 꽃을 갖고 싶다고？^c　진주랑 교환이라면 생각해 봐도 좋아！",
+  "status": "draft",
+  "note": "NEW NAME: 仁奈=니나"
+ },
+ "ZROUP06:33e5c": {
+  "src_hash": "e02b4aeb028b",
+  "ko": "c6노란 꽃c7을 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33e78": {
+  "src_hash": "b0cb3afd7100",
+  "ko": "진주와 교환하겠습니까？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33e90": {
+  "src_hash": "35622356d9b3",
+  "ko": "라이지로^c　콜록콜록……기，기침이 멈추질 않아서……쿨럭쿨럭．",
+  "status": "draft",
+  "note": "NEW NAME: 雷二郎=라이지로"
+ },
+ "ZROUP06:33ed0": {
+  "src_hash": "19b36ca9ddf4",
+  "ko": "카오루^c　큰일이네，메구미 씨한테 약을 받아다 드리자．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33f08": {
+  "src_hash": "35622356d9b3",
+  "ko": "라이지로^c　콜록콜록……기，기침이 멈추질 않아서……쿨럭쿨럭．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33f48": {
+  "src_hash": "6cfb75da5147",
+  "ko": "라이지로^c　야，약이요？콜록콜록……^c　꿀꺽．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33f80": {
+  "src_hash": "d7bb68e1b726",
+  "ko": "라이지로^c　콜록쿨럭컥컥헉！^c　쿨럭컥켁켁！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:33fb4": {
+  "src_hash": "e5e3ea59c7d5",
+  "ko": "메구미^c　내가 처방한 거랑 다른 약을 먹였군요．^c　자칫하면 목숨이 위험하잖아요！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3400c": {
+  "src_hash": "3dbe02c50d7e",
+  "ko": "메구미^c　실망했어요，^N 군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34028": {
+  "src_hash": "54da8be9e2d8",
+  "ko": "라이지로^c　야，약이요？^c　콜록콜록……꿀꺽．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34060": {
+  "src_hash": "4eb05c01d293",
+  "ko": "라이지로^c　…………기침이 안 나와！^c　이렇게 개운할 수가！^c　고마워요！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:340ac": {
+  "src_hash": "9399ebb56e3f",
+  "ko": "메구미^c　지나가다가 ^N 군 일행이 보여서요．^c　다행이다，내 약이 들었네요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34110": {
+  "src_hash": "94d1bc6d2833",
+  "ko": "메구미^c　힘내요，^N 군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3412c": {
+  "src_hash": "3dbb6f40f0a3",
+  "ko": "에이지^c　뭐야，당신들 아는 사이였구나．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34160": {
+  "src_hash": "890caa8c0372",
+  "ko": "에이지^c　키 큰 사람은 떠났어．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34188": {
+  "src_hash": "649335cf27f6",
+  "ko": "스에키치^c　나，숲에서 도깨비불을 봤어．그런데 하나도 안 무서웠어．^c　진짜야．",
+  "status": "draft",
+  "note": "NEW NAME: すえきち=스에키치"
+ },
+ "ZROUP06:341e8": {
+  "src_hash": "2a7d9c077360",
+  "ko": "라이지로^c　잘 듣게，긴 여행을 할 때는 너무 서두르면 안 되네．^c　때로는 왔던 길을 되돌아가는 것도 필요하지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3425c": {
+  "src_hash": "92c96a010cbb",
+  "ko": "라이지로^c　……얼마 전에 신기한 남자를 봤다네．^c　다친 것 같았는데，그게 꼭 상처 입은 사자 같아서 그림을 그리고 싶어지더군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:342e8": {
+  "src_hash": "a4774501028a",
+  "ko": "c6시노모리 아오시c7 그림책을 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34310": {
+  "src_hash": "52effc3a70fc",
+  "ko": "라이지로^c　얼마 전 영산에 행각을 갔을 때 이런 느낌의 스님을 봤다네．^c　차림새는 초라했지만 훌륭한 분이었을 게야．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34398": {
+  "src_hash": "73528761d272",
+  "ko": "c6유큐잔 안지c7 그림책을 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:343c0": {
+  "src_hash": "88ff82241040",
+  "ko": "오토에^c　노인네 말은 들어 두는 법이라네．",
+  "status": "draft",
+  "note": "NEW NAME: 乙枝=오토에"
+ },
+ "ZROUP06:343f8": {
+  "src_hash": "c3c3155ee93a",
+  "ko": "니나^c　정말이지，우리 집 한량은 일하러 갈 생각도 안 한다니까．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34444": {
+  "src_hash": "c0496635493d",
+  "ko": "마을 사람 메시지１０",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3445c": {
+  "src_hash": "242a6070ad9a",
+  "ko": "마을 사람 메시지１１",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34474": {
+  "src_hash": "62a583e0aeb3",
+  "ko": "유리나^c　남자애들은 거짓말쟁이야．",
+  "status": "draft",
+  "note": "NEW NAME: ゆりな=유리나"
+ },
+ "ZROUP06:3449c": {
+  "src_hash": "c2efc93f77b7",
+  "ko": "마을 사람 메시지１５",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:344b4": {
+  "src_hash": "32480c94f2de",
+  "ko": "마을 사람 메시지１７",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:344cc": {
+  "src_hash": "7d6e233eda4d",
+  "ko": "오타미^c　남쪽 늪에 가실 거면 조심하는 게 좋아요．^c　무서운 짐승이 잔뜩 있으니까．",
+  "status": "draft",
+  "note": "NEW NAME: お民=오타미"
+ },
+ "ZROUP06:3453c": {
+  "src_hash": "5fbf4179bee5",
+  "ko": "마을 사람 메시지１９",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34554": {
+  "src_hash": "32f4ae321d92",
+  "ko": "시이타^c　얼마 전에 여기서 동쪽에 있는 영산 숲에서 길을 잃었거든．^c　그랬더니 울부짖는 듯한 소리가 들리고 땅이 쿵，쿵 하고 흔들렸어．^c　저건 분명 엄청나게 큰 괴물이 있는 게 틀림없어．",
+  "status": "draft",
+  "note": "NEW NAME: 椎太=시이타 (reading uncertain)"
+ },
+ "ZROUP06:3462c": {
+  "src_hash": "45b43969777f",
+  "ko": "츠루조^c　이，이 메이지 세상에 귀，마귀할멈이나 유，유，유령 같은 게 있을 리가 없어．",
+  "status": "draft",
+  "note": "NEW NAME: 鶴三=츠루조"
+ },
+ "ZROUP06:34684": {
+  "src_hash": "b3a66cd78b76",
+  "ko": "마을 사람 메시지２３",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3469c": {
+  "src_hash": "1c89597bde99",
+  "ko": "호타로^c　요즘 산적 같은 게 잔뜩 나와서 모바라 숲속에 있는 강에 낚시도 못 가게 됐어．",
+  "status": "draft",
+  "note": "NEW NAME: 穂太郎=호타로"
+ },
+ "ZROUP06:34708": {
+  "src_hash": "b4df290deafb",
+  "ko": "카츠에^c　야히코 군，혼날지도 모르지만 간병하는 동안 손주 생각이 났단다．^c　이런 것밖에 없지만 복을 부르는 음식이니 먹으렴．",
+  "status": "draft",
+  "note": "NEW NAME: 勝江=카츠에"
+ },
+ "ZROUP06:34798": {
+  "src_hash": "46e3134f58e1",
+  "ko": "카츠에^c　가는 길 무사하길 빌게．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:347bc": {
+  "src_hash": "46cdbf035157",
+  "ko": "카츠에^c　어머어머，어서 와요．^c　젊은 사람들은 북적북적해서 좋네．^c　꼭 손주가 돌아온 것 같구나．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34830": {
+  "src_hash": "8b236ea69923",
+  "ko": "c6카시와모치c7를 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34848": {
+  "src_hash": "c55fdd336b77",
+  "ko": "야히코^c　고마워，할머니！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3486c": {
+  "src_hash": "c8f12e794dc4",
+  "ko": "카츠에^c　얼른 가지러 가 주렴．^c　난 걱정돼서，걱정돼서．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:348b0": {
+  "src_hash": "877d1b0c54cb",
+  "ko": "카오루^c　금방 가져올 테니까 안심하세요，할머니．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:348e4": {
+  "src_hash": "55da1553c197",
+  "ko": "카츠에^c　뭔가 기운 나는 걸 만들어 줘야겠네．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:34920": {
+  "src_hash": "9cf14f671b52",
+  "ko": "카츠에^c　어서 야히코 군한테 먹여 주렴．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3494c": {
+  "src_hash": "b6ce2cd2faa4",
+  "ko": "카오루^c　네！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:3495c": {
+  "src_hash": "d4fd8f73b778",
+  "ko": "오토에^c　영감님 기침이 멈추질 않는다는구먼．큰일이네！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:349a0": {
+  "src_hash": "c71d026d45f4",
+  "ko": "니나^c　진주 없잖아．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:349c4": {
+  "src_hash": "35344354b047",
+  "ko": "지배인^c　여행에 빠질 수 없는 도구는 어떠신가？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP06:349f0": {
+  "src_hash": "aa26562b2d79",
+  "ko": "지배인^c　사서 손해는 안 볼 거요．",
+  "status": "draft",
+  "note": ""
+ }
+}

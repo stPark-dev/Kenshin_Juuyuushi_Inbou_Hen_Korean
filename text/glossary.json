@@ -846,10 +846,10 @@
   },
   {
    "ja": "長屋",
-   "ko": "공동 주택",
+   "ko": "나가야",
    "kind": "common",
    "status": "candidate",
-   "note": "인물들이 사는 에도식 연립 주택(사노스케·히노야마 하야토). 등장: ZROUP01,ZROUP02,ZROUP03,ZROUP25,ZROUP41,ZROUP44"
+   "note": "첫 묶음 표기(ZROUP01·02)를 따름. 에도식 연립 주택. 등장: ZROUP01,ZROUP02,ZROUP03,ZROUP25,ZROUP41,ZROUP44"
   },
   {
    "ja": "皇海山",
@@ -923,10 +923,10 @@
   },
   {
    "ja": "牛鍋屋",
-   "ko": "소고기 전골집",
+   "ko": "규나베 가게",
    "kind": "common",
    "status": "candidate",
-   "note": "아카베코. 등장: ZROUP01,ZROUP24,ZROUP25,ZROUP41"
+   "note": "첫 묶음 표기(ZROUP01)를 따름. 아카베코. 등장: ZROUP01,ZROUP24,ZROUP25,ZROUP41"
   },
   {
    "ja": "霊山",
@@ -1035,10 +1035,10 @@
   },
   {
    "ja": "可否茶屋",
-   "ko": "가배 찻집",
+   "ko": "카히 찻집",
    "kind": "place",
    "status": "candidate",
-   "note": "こぉひぃ를 마시는 메이지 찻집. こぉひぃ=가배. 등장: ZROUP01,ZROUP25"
+   "note": "첫 묶음 표기(ZROUP01)를 따름. こぉひぃ는 커피. 등장: ZROUP01,ZROUP25"
   },
   {
    "ja": "草葉堂",
@@ -1193,6 +1193,454 @@
    "kind": "role",
    "status": "candidate",
    "note": ""
+  },
+  {
+   "ja": "今十勇士",
+   "ko": "신 십용사",
+   "kind": "game",
+   "status": "provisional",
+   "note": "악역 집단. 59행. 후보: 신 십용사 / 지금의 십용사 / 오늘날의 십용사 → 사용자 결정 대기. 今十勇士・海野 → 신 십용사·운노"
+  },
+  {
+   "ja": "鬼婆",
+   "ko": "마귀할멈",
+   "kind": "role",
+   "status": "candidate",
+   "note": "ZROUP07"
+  },
+  {
+   "ja": "鬼婆の谷",
+   "ko": "마귀할멈 골짜기",
+   "kind": "place",
+   "status": "candidate",
+   "note": "ZROUP07 지도 표지"
+  },
+  {
+   "ja": "御庭番衆",
+   "ko": "오니와반슈",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "아오시의 집단"
+  },
+  {
+   "ja": "茂原",
+   "ko": "모바라",
+   "kind": "place",
+   "status": "candidate",
+   "note": "茂原の森=모바라 숲"
+  },
+  {
+   "ja": "清",
+   "ko": "키요시",
+   "kind": "game",
+   "status": "provisional",
+   "note": "독음 미확인. 등장: ZROUP06"
+  },
+  {
+   "ja": "栄次",
+   "ko": "에이지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP06"
+  },
+  {
+   "ja": "美月",
+   "ko": "미츠키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP06"
+  },
+  {
+   "ja": "仁",
+   "ko": "진",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP06"
+  },
+  {
+   "ja": "仁奈",
+   "ko": "니나",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP06"
+  },
+  {
+   "ja": "雷二郎",
+   "ko": "라이지로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP06"
+  },
+  {
+   "ja": "すえきち",
+   "ko": "스에키치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP06"
+  },
+  {
+   "ja": "乙枝",
+   "ko": "오토에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP06"
+  },
+  {
+   "ja": "ゆりな",
+   "ko": "유리나",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP06"
+  },
+  {
+   "ja": "お民",
+   "ko": "오타미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP06"
+  },
+  {
+   "ja": "椎太",
+   "ko": "시이타",
+   "kind": "game",
+   "status": "provisional",
+   "note": "독음 미확인. 등장: ZROUP06"
+  },
+  {
+   "ja": "鶴三",
+   "ko": "츠루조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP06"
+  },
+  {
+   "ja": "穂太郎",
+   "ko": "호타로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP06"
+  },
+  {
+   "ja": "勝江",
+   "ko": "카츠에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP06"
+  },
+  {
+   "ja": "八雲",
+   "ko": "야쿠모",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP11"
+  },
+  {
+   "ja": "霞",
+   "ko": "카스미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP11"
+  },
+  {
+   "ja": "千里",
+   "ko": "치사토",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "龍重",
+   "ko": "타츠시게",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "茄吉",
+   "ko": "나스키치",
+   "kind": "game",
+   "status": "provisional",
+   "note": "독음 미확인. 등장: ZROUP12"
+  },
+  {
+   "ja": "心衛門",
+   "ko": "신에몬",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "梨果",
+   "ko": "리카",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "舟彦",
+   "ko": "후나히코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "和也",
+   "ko": "카즈야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "伸彦",
+   "ko": "노부히코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "蘭",
+   "ko": "란",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "忠隆",
+   "ko": "타다타카",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "盛舟",
+   "ko": "모리후네",
+   "kind": "game",
+   "status": "provisional",
+   "note": "독음 미확인. 등장: ZROUP12"
+  },
+  {
+   "ja": "お舟",
+   "ko": "오후네",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "朝吉",
+   "ko": "아사키치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "比呂助",
+   "ko": "히로스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "与八",
+   "ko": "요하치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "圭介",
+   "ko": "케이스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "義隆",
+   "ko": "요시타카",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "ナタリー",
+   "ko": "나탈리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "あきお",
+   "ko": "아키오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "静菜",
+   "ko": "시즈나",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "美也子",
+   "ko": "미야코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "米子",
+   "ko": "요네코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "享一郎",
+   "ko": "쿄이치로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "より子",
+   "ko": "요리코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "お市",
+   "ko": "오이치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "早雲",
+   "ko": "소운",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "六助",
+   "ko": "로쿠스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "加寿茂",
+   "ko": "카즈시게",
+   "kind": "game",
+   "status": "provisional",
+   "note": "독음 미확인. 등장: ZROUP12"
+  },
+  {
+   "ja": "夏芽",
+   "ko": "나츠메",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "英樹",
+   "ko": "히데키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "敏之",
+   "ko": "토시유키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "千寿",
+   "ko": "센주",
+   "kind": "game",
+   "status": "provisional",
+   "note": "독음 미확인. 등장: ZROUP12"
+  },
+  {
+   "ja": "佐助",
+   "ko": "사스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "虎丸",
+   "ko": "토라마루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "등장: ZROUP12"
+  },
+  {
+   "ja": "真田幸村",
+   "ko": "사나다 유키무라",
+   "kind": "canon",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "藤田五郎",
+   "ko": "후지타 고로",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "사이토 하지메의 가명"
+  },
+  {
+   "ja": "炎魔の型",
+   "ko": "염마의 형",
+   "kind": "term",
+   "status": "candidate",
+   "note": "기술명은 한자음(ZROUP11)"
+  },
+  {
+   "ja": "ハスミの里",
+   "ko": "하스미 마을",
+   "kind": "place",
+   "status": "candidate",
+   "note": "ZROUP12. 연꽃 말장난 PUN-PROVISIONAL"
+  },
+  {
+   "ja": "猫まねき亭",
+   "ko": "네코마네키테이",
+   "kind": "place",
+   "status": "candidate",
+   "note": "ZROUP12"
+  },
+  {
+   "ja": "伊達屋",
+   "ko": "다테야",
+   "kind": "place",
+   "status": "candidate",
+   "note": "ZROUP12"
+  },
+  {
+   "ja": "小島堂",
+   "ko": "코지마도",
+   "kind": "place",
+   "status": "candidate",
+   "note": "ZROUP12"
+  },
+  {
+   "ja": "八幡寺",
+   "ko": "하치만지",
+   "kind": "place",
+   "status": "candidate",
+   "note": "ZROUP12"
+  },
+  {
+   "ja": "公示",
+   "ko": "코지",
+   "kind": "game",
+   "status": "check",
+   "note": "ZROUP06 여관 주인 화자명. 공고라는 뜻이라 개발용 자리 표시일 수 있음"
   }
  ]
 }

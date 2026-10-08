@@ -1348,9 +1348,9 @@
   {
    "id": 119,
    "ja": "白い花",
-   "ko": "흰 꽃",
+   "ko": "하얀 꽃",
    "status": "candidate",
-   "note": "",
+   "note": "첫 묶음 대사 표기(하얀)에 맞춤",
    "contexts": {
     "ZROUP01": 3,
     "ZROUP02": 4
@@ -1414,9 +1414,9 @@
   {
    "id": 125,
    "ja": "白い実",
-   "ko": "흰 열매",
+   "ko": "하얀 열매",
    "status": "candidate",
-   "note": "",
+   "note": "첫 묶음 대사 표기(하얀)에 맞춤",
    "contexts": {
     "ZROUP02": 7
    }
