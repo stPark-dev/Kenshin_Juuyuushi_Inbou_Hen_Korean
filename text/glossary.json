@@ -709,6 +709,48 @@
    "kind": "term",
    "status": "check",
    "note": "한국 정발 만화 용어 확인 필요"
+  },
+  {
+   "ja": "人丹",
+   "ko": "인단",
+   "kind": "item",
+   "status": "check",
+   "note": "아이템. ZROUP04 초벌 선택"
+  },
+  {
+   "ja": "杏竹豆",
+   "ko": "행죽두",
+   "kind": "item",
+   "status": "check",
+   "note": "아이템. 정체 불명, 한자음"
+  },
+  {
+   "ja": "天門冬",
+   "ko": "천문동",
+   "kind": "item",
+   "status": "check",
+   "note": "아이템. 한약재 표준명"
+  },
+  {
+   "ja": "草の黄",
+   "ko": "황초",
+   "kind": "item",
+   "status": "check",
+   "note": "아이템. 의미 불확실"
+  },
+  {
+   "ja": "牛革草",
+   "ko": "우혁초",
+   "kind": "item",
+   "status": "check",
+   "note": "아이템. 한자음"
+  },
+  {
+   "ja": "我孫子",
+   "ko": "아비코",
+   "kind": "place",
+   "status": "check",
+   "note": "지명(아비코 숲)"
   }
  ]
 }
