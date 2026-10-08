@@ -3614,14 +3614,14 @@
    "ko": "잔자",
    "kind": "canon",
    "status": "check",
-   "note": "사노스케의 옛 이름. 한국 정발 만화 표기 확인 필요(현재 D8 음역 잔자). 새 이름(번역 메모에서 수집). 등장: ZROUP25"
+   "note": "정발 만화 표기 확인 필요. 사노스케의 옛 이름. 한국 정발 만화 표기 확인 필요(현재 D8 음역 잔자). 새 이름(번역 메모에서 수집). 등장: ZROUP25"
   },
   {
    "ja": "喧嘩屋斬左",
    "ko": "싸움꾼 잔자",
    "kind": "canon",
    "status": "check",
-   "note": "사노스케의 옛 이름. 한국 정발 만화 표기 확인 필요(현재 D8 음역 잔자). 새 이름(번역 메모에서 수집). 등장: ZROUP25"
+   "note": "정발 만화 표기 확인 필요. 사노스케의 옛 이름. 한국 정발 만화 표기 확인 필요(현재 D8 음역 잔자). 새 이름(번역 메모에서 수집). 등장: ZROUP25"
   },
   {
    "ja": "泰三",
@@ -5344,6 +5344,1322 @@
    "kind": "game",
    "status": "candidate",
    "note": "새 이름(번역 메모에서 수집). 등장: ZROUP24"
+  },
+  {
+   "ja": "龍槌閃",
+   "ko": "용추섬",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "龍翔閃",
+   "ko": "용상섬",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "飛龍閃",
+   "ko": "비룡섬",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "土龍閃",
+   "ko": "토룡섬",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "山県有朋",
+   "ko": "야마가타 아리토모",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "木戸孝允",
+   "ko": "키도 타카요시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "勝海舟",
+   "ko": "카츠 카이슈",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "伊藤博文",
+   "ko": "이토 히로부미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "神谷越路郎",
+   "ko": "카미야 코시지로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "抜刀隊",
+   "ko": "발도대",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "会津戦争",
+   "ko": "아이즈 전쟁",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "函館戦争",
+   "ko": "하코다테 전쟁",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "鳥羽・伏見の戦い",
+   "ko": "토바・후시미 전투",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "長岡幹雄",
+   "ko": "나가오카 미키오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "甲元一刀流",
+   "ko": "코모토 일도류",
+   "kind": "game",
+   "status": "check",
+   "note": "정발 만화 표기 확인 필요. 새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "火野派",
+   "ko": "히노파",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "溝口派",
+   "ko": "미조구치파",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "斬馬刀",
+   "ko": "참마도",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "宵太",
+   "ko": "요이타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "千造",
+   "ko": "센조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "利一",
+   "ko": "리이치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "進藤帯刀",
+   "ko": "신도 타테와키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "川路利良",
+   "ko": "카와지 토시요시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "橋爪琢磨",
+   "ko": "하시즈메 타쿠마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "不知火党",
+   "ko": "시라누이당",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "回天党",
+   "ko": "카이텐당",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "多西組",
+   "ko": "타사이조",
+   "kind": "game",
+   "status": "check",
+   "note": "정발 만화 표기 확인 필요. 새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "京都見廻り組",
+   "ko": "교토 미마와리구미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "佐々木平八郎",
+   "ko": "사사키 헤이하치로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "前川宮内",
+   "ko": "마에카와 쿠나이",
+   "kind": "game",
+   "status": "check",
+   "note": "정발 만화 표기 확인 필요. 새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "榊東馬",
+   "ko": "사카키 토마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "心太",
+   "ko": "신타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "御頭",
+   "ko": "우두머리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "般若",
+   "ko": "한냐",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "伸腕の術",
+   "ko": "신완의 술",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "式尉",
+   "ko": "시키조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "べしみ",
+   "ko": "베시미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "ひょっとこ",
+   "ko": "횻토코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "本丸警護方",
+   "ko": "혼마루 경호역",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "武田観柳",
+   "ko": "타케다 칸류",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "蜘蛛の巣",
+   "ko": "거미집",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "曼荼羅葉",
+   "ko": "만다라엽",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "菱卍愚連隊",
+   "ko": "히시만지 깡패단",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "蜂須賀",
+   "ko": "하치스카",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "我介",
+   "ko": "가스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "宇治木",
+   "ko": "우지키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "雷光",
+   "ko": "라이코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "西脇",
+   "ko": "니시와키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "桜丸",
+   "ko": "사쿠라마루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "月鬼",
+   "ko": "겟키",
+   "kind": "game",
+   "status": "check",
+   "note": "정발 만화 표기 확인 필요. 새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "黒笠",
+   "ko": "쿠로가사",
+   "kind": "game",
+   "status": "check",
+   "note": "정발 만화 표기 확인 필요. 새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "鵜堂刃衛",
+   "ko": "우도 진에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "石動雷十太",
+   "ko": "이스루기 라이쥬타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "鬼崎鉄管",
+   "ko": "오니자키 텟칸",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "鬼崎源吾",
+   "ko": "오니자키 겐고",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "憑鬼の術",
+   "ko": "빙귀의 술",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "谷十三郎",
+   "ko": "타니 쥬자부로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "亀雄",
+   "ko": "카메오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "鬼崎",
+   "ko": "오니자키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "鉄貫",
+   "ko": "텟칸",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "土蜘蛛流",
+   "ko": "츠치구모류",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "源吾",
+   "ko": "겐고",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "虎蔵",
+   "ko": "토라조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "東馬",
+   "ko": "토마",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "中島登",
+   "ko": "나카지마 노보루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "恵比須砲術団",
+   "ko": "에비스 포술단",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "次郎吉",
+   "ko": "지로키치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "マリモ",
+   "ko": "마리모",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "墨田座",
+   "ko": "스미다좌",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "染太郎",
+   "ko": "소메타로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "染之助",
+   "ko": "소메노스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "伊豆",
+   "ko": "이즈",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "銀丈",
+   "ko": "긴조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "竜五郎",
+   "ko": "류고로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "墨田屋総兵衛",
+   "ko": "스미다야 소베에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "宮内",
+   "ko": "쿠나이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "真古流",
+   "ko": "진고류",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "紫",
+   "ko": "무라사키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "大猿",
+   "ko": "오자루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "天の邪鬼",
+   "ko": "아마노자쿠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "十勇士陰謀編",
+   "ko": "십용사 음모편",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "比留間伍兵衛",
+   "ko": "히루마 고헤에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "小国玄斎",
+   "ko": "오구니 겐사이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "豊田晋太郎",
+   "ko": "토요타 신타로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "藤川",
+   "ko": "후지카와",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "萌川",
+   "ko": "모에카와",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "篠川",
+   "ko": "시노카와",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "小島四郎左衛門将満",
+   "ko": "코지마 시로자에몬",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "木村亀太郎",
+   "ko": "키무라 카메타로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "原田左之助",
+   "ko": "하라다 사노스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "山崎蒸",
+   "ko": "야마자키 스스무",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "島田魁",
+   "ko": "시마다 카이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "大久保利通",
+   "ko": "오쿠보 토시미치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "陸蒸気",
+   "ko": "기차",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "板垣退助",
+   "ko": "이타가키 타이스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "脱兎号",
+   "ko": "닷토호",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "風月堂",
+   "ko": "후게츠도",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "武田観柳斎",
+   "ko": "타케다 칸류사이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "神風連の乱",
+   "ko": "신푸렌의 난",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "岡田以蔵",
+   "ko": "오카다 이조",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "河上彦斎",
+   "ko": "카와카미 겐사이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "田中新平衛",
+   "ko": "타나카 신베에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "伊藤俊輔",
+   "ko": "이토 슌스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "天野八郎",
+   "ko": "아마노 하치로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "近江屋",
+   "ko": "오미야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "内田九一",
+   "ko": "우치다 쿠이치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "榎本武揚",
+   "ko": "에노모토 타케아키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "清河八郎",
+   "ko": "키요카와 하치로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "井上八郎",
+   "ko": "이노우에 하치로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "長州",
+   "ko": "쵸슈",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "ええじゃないか",
+   "ko": "에에자나이카",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "トコトンヤレヤレ",
+   "ko": "토코톤야레야레",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "オッペケペー",
+   "ko": "옷페케페",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "エライ奴ちゃ",
+   "ko": "에라이얏차",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "平刺突",
+   "ko": "평자돌",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "渋海",
+   "ko": "시부미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "赤末有人",
+   "ko": "아카스에 아리히토",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "中山道",
+   "ko": "나카센도",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "東海道",
+   "ko": "토카이도",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "三島栄一郎",
+   "ko": "미시마 에이이치로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "南雲",
+   "ko": "나구모",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "龍子",
+   "ko": "류코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "君尾",
+   "ko": "키미오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "高尾",
+   "ko": "타카오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "長曾禰虎徹",
+   "ko": "나가소네 코테츠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "一文字則宗",
+   "ko": "이치몬지 노리무네",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "備前長船長光",
+   "ko": "비젠 오사후네",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "十本刀",
+   "ko": "십본도",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "悠久山安慈",
+   "ko": "유큐잔 안지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "柏崎念至",
+   "ko": "카시와자키 넨지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "翁",
+   "ko": "오키나",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "梟爪衆",
+   "ko": "쿄소슈",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "お増",
+   "ko": "오마스",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "黒",
+   "ko": "쿠로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "白",
+   "ko": "시로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "伝書鳩ル",
+   "ko": "전서구루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "お重",
+   "ko": "오주",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "中村屋",
+   "ko": "나카무라야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "おだや",
+   "ko": "오다야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "九頭龍閃",
+   "ko": "구두룡섬",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "新津覚之進",
+   "ko": "니이츠 카쿠노신",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "桔梗仙冬月",
+   "ko": "키쿄센 후유즈키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "新井赤空",
+   "ko": "아라이 샷쿠",
+   "kind": "game",
+   "status": "check",
+   "note": "정발 만화 표기 확인 필요. 새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "伊織",
+   "ko": "이오리",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "青空",
+   "ko": "세이쿠",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "梓",
+   "ko": "아즈사",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "上総",
+   "ko": "카즈사",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "白山神社",
+   "ko": "하쿠산 신사",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "白べこ",
+   "ko": "시로베코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "八つ橋",
+   "ko": "야츠하시",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "ういろう",
+   "ko": "우이로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "六連ねのほこら",
+   "ko": "여섯 사당",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "十楽寺",
+   "ko": "쥬라쿠지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "吾郎",
+   "ko": "고로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "太助",
+   "ko": "타스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "みかん",
+   "ko": "미캉",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "瞬天殺",
+   "ko": "순천살",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "焔霊",
+   "ko": "호무라다마",
+   "kind": "game",
+   "status": "check",
+   "note": "정발 만화 표기 확인 필요. 새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "縮地",
+   "ko": "축지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "大蛇",
+   "ko": "오로치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "火産霊神",
+   "ko": "카구츠치",
+   "kind": "game",
+   "status": "check",
+   "note": "정발 만화 표기 확인 필요. 새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "紅蓮腕",
+   "ko": "홍련완",
+   "kind": "game",
+   "status": "check",
+   "note": "정발 만화 표기 확인 필요. 새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "生麦事件",
+   "ko": "나마무기 사건",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "竹橋事件",
+   "ko": "타케바시 사건",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "桜田門外の変",
+   "ko": "사쿠라다몬 외의",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "蝙也",
+   "ko": "헨야",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "夷腕坊",
+   "ko": "이완보",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "才槌",
+   "ko": "사이즈치",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "不二",
+   "ko": "후지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "冴",
+   "ko": "사에",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "比叡山",
+   "ko": "히에이잔",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "峰助",
+   "ko": "미네스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "ハル",
+   "ko": "하루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "孝治",
+   "ko": "코지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "宵",
+   "ko": "요이",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "明",
+   "ko": "아키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "トメ",
+   "ko": "토메",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "りつこ",
+   "ko": "리츠코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "小朝",
+   "ko": "코아사",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "イト",
+   "ko": "이토",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "巻助",
+   "ko": "마키스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "すず",
+   "ko": "스즈",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "こはる",
+   "ko": "코하루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "かんじ",
+   "ko": "칸지",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "もとはる",
+   "ko": "모토하루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "康隆",
+   "ko": "야스타카",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "邦夫",
+   "ko": "쿠니오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "幸せの金の猫",
+   "ko": "행복의 황금",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
   }
  ]
 }
