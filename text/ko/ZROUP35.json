@@ -1,0 +1,410 @@
+{
+ "ZROUP35:18844": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:1885c": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18874": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:1888c": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:188a4": {
+  "src_hash": "247d90a2bbf9",
+  "ko": "^4c7^N^!c9카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:188e0": {
+  "src_hash": "3d161548449b",
+  "ko": "^4c9^N^!c7카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:1891c": {
+  "src_hash": "556198ebc4ee",
+  "ko": "^4c9^N^!c9카미야　카오루^cc7묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18958": {
+  "src_hash": "ae5e6d646981",
+  "ko": "^4c9^N^!c9카미야　카오루^cc9묘진　야히코^cc7설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18994": {
+  "src_hash": "40e614e22b2c",
+  "ko": "^4c9^N^!c9카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc7그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:189d0": {
+  "src_hash": "df56ec8fe0d7",
+  "ko": "노조미^c　누구야？^c　오빠가 아는 사람？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18a00": {
+  "src_hash": "5f671194d902",
+  "ko": "신고^c　아니，몰라．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18a20": {
+  "src_hash": "1cbc033612ab",
+  "ko": "노조미^c　모르는 사람은^c　집에 들이면 안 돼？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18a58": {
+  "src_hash": "27bb5e275055",
+  "ko": "신고^c　응．아빠랑 엄마한테^c　혼난단 말이야．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18a98": {
+  "src_hash": "c53cc85f05eb",
+  "ko": "노조미^c　그럼，안 들여 주지롱！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18ac0": {
+  "src_hash": "31a2a67d6f64",
+  "ko": "신고^c　안녕．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18ad4": {
+  "src_hash": "903e2f432596",
+  "ko": "신고의 목소리^c　모르는 사람은^c　집에 들이면 안 된단 말이야．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18b14": {
+  "src_hash": "20f478956798",
+  "ko": "야히코^c　……굉장해……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18b30": {
+  "src_hash": "1c2c11595f9d",
+  "ko": "사노스케^c　요란하게도 타는군……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18b54": {
+  "src_hash": "9bec17d61b9f",
+  "ko": "쿄코^c　누구 없어요－－－！^c　누가 좀 도와주세요！^c　안에 아직 아이가 있어요！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18ba8": {
+  "src_hash": "eb5c4ebf3937",
+  "ko": "카오루^c　뭐라고요！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18bc0": {
+  "src_hash": "a6128af88a3f",
+  "ko": "켄신^c　이런！빨리 구하지 않으면^c　이 집이 무너지고 말 것이오．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18c08": {
+  "src_hash": "ebe508d40438",
+  "ko": "카오루^c　알았어．^c　아이를 구하러 가자！^c　괜찮지，^N 군？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18c50": {
+  "src_hash": "e9d346dcb566",
+  "ko": "카오루^c　알았어．^c　아이를 구하러 가요！^c　괜찮죠，^N 씨？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18c9c": {
+  "src_hash": "5faf085f64bd",
+  "ko": "야히코^c　무슨 소리야！이럴 때야말로^c　우리가 나설 차례잖아！^c　자，갈 거지？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18cf8": {
+  "src_hash": "5715d25f79f0",
+  "ko": "사노스케^c　^N……^c　너，혹시……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18d28": {
+  "src_hash": "5bfc6104b561",
+  "ko": "켄신^c　불이 무서운 것이구려．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18d48": {
+  "src_hash": "93589dc8e865",
+  "ko": "카오루^c　……불이？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18d5c": {
+  "src_hash": "50b4914ebc7f",
+  "ko": "켄신^c　기억을 잃어도，겪었던 공포가^c　마음 깊은 곳에 남아 있었던……．^c　그런 것이겠지요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18dbc": {
+  "src_hash": "34548fe1ba8f",
+  "ko": "야히코^c　……그래，그랬었지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18de0": {
+  "src_hash": "3cbc92ab17ba",
+  "ko": "목소리^c　불난 데가 어디야－－－！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18e00": {
+  "src_hash": "36c81e672cf4",
+  "ko": "사노스케^c　아무래도^c　소방조가 도착한 모양이군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18e38": {
+  "src_hash": "e0910db438ea",
+  "ko": "켄신^c　아이 구출은^c　저들에게 맡깁시다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18e6c": {
+  "src_hash": "4544e004b6de",
+  "ko": "카오루^c　응……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18e80": {
+  "src_hash": "643d0e67ef07",
+  "ko": "사노스케^c　좋아！가자고！！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18ea0": {
+  "src_hash": "93fe83fdedac",
+  "ko": "쿄코^c　아이를 구하러 가 주시는 거군요？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18ed4": {
+  "src_hash": "f15fcf1b1c04",
+  "ko": "카오루^c　네．^c　아이는 저희가 구할게요．^c　그러니……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18f10": {
+  "src_hash": "42cfd02862d1",
+  "ko": "켄신^c　불 끄는 일은 부탁하오．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18f34": {
+  "src_hash": "e020461e7131",
+  "ko": "쿄코^c　아，네！^c　잘 부탁드립니다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18f64": {
+  "src_hash": "7ee0e5a2f05b",
+  "ko": "사노스케^c　눈 깜짝할 새였군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18f88": {
+  "src_hash": "0ae8e952eb10",
+  "ko": "켄신^c　소방조가 한발만 늦게 도착했어도 아이의 목숨이 위험했을 것이오．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:18fd8": {
+  "src_hash": "72c40f62b3f2",
+  "ko": "카오루^c　응．아무도 죽지 않아서^c　정말 다행이야．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19010": {
+  "src_hash": "2273003df735",
+  "ko": "야히코^c　불이라는 건……．^c　무척 소중한 거지만，동시에^c　무서운 것이기도 하구나……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19070": {
+  "src_hash": "b2159d6dc40d",
+  "ko": "켄신^c　자，이제 슬슬 갑시다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19098": {
+  "src_hash": "2b914d4d4b16",
+  "ko": "쿄코^c　생판 모르는 분들이^c　위험도 무릅쓰고^c　타오르는 불길 속으로^c　뛰어들어 주시다니……．^c　정말 감사합니다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19124": {
+  "src_hash": "d3d0c88533f0",
+  "ko": "카오루^c　앞으로 이래저래 힘드시겠지만 힘내세요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19164": {
+  "src_hash": "14a4747c6d6b",
+  "ko": "쿄코^c　그럼，이만……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19180": {
+  "src_hash": "9d837d564b77",
+  "ko": "사노스케^c　……아슬아슬했군．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:191a0": {
+  "src_hash": "31ec9a08d979",
+  "ko": "켄신^c　탈출이 한발만 늦었어도^c　아이뿐 아니라 우리 목숨도^c　위험했을 것이오．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19204": {
+  "src_hash": "2eee40981bc1",
+  "ko": "카오루^c　아니에요，저희는……결국^c　도움이 못 된 것 같아서……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19248": {
+  "src_hash": "7211a0e6d9e5",
+  "ko": "쿄코^c　아니에요，^c　그 마음만으로도 충분해요．^c　소방조 덕분에^c　아이도 무사했고요……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:192b0": {
+  "src_hash": "9d1fa37a58c7",
+  "ko": "켄신^c　이 집……버틸 시간은 앞으로^c　５분 정도일 것이오．^c　빨리 아이를 구하지 않으면^c　우리 목숨도 위험하오．^c　……알겠소？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19348": {
+  "src_hash": "89b5aa0963cc",
+  "ko": "켄신^c　그래도 망설일 시간은^c　없소．갑시다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19390": {
+  "src_hash": "7be7e8e22135",
+  "ko": "켄신^c　그렇다면，갑시다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:193b4": {
+  "src_hash": "ed21ab3c0103",
+  "ko": "신고^c　……누구？^c　구하러 와 준 거야……？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:193e4": {
+  "src_hash": "2c0368533025",
+  "ko": "신고^c　고마워．^c　그런데 아직 집 안에 여동생이 있어．^c　부탁이야！여동생을 구해 줘！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19438": {
+  "src_hash": "916366985f8d",
+  "ko": "신고^c　고마워！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19450": {
+  "src_hash": "1efe11a54db0",
+  "ko": "노조미^c　오빠랑 떨어졌어．^c　오빠를 찾아 줄래？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:1949c": {
+  "src_hash": "9e99e2e077cd",
+  "ko": "노조미^c　고마워！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:194b4": {
+  "src_hash": "e2b295b12845",
+  "ko": "노조미^c　으아아아앙，무서웠어！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:194dc": {
+  "src_hash": "f91ffa69ae88",
+  "ko": "카즈히로^c　아이를 구하러 와서^c　내가 구조를 받다니……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19518": {
+  "src_hash": "7d666a529d7d",
+  "ko": "도둑^c　……！！미，미안하다．^c　그만 나쁜 마음을 먹어서……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19554": {
+  "src_hash": "271ac1fa3fd3",
+  "ko": "도둑^c　훔친 물건은 제자리에 돌려놨어．^c　그러니까 봐줘！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19594": {
+  "src_hash": "a70a5314237d",
+  "ko": "c6비상금c7을 찾았다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:195b0": {
+  "src_hash": "0d375f40d401",
+  "ko": "야히코^c　벌써 탈출할 거야？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:195c8": {
+  "src_hash": "b1fffe5ab778",
+  "ko": "야히코^c　서두르지 않으면 시간이 다 간다고．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:195f0": {
+  "src_hash": "1d3577877fe4",
+  "ko": "야히코^c　알았어．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19604": {
+  "src_hash": "a59bfd0a10ac",
+  "ko": "켄신^c　이런！집이……！！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP35:19624": {
+  "src_hash": "cabf44ea7185",
+  "ko": "카오루^c　”손잡이” 앞으로 가지 않으면^c　문은 열 수 없어．",
+  "status": "draft",
+  "note": ""
+ }
+}

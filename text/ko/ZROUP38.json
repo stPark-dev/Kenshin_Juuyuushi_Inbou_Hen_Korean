@@ -1,0 +1,896 @@
+{
+ "ZROUP38:15308": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15320": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15338": {
+  "src_hash": "7b8445403dbe",
+  "ko": "^4c7예^Cc9아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15350": {
+  "src_hash": "9ace0547ddbf",
+  "ko": "^4c9예^Cc7아니오^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15368": {
+  "src_hash": "247d90a2bbf9",
+  "ko": "^4c7^N^!c9카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:153a4": {
+  "src_hash": "3d161548449b",
+  "ko": "^4c9^N^!c7카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:153e0": {
+  "src_hash": "556198ebc4ee",
+  "ko": "^4c9^N^!c9카미야　카오루^cc7묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:1541c": {
+  "src_hash": "ae5e6d646981",
+  "ko": "^4c9^N^!c9카미야　카오루^cc9묘진　야히코^cc7설명을 듣는다^cc9그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15458": {
+  "src_hash": "40e614e22b2c",
+  "ko": "^4c9^N^!c9카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc7그만둔다^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15494": {
+  "src_hash": "892a8de29408",
+  "ko": "소녀^c　언니！시즈카 언니！안에 있는 거지！？",
+  "status": "draft",
+  "note": "NEW NAME: 静=시즈카 (잠정, 가나 독음 없음)"
+ },
+ "ZROUP38:154c8": {
+  "src_hash": "d4feed23611b",
+  "ko": "소녀^c　부탁이야，언니！목소리만이라도 들려줘……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:154fc": {
+  "src_hash": "03534a45f191",
+  "ko": "카스미 수녀^c　이곳은 신을 섬기는 자들이 모이는 곳，수도원입니다．소란을 피우시면 곤란합니다．",
+  "status": "draft",
+  "note": "NEW NAME: 霞=카스미 (화자명 카스미 수녀, 용어집 후보 표기). 이 인물의 어색한 존댓말 말버릇은 동사 뒤 \"~것입니다\"로 표현"
+ },
+ "ZROUP38:15554": {
+  "src_hash": "d7c58c979a0d",
+  "ko": "소녀^c　저희 언니를 만나게 해 주세요！여기 들어간 뒤로 돌아오지 않고 있어요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:155ac": {
+  "src_hash": "0844cbd2f3dc",
+  "ko": "카스미 수녀^c　이곳에 영혼의 평온을 구하러 찾아오는 자는 많이 있는 것입니다．어느 분 이야기인지 모르는 것입니다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15620": {
+  "src_hash": "7ce7424f5b16",
+  "ko": "소녀^c　이름은 시즈카，나이는 열여덟이에요．동생 코즈에가 왔다고 전해 주시면 알 거예요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15688": {
+  "src_hash": "3f00a8f394e0",
+  "ko": "카스미 수녀^c　오오……소녀여．이곳에 오는 자는 모두 고민하고 괴로워하고 있는 것입니다．설령 가족이라도 만나고 싶지 않다는 자가 많은 것입니다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15718": {
+  "src_hash": "11dfb56cf554",
+  "ko": "소녀^c　말도 안 돼요！언니가 저를 만나기 싫어할 리가 없어요．하나뿐인 혈육인걸요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:1578c": {
+  "src_hash": "c1b595f58710",
+  "ko": "카스미 수녀^c　진실은 하나입니다．제가 할 수 있는 일은 없는 것입니다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:157dc": {
+  "src_hash": "76ba8f3ce0a4",
+  "ko": "소녀^c　잠，잠깐만요！기다려 주세요！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15804": {
+  "src_hash": "6e817f966b33",
+  "ko": "카오루^c　왠지 불쌍해……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15828": {
+  "src_hash": "ab7003c06d1a",
+  "ko": "야히코^c　뭔가 사정이 있는 모양이네．이야기를 들어 보자고．^S",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15860": {
+  "src_hash": "de2eb7750628",
+  "ko": "야히코^c　뭐야，매정하긴．네가 듣기 싫으면 내가 들어 주지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:158ac": {
+  "src_hash": "92b62f4f7d1e",
+  "ko": "야히코^c　무슨 일이야．언니가 어쩌고저쩌고 하던데．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:158f0": {
+  "src_hash": "d2f8c9f14dae",
+  "ko": "소녀^c　…………………………．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15910": {
+  "src_hash": "8e5dcd40bc68",
+  "ko": "소녀^c　그 시즈카 언니가……나를 두고 가 버릴 리 없어．아빠랑 엄마가 돌아가시고 이 마을로 막 이사 왔는데．둘만 남았지만……힘내자고 약속했는데……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:159e0": {
+  "src_hash": "1a4053ea81c4",
+  "ko": "야히코^c　그렇게 나와야지．역시 ^N답다니까．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15a14": {
+  "src_hash": "e1dd25fc71f2",
+  "ko": "야히코^c　그럼 물어볼게．……저기，무슨 일이야．언니한테 무슨 일 있었던 거지？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15a70": {
+  "src_hash": "d2f8c9f14dae",
+  "ko": "소녀^c　…………………………．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15a90": {
+  "src_hash": "5326e3278f39",
+  "ko": "소녀^c　그 시즈카 언니가……나를 두고 가 버릴 리 없어．아빠랑 엄마가 돌아가시고 이 마을로 막 이사 왔는데．둘만 남았지만……힘내자고 약속했는데……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15b60": {
+  "src_hash": "f98ee56c9d7a",
+  "ko": "켄신^c　이 서양 절 안에 들어간 채 돌아오지 않는 언니분을 찾으러 온 모양이오．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15bb8": {
+  "src_hash": "fc24d899db96",
+  "ko": "사노스케^c　고민하고 고민하다 못 견뎌서 출가했다는 건가．나한텐 와닿지 않지만，그런 일도 있겠지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15c38": {
+  "src_hash": "5e70d7d59495",
+  "ko": "소녀^c　출가할 거였으면 한마디라도 해 주지．아는 사람 하나 없는 마을에서 나 혼자 외톨이가 돼 버렸잖아……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15cd0": {
+  "src_hash": "81be8b890c0a",
+  "ko": "카오루^c　그렇지．남겨진 사람도 괴로운 법이지……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15d18": {
+  "src_hash": "a07d404898a9",
+  "ko": "야히코^c　그러니까，넌 언니를 만나서 이야기하고 싶은 거지？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15d58": {
+  "src_hash": "d266a6b561a1",
+  "ko": "소녀^c　응，그래서 언니 뜻이 확고하면 포기할게．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15d94": {
+  "src_hash": "ad311108d4d2",
+  "ko": "야히코^c　……어떡할래，^N？^c　도와줄까？^S",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15dc8": {
+  "src_hash": "d0f7e123a6d6",
+  "ko": "야히코^c　흐응．그럼 어쩔 수 없지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15df4": {
+  "src_hash": "8bb49d6db147",
+  "ko": "야히코^c　좋아，결정이다．기다려．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15e1c": {
+  "src_hash": "e2c8ab3f1601",
+  "ko": "야히코^c　어이，이리 오너라！이리 오너라아아아아！！",
+  "status": "draft",
+  "note": "방문 외침을 \"이리 오너라\"로 현지화"
+ },
+ "ZROUP38:15e50": {
+  "src_hash": "a04b702df383",
+  "ko": "카스미 수녀^c　무슨 일입니까．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15e6c": {
+  "src_hash": "569bb3dc9ffb",
+  "ko": "야히코^c　이 녀석 언니를 만나게 해 줬으면 해．당신한테 폐는 안 끼칠게．우리가 찾을 테니까……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15ee0": {
+  "src_hash": "db40a22b6294",
+  "ko": "카스미 수녀^c　안 됩니다！이곳은 신을 섬기는 여성만 들어올 수 있는 곳입니다！신을 섬길 마음이 없는 자나 남성을 들여보낼 수는 없는 것입니다！！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15f70": {
+  "src_hash": "402125d0e2d9",
+  "ko": "야히코^c　우왓！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15f84": {
+  "src_hash": "5aaee166b7ae",
+  "ko": "카오루^c　야히코！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15f94": {
+  "src_hash": "5da4831729af",
+  "ko": "야히코^c　아야……뭐야，저 태도．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:15fc8": {
+  "src_hash": "ae4e690ea83c",
+  "ko": "켄신^c　남자는 들어갈 수 없다……고 했소．야히코가 들어가려 하니 허둥댄 것이겠지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16034": {
+  "src_hash": "b41e38a149d8",
+  "ko": "사노스케^c　비구니 절 같은 건가．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16058": {
+  "src_hash": "8f790d0f8949",
+  "ko": "야히코^c　젠장，몰래 숨어들어 가 볼까．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16084": {
+  "src_hash": "fc373b7dc7b0",
+  "ko": "켄신^c　안에서 들키면 큰 소동이 날 것이오．더구나 서양이 얽혀 있으면 정부 관리들도 가만있지 않을 테고……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:1610c": {
+  "src_hash": "ec979bb11569",
+  "ko": "야히코^c　그럼 어떡하라는 거야！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16138": {
+  "src_hash": "1e8bbc154864",
+  "ko": "카오루^c　……뻔하잖아．^N 씨랑 내가 갈게．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16174": {
+  "src_hash": "8c1519d9762f",
+  "ko": "카오루^c　그 방법밖에 없죠，^N 씨！^S",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:161a0": {
+  "src_hash": "dd4378242ecf",
+  "ko": "카오루^c　그럴까요……다른 방법도 있다는 거군요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:161d8": {
+  "src_hash": "511cf4818d55",
+  "ko": "켄신^c　그렇소．여기서는 조금 더 생각해 봅시다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16218": {
+  "src_hash": "255c1515b9f9",
+  "ko": "소녀^c　아……저도 데려가 주세요！제가 없으면 누가 언니인지 모르잖아요？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16284": {
+  "src_hash": "3a9305904c20",
+  "ko": "카오루^c　그렇네．그럼 셋이서 몰래 들어가자．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:162b8": {
+  "src_hash": "cfe16c1e2ea1",
+  "ko": "켄신^c　카오루 공！^N 공！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:162d0": {
+  "src_hash": "4685568118a1",
+  "ko": "사노스케^c　진심이냐，아가씨들！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:162f8": {
+  "src_hash": "bcdaf33943e9",
+  "ko": "카오루^c　다른 방법은 없어．이대로라면 이 사람이 불쌍하잖아．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:1633c": {
+  "src_hash": "3f8ce075386d",
+  "ko": "켄신^c　…………말려도 들어주지 않겠구려．부디 조심하시오．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:163a0": {
+  "src_hash": "cb4b0ae4e2d7",
+  "ko": "카오루^c　응，물론．……자，^N 씨．그리고，저기……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:163e8": {
+  "src_hash": "2e7bac691603",
+  "ko": "소녀^c　아，저는 코즈에예요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16408": {
+  "src_hash": "ac7d775bcbe3",
+  "ko": "카오루^c　난 카미야 카오루．그럼 출발이야．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16430": {
+  "src_hash": "f5271d925cf4",
+  "ko": "소녀^c　아아，언니……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:1644c": {
+  "src_hash": "34d1b4977eb8",
+  "ko": "카오루^c　역시 못 본 척할 순 없어요．나랑 ^N 씨，여자끼리만 몰래 들어가요！^S",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:164b4": {
+  "src_hash": "30255b5f7291",
+  "ko": "카오루^c　^N 씨는 다른 방법도 있다는 거군요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:164e8": {
+  "src_hash": "e72896df588c",
+  "ko": "켄신^c　그렇소．여기서는 조금 더 생각해 봅시다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16528": {
+  "src_hash": "f5271d925cf4",
+  "ko": "소녀^c　아아，언니……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16544": {
+  "src_hash": "2a7d864e2161",
+  "ko": "야히코^c　……어떡할래，^N？^c　도와줄까？^s",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16578": {
+  "src_hash": "d0f7e123a6d6",
+  "ko": "야히코^c　흐응．그럼 어쩔 수 없지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:165a4": {
+  "src_hash": "70ca2485ca43",
+  "ko": "코즈에^c　이 안에 시즈카 언니가 있는 거구나……．",
+  "status": "draft",
+  "note": "NEW NAME: 梢=코즈에 (용어집)"
+ },
+ "ZROUP38:165d4": {
+  "src_hash": "bf9cd0a2543f",
+  "ko": "카오루^c　조심해．들키면 큰 소동이야．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16604": {
+  "src_hash": "0e227378ebbf",
+  "ko": "코즈에^c　아직 언니를 못 찾았어요！조금만 더 힘내요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16648": {
+  "src_hash": "ce8dc12c5bb5",
+  "ko": "사키^c　가엾어라……．아무것도 모르고 이런 곳에 와 버리다니．",
+  "status": "draft",
+  "note": "NEW NAME: 沙樹=사키"
+ },
+ "ZROUP38:16694": {
+  "src_hash": "738a1e967354",
+  "ko": "카오루^c　가엾다니？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:166ac": {
+  "src_hash": "f7e4388f6959",
+  "ko": "사키^c　이 수도원에는 마물이 나와．신을 섬기는 수녀를 잡아먹는 마물이．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16708": {
+  "src_hash": "1e283e6d701e",
+  "ko": "코즈에^c　마물은 하느님을 무서워하는 거 아니에요！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16740": {
+  "src_hash": "6386df96b839",
+  "ko": "사키^c　그 마물은 아무렇지도 않은가 봐．이제 우리에겐 여기서 계속 기도하는 수밖에 방법이 없어．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:167a4": {
+  "src_hash": "6871555e4c23",
+  "ko": "카오루^c　마물이라니，그런……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:167c8": {
+  "src_hash": "4824d2f85d4b",
+  "ko": "사키^c　당신들도 언젠가는 마물에게……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:167f4": {
+  "src_hash": "be0c3da4af5d",
+  "ko": "미키^c　신이시여……가엾은 어린 양들을 마물의 손에서 구하소서．",
+  "status": "draft",
+  "note": "NEW NAME: 美樹=미키 (D8 잠정 미키와 같은 독음, 다른 인물일 수 있음)"
+ },
+ "ZROUP38:16834": {
+  "src_hash": "2eb471abe5ae",
+  "ko": "카오루^c　마물이라니……진짜 귀신 말이야？설마，그럴 리가……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16874": {
+  "src_hash": "0089119b5697",
+  "ko": "미키^c　마물이 덮쳐 오기 전에는 늘 이상한 일이 일어나．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:168bc": {
+  "src_hash": "d0ff92bb848e",
+  "ko": "아키^c　신을 섬기면 속세의 괴로움에서 구원받을 줄 알았는데．설마 수도원 안에 무서운 마물이 나오다니……．",
+  "status": "draft",
+  "note": "NEW NAME: 亜樹=아키 (용어집)"
+ },
+ "ZROUP38:1693c": {
+  "src_hash": "9ef7db74fe19",
+  "ko": "코즈에^c　도망치면 되잖아．왜 이런 곳에 있는 거야？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16980": {
+  "src_hash": "f12c0afa7e78",
+  "ko": "아키^c　아니요，계속 기도하면 구원받아요．여기 있든 밖으로 도망치든，신을 끝까지 믿지 못하는 자는 마물에게 습격당해요．수녀님께서 그렇게 말씀하셨어요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16a24": {
+  "src_hash": "2f97839d4600",
+  "ko": "아키^c　수녀님께서는 신 가까이 있는 수도원이 가장 안전하다고 말씀하세요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16a70": {
+  "src_hash": "cc53fa7a607a",
+  "ko": "카오루^c　뭐，뭐야！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16a84": {
+  "src_hash": "9bc4cf090047",
+  "ko": "아키^c　마물이 왔어요！아아，신이시여！저희를 구하소서！！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16ac4": {
+  "src_hash": "4b7c5661aead",
+  "ko": "마키^c　저，저 사람들이……없어！？",
+  "status": "draft",
+  "note": "NEW NAME: 麻樹=마키 (잠정)"
+ },
+ "ZROUP38:16aec": {
+  "src_hash": "180d798a46a0",
+  "ko": "아키^c　오오，신이시여……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16b08": {
+  "src_hash": "e497d7362c02",
+  "ko": "카오루^c　으，으음……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16b20": {
+  "src_hash": "617b91bb0007",
+  "ko": "카오루^c　여긴……어디지．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16b40": {
+  "src_hash": "30a9126e79e3",
+  "ko": "코즈에^c　어둑어둑해서 왠지 무서워요．우리，마물한테 잡힌 거예요？^S",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16b84": {
+  "src_hash": "4e31c31a1147",
+  "ko": "카오루^c　글쎄．마물이 왜 굳이 사람을 감옥 같은 데 가둘 필요가 있겠어．여기엔 분명 꿍꿍이가 있을 거야．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16c00": {
+  "src_hash": "0c37f35ab29d",
+  "ko": "코즈에^c　그렇구나……마물이 아니라면 무섭지 않아요．얼른 이런 데서 나가요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16c5c": {
+  "src_hash": "7e07449868e9",
+  "ko": "코즈에^c　싫어，어떡해！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16c78": {
+  "src_hash": "34f8e789a968",
+  "ko": "카오루^c　잠깐！정말 마물이 있다면 왜 굳이 감옥에 사람을 가두겠어．왠지 수상해．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16cec": {
+  "src_hash": "0c37f35ab29d",
+  "ko": "코즈에^c　그렇구나……마물이 아니라면 무섭지 않아요．얼른 이런 데서 나가요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16d48": {
+  "src_hash": "d1a14d3b14ba",
+  "ko": "카오루^c　봐！잘 안 보이지만 여기 구멍이 뚫려 있어．우리 정도 체격이면 어떻게든 기어들어 갈 수 있을 것 같아．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16dc0": {
+  "src_hash": "c4720bba2281",
+  "ko": "코즈에^c　문이에요……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16dd4": {
+  "src_hash": "6f1b0837c288",
+  "ko": "카오루^c　쉿！무슨 소리가……들려．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16dfc": {
+  "src_hash": "da03fec48f0e",
+  "ko": "여자^c　우리를 어떻게 할 셈이에요！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16e24": {
+  "src_hash": "2a6549699101",
+  "ko": "듀란^c　포기해라．너희는，바다 건너로，팔려 갈 운명이다……．",
+  "status": "draft",
+  "note": "NEW NAME: デュラン=듀란. 원문은 가타카나 외국인 말투, 쉼표로 끊어 읽는 딱딱한 말투로 표현"
+ },
+ "ZROUP38:16e74": {
+  "src_hash": "3953b2e44fb2",
+  "ko": "여자^c　팔려 간다고요！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16e88": {
+  "src_hash": "2b7d64fc14d2",
+  "ko": "목소리^c　쓸데없는 걸 알려 주는 게 아닌 것입니다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16eb8": {
+  "src_hash": "cb7a48e43d20",
+  "ko": "듀란^c　실례했습니다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16ed4": {
+  "src_hash": "fa35c62590a2",
+  "ko": "목소리^c　말이 많은 남자는 출세하지 못하는 것입니다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16f04": {
+  "src_hash": "eea59be4e8b6",
+  "ko": "여자^c　당신이 두목이군요！마물이니 뭐니 하면서 우리를 겁주고……너무해요！여기서 돌려보내 줘요！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16f70": {
+  "src_hash": "ccc6be738c1c",
+  "ko": "코즈에^c　이 목소리……언니야！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16f90": {
+  "src_hash": "c0885fed026e",
+  "ko": "카오루^c　앗，코즈에야！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16fa8": {
+  "src_hash": "36cfb7d74434",
+  "ko": "코즈에^c　시즈카 언니！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16fbc": {
+  "src_hash": "620930caa457",
+  "ko": "시즈카^c　코즈에！네가 왜 여기에！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:16fe0": {
+  "src_hash": "2c7eb1af7bd2",
+  "ko": "카오루^c　고민 끝에 수도원을 찾아온 사람들을 인신매매꾼에게 팔아넘기고 있었구나！그걸 마물 탓으로 돌리다니！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17040": {
+  "src_hash": "faaf2f38e280",
+  "ko": "카오루^c　당신，수녀잖아！신을 섬기는 사람이 이런 짓을 해도 되는 거야！？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17084": {
+  "src_hash": "1adc7b5c1fb5",
+  "ko": "수녀^c　시，시끄러운 것입니다！너희도 길동무로 삼는 것입니다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:170c0": {
+  "src_hash": "f1b30c2505fb",
+  "ko": "카오루^c　남자！？당신，가짜였구나！용서 못 해！！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17100": {
+  "src_hash": "ca63be065a6b",
+  "ko": "가짜 수녀^c　히익！사，살려 주는 것입니다아！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17134": {
+  "src_hash": "ddd937371c15",
+  "ko": "가짜 수녀^c　흥．너희도 팔아넘겨 버리는 것입니다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17178": {
+  "src_hash": "a5939962ad79",
+  "ko": "카오루^c　지금이야！모두，여기서 도망쳐요！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:171a8": {
+  "src_hash": "353bd0703cf2",
+  "ko": "가짜 수녀^c　노，놓치면 안 되는 겁니다！쫓는 겁니다－！",
+  "status": "draft",
+  "note": "참조 없음. 칸(63바이트)에 맞추려 두 문장의 \"것입니다\"를 \"겁니다\"로 줄임(의미·말버릇 유지)"
+ },
+ "ZROUP38:171e8": {
+  "src_hash": "461aef2b9cde",
+  "ko": "카오루^c　가요，^N 씨！추격자가 쫓아오고 있을 테니 서둘러야 해요．일정 시간 이상 헤매면 따라잡히고 말 거예요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17264": {
+  "src_hash": "949fb6cce712",
+  "ko": "따라잡혔다！！",
+  "status": "draft",
+  "note": "참조 없음"
+ },
+ "ZROUP38:17278": {
+  "src_hash": "04e059343c01",
+  "ko": "카오루^c　나왔다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:1728c": {
+  "src_hash": "110d7ceb7559",
+  "ko": "코즈에^c　살았구나．언니！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:172ac": {
+  "src_hash": "b959de04899c",
+  "ko": "시즈카^c　코즈에！고마워！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:172c8": {
+  "src_hash": "fc45be060dce",
+  "ko": "카오루^c　이렇게 해서 가짜 수도원 사건은 해결되었습니다．수녀 차림으로 모두를 속이던 남자들 일당도 체포되고，여자들은 전원 무사히 풀려났습니다．그리고 코즈에의 언니도……．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17394": {
+  "src_hash": "70aa215cd94d",
+  "ko": "　　　　　　　 발견했다！",
+  "status": "draft",
+  "note": "참조 없음. 앞 전각 공백 7칸에 아이템명이 들어가는 것으로 보고 받침 조사를 피해 \"발견했다\"로 옮김"
+ },
+ "ZROUP38:173b0": {
+  "src_hash": "cd8305ffdfcb",
+  "ko": "카오루^c　빨리 도망쳐야 해요！딴 데 들를 틈은 없어요．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:173e8": {
+  "src_hash": "75c9faad08a9",
+  "ko": "c6십자문 단검c7을 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17408": {
+  "src_hash": "612ac48219b5",
+  "ko": "카오루^c　잠겨 있어요．다른 출구는 없을까요？",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17440": {
+  "src_hash": "5b71118befe8",
+  "ko": "남자^c　있다！찾았다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:1745c": {
+  "src_hash": "47a96dd549e4",
+  "ko": "카오루^c　이번에야말로 붙잡히지 말고 도망치는 거예요！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17484": {
+  "src_hash": "09e2dfa9b3c8",
+  "ko": "남자^c　도망치면，안 되는 데스네．",
+  "status": "draft",
+  "note": "원문 가타카나 외국인 말투, ZROUP20 클레어 선례(\"데스네\")를 따름"
+ },
+ "ZROUP38:174a4": {
+  "src_hash": "baa170404b60",
+  "ko": "남자^c　놓칠 줄 알고！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:174bc": {
+  "src_hash": "eeea969d9b68",
+  "ko": "남자^c　여기서 얌전히 있어라．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:174dc": {
+  "src_hash": "8c1d5e8bb1fa",
+  "ko": "c6철사 외투c7를 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:174f8": {
+  "src_hash": "f83e130c932d",
+  "ko": "c6우혁초c7를 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17514": {
+  "src_hash": "315cc78c2a4a",
+  "ko": "c6천문동c7을 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17530": {
+  "src_hash": "18e3c50678dc",
+  "ko": "c6천초환c7을 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:1754c": {
+  "src_hash": "7e3dfa9787ee",
+  "ko": "c6무라마사c7를 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17564": {
+  "src_hash": "ee993db3f966",
+  "ko": "c6행죽두c7를 손에 넣었다！",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17580": {
+  "src_hash": "882397d13214",
+  "ko": "아무것도 들어 있지 않다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17594": {
+  "src_hash": "d81d0280d006",
+  "ko": "c6철사 외투c7는 가득 차서 더 가질 수 없다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:175c0": {
+  "src_hash": "d3360651eb78",
+  "ko": "c6우혁초c7는 가득 차서 더 가질 수 없다．",
+  "status": "draft",
+  "note": "원문 아이템명이 우혁초와 한 글자 다름(오기로 보고 우혁초로 통일, 획득 행과 일치)"
+ },
+ "ZROUP38:175e8": {
+  "src_hash": "d14e819c718b",
+  "ko": "c6천문동c7은 가득 차서 더 가질 수 없다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17610": {
+  "src_hash": "cf75cec33d19",
+  "ko": "c6천초환c7은 가득 차서 더 가질 수 없다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17638": {
+  "src_hash": "cf864113d20e",
+  "ko": "c6무라마사c7는 가득 차서 더 가질 수 없다．",
+  "status": "draft",
+  "note": ""
+ },
+ "ZROUP38:17660": {
+  "src_hash": "884719a152e8",
+  "ko": "c6행죽두c7는 가득 차서 더 가질 수 없다．",
+  "status": "draft",
+  "note": ""
+ }
+}

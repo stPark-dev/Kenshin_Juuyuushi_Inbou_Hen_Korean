@@ -3937,6 +3937,104 @@
    "kind": "game",
    "status": "candidate",
    "note": ""
+  },
+  {
+   "ja": "思い出の絵草紙",
+   "ko": "추억의 그림책",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP34"
+  },
+  {
+   "ja": "紙切り屋",
+   "ko": "종이 오리기",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP34"
+  },
+  {
+   "ja": "冷やしあめ屋",
+   "ko": "냉엿물 장수",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP34"
+  },
+  {
+   "ja": "静",
+   "ko": "시즈카",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP38"
+  },
+  {
+   "ja": "沙樹",
+   "ko": "사키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP38"
+  },
+  {
+   "ja": "美樹",
+   "ko": "미키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP38"
+  },
+  {
+   "ja": "麻樹",
+   "ko": "마키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP38"
+  },
+  {
+   "ja": "デュラン",
+   "ko": "듀란",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP38"
+  },
+  {
+   "ja": "小夜姫",
+   "ko": "사요 공주",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP39"
+  },
+  {
+   "ja": "宗孝",
+   "ko": "무네타카",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP39"
+  },
+  {
+   "ja": "高島孝幸",
+   "ko": "타카시마 타카유키",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP39"
+  },
+  {
+   "ja": "澄男",
+   "ko": "스미오",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP42"
+  },
+  {
+   "ja": "大輔",
+   "ko": "다이스케",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP42"
+  },
+  {
+   "ja": "わたる",
+   "ko": "와타루",
+   "kind": "game",
+   "status": "candidate",
+   "note": "새 이름(번역 메모에서 수집). 등장: ZROUP42"
   }
  ]
 }
