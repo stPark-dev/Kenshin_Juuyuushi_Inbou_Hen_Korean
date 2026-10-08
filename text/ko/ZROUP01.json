@@ -937,9 +937,9 @@
  },
  "ZROUP01:4b948": {
   "src_hash": "3dbe02c50d7e",
-  "ko": "메구미^c　실망했어요，^N 군．",
+  "ko": "메구미^c　실망이야，^N 군．",
   "status": "draft",
-  "note": ""
+  "note": "동일 원문 표기 통일"
  },
  "ZROUP01:4b964": {
   "src_hash": "d91461166d09",
@@ -949,15 +949,15 @@
  },
  "ZROUP01:4b9a8": {
   "src_hash": "9399ebb56e3f",
-  "ko": "메구미^c　지나가다가 ^N 군 일행이 보여서요．^c　다행이다，내 약이 들었네요．",
+  "ko": "메구미^c　지나가다가 ^N 군 일행이 보여서．^c　다행이다，내 약이 잘 들었구나．",
   "status": "draft",
-  "note": ""
+  "note": "동일 원문 표기 통일"
  },
  "ZROUP01:4ba0c": {
   "src_hash": "94d1bc6d2833",
-  "ko": "메구미^c　힘내요，^N 군．",
+  "ko": "메구미^c　힘내，^N 군．",
   "status": "draft",
-  "note": ""
+  "note": "동일 원문 표기 통일"
  },
  "ZROUP01:4ba28": {
   "src_hash": "574e267ed5bf",

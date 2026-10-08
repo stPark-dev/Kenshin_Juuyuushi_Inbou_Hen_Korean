@@ -1093,9 +1093,9 @@
  },
  "ZROUP10:2eff4": {
   "src_hash": "dc57cb288e37",
-  "ko": "이 꽃을 꺾어 가겠습니까？^s",
+  "ko": "이 꽃을 따 가겠습니까？^s",
   "status": "draft",
-  "note": ""
+  "note": "동일 원문 표기 통일"
  },
  "ZROUP10:2f014": {
   "src_hash": "6503aa046a2f",
@@ -1105,9 +1105,9 @@
  },
  "ZROUP10:2f044": {
   "src_hash": "a9d1ed1f7715",
-  "ko": "카오루^c　많이 가지고 있어 봤자 소용없겠지．",
+  "ko": "카오루^c　많이 갖고 있어 봐야 소용없겠지．",
   "status": "draft",
-  "note": ""
+  "note": "동일 원문 표기 통일"
  },
  "ZROUP10:2f074": {
   "src_hash": "8fe258cb480e",
