@@ -3874,6 +3874,69 @@
    "kind": "term",
    "status": "candidate",
    "note": "운노의 첩자 은어(일반인 속에 숨어 사는 첩자). ZROUP26"
+  },
+  {
+   "ja": "のぞみ",
+   "ko": "노조미",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP35, 47"
+  },
+  {
+   "ja": "真吾",
+   "ko": "신고",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP35, 47"
+  },
+  {
+   "ja": "和弘",
+   "ko": "카즈히로",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP35, 47"
+  },
+  {
+   "ja": "大道芸人",
+   "ko": "거리 광대",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "富くじ屋",
+   "ko": "복권 장수",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "輪投げ屋",
+   "ko": "고리 던지기 장수",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "曲毬師",
+   "ko": "공 곡예사",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "シスター・霞",
+   "ko": "카스미 수녀",
+   "kind": "game",
+   "status": "candidate",
+   "note": "霞=카스미(ZROUP11)와 같은 인물인지 문맥 확인"
+  },
+  {
+   "ja": "亜樹",
+   "ko": "아키",
+   "kind": "game",
+   "status": "candidate",
+   "note": ""
   }
  ]
 }
