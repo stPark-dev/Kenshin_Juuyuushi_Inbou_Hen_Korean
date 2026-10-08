@@ -1,0 +1,690 @@
+{
+ "_rules": {
+  "basis": "D1: 한국 정발 만화 『바람의 검심』 표기",
+  "transliteration": "만화 관례: 첫소리 거센소리(켄신·카오루·타카니), つ=츠, 장음 생략(소지로·사이토). 게임 오리지널 이름도 같은 관례.",
+  "roles": "직함·역할 화자는 한국어 일반명사",
+  "status": "candidate = 원칙상 확정 후보, check = 읽기·정체 확인 필요, approved = 사용자 확인 완료"
+ },
+ "terms": [
+  {
+   "ja": "剣心",
+   "ko": "켄신",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "히무라 켄신(緋村剣心)"
+  },
+  {
+   "ja": "緋村剣心",
+   "ko": "히무라 켄신",
+   "kind": "canon",
+   "status": "candidate"
+  },
+  {
+   "ja": "薫",
+   "ko": "카오루",
+   "kind": "canon",
+   "status": "candidate"
+  },
+  {
+   "ja": "神谷　薫",
+   "ko": "카미야 카오루",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "화자 표기에 전각 공백"
+  },
+  {
+   "ja": "弥彦",
+   "ko": "야히코",
+   "kind": "canon",
+   "status": "candidate"
+  },
+  {
+   "ja": "明神弥彦",
+   "ko": "묘진 야히코",
+   "kind": "canon",
+   "status": "candidate"
+  },
+  {
+   "ja": "左之助",
+   "ko": "사노스케",
+   "kind": "canon",
+   "status": "candidate"
+  },
+  {
+   "ja": "相楽左之助",
+   "ko": "사가라 사노스케",
+   "kind": "canon",
+   "status": "candidate"
+  },
+  {
+   "ja": "恵",
+   "ko": "메구미",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "타카니 메구미(高荷恵)"
+  },
+  {
+   "ja": "蒼紫",
+   "ko": "아오시",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "시노모리 아오시(四乃森蒼紫)"
+  },
+  {
+   "ja": "斎藤",
+   "ko": "사이토",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "사이토 하지메(斎藤一)"
+  },
+  {
+   "ja": "玄斎先生",
+   "ko": "겐사이 선생",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "오구니 겐사이(小国玄斎)"
+  },
+  {
+   "ja": "あやめ",
+   "ko": "아야메",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "겐사이의 손녀"
+  },
+  {
+   "ja": "すずめ",
+   "ko": "스즈메",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "겐사이의 손녀"
+  },
+  {
+   "ja": "妙",
+   "ko": "타에",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "아카베코의 세키하라 타에. 대본에 赤べこ 25회, 妙さん 3회"
+  },
+  {
+   "ja": "燕",
+   "ko": "츠바메",
+   "kind": "canon",
+   "status": "check",
+   "note": "산조 츠바메인지 확인 필요"
+  },
+  {
+   "ja": "宗次郎",
+   "ko": "소지로",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "세타 소지로(瀬田宗次郎). 대본에 瀬田 11회"
+  },
+  {
+   "ja": "安慈",
+   "ko": "안지",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "유큐잔 안지(悠久山安慈). 대본에 悠久山 5회"
+  },
+  {
+   "ja": "十勇士",
+   "ko": "십용사",
+   "kind": "game",
+   "status": "candidate",
+   "note": "표지 로고 표기"
+  },
+  {
+   "ja": "真田",
+   "ko": "사나다",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "才蔵",
+   "ko": "사이조",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "穴山",
+   "ko": "아나야마",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "海野",
+   "ko": "운노",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "根津",
+   "ko": "네즈",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "筧",
+   "ko": "카케이",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "由利",
+   "ko": "유리",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "望月",
+   "ko": "모치즈키",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "清海",
+   "ko": "세이카이",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "伊三",
+   "ko": "이사",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "朱羅",
+   "ko": "슈라",
+   "kind": "game",
+   "status": "check",
+   "note": "읽기 확인 필요"
+  },
+  {
+   "ja": "隼人",
+   "ko": "하야토",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "孝幸",
+   "ko": "타카유키",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "平八郎",
+   "ko": "헤이하치로",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "源三郎",
+   "ko": "겐자부로",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "浩介",
+   "ko": "코스케",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "重勝",
+   "ko": "시게카츠",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "龍也",
+   "ko": "타츠야",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "竜也",
+   "ko": "타츠야",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "津南",
+   "ko": "츠난",
+   "kind": "game",
+   "status": "check",
+   "note": "읽기 확인 필요"
+  },
+  {
+   "ja": "晋太郎",
+   "ko": "신타로",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "若彦",
+   "ko": "와카히코",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "瞳",
+   "ko": "히토미",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "高瀬",
+   "ko": "타카세",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "達二",
+   "ko": "타츠지",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "茜",
+   "ko": "아카네",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "澄子",
+   "ko": "스미코",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "忍",
+   "ko": "시노부",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "アラン",
+   "ko": "알랭",
+   "kind": "game",
+   "status": "check",
+   "note": "프랑스식(알랭)인지 영어식(앨런)인지 확인 필요"
+  },
+  {
+   "ja": "藍",
+   "ko": "아이",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "勇太郎",
+   "ko": "유타로",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "晶宏",
+   "ko": "아키히로",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "碧",
+   "ko": "미도리",
+   "kind": "game",
+   "status": "check",
+   "note": "아오이/미도리 읽기 확인 필요"
+  },
+  {
+   "ja": "靖宏",
+   "ko": "야스히로",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "洋一",
+   "ko": "요이치",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "百鬼",
+   "ko": "햐키",
+   "kind": "game",
+   "status": "check",
+   "note": "읽기(햐키/모모키) 확인 필요"
+  },
+  {
+   "ja": "恭昌",
+   "ko": "야스마사",
+   "kind": "game",
+   "status": "check",
+   "note": "읽기 확인 필요"
+  },
+  {
+   "ja": "修二",
+   "ko": "슈지",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "年念",
+   "ko": "넨넨",
+   "kind": "game",
+   "status": "check",
+   "note": "읽기 확인 필요"
+  },
+  {
+   "ja": "陳念",
+   "ko": "친넨",
+   "kind": "game",
+   "status": "check",
+   "note": "읽기 확인 필요"
+  },
+  {
+   "ja": "美姫",
+   "ko": "미키",
+   "kind": "game",
+   "status": "check",
+   "note": "읽기 확인 필요"
+  },
+  {
+   "ja": "沙織",
+   "ko": "사오리",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "徳重",
+   "ko": "토쿠시게",
+   "kind": "game",
+   "status": "check",
+   "note": "읽기 확인 필요"
+  },
+  {
+   "ja": "健吉",
+   "ko": "켄키치",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "楓",
+   "ko": "카에데",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "伍兵衛",
+   "ko": "고헤에",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "政吉",
+   "ko": "마사키치",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "前川",
+   "ko": "마에카와",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "誠真",
+   "ko": "세이신",
+   "kind": "game",
+   "status": "check",
+   "note": "읽기 확인 필요"
+  },
+  {
+   "ja": "寛平",
+   "ko": "칸페이",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "英之",
+   "ko": "히데유키",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "梢",
+   "ko": "코즈에",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "岩蔵",
+   "ko": "이와조",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "夜叉",
+   "ko": "야샤",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "お律",
+   "ko": "오리츠",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "菊松",
+   "ko": "키쿠마츠",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "弥生",
+   "ko": "야요이",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "幸吉",
+   "ko": "코키치",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "千鳥",
+   "ko": "치도리",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "祐馬",
+   "ko": "유마",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "新輔",
+   "ko": "신스케",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "松風",
+   "ko": "마츠카제",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "太",
+   "ko": "후토시",
+   "kind": "game",
+   "status": "check",
+   "note": "읽기 확인 필요"
+  },
+  {
+   "ja": "右近",
+   "ko": "우콘",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "清十郎",
+   "ko": "세이주로",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "京子",
+   "ko": "쿄코",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "大二郎",
+   "ko": "다이지로",
+   "kind": "game",
+   "status": "candidate"
+  },
+  {
+   "ja": "歌姫",
+   "ko": "가희",
+   "kind": "role",
+   "status": "check",
+   "note": "'가희'/'가수' 중 선택. 고유 호칭일 수 있음"
+  },
+  {
+   "ja": "男",
+   "ko": "남자",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "女",
+   "ko": "여자",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "少女",
+   "ko": "소녀",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "青年",
+   "ko": "청년",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "不良",
+   "ko": "불량배",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "愚連隊",
+   "ko": "깡패",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "関守",
+   "ko": "관문지기",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "師範",
+   "ko": "사범",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "師範代",
+   "ko": "사범 대리",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "バーテン",
+   "ko": "바텐더",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "海賊",
+   "ko": "해적",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "ばくち打ち",
+   "ko": "노름꾼",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "声",
+   "ko": "목소리",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "不気味な声",
+   "ko": "섬뜩한 목소리",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "店主",
+   "ko": "가게 주인",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "村長",
+   "ko": "촌장",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "じいや",
+   "ko": "할아범",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "隊長",
+   "ko": "대장",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "署長",
+   "ko": "서장",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "長老",
+   "ko": "장로",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "僧侶",
+   "ko": "승려",
+   "kind": "role",
+   "status": "candidate"
+  },
+  {
+   "ja": "盗賊",
+   "ko": "도적",
+   "kind": "role",
+   "status": "candidate"
+  }
+ ]
+}
