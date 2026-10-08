@@ -792,8 +792,8 @@
    "ja": "南里",
    "ko": "난리",
    "kind": "game",
-   "status": "provisional",
-   "note": "南里家·南里沙織. 가나 독음 없음. 일본 성씨로는 なんり가 일반적이나 한국어 '난리'와 겹침 → 사용자 결정 대기. 등장: ZROUP14,ZROUP15,ZROUP16,ZROUP17,ZROUP18,ZROUP29,ZROUP41,ZROUP45,ZROUP47,ZROUP50"
+   "status": "approved",
+   "note": "南里家·南里沙織. 사용자 확정(2026-10-08). 등장: ZROUP14,ZROUP15,ZROUP16,ZROUP17,ZROUP18,ZROUP29,ZROUP41,ZROUP45,ZROUP47,ZROUP50"
   },
   {
    "ja": "時川",
@@ -1198,8 +1198,8 @@
    "ja": "今十勇士",
    "ko": "신 십용사",
    "kind": "game",
-   "status": "provisional",
-   "note": "악역 집단. 59행. 후보: 신 십용사 / 지금의 십용사 / 오늘날의 십용사 → 사용자 결정 대기. 今十勇士・海野 → 신 십용사·운노"
+   "status": "approved",
+   "note": "악역 집단. 사용자 확정(2026-10-08). 今十勇士・海野 → 신 십용사·운노"
   },
   {
    "ja": "鬼婆",
@@ -1641,6 +1641,104 @@
    "kind": "game",
    "status": "check",
    "note": "ZROUP06 여관 주인 화자명. 공고라는 뜻이라 개발용 자리 표시일 수 있음"
+  },
+  {
+   "ja": "操",
+   "ko": "미사오",
+   "kind": "canon",
+   "status": "candidate",
+   "note": "마키마치 미사오(巻町操)"
+  },
+  {
+   "ja": "大ザル",
+   "ko": "큰 원숭이",
+   "kind": "role",
+   "status": "candidate",
+   "note": "ZROUP14, 18"
+  },
+  {
+   "ja": "雷太",
+   "ko": "라이타",
+   "kind": "game",
+   "status": "candidate",
+   "note": "ZROUP16, 18"
+  },
+  {
+   "ja": "ならず者",
+   "ko": "불한당",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "かわら版",
+   "ko": "가와라반",
+   "kind": "role",
+   "status": "candidate",
+   "note": "에도 시대 소식지(화자명). 대사 안에서는 소식지로 풀어 써도 됨"
+  },
+  {
+   "ja": "旅芸人",
+   "ko": "유랑 광대",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "大鴉",
+   "ko": "큰 까마귀",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "子供達",
+   "ko": "아이들",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "男の声",
+   "ko": "남자 목소리",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "少女の声",
+   "ko": "소녀의 목소리",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "沙織の声",
+   "ko": "사오리의 목소리",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "英之の声",
+   "ko": "히데유키의 목소리",
+   "kind": "role",
+   "status": "candidate",
+   "note": ""
+  },
+  {
+   "ja": "文子",
+   "ko": "후미코",
+   "kind": "game",
+   "status": "candidate",
+   "note": "대장간 草葉堂 관계자. ZROUP13, 42"
+  },
+  {
+   "ja": "和久",
+   "ko": "카즈히사",
+   "kind": "game",
+   "status": "provisional",
+   "note": "대장간 草葉堂 주인. 독음 미확인. ZROUP20"
   }
  ]
 }
