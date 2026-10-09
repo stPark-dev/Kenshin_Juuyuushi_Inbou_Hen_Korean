@@ -17,7 +17,7 @@ import struct
 
 import koenc
 import textio
-from mainprog import BASE, FONT_GLYPHS, FONT_LIST, MAPCODE_BASE, MAPCODE_FONT_LIST, font_list
+from mainprog import BASE, FONT_GLYPHS, FONT_LIST
 
 # name, table address, entries, max characters. Item names (source max 6) end
 # before the count column and descriptions (source max 14) fill their box; a
@@ -158,17 +158,14 @@ def _string_codes(data, base, skip=()):
     return out
 
 
-def kept_codes(main, mapcode, btlcode):
+def kept_codes(main, btlcode):
     """Menu-font characters that must stay: every non-kanji (kana, digits,
-    punctuation), and any character of another string in the main program or
-    BTLCODE, or of a MAPCODE string that MAPCODE's own font does not cover
-    (MAPCODE strings only show while MAPCODE, and so its font, is loaded).
-    The string scan is conservative: code bytes that happen to decode as text
-    only keep extra characters."""
+    punctuation), and any character of another string in the main program or of
+    a BTLCODE string (battle has no other font). MAPCODE strings are covered by
+    MAPCODE's own font, rebuilt alongside (ovltext). The string scan is
+    conservative: code bytes that happen to decode as text only keep extra
+    characters."""
     font = font_codes(main)
-    mfont = font_list(mapcode, MAPCODE_FONT_LIST - MAPCODE_BASE)
-    mskip = [(MAPCODE_FONT_LIST, MAPCODE_FONT_LIST + 2 * len(mfont) + 2)]
     skip = list(POOLS) + [(FONT_GLYPHS, FONT_END)]
-    other = (_string_codes(main, BASE, skip) | _string_codes(btlcode, 0)
-             | (_string_codes(mapcode, MAPCODE_BASE, mskip) - set(mfont)))
+    other = _string_codes(main, BASE, skip) | _string_codes(btlcode, 0)
     return [c for c in font if c[0] < 0x88 or c in other]

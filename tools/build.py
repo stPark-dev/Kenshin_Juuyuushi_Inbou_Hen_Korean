@@ -23,6 +23,7 @@ import iso
 import kfont
 import koenc
 import mainprog
+import ovltext
 import menuwin
 import refs
 import scenefont
@@ -115,33 +116,72 @@ def scene_build(g, ko_map, assets, code_of=None):
     return out, report
 
 
-def main_build(raw, disc, exe, main, rows, ko_map, code_of, assets):
-    """Translated menu text and a menu font with its Hangul -> repacked boot executable."""
-    limit = {r["id"]: r["limit"] for r in rows}
-    texts = {sid: exetext.encode(t, code_of, limit[sid]) for sid, t in ko_map.items()}
+MENU_FILES = ("MAIN", "MAPCODE", "BTLCODE")
+
+
+def menu_sources(raw, disc):
+    """Unpacked main program and overlays with their translatable rows."""
+    exe = iso.read_file(raw, disc, mainprog.exe_name(disc))
     sysgrp = grparc.parse(iso.read_file(raw, disc, "SYSTEM.GRP"))
-    old = dict(zip(exetext.font_codes(main), _glyphs(main)))
-    keep = exetext.kept_codes(main, bootlz.decode(sysgrp.get("MAPCODE.Z32"), 0)[0],
-                              bootlz.decode(sysgrp.get("BTLCODE.Z32"), 0)[0])
-    hangul = sorted({c for t in ko_map.values() for c in t if koenc.is_hangul(c)})
-    missing = [c for c in hangul if c not in assets.font]
+    data = {"MAIN": mainprog.unpack(exe)}
+    for n in ("MAPCODE", "BTLCODE"):
+        data[n] = bootlz.decode(sysgrp.get(f"{n}.Z32"), 0)[0]
+    rows = {"MAIN": exetext.extract(data["MAIN"])}
+    rows.update({n: ovltext.extract(n, data[n]) for n in ("MAPCODE", "BTLCODE")})
+    return exe, sysgrp, data, rows
+
+
+def menu_build(exe, sysgrp, data, rows, ko, code_of, assets):
+    """Menu text of the main program, MAPCODE and BTLCODE plus both menu fonts ->
+    {disc file: bytes}. Battle draws with the main program's font only, the field
+    with it and then MAPCODE's font, so Hangul of the main program and BTLCODE goes
+    into the first and Hangul only MAPCODE uses into the second."""
+    limit = {r["id"]: r["limit"] for n in rows for r in rows[n]}
+    enc = {n: {sid: exetext.encode(t, code_of, limit[sid]) for sid, t in ko[n].items()} for n in MENU_FILES}
+    hangul = {n: {c for t in ko[n].values() for c in t if koenc.is_hangul(c)} for n in MENU_FILES}
+    missing = sorted(c for h in hangul.values() for c in h if c not in assets.font)
     if missing:
         raise ValueError(f"Hangul font has no glyph for {''.join(missing)}")
-    glyphs = {c: old[c] for c in keep}
-    glyphs.update({code_of[c]: kfont.render(assets.font[c], assets.box) for c in hangul})
-    used = {raw_[i:i + 2] for raw_ in texts.values() for i in range(0, len(raw_), 2)}
-    for c in sorted(used - set(glyphs)):  # punctuation the source menus never used (，．)
-        if c in old or c in assets.namefont:
-            glyphs[c] = old.get(c) or assets.namefont[c]
-    absent = sorted(c.decode("cp932") for c in used - set(glyphs))
-    if absent:
-        raise ValueError(f"menu font would lack {''.join(absent)}")
-    packed = bootlz.encode(exetext.apply(main, texts, glyphs))
+
+    def render(c):
+        return kfont.render(assets.font[c], assets.box)
+
+    main, mapcode = data["MAIN"], data["MAPCODE"]
+    btl = ovltext.apply("BTLCODE", data["BTLCODE"], enc["BTLCODE"])
+    old = dict(zip(exetext.font_codes(main), _glyphs(main)))
+    mold = ovltext.mapcode_font(mapcode)
+    # main program font
+    efont = {c: old[c] for c in exetext.kept_codes(main, btl)}
+    efont.update({code_of[c]: render(c) for c in sorted(hangul["MAIN"] | hangul["BTLCODE"])})
+
+    def fill(font, texts):  # punctuation the source fonts lack (，．) comes from NAMEFONT
+        used = {r[i:i + 2] for r in texts for i in range(0, len(r), 2)}
+        for c in sorted(used - set(font)):
+            g = old.get(c) or mold.get(c) or assets.namefont.get(c)
+            if g is None:
+                raise ValueError(f"no glyph for {c.decode('cp932')}")
+            font[c] = g
+
+    fill(efont, list(enc["MAIN"].values()) + list(enc["BTLCODE"].values()))
+    # MAPCODE font: its kana and symbols, then whatever its strings need that the
+    # main program font does not have
+    new_map = ovltext.apply("MAPCODE", mapcode, enc["MAPCODE"])
+    mfont = {c: g for c, g in mold.items() if c[0] < 0x88}
+    final = [raw_ for a, raw_, _ in ovltext.movable("MAPCODE", new_map)] + [r for _, r, _ in ovltext.fixed("MAPCODE", new_map)]
+    need = {r[i:i + 2] for r in final for i in range(0, len(r), 2)} - set(efont) - set(mfont)
+    by_code = {code_of[c]: c for c in hangul["MAPCODE"]}
+    for c in sorted(need):
+        mfont[c] = render(by_code[c]) if c in by_code else (mold.get(c) or old.get(c) or assets.namefont[c])
+    new_main = exetext.apply(main, enc["MAIN"], efont)
+    new_map = ovltext.set_mapcode_font(new_map, mfont)
+    packed = bootlz.encode(new_main)
     room = len(exe) - mainprog.BLOB
     if len(packed) > room:
         raise ValueError(f"packed main program is {len(packed)} bytes, room {room}")
-    report = {"translated": len(texts), "glyphs": len(glyphs), "hangul": len(hangul), "packed": len(packed)}
-    return exe[:mainprog.BLOB] + packed + bytes(room - len(packed)), report
+    grp = sysgrp.replace("MAPCODE.Z32", bootlz.encode(new_map)).replace("BTLCODE.Z32", bootlz.encode(btl))
+    report = {"translated": {n: len(enc[n]) for n in MENU_FILES}, "main_font": len(efont),
+              "mapcode_font": len(mfont), "packed": len(packed)}
+    return {"exe": exe[:mainprog.BLOB] + packed + bytes(room - len(packed)), "SYSTEM.GRP": grparc.build(grp)}, report
 
 
 def _glyphs(main):
@@ -186,21 +226,22 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
         problems += probs
         if ko_map:
             work.append((name, scene, grp, member, g, ko_map))
-    exe_name = mainprog.exe_name(disc)
-    exe = iso.read_file(raw, disc, exe_name)
-    main = mainprog.unpack(exe)
-    main_rows = exetext.extract(main)
-    mf = Path(ko_dir) / "MAIN.json"
-    main_ko, probs = textio.usable_translations(main_rows, json.loads(mf.read_text(encoding="utf-8")) if mf.is_file() else {}, statuses)
-    problems += probs
-    code_of = shared_codes([(g, ko_map) for *_, g, ko_map in work], assets.menu_codes, main_ko.values())
-    if main_ko:
+    exe, sysgrp, data, menu_rows = menu_sources(raw, disc)
+    menu_ko = {}
+    for n in MENU_FILES:
+        f = Path(ko_dir) / f"{n}.json"
+        menu_ko[n], probs = textio.usable_translations(menu_rows[n], json.loads(f.read_text(encoding="utf-8")) if f.is_file() else {}, statuses)
+        problems += probs
+    extra = [t for n in MENU_FILES for t in menu_ko[n].values()]
+    code_of = shared_codes([(g, ko_map) for *_, g, ko_map in work], assets.menu_codes, extra)
+    if any(menu_ko.values()):
         try:
-            new_exe, rep = main_build(raw, disc, exe, main, main_rows, main_ko, code_of, assets)
-            changes[exe_name] = new_exe
-            scenes["MAIN"] = rep
-        except ValueError as e:
-            problems.append(f"MAIN: {e}")
+            files, rep = menu_build(exe, sysgrp, data, menu_rows, menu_ko, code_of, assets)
+            changes[mainprog.exe_name(disc)] = files["exe"]
+            changes["SYSTEM.GRP"] = files["SYSTEM.GRP"]
+            scenes["MENU"] = rep
+        except (ValueError, KeyError) as e:
+            problems.append(f"MENU: {e}")
     for name, scene, grp, member, g, ko_map in work:
         try:
             new, rep = scene_build(g, ko_map, assets, code_of)
