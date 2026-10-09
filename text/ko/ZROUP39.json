@@ -393,7 +393,7 @@
   "src_hash": "eef072aa2642",
   "ko": "관문지기^c　칼날이 맑은 마을이라 쓰고 하스미 마을……．이 너머에는^c　멸망한 도공 마을이 있을 뿐이지．^c　나는 막부 말 동란으로 뿔뿔이 흩어진 마을 사람들이 돌아올 날까지 이 관문을 지키고 있는 거라네．",
   "status": "draft",
-  "note": "PUN-PROVISIONAL: 하스미 마을 이름을 칼날+맑음 표기로 푸는 한자 풀이. 한국어에서는 뜻만 보존(ZROUP12 표현과 통일)"
+  "note": "PUN-ACCEPTED: 하스미 이름의 한자 풀이를 뜻(칼날이 맑은)으로. ZROUP12의 연꽃（하스） 소문과 대비"
  },
  "ZROUP39:1c8c8": {
   "src_hash": "679f4616310f",
@@ -507,7 +507,7 @@
   "src_hash": "f656fbc613f7",
   "ko": "관문지기^c　……자네들，근처 마을에서^c　무슨 소문을 들었는지 모르겠다만，하스미 마을은 낙원 같은 게 아니야．칼날이 맑은 마을이라 쓰고 하스미 마을……．^c　자네들이 본 건^c　멸망한 도공 마을이지．",
   "status": "draft",
-  "note": "PUN-PROVISIONAL: 하스미 마을 이름의 한자 풀이(뜻만 보존)"
+  "note": "PUN-ACCEPTED: 하스미 이름의 한자 풀이를 뜻으로(ZROUP12 연꽃 소문과 대비)"
  },
  "ZROUP39:1ce80": {
   "src_hash": "d58c34b658cd",
@@ -669,7 +669,7 @@
   "src_hash": "dafd10f60a55",
   "ko": "사노스케^c　뭔가 쓰여 있는데．^c　칼날……맑은……마을……？",
   "status": "draft",
-  "note": "PUN-PROVISIONAL: 비석의 한자 이름을 더듬더듬 읽는 장면. 뜻 풀이로 옮김"
+  "note": "PUN-ACCEPTED: 비석 이름을 더듬어 읽는 장면, 뜻 풀이로"
  },
  "ZROUP39:1d6ac": {
   "src_hash": "fbeb393a7ac0",
@@ -693,7 +693,7 @@
   "src_hash": "62b64092c0c0",
   "ko": "켄신^c　칼날이 맑은 하스미 마을……．^c　이 마을의 진짜 이름이오．",
   "status": "draft",
-  "note": "PUN-PROVISIONAL: 비석에 적힌 한자 이름. 뜻 풀이와 하스미를 함께 둠"
+  "note": "PUN-ACCEPTED: 비석의 한자 이름, 뜻 풀이와 하스미를 함께 둠"
  },
  "ZROUP39:1d760": {
   "src_hash": "b01044e810bd",
@@ -705,7 +705,7 @@
   "src_hash": "70c81cb99a31",
   "ko": "칼날이 맑은 마을，하스미．",
   "status": "draft",
-  "note": "PUN-PROVISIONAL: 비석 문구(한자 표기 이름). 뜻 풀이와 하스미를 함께 둠"
+  "note": "PUN-ACCEPTED: 비석 문구, 뜻 풀이와 하스미를 함께 둠"
  },
  "ZROUP39:1d78c": {
   "src_hash": "29d34b7f82fc",

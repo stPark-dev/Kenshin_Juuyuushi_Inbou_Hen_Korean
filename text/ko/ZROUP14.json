@@ -1171,21 +1171,21 @@
  },
  "ZROUP14:45270": {
   "src_hash": "72105f7bef3a",
-  "ko": "긴자부로^c　오오，마침 잘됐군．^c　나랑 한 판 두고 가지 않겠나？^c　나는 이름 그대로^c　은장을 잘 쓰는 명수라네．",
+  "ko": "긴자부로^c　오오，마침 잘됐군．^c　나랑 한 판 두고 가지 않겠나？^c　나는 이름에 은（긴）이 든 그대로^c　은장을 잘 쓰는 명수라네．",
   "status": "draft",
-  "note": "NEW NAME: 銀三郎=긴자부로. PUN-PROVISIONAL: 이름의 은=장기 말 은장"
+  "note": "NEW NAME: 銀三郎=긴자부로. PUN-LOCALIZED: 이름의 긴=은=쇼기 말 은장을 괄호로 보임"
  },
  "ZROUP14:452e4": {
   "src_hash": "454b0de4b713",
-  "ko": "킨타로^c　우리 아버지 말이야，^c　자기가 장기를 좋아한다고^c　아들 이름을 이런 걸로 지을 건^c　없잖아……．",
+  "ko": "킨타로^c　우리 아버지 말이야，^c　자기가 장기를 좋아한다고^c　아들 이름에 장기 말 금장（킨）을 갖다 붙일 건^c　없잖아……．",
   "status": "draft",
-  "note": "NEW NAME: 金太郎=킨타로. PUN-PROVISIONAL: 이름의 금=장기 말 금장"
+  "note": "NEW NAME: 金太郎=킨타로. PUN-LOCALIZED: 이름의 킨=금장을 밝힘"
  },
  "ZROUP14:45358": {
   "src_hash": "55a6986ac6b8",
-  "ko": "쿄코^c　내 이름도^c　장기랑 관계있대．",
+  "ko": "쿄코^c　내 이름의 「쿄」도^c　장기 말 향차（쿄샤）에서 땄대．",
   "status": "draft",
-  "note": "NEW NAME: 香子=쿄코. PUN-PROVISIONAL: 이름의 향=장기 말 향차"
+  "note": "NEW NAME: 香子=쿄코. PUN-LOCALIZED: 쿄=향차(쿄샤)를 밝힘"
  },
  "ZROUP14:45398": {
   "src_hash": "acd138b8a633",

@@ -2271,7 +2271,7 @@
   "src_hash": "18f6daa045c7",
   "ko": "아카베코 차림표에서 ”커피”는 어떻게 적혀 있을까？^s",
   "status": "draft",
-  "note": "LOCALIZE-RIDDLE: asked for the kanji ateji of coffee; now asks how coffee is written on the menu, choices given as Korean readings/glosses (bean tea=correct first, 珈琲 Korean reading, 可否 Korean reading, bean soup)."
+  "note": "RIDDLE-LOCALIZED (D20): 커피 あて字 문제 → 차림표 표기 고르기, 정답 콩차(첫 선택지)"
  },
  "ZROUP41:2abd4": {
   "src_hash": "05ebc0334216",
@@ -3285,7 +3285,7 @@
   "src_hash": "8ee5e6eb1720",
   "ko": "아카네・미도리・아이^c",
   "status": "draft",
-  "note": "PUN-PROVISIONAL: triplet names are color words in Japanese; kept as names (wrong-answer joke)."
+  "note": "PUN-ACCEPTED: 오답 농담(세쌍둥이 이름 아카네・미도리・아이가 색 이름). 퀴즈 #102 등에서 이름이 알려져 농담으로 읽힘"
  },
  "ZROUP41:2b974": {
   "src_hash": "9d274a69e6ba",
@@ -3921,7 +3921,7 @@
   "src_hash": "d0f8b5431813",
   "ko": "십용사 음모편에서 닛코에서 일어난 재해는 다음 중 어느 것？^s",
   "status": "draft",
-  "note": "PUN-PROVISIONAL: choices follow the Japanese saying earthquake-thunder-fire-father; kept literal."
+  "note": "PUN-ACCEPTED: 地震雷火事親父 속담 선택지. 「아버지」가 엉뚱한 오답으로 기능, 정답 화재(첫 선택지)"
  },
  "ZROUP41:2c24c": {
   "src_hash": "cafc773d1c36",
@@ -4281,7 +4281,7 @@
   "src_hash": "663ca49eb7b6",
   "ko": "십용사 음모편에 나오는^c산의 올바른 이름은？^s",
   "status": "draft",
-  "note": "LOCALIZE-RIDDLE: original asks the kana reading of the mountain name; reading questions do not work in Korean, so it asks for the correct name of the mountain. Choices are transliterations of the original reading options; 스카이산 stays first (correct)."
+  "note": "RIDDLE-LOCALIZED (D20): 독음 문제 → 산의 올바른 이름 고르기, 스카이산 첫 선택지(정답)"
  },
  "ZROUP41:2c750": {
   "src_hash": "13e93bab0b71",
@@ -4311,7 +4311,7 @@
   "src_hash": "3aaff14b0a8b",
   "ko": "십용사 음모편에서^c주인공의 고향 마을의 올바른 이름은？^s",
   "status": "draft",
-  "note": "LOCALIZE-RIDDLE: original asks the kana reading of the village name; now asks the correct name of the protagonist home village. Choices transliterate the original reading options; 카미츠메 stays first (correct, D19)."
+  "note": "RIDDLE-LOCALIZED (D20·D19): 독음 문제 → 주인공 고향 마을의 올바른 이름 고르기, 카미츠메 첫 선택지(정답)"
  },
  "ZROUP41:2c7b8": {
   "src_hash": "907fa219b2ce",
@@ -5241,7 +5241,7 @@
   "src_hash": "233c0665e9b4",
   "ko": "메이지 시대에 ”１６은행”이라 불린 것은 어느 것인가？^s",
   "status": "draft",
-  "note": "”16 bank” is a Japanese pun (7+9 = shichi = pawnshop); question still has one answer. PUN-PROVISIONAL"
+  "note": "PUN-ACCEPTED: ”１６은행”=７＋９(시치)=전당포(시치야) 말장난은 재현 불가. 정답은 하나로 성립(역사 상식 문제)"
  },
  "ZROUP41:2d5d4": {
   "src_hash": "0076758bf379",

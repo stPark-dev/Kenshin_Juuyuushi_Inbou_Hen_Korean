@@ -529,9 +529,9 @@
  },
  "ZROUP20:37c30": {
   "src_hash": "3e92a375ef72",
-  "ko": "브라이언^c　이 끈적끈적한，당신의 나쁜 것은 무엇임니까？",
+  "ko": "브라이언^c　이 끈적끈적한，기분의 나쁜 것은 무엇임니까？",
   "status": "draft",
-  "note": "NEW NAME: ブライアン=브라이언. PUN-PROVISIONAL: foreigner garbles the word for creepy into your bad (thing); meaning-only, broken phrasing kept"
+  "note": "NEW NAME: ブライアン=브라이언. PUN-LOCALIZED: 気味の悪い→キミのワルイ 말 끊기 오류를 외국인의 어색한 조사(기분의 나쁜 것)로"
  },
  "ZROUP20:37c78": {
   "src_hash": "3a32a477535d",
@@ -651,7 +651,7 @@
   "src_hash": "238b2001858f",
   "ko": "카오루^c　……………………………………………　………………………………………땡．",
   "status": "draft",
-  "note": "PUN-PROVISIONAL: Kaoru stalls on the first syllable of a mangled thank-you"
+  "note": "PUN-ACCEPTED: 땡큐 첫소리에서 멈춤(땡). 다음 줄 「땡？」과 이어져 기능 유지"
  },
  "ZROUP20:381d0": {
   "src_hash": "d833552f663e",
@@ -663,7 +663,7 @@
   "src_hash": "d3178783ef6b",
   "ko": "카오루^c　땡큐，웨로모초？",
   "status": "draft",
-  "note": "PUN-PROVISIONAL: mangled English/Spanish thank you very much"
+  "note": "PUN-ACCEPTED: 엉터리 영어·스페인어 감사 인사, 그대로 기능"
  },
  "ZROUP20:3820c": {
   "src_hash": "d1c9d3093959",
