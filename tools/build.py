@@ -12,11 +12,13 @@ through iso.plan/iso.apply (expected-source checks and final diff audit).
 import argparse
 import hashlib
 import json
+import os
 import sys
 from dataclasses import dataclass
 from pathlib import Path
 
 import bootlz
+import btlicon
 import exetext
 import grparc
 import iso
@@ -42,6 +44,7 @@ class Assets:
     box: tuple
     namefont: dict
     menu_codes: frozenset = frozenset()  # codes in the menu fonts, never given to Hangul
+    icon_fonts: tuple = ()  # (Galmuri11 Bold, Galmuri9) for the battle command icons
 
 
 def check_source(raw):
@@ -54,8 +57,14 @@ def load_assets(raw, disc, galmuri_path):
     sysgrp = grparc.parse(iso.read_file(raw, disc, "SYSTEM.GRP"))
     nf = scenefont.load_namefont(sysgrp.get("NAMEFONT.TXT"), sysgrp.get("NAMEFONT.BIN"))
     font = kfont.load_bdf(galmuri_path)
+    # the other Galmuri sizes sit next to Galmuri14 (same release zip)
+    paths = [os.path.join(os.path.dirname(galmuri_path), f) for f in btlicon.FONT_FILES]
+    for p in paths:
+        if not os.path.isfile(p):
+            raise FileNotFoundError(f"{p}: the battle icons need it (Galmuri release zip, next to Galmuri14.bdf)")
+    icon_fonts = tuple(kfont.load_bdf(p) for p in paths)
     return Assets(font=font, box=kfont.hangul_box(font), namefont=nf,
-                  menu_codes=frozenset(mainprog.menu_font_codes(raw, disc)))
+                  menu_codes=frozenset(mainprog.menu_font_codes(raw, disc)), icon_fonts=icon_fonts)
 
 
 def reserved_codes(g, ko_map):
@@ -151,7 +160,7 @@ def menu_build(exe, sysgrp, data, rows, ko, code_of, assets):
         return kfont.render(assets.font[c], assets.box)
 
     main, mapcode = data["MAIN"], data["MAPCODE"]
-    btl = ovltext.apply("BTLCODE", data["BTLCODE"], enc["BTLCODE"])
+    btl = btlicon.apply(ovltext.apply("BTLCODE", data["BTLCODE"], enc["BTLCODE"]), assets.icon_fonts)
     old = dict(zip(exetext.font_codes(main), _glyphs(main)))
     mold = ovltext.mapcode_font(mapcode)
     # main program font
