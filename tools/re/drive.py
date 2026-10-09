@@ -5,7 +5,9 @@ Commands, one per line, read as they are appended:
   k KEY [N] [WAIT]   press KEY N times, WAIT seconds after each (winds key names:
                      z=○ x=× a=□ s=△ Return=Start BackSpace=Select, arrows)
   shot NAME          save the frame as outdir/NAME.png
+  wait SECONDS       pause before the next command
   poke ADDR HEX      write bytes to RAM through the GDB server (attached on first use)
+  dump FILE          save main RAM (2 MB) to FILE through the GDB server
   quit               close the emulator
 Progress lines (title, key, shot, poked) go to stdout, so a caller can wait for them.
 
@@ -68,18 +70,25 @@ while True:
             p.kill()
             print("bye", flush=True)
             sys.exit()
+        if a[0] == "wait":
+            time.sleep(float(a[1]))
+            print("waited", a[1], flush=True)
         if a[0] == "shot":
             grab().save(f"{OUT}/{a[1]}.png")
             print("shot", a[1], flush=True)
-        if a[0] == "poke":
+        if a[0] in ("poke", "dump"):
             if rsp is None:
                 rsp = RSP(timeout=30)
                 rsp.send("?")  # the server reports the target as stopped on connect
             else:
                 rsp.interrupt()
-            rsp.send(f"M{int(a[1], 16):x},{len(a[2]) // 2}:{a[2]}")
+            if a[0] == "poke":
+                rsp.send(f"M{int(a[1], 16):x},{len(a[2]) // 2}:{a[2]}")
+            else:
+                with open(a[1], "wb") as f:
+                    f.write(rsp.read_mem(0x80000000, 0x200000))
             rsp.send("c", wait=False)
-            print("poked", a[1], a[2], flush=True)
+            print(a[0], *a[1:], flush=True)
         if a[0] == "k":
             n = int(a[2]) if len(a) > 2 else 1
             wait = float(a[3]) if len(a) > 3 else 1

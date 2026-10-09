@@ -13,6 +13,8 @@ armed at the title screen; one added later to already-run code never fires.
 on entry is one). --op 30 switches at the next frame yield (VM op 0x30) instead,
 so no NPC has to be reached; the scene's own thread then runs the routine.
 After the switch, frames a0..a5 are captured at 1 s intervals (quiz choices, menus).
+--after KEYS (comma-separated winds key names) then presses each key 2 s apart,
+capturing k0, k1, ... after each (answer a prompt, step into a menu).
 usage: goto_scene.py image.cue scene outdir presses [interval] [from_scene] [--text OFFSET [--skip N]]
 """
 import os
@@ -39,6 +41,11 @@ OPS = {0x47: 0x801D890C, 0x30: 0x801D84FC}  # VM op -> handler (dispatch table 0
 if "--op" in args:
     i = args.index("--op")
     TEXT_OP = OPS[int(args[i + 1], 16)]
+    del args[i : i + 2]
+AFTER = []
+if "--after" in args:
+    i = args.index("--after")
+    AFTER = args[i + 1].split(",")
     del args[i : i + 2]
 SKIP = 0
 if "--skip" in args:
@@ -136,4 +143,8 @@ if TEXT is not None:
     for i in range(6):  # the routine's own frames (a quiz shows its choices after the question)
         time.sleep(1)
         winds.grab(h).save(f"{OUT}/a{i}.png")
+    for i, k in enumerate(AFTER):
+        winds.key(h, k)
+        time.sleep(2)
+        winds.grab(h).save(f"{OUT}/k{i}.png")
 print("done", flush=True)
