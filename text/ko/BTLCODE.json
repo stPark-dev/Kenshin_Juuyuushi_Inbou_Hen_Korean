@@ -25,9 +25,9 @@
  },
  "BTLCODE:801e3fe0": {
   "src_hash": "70c6f69192ca",
-  "ko": "획득！",
+  "ko": "　획득",
   "status": "draft",
-  "note": ""
+  "note": "사용자 지시(2026-10-09): 숫자 뒤 띄어쓰기, 칸(3자)에 맞춰 느낌표 생략"
  },
  "BTLCODE:801e3fe7": {
   "src_hash": "eedd8e62e17e",

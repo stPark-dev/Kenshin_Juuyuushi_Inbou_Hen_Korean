@@ -4,6 +4,7 @@ Keys go to the emulator window with PostMessage (Qt reads WM_KEYDOWN from its
 queue), frames come from PrintWindow, so the user can keep working elsewhere.
 """
 import ctypes
+import os
 import subprocess
 import time
 from ctypes import wintypes
@@ -17,12 +18,16 @@ from PIL import Image
 DS = r"C:\Users\S.T.Park\tools\duckstation\duckstation-qt-x64-ReleaseLTCG.exe"
 VK = {"Return": win32con.VK_RETURN, "Up": win32con.VK_UP, "Down": win32con.VK_DOWN,
       "Left": win32con.VK_LEFT, "Right": win32con.VK_RIGHT, "BackSpace": win32con.VK_BACK,
-      "F10": win32con.VK_F10}
+      **{f"F{i}": win32con.VK_F1 + i - 1 for i in range(1, 13)}}
 user32 = ctypes.windll.user32
 
 
-def launch(cue):
-    p = subprocess.Popen([DS, "-batch", "-fastboot", "-nofullscreen", cue])
+def launch(cue, state=None):
+    """Start DuckStation on `cue`; `state` boots straight into that save-state slot.
+    The SaveGameStateN hotkeys write savestates/savestate_N.sav (not the per-game
+    slot `-state N` reads), so the file is passed with -statefile."""
+    extra = ["-statefile", os.path.join(os.path.dirname(DS), "savestates", f"savestate_{state}.sav")] if state is not None else []
+    p = subprocess.Popen([DS, "-batch", "-fastboot", "-nofullscreen", *extra, cue])
     return p
 
 

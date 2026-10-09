@@ -144,6 +144,12 @@ python tools/re/goto_scene.py build/kenshin_ko.cue 24 work/g24 12 4      # 첫 �
 python tools/re/goto_scene.py build/kenshin_ko.cue 40 work/p40 0 --text 888   # 첫 대화 대신 스크립트 0x888(동료 메뉴) 실행
 python tools/re/goto_scene.py build/kenshin_ko.cue 41 work/q41 0 --text 3046 --op 30 --skip 300   # 말 걸지 않고 퀴즈 첫 문제
 python tools/re/drive.py build/kenshin_ko.cue work/d work/cmd.txt   # 대화형: work/cmd.txt에 k/shot/poke 명령을 덧붙인다(전투 강제 진입 방법은 파일 설명)
+python tools/re/drive.py build/kenshin_ko.cue work/d work/cmd.txt --state 2   # 상태 저장 슬롯에서 바로 시작
+```
+
+- 상태 저장(2026-10-09): 핫키 F1~F4 = 슬롯 1~4(`savestates/savestate_N.sav`, `drive.py`의 `save N`). 현재 슬롯 1 = 첫 마을 자유 이동, 2 = 같은 곳에 조우 표 써 넣음(걸으면 전투), 3 = 전투 시작 직후. 상태에는 RAM 전체가 들어가므로 이미 올라와 있던 것(본 프로그램: 아이템·기술 이름, 설명, 메뉴 글꼴)은 옛 빌드 그대로다. 장면 파일·MAPCODE·BTLCODE는 다음에 읽을 때 새 빌드가 반영되므로, 그 전 시점의 상태(슬롯 1·2)를 쓴다. 본 프로그램을 바꿨으면 타이틀부터 부팅한다. 상태 파일은 저장소 밖(에뮬레이터 폴더)에 있다.
+
+```sh
 ```
 
 - 타이틀 감지 기준 이미지 `work/ref_title_menu_win.png`: 타이틀 메뉴 화면을 `winds.grab()`으로 찍어 `crop((150,370,370,510))`.
