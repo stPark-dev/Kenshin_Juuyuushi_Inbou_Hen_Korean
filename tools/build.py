@@ -16,6 +16,8 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
+import bootlz
+import exetext
 import grparc
 import iso
 import kfont
@@ -65,11 +67,11 @@ def reserved_codes(g, ko_map):
     return reserved
 
 
-def shared_codes(scenes, menu_codes=frozenset()):
+def shared_codes(scenes, menu_codes=frozenset(), extra=()):
     """One Hangul code table for every scene (and the menus): [(g, ko_map)] -> {syllable: code}.
     Menus look codes up in the menu fonts before the scene font, so a code must mean
     the same syllable everywhere and stay clear of every Japanese character in use."""
-    hangul, reserved = set(), set(menu_codes)
+    hangul, reserved = {c for t in extra for c in t if koenc.is_hangul(c)}, set(menu_codes)
     for g, ko_map in scenes:
         hangul |= {c for t in ko_map.values() for c in t if koenc.is_hangul(c)}
         reserved |= reserved_codes(g, ko_map)
@@ -113,6 +115,40 @@ def scene_build(g, ko_map, assets, code_of=None):
     return out, report
 
 
+def main_build(raw, disc, exe, main, rows, ko_map, code_of, assets):
+    """Translated menu text and a menu font with its Hangul -> repacked boot executable."""
+    limit = {r["id"]: r["limit"] for r in rows}
+    texts = {sid: exetext.encode(t, code_of, limit[sid]) for sid, t in ko_map.items()}
+    sysgrp = grparc.parse(iso.read_file(raw, disc, "SYSTEM.GRP"))
+    old = dict(zip(exetext.font_codes(main), _glyphs(main)))
+    keep = exetext.kept_codes(main, bootlz.decode(sysgrp.get("MAPCODE.Z32"), 0)[0],
+                              bootlz.decode(sysgrp.get("BTLCODE.Z32"), 0)[0])
+    hangul = sorted({c for t in ko_map.values() for c in t if koenc.is_hangul(c)})
+    missing = [c for c in hangul if c not in assets.font]
+    if missing:
+        raise ValueError(f"Hangul font has no glyph for {''.join(missing)}")
+    glyphs = {c: old[c] for c in keep}
+    glyphs.update({code_of[c]: kfont.render(assets.font[c], assets.box) for c in hangul})
+    used = {raw_[i:i + 2] for raw_ in texts.values() for i in range(0, len(raw_), 2)}
+    for c in sorted(used - set(glyphs)):  # punctuation the source menus never used (，．)
+        if c in old or c in assets.namefont:
+            glyphs[c] = old.get(c) or assets.namefont[c]
+    absent = sorted(c.decode("cp932") for c in used - set(glyphs))
+    if absent:
+        raise ValueError(f"menu font would lack {''.join(absent)}")
+    packed = bootlz.encode(exetext.apply(main, texts, glyphs))
+    room = len(exe) - mainprog.BLOB
+    if len(packed) > room:
+        raise ValueError(f"packed main program is {len(packed)} bytes, room {room}")
+    report = {"translated": len(texts), "glyphs": len(glyphs), "hangul": len(hangul), "packed": len(packed)}
+    return exe[:mainprog.BLOB] + packed + bytes(room - len(packed)), report
+
+
+def _glyphs(main):
+    o = mainprog.FONT_GLYPHS - mainprog.BASE
+    return [main[o + 32 * i:o + 32 * i + 32] for i in range(len(exetext.font_codes(main)))]
+
+
 def _prefix(raw, room):
     """The longest run of whole tokens of `raw` that is at most `room` bytes."""
     out = b""
@@ -150,7 +186,21 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
         problems += probs
         if ko_map:
             work.append((name, scene, grp, member, g, ko_map))
-    code_of = shared_codes([(g, ko_map) for *_, g, ko_map in work], assets.menu_codes) if work else {}
+    exe_name = mainprog.exe_name(disc)
+    exe = iso.read_file(raw, disc, exe_name)
+    main = mainprog.unpack(exe)
+    main_rows = exetext.extract(main)
+    mf = Path(ko_dir) / "MAIN.json"
+    main_ko, probs = textio.usable_translations(main_rows, json.loads(mf.read_text(encoding="utf-8")) if mf.is_file() else {}, statuses)
+    problems += probs
+    code_of = shared_codes([(g, ko_map) for *_, g, ko_map in work], assets.menu_codes, main_ko.values())
+    if main_ko:
+        try:
+            new_exe, rep = main_build(raw, disc, exe, main, main_rows, main_ko, code_of, assets)
+            changes[exe_name] = new_exe
+            scenes["MAIN"] = rep
+        except ValueError as e:
+            problems.append(f"MAIN: {e}")
     for name, scene, grp, member, g, ko_map in work:
         try:
             new, rep = scene_build(g, ko_map, assets, code_of)

@@ -1,0 +1,2900 @@
+{
+ "MAIN:item:001": {
+  "src_hash": "49248ab82045",
+  "ko": "지혈 팅크",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:002": {
+  "src_hash": "3e1a744c7633",
+  "ko": "곰기름",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:003": {
+  "src_hash": "abaa47002785",
+  "ko": "인단",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:004": {
+  "src_hash": "71ac73fc3097",
+  "ko": "우혁초",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:005": {
+  "src_hash": "676c27429d8c",
+  "ko": "천문동",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:006": {
+  "src_hash": "dbb1b5214f8a",
+  "ko": "녹백환",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:007": {
+  "src_hash": "314280b98d96",
+  "ko": "행죽두",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:008": {
+  "src_hash": "92ca1c85327d",
+  "ko": "애기똥풀",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:009": {
+  "src_hash": "3002e7afb060",
+  "ko": "천초환",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:010": {
+  "src_hash": "93f5f87849da",
+  "ko": "병법 지남서",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:011": {
+  "src_hash": "4aa3e27094a5",
+  "ko": "병법 비전서",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:012": {
+  "src_hash": "af95b74b79a1",
+  "ko": "임기응변부적",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:013": {
+  "src_hash": "b0323fe9dea3",
+  "ko": "대모",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:014": {
+  "src_hash": "a9ddd53fbfec",
+  "ko": "진주",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:015": {
+  "src_hash": "aa382c1625d9",
+  "ko": "마노",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:016": {
+  "src_hash": "5a03b574e1ad",
+  "ko": "산호",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:017": {
+  "src_hash": "819757e6465b",
+  "ko": "호박",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:018": {
+  "src_hash": "0720c6c24c03",
+  "ko": "청금석",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:019": {
+  "src_hash": "cda7fbef3d6e",
+  "ko": "비취",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:020": {
+  "src_hash": "02199d48f043",
+  "ko": "꿩의비름",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:021": {
+  "src_hash": "6c5f660dcbe8",
+  "ko": "사자단",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:022": {
+  "src_hash": "ea6016f89e20",
+  "ko": "호장단",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:023": {
+  "src_hash": "ff5ad8b23c6b",
+  "ko": "양제단",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:024": {
+  "src_hash": "d0a00bee74bd",
+  "ko": "여행 도구",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:025": {
+  "src_hash": "4f122a251759",
+  "ko": "역날검",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:026": {
+  "src_hash": "c9339accee7e",
+  "ko": "역날검・진타",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:027": {
+  "src_hash": "2a530dbcf101",
+  "ko": "죽도",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:028": {
+  "src_hash": "fe6f7f2da1b6",
+  "ko": "긴 죽도",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:029": {
+  "src_hash": "45e00d5d0694",
+  "ko": "목도・벚나무",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:030": {
+  "src_hash": "5098a9ec5c27",
+  "ko": "자작나무목도",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:031": {
+  "src_hash": "564bafc9db79",
+  "ko": "팔각 목도",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:032": {
+  "src_hash": "a23f4f845052",
+  "ko": "참나무 목도",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:033": {
+  "src_hash": "5680a5355cde",
+  "ko": "비파나무목도",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:034": {
+  "src_hash": "c97ccd9af57a",
+  "ko": "목도・흑단",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:035": {
+  "src_hash": "b5762b16ff3c",
+  "ko": "소태도",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:036": {
+  "src_hash": "82f7dc577de9",
+  "ko": "일본도",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:037": {
+  "src_hash": "a4b0ca0e906c",
+  "ko": "양산형 칼",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:038": {
+  "src_hash": "75a23adf19dc",
+  "ko": "대장간 태도",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:039": {
+  "src_hash": "e099b0b26072",
+  "ko": "무명의 명품",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:040": {
+  "src_hash": "3084962fe527",
+  "ko": "선봉의 칼",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:041": {
+  "src_hash": "06b18e595509",
+  "ko": "복고도",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:042": {
+  "src_hash": "fab72442abb7",
+  "ko": "소슈덴",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:043": {
+  "src_hash": "3d7cc12e89fe",
+  "ko": "비젠덴",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:044": {
+  "src_hash": "7f709f3b1034",
+  "ko": "쿠니미츠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:045": {
+  "src_hash": "9668210e74e2",
+  "ko": "키요마로",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:046": {
+  "src_hash": "c4d17e46049b",
+  "ko": "무라마사",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:047": {
+  "src_hash": "2fb2d4ad5f97",
+  "ko": "야스사다",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:048": {
+  "src_hash": "2b6351359e0c",
+  "ko": "키요미츠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:049": {
+  "src_hash": "64c4f3281402",
+  "ko": "코테츠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:050": {
+  "src_hash": "b090857292ce",
+  "ko": "키쿠이치몬지",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:051": {
+  "src_hash": "d38dda8ab049",
+  "ko": "코가라스마루",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:053": {
+  "src_hash": "990d6cc47bec",
+  "ko": "세이란",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:054": {
+  "src_hash": "02e59b93c786",
+  "ko": "토운",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:055": {
+  "src_hash": "e787631154e3",
+  "ko": "십자문 단검",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:056": {
+  "src_hash": "6c8f50159002",
+  "ko": "구자베기태도",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:057": {
+  "src_hash": "12f891f9dbd8",
+  "ko": "오니쿠비",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:058": {
+  "src_hash": "89bf19ea076d",
+  "ko": "외투",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:059": {
+  "src_hash": "b634a2aa0695",
+  "ko": "석면 외투",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:060": {
+  "src_hash": "7169c0c10ebe",
+  "ko": "철사 외투",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:061": {
+  "src_hash": "1a7827a1fa45",
+  "ko": "도복",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:062": {
+  "src_hash": "e024316a0310",
+  "ko": "머리띠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:063": {
+  "src_hash": "b321b1d7f278",
+  "ko": "이마 가리개",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:064": {
+  "src_hash": "d1e24aae9f0a",
+  "ko": "가죽 장갑",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:065": {
+  "src_hash": "45f76142ad73",
+  "ko": "손등 보호대",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:066": {
+  "src_hash": "a760de3e631c",
+  "ko": "사슬 갑옷",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:067": {
+  "src_hash": "c372ad128408",
+  "ko": "석면 사슬옷",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:068": {
+  "src_hash": "94e6bb98c0cd",
+  "ko": "흰 외투",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:069": {
+  "src_hash": "cead0a61a4a3",
+  "ko": "６９",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:070": {
+  "src_hash": "7a63f6517527",
+  "ko": "부절 이１",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:071": {
+  "src_hash": "2ea5b25abd65",
+  "ko": "부절 이２",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:072": {
+  "src_hash": "37011926e852",
+  "ko": "부절 이３",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:073": {
+  "src_hash": "ad68753f0b30",
+  "ko": "부절 로１",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:074": {
+  "src_hash": "8b0a7f082d69",
+  "ko": "부절 로２",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:075": {
+  "src_hash": "789020c73fa9",
+  "ko": "부절 로３",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:076": {
+  "src_hash": "0fe74a96f510",
+  "ko": "부절 하１",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:077": {
+  "src_hash": "2fca0fa96497",
+  "ko": "부절 하２",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:078": {
+  "src_hash": "209185e24868",
+  "ko": "부절 하３",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:079": {
+  "src_hash": "6b3f9faa3d8b",
+  "ko": "수정 구슬",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:080": {
+  "src_hash": "c529cfe3d426",
+  "ko": "초록 수초",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:081": {
+  "src_hash": "7caf47864815",
+  "ko": "노란 수초",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:082": {
+  "src_hash": "625d29393539",
+  "ko": "갈색 수초",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:083": {
+  "src_hash": "260b3561c8c9",
+  "ko": "파란 수초",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:084": {
+  "src_hash": "83eaa5559081",
+  "ko": "해독제",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:085": {
+  "src_hash": "11d8382e47cd",
+  "ko": "큰 열쇠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:086": {
+  "src_hash": "5ad9c6935ef4",
+  "ko": "지하정원 꽃",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:087": {
+  "src_hash": "cfa7d3ad3b5f",
+  "ko": "얼룩 머리띠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:088": {
+  "src_hash": "aba38bf0214a",
+  "ko": "비망록",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:089": {
+  "src_hash": "2f0787f2f049",
+  "ko": "가희의 편지",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:090": {
+  "src_hash": "a0e5b7a6142e",
+  "ko": "화염의 서",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:091": {
+  "src_hash": "72e58a6b4bb9",
+  "ko": "꽃의 열쇠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:092": {
+  "src_hash": "f7443fe028c7",
+  "ko": "새의 열쇠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:093": {
+  "src_hash": "9a6dfb0545be",
+  "ko": "바람의 열쇠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:094": {
+  "src_hash": "7a8d30231c3f",
+  "ko": "달의 열쇠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:095": {
+  "src_hash": "bf8ae75f6cdb",
+  "ko": "눈의 열쇠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:096": {
+  "src_hash": "bf0bde1c3a62",
+  "ko": "땅의 열쇠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:097": {
+  "src_hash": "4590b2929c8e",
+  "ko": "물의 열쇠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:098": {
+  "src_hash": "d9482e416381",
+  "ko": "불의 열쇠",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:099": {
+  "src_hash": "705f409e36eb",
+  "ko": "분노의 거울",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:100": {
+  "src_hash": "655355673f68",
+  "ko": "탐욕의 거울",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:101": {
+  "src_hash": "c92f505b5f23",
+  "ko": "오만의 거울",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:102": {
+  "src_hash": "2fc268aab395",
+  "ko": "포식의 거울",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:103": {
+  "src_hash": "12f3108f0545",
+  "ko": "육욕의 거울",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:104": {
+  "src_hash": "f58b5af8d0e4",
+  "ko": "나태의 거울",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:105": {
+  "src_hash": "5248f148026d",
+  "ko": "질투의 거울",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:106": {
+  "src_hash": "d6b3686a865e",
+  "ko": "사탕",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:107": {
+  "src_hash": "f337a650db54",
+  "ko": "카시와모치",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:108": {
+  "src_hash": "aa07abc8c9d7",
+  "ko": "만주",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:109": {
+  "src_hash": "368995026c45",
+  "ko": "경단",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:110": {
+  "src_hash": "fb2fca30043d",
+  "ko": "전병",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:111": {
+  "src_hash": "bf15d61499d5",
+  "ko": "물엿",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:112": {
+  "src_hash": "46e40bf04461",
+  "ko": "비스킷",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:113": {
+  "src_hash": "7d39dd861dfc",
+  "ko": "초콜릿",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:114": {
+  "src_hash": "b71482f3e2fc",
+  "ko": "건빵",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:115": {
+  "src_hash": "7aaff1237ce2",
+  "ko": "시든 꽃",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:116": {
+  "src_hash": "a9afd8412356",
+  "ko": "빨간 꽃",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:117": {
+  "src_hash": "79417ae543dd",
+  "ko": "노란 꽃",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:118": {
+  "src_hash": "ef2ec68cf32f",
+  "ko": "파란 꽃",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:119": {
+  "src_hash": "ef200b7eb35a",
+  "ko": "하얀 꽃",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:120": {
+  "src_hash": "88e9893d6217",
+  "ko": "분홍 꽃",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:121": {
+  "src_hash": "c14570ff1675",
+  "ko": "보라 꽃",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:122": {
+  "src_hash": "63c334a0dda1",
+  "ko": "빨간 열매",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:123": {
+  "src_hash": "7ef0786bb7ee",
+  "ko": "노란 열매",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:124": {
+  "src_hash": "3c646276e651",
+  "ko": "분홍 열매",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:125": {
+  "src_hash": "cb5fed41175f",
+  "ko": "하얀 열매",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:126": {
+  "src_hash": "c21404544e41",
+  "ko": "파란 열매",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:127": {
+  "src_hash": "c6126830de3c",
+  "ko": "보라 뿌리",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:128": {
+  "src_hash": "b6a7c58a080b",
+  "ko": "빨간 뿌리",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:129": {
+  "src_hash": "6780dee8f979",
+  "ko": "낡은 칼",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:130": {
+  "src_hash": "366d3fce2289",
+  "ko": "조제한 약",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:131": {
+  "src_hash": "d00d702d951b",
+  "ko": "복통약",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:132": {
+  "src_hash": "a9e6ead37f72",
+  "ko": "현기증약",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:133": {
+  "src_hash": "fedc0da9e45a",
+  "ko": "숙취약",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:134": {
+  "src_hash": "abcccf7cdb5a",
+  "ko": "오한약",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:135": {
+  "src_hash": "911cab88ccf5",
+  "ko": "해열제",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:136": {
+  "src_hash": "4e3b94730438",
+  "ko": "기침약",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:137": {
+  "src_hash": "ae84865a7620",
+  "ko": "파란 뿌리",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:138": {
+  "src_hash": "b087d61c6a75",
+  "ko": "메구미의 약",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:139": {
+  "src_hash": "4e75655fd952",
+  "ko": "추억의 판화",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:140": {
+  "src_hash": "0621b0d4e9a7",
+  "ko": "꽃",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:141": {
+  "src_hash": "ceed7572c4c1",
+  "ko": "스모인형１",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:142": {
+  "src_hash": "9f9033dc8b28",
+  "ko": "스모인형２",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:143": {
+  "src_hash": "352fe81fcdaf",
+  "ko": "스모인형３",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:144": {
+  "src_hash": "5325f5485703",
+  "ko": "스모인형４",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:145": {
+  "src_hash": "76af45b688e4",
+  "ko": "스모인형５",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:146": {
+  "src_hash": "443269a18371",
+  "ko": "스모인형６",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:147": {
+  "src_hash": "f705801237fc",
+  "ko": "스모인형７",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:148": {
+  "src_hash": "5300e04fc120",
+  "ko": "스모인형８",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:149": {
+  "src_hash": "a4258e452aca",
+  "ko": "스모인형９",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:150": {
+  "src_hash": "7db733c21270",
+  "ko": "스모인형１０",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:151": {
+  "src_hash": "54546164a3f4",
+  "ko": "스모인형１１",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:152": {
+  "src_hash": "659b4929df3a",
+  "ko": "스모인형１２",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:153": {
+  "src_hash": "8a82eb4a809c",
+  "ko": "스모인형１３",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:154": {
+  "src_hash": "730f82ece728",
+  "ko": "스모인형１４",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:155": {
+  "src_hash": "4b31cb529173",
+  "ko": "스모인형１５",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:156": {
+  "src_hash": "126f5be0645c",
+  "ko": "스모인형１６",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:157": {
+  "src_hash": "a4be2d6180bd",
+  "ko": "스모인형１７",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:158": {
+  "src_hash": "9a5a6ea1b071",
+  "ko": "스모인형１８",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:159": {
+  "src_hash": "a8cfaadb2024",
+  "ko": "스모인형１９",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:160": {
+  "src_hash": "c9dc465dc8cf",
+  "ko": "스모인형２０",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:161": {
+  "src_hash": "45345c58fb93",
+  "ko": "스모인형２１",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:162": {
+  "src_hash": "92259b6b3b18",
+  "ko": "스모인형２２",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:163": {
+  "src_hash": "145a1417c64e",
+  "ko": "스모인형２３",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:164": {
+  "src_hash": "b607cf5c7041",
+  "ko": "스모인형２４",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:165": {
+  "src_hash": "9d8b9e19443c",
+  "ko": "스모인형２５",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:166": {
+  "src_hash": "5246d34a3470",
+  "ko": "스모인형２６",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:167": {
+  "src_hash": "18f34d8c8985",
+  "ko": "스모인형２７",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:168": {
+  "src_hash": "40ed67dcd8ee",
+  "ko": "스모인형２８",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:169": {
+  "src_hash": "49f7f41ffa75",
+  "ko": "스모인형２９",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:170": {
+  "src_hash": "e56552917027",
+  "ko": "스모인형３０",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:171": {
+  "src_hash": "3542c9ce8425",
+  "ko": "머리 장식",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:172": {
+  "src_hash": "07808d603a12",
+  "ko": "아오시 편지",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:173": {
+  "src_hash": "cee2d50b80c2",
+  "ko": "향로",
+  "status": "draft",
+  "note": "text/glossary_items.json 이름"
+ },
+ "MAIN:item:174": {
+  "src_hash": "6b09be8cb007",
+  "ko": "황금 고양이",
+  "status": "draft",
+  "note": "NEW NAME: 幸せの金の猫 (퀴즈 250문제 보상)"
+ },
+ "MAIN:desc:001": {
+  "src_hash": "0418642ad2d0",
+  "ko": "최대 체력의 ３할 회복",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:002": {
+  "src_hash": "f5e1d28809cc",
+  "ko": "입은 피해의 절반 회복",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:003": {
+  "src_hash": "20558db61823",
+  "ko": "체력과 기력 ２할 회복",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:004": {
+  "src_hash": "8d3d30740dec",
+  "ko": "체력 완전 회복",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:005": {
+  "src_hash": "19585ca0181e",
+  "ko": "기력 게이지 ５할 회복",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:006": {
+  "src_hash": "8d73c50cbe01",
+  "ko": "기력 게이지 완전 회복",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:007": {
+  "src_hash": "98d8ccbbeba7",
+  "ko": "전투 중 공격력 상승",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:008": {
+  "src_hash": "74316eaeccb3",
+  "ko": "전투 중 방어력 상승",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:009": {
+  "src_hash": "8912cd8da4e7",
+  "ko": "전투 중 민첩성 상승",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:010": {
+  "src_hash": "40e01a9cf681",
+  "ko": "일반 기술 횟수 １회 증가",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:011": {
+  "src_hash": "301271dfa3ee",
+  "ko": "같은 일반 기술 최대 ６회",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:012": {
+  "src_hash": "7b13581e4d2c",
+  "ko": "기력 없이 필살기 사용",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:013": {
+  "src_hash": "f82595449b35",
+  "ko": "비싸게 팔리는 거북 등딱지",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:014": {
+  "src_hash": "579a75e3d84b",
+  "ko": "비싸게 팔리는 조개 보석",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:015": {
+  "src_hash": "c726242afc2e",
+  "ko": "비싸게 팔리는 줄무늬 보석",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:016": {
+  "src_hash": "368c069e8ae5",
+  "ko": "비싸게 팔리는 남해산 장식",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:017": {
+  "src_hash": "f420e1edfe4e",
+  "ko": "비싸게 팔리는 화석의 일종",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:018": {
+  "src_hash": "74f9ba191c9c",
+  "ko": "비싸게 팔리는 푸른 보석",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:019": {
+  "src_hash": "a269583afffd",
+  "ko": "비싸게 팔리는 진녹색 보석",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:020": {
+  "src_hash": "0af823435338",
+  "ko": "최대 체력 １０ 증가",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:021": {
+  "src_hash": "656c6c21d122",
+  "ko": "공격력 ５ 증가",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:022": {
+  "src_hash": "6646991e85c8",
+  "ko": "방어력 ５ 증가",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:023": {
+  "src_hash": "88f27b174098",
+  "ko": "민첩성 ５ 증가",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:024": {
+  "src_hash": "b10bf2e75648",
+  "ko": "전원 체력 완전 회복",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:025": {
+  "src_hash": "ba6935025654",
+  "ko": "칼날이 거꾸로 달린 칼",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:026": {
+  "src_hash": "9af4d7dfd30d",
+  "ko": "유래를 알 수 없는 역날검",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:027": {
+  "src_hash": "e58578904b8e",
+  "ko": "쪼갠 대나무로 만든 칼",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:028": {
+  "src_hash": "19e140254354",
+  "ko": "찌르기에 좋은 긴 죽도",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:029": {
+  "src_hash": "33026986ff86",
+  "ko": "벚나무로 만든 목도",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:030": {
+  "src_hash": "2c252e1468d6",
+  "ko": "가볍게 만든 목도",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:031": {
+  "src_hash": "c24ad4e0db25",
+  "ko": "모서리가 없어 다루기 쉬움",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:032": {
+  "src_hash": "ac14f14655fa",
+  "ko": "참나무로 만든 목도",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:033": {
+  "src_hash": "5086b5f8b06b",
+  "ko": "비파나무로 만든 목도",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:034": {
+  "src_hash": "30ab291b01d3",
+  "ko": "단단한 나무의 검은 목도",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:035": {
+  "src_hash": "4d962de49cf7",
+  "ko": "변화무쌍한 공격이 가능",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:036": {
+  "src_hash": "999f80b90e08",
+  "ko": "이름 없는 한 자루",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:037": {
+  "src_hash": "60f3e0aede44",
+  "ko": "강하나 다루기 힘든 싸구려",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:038": {
+  "src_hash": "25f1b30bf78f",
+  "ko": "내려치기 위주의 투박한 칼",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:039": {
+  "src_hash": "070ceff83ac3",
+  "ko": "작자 미상의 쓰기 쉬운 칼",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:040": {
+  "src_hash": "ee0286c34fc6",
+  "ko": "찌르기에 알맞은 칼",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:041": {
+  "src_hash": "e10a821ac97d",
+  "ko": "옛 칼을 본뜬 것",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:042": {
+  "src_hash": "c10061fc4f97",
+  "ko": "명검 산지 소슈의 작풍",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:043": {
+  "src_hash": "78fe87dd674e",
+  "ko": "명검 산지 비젠의 작풍",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:044": {
+  "src_hash": "fdf69421ad3b",
+  "ko": "소슈덴의 원조．명품",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:045": {
+  "src_hash": "de33098db92c",
+  "ko": "막부 말 명장의 숨은 명품",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:046": {
+  "src_hash": "e4af917e11bf",
+  "ko": "수상한 빛을 띤 칼",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:047": {
+  "src_hash": "8bfff5c15a48",
+  "ko": "오키타 소지가 아낀 칼",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:048": {
+  "src_hash": "25c8e4cf8cf7",
+  "ko": "카츠라 코고로가 아낀 칼",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:049": {
+  "src_hash": "8371f417f11f",
+  "ko": "콘도 이사미가 아낀 칼",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:050": {
+  "src_hash": "400f10d28649",
+  "ko": "전설의 명검",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:051": {
+  "src_hash": "ac3288e08bb9",
+  "ko": "천하의 보검",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:053": {
+  "src_hash": "0b7b1066a155",
+  "ko": "도공의 혼이 깃든 한 자루",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:054": {
+  "src_hash": "0b7b1066a155",
+  "ko": "도공의 혼이 깃든 한 자루",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:055": {
+  "src_hash": "a6f8d606b83e",
+  "ko": "의식에 쓰였던 듯한 칼",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:056": {
+  "src_hash": "a6f8d606b83e",
+  "ko": "의식에 쓰였던 듯한 칼",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:057": {
+  "src_hash": "7439aa6737b9",
+  "ko": "수수께끼 산에 잠든 고대검",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:058": {
+  "src_hash": "10da1d82d652",
+  "ko": "평범한 망토",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:059": {
+  "src_hash": "526aa06b3bd8",
+  "ko": "둔하지만 튼튼한 망토",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:060": {
+  "src_hash": "03ce558040ef",
+  "ko": "철사를 엮어 넣은 망토",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:061": {
+  "src_hash": "e0db4bdb99a2",
+  "ko": "가볍고 편하고 튼튼한 옷",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:062": {
+  "src_hash": "837f5337344b",
+  "ko": "이마에 두르는 천",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:063": {
+  "src_hash": "079157f42c3f",
+  "ko": "쇠붙이를 단 이마 보호 천",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:064": {
+  "src_hash": "b7f29eafb66b",
+  "ko": "공격할 때 손끝을 보호",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:065": {
+  "src_hash": "4c5deac5b3e9",
+  "ko": "쇠붙이를 넣은 손 방어구",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:066": {
+  "src_hash": "cb7624b1fc2a",
+  "ko": "사슬을 엮은 방어구",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:067": {
+  "src_hash": "93fc611aaab8",
+  "ko": "사슬과 석면을 엮은 방어구",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:068": {
+  "src_hash": "a2ca5bc9c720",
+  "ko": "무거운 외투．켄신 전용",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:070": {
+  "src_hash": "55bcff046d72",
+  "ko": "계곡과 수호신산의 조각",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:071": {
+  "src_hash": "bc7a9c97177a",
+  "ko": "이시오카 산의 마지막 조각",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:072": {
+  "src_hash": "ab390f1222af",
+  "ko": "모바라 숲과 영산의 조각",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:073": {
+  "src_hash": "e75fabee7ac5",
+  "ko": "시부카와 마을 일대 조각",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:074": {
+  "src_hash": "01e6a6769604",
+  "ko": "공장 마을 시모츠마 조각",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:075": {
+  "src_hash": "da9bbb6acf70",
+  "ko": "마을과 수상한 대숲 조각",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:076": {
+  "src_hash": "b47e6ec56797",
+  "ko": "닛코 일대 지도의 조각",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:077": {
+  "src_hash": "b50df907edb2",
+  "ko": "시모니타 숲 폐허의 조각",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:078": {
+  "src_hash": "edf282b986bc",
+  "ko": "요코하마 일대 지도 조각",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:079": {
+  "src_hash": "60fb7201b5cf",
+  "ko": "신비한 빛의 수정 구슬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:080": {
+  "src_hash": "fcaf945aef15",
+  "ko": "남쪽 늪에 자라는 수초",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:081": {
+  "src_hash": "fcaf945aef15",
+  "ko": "남쪽 늪에 자라는 수초",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:082": {
+  "src_hash": "fcaf945aef15",
+  "ko": "남쪽 늪에 자라는 수초",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:083": {
+  "src_hash": "fcaf945aef15",
+  "ko": "남쪽 늪에 자라는 수초",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:084": {
+  "src_hash": "b15d2dfb8303",
+  "ko": "네 가지 수초를 조합한 약",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:085": {
+  "src_hash": "305a3d03daa0",
+  "ko": "영산 산꼭대기 절의 열쇠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:086": {
+  "src_hash": "55129ab61f12",
+  "ko": "지하정원에서 기르던 꽃",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:087": {
+  "src_hash": "de75896598e5",
+  "ko": "피로 물든 머리띠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:088": {
+  "src_hash": "b8c9c90deeb3",
+  "ko": "난리 가문의 비망록",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:089": {
+  "src_hash": "012a6454405d",
+  "ko": "가희의 마음을 담은 편지",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:090": {
+  "src_hash": "430e3eb37d08",
+  "ko": "전설의 명검이 담긴 책",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:091": {
+  "src_hash": "b7cd97cb2f23",
+  "ko": "꽃 문양을 새긴 열쇠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:092": {
+  "src_hash": "8ec4e86f950c",
+  "ko": "새 문양을 새긴 열쇠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:093": {
+  "src_hash": "8dc6506e14a0",
+  "ko": "바람 문양을 새긴 열쇠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:094": {
+  "src_hash": "27479ea11b36",
+  "ko": "달 문양을 새긴 열쇠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:095": {
+  "src_hash": "935daa32bc6c",
+  "ko": "눈 문양을 새긴 열쇠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:096": {
+  "src_hash": "a0fdeeed053c",
+  "ko": "땅 문양을 새긴 열쇠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:097": {
+  "src_hash": "e4ab604c1c58",
+  "ko": "물 문양을 새긴 열쇠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:098": {
+  "src_hash": "5accb42ec921",
+  "ko": "불 문양을 새긴 열쇠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:099": {
+  "src_hash": "fa08038fa85f",
+  "ko": "수수께끼 산에서 얻는 동경",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:100": {
+  "src_hash": "fa08038fa85f",
+  "ko": "수수께끼 산에서 얻는 동경",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:101": {
+  "src_hash": "fa08038fa85f",
+  "ko": "수수께끼 산에서 얻는 동경",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:102": {
+  "src_hash": "fa08038fa85f",
+  "ko": "수수께끼 산에서 얻는 동경",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:103": {
+  "src_hash": "fa08038fa85f",
+  "ko": "수수께끼 산에서 얻는 동경",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:104": {
+  "src_hash": "fa08038fa85f",
+  "ko": "수수께끼 산에서 얻는 동경",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:105": {
+  "src_hash": "fa08038fa85f",
+  "ko": "수수께끼 산에서 얻는 동경",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:106": {
+  "src_hash": "990c991e19ec",
+  "ko": "달～콤 달～콤한 설탕 과자",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:107": {
+  "src_hash": "cbb2c3a3395c",
+  "ko": "떡갈잎 향이 그윽한 일품",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:108": {
+  "src_hash": "c6da2d636250",
+  "ko": "관광지 선물．팥소가 일품",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:109": {
+  "src_hash": "fc545de9834d",
+  "ko": "세타 소지로가 준 경단＠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:110": {
+  "src_hash": "24e48ccbff02",
+  "ko": "간장 향이 고소한 전병",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:111": {
+  "src_hash": "46e19dc226fb",
+  "ko": "갈색이지만 개면 하얘진다",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:112": {
+  "src_hash": "a7e73c266562",
+  "ko": "서양 맛으로 인기인 과자",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:113": {
+  "src_hash": "82b670f08341",
+  "ko": "수입 과자．녹는 단맛",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:114": {
+  "src_hash": "48f020d9d0af",
+  "ko": "미사오가 준 여행 간식＠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:115": {
+  "src_hash": "e9d07b3945fe",
+  "ko": "꽃의 생명은 짧아서…",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:116": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:117": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:118": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:119": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:120": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:121": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:122": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:123": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:124": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:125": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:126": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:127": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:128": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:129": {
+  "src_hash": "291de97d1ea0",
+  "ko": "탈옥수가 훔친 물건인 듯",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:130": {
+  "src_hash": "3876f9d8bdff",
+  "ko": "오구니 진료소 제조・즉효",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:131": {
+  "src_hash": "74c2d9795c8e",
+  "ko": "식중독을 조심합시다",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:132": {
+  "src_hash": "d6b92bb9c68c",
+  "ko": "사랑의 현기증은 못 고침",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:133": {
+  "src_hash": "6a0efdde90b2",
+  "ko": "매일 술판 술고래 애용품",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:134": {
+  "src_hash": "5dc2c2c504a7",
+  "ko": "마치 쿠사츠 온천처럼",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:135": {
+  "src_hash": "52abc54aba45",
+  "ko": "지혜열，문명열에도 특효",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:136": {
+  "src_hash": "2ef3d10e5710",
+  "ko": "콜록！꿀꺽！뚝！",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:137": {
+  "src_hash": "e6c5a5bb723b",
+  "ko": "약 조합 재료",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:138": {
+  "src_hash": "528e27151658",
+  "ko": "여차할 때 도움이 된다",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:139": {
+  "src_hash": "0eb83d5d76ba",
+  "ko": "사노스케와의 추억의 물건",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:140": {
+  "src_hash": "e5bcf04022d0",
+  "ko": "마음을 담은 선물로",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:141": {
+  "src_hash": "f6600c0abdb7",
+  "ko": "마쿠시타・토라마루",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:142": {
+  "src_hash": "8f88e75fcf52",
+  "ko": "마쿠시타・와시노하나",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:143": {
+  "src_hash": "5cd0abbda044",
+  "ko": "마쿠시타・후스마우미",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:144": {
+  "src_hash": "b4a12d6aeff4",
+  "ko": "마쿠시타・스미노카와",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:145": {
+  "src_hash": "6252f3c1d149",
+  "ko": "마쿠시타・나베우시",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:146": {
+  "src_hash": "6ee2e23cba28",
+  "ko": "주료・아카마츠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:147": {
+  "src_hash": "43df8f5e629e",
+  "ko": "주료・오니라이주",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:148": {
+  "src_hash": "75d577c794c3",
+  "ko": "주료・만지비시",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:149": {
+  "src_hash": "4fb7e8e245c5",
+  "ko": "주료・미키오",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:150": {
+  "src_hash": "d80f39dcff67",
+  "ko": "주료・라이코",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:151": {
+  "src_hash": "2234994dcebe",
+  "ko": "히라마쿠・히텐니시키",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:152": {
+  "src_hash": "c5d759f3a882",
+  "ko": "히라마쿠・사노가시마",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:153": {
+  "src_hash": "93de6aa94728",
+  "ko": "히라마쿠・묘진야마",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:154": {
+  "src_hash": "ce9b136573c6",
+  "ko": "히라마쿠・마메다누키",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:155": {
+  "src_hash": "f2fbf63db35e",
+  "ko": "히라마쿠・후지스다레",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:156": {
+  "src_hash": "4c9dc23471e8",
+  "ko": "히라마쿠・타치무소",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:157": {
+  "src_hash": "8b40e6fa5103",
+  "ko": "코무스비・사이고야마",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:158": {
+  "src_hash": "fd2233811c4f",
+  "ko": "코무스비・료마",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:159": {
+  "src_hash": "cf26c05ee87e",
+  "ko": "코무스비・키도가타케",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:160": {
+  "src_hash": "027a1f25e750",
+  "ko": "코무스비・오쿠마",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:161": {
+  "src_hash": "1cc30c8a5f47",
+  "ko": "코무스비・쇼운",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:162": {
+  "src_hash": "79678d0dbe28",
+  "ko": "코무스비・후나카츠우미",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:163": {
+  "src_hash": "06a1723f0733",
+  "ko": "세키와케・이사미다케",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:164": {
+  "src_hash": "9ea5abcc6026",
+  "ko": "세키와케・히지카타조",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:165": {
+  "src_hash": "2eadc7752e68",
+  "ko": "세키와케・하나오키타",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:166": {
+  "src_hash": "bf32e55fac99",
+  "ko": "세키와케・카이시마다",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:167": {
+  "src_hash": "0292ba1869b7",
+  "ko": "오제키・센료산",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:168": {
+  "src_hash": "42daa289e43f",
+  "ko": "오제키・오니가시마",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:169": {
+  "src_hash": "aac4c0602bfb",
+  "ko": "오제키・하마카제",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:170": {
+  "src_hash": "a6064e8e891b",
+  "ko": "요코즈나・렌고쿠",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:171": {
+  "src_hash": "4135c7065cfc",
+  "ko": "켄신과의 추억의 물건",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:172": {
+  "src_hash": "3c612d7a7eb3",
+  "ko": "주인공에게 쓴 감사 편지",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:173": {
+  "src_hash": "6c88ba993b78",
+  "ko": "이걸로 넨넨 씨도 큰 도움",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:desc:174": {
+  "src_hash": "30f4f9846a22",
+  "ko": "２５０문제 수고하셨습니다",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:000": {
+  "src_hash": "03ccca7ff9eb",
+  "ko": "범천의 형",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:001": {
+  "src_hash": "d237f253b72a",
+  "ko": "가루라의 형",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:002": {
+  "src_hash": "4278b40ac09d",
+  "ko": "염마의 형",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:003": {
+  "src_hash": "8af0d927b1e4",
+  "ko": "마리지의 형",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:004": {
+  "src_hash": "58160e15a5d5",
+  "ko": "천수의 형",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:005": {
+  "src_hash": "ccca7a816c74",
+  "ko": "나탁의 형",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:006": {
+  "src_hash": "b15633e3dc21",
+  "ko": "가릉의 형",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:007": {
+  "src_hash": "b3ada9b292ab",
+  "ko": "제천의 형",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:008": {
+  "src_hash": "a2e31e7ca18c",
+  "ko": "자재의 형",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:009": {
+  "src_hash": "a2394144de8c",
+  "ko": "위타의 형",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:010": {
+  "src_hash": "a54059c6ccf6",
+  "ko": "길상의 형",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:011": {
+  "src_hash": "8d1c78a4686c",
+  "ko": "용미섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:012": {
+  "src_hash": "625e9ed38cfb",
+  "ko": "용소섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:013": {
+  "src_hash": "8d84bea1c499",
+  "ko": "토룡섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:014": {
+  "src_hash": "d40d48143cf4",
+  "ko": "용추섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:015": {
+  "src_hash": "43ddfd4378b8",
+  "ko": "쌍룡섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:016": {
+  "src_hash": "b587b190a586",
+  "ko": "쌍룡섬・뇌",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:017": {
+  "src_hash": "38fb9858520a",
+  "ko": "비룡섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:018": {
+  "src_hash": "2104741d8041",
+  "ko": "용상섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:019": {
+  "src_hash": "d33252fec119",
+  "ko": "용권섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:020": {
+  "src_hash": "27efc2cc481e",
+  "ko": "용권섬・선",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:021": {
+  "src_hash": "6d0cbc537224",
+  "ko": "구두룡섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:022": {
+  "src_hash": "f8c58187d395",
+  "ko": "천상용섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:023": {
+  "src_hash": "6af925a2c936",
+  "ko": "발도술",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:024": {
+  "src_hash": "e4b5e3e8108e",
+  "ko": "급소 치기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:025": {
+  "src_hash": "1c402f1160d0",
+  "ko": "초급소치기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:026": {
+  "src_hash": "49ab37cfaab4",
+  "ko": "발도허리베기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:027": {
+  "src_hash": "a18161f0b17a",
+  "ko": "감아머리치기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:028": {
+  "src_hash": "1a52451bcceb",
+  "ko": "물러서 치기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:029": {
+  "src_hash": "996178419f72",
+  "ko": "오의・원영검",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:030": {
+  "src_hash": "d800152384fd",
+  "ko": "오의・무인검",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:031": {
+  "src_hash": "00a4809788db",
+  "ko": "천지인검",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:032": {
+  "src_hash": "e6514b3f77d6",
+  "ko": "노도의 검",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:033": {
+  "src_hash": "a47085f61b57",
+  "ko": "선륜참",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:034": {
+  "src_hash": "ed88d0a2f1e8",
+  "ko": "앵화산격",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:035": {
+  "src_hash": "fa9ddd8307c9",
+  "ko": "귀참인",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:036": {
+  "src_hash": "edb94c754929",
+  "ko": "굉난타",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:037": {
+  "src_hash": "d04670e02167",
+  "ko": "혼신",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:038": {
+  "src_hash": "cb1e21ea91a3",
+  "ko": "모래폭풍차기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:039": {
+  "src_hash": "e369eafc59c7",
+  "ko": "싸움 극의",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:040": {
+  "src_hash": "f5d9a18df227",
+  "ko": "싸움 제일",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:041": {
+  "src_hash": "091175d54239",
+  "ko": "돌진",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:042": {
+  "src_hash": "6e15cfd4a702",
+  "ko": "난타",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:043": {
+  "src_hash": "ea8de69f170d",
+  "ko": "이중의 극",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:044": {
+  "src_hash": "e6aa647b7c11",
+  "ko": "삼중의 극",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:045": {
+  "src_hash": "b09dddcbef83",
+  "ko": "백랑인",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:046": {
+  "src_hash": "a487f0adebd4",
+  "ko": "쇄아돌",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:047": {
+  "src_hash": "5b96d8515688",
+  "ko": "아돌 영식",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:048": {
+  "src_hash": "125cbcb1c76d",
+  "ko": "아돌",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:049": {
+  "src_hash": "8edc7ff5a57a",
+  "ko": "아돌 이식",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:050": {
+  "src_hash": "955d65a032fe",
+  "ko": "아돌 삼식",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:051": {
+  "src_hash": "755de3dd1000",
+  "ko": "반격의 바람",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:052": {
+  "src_hash": "aac4bc5207a7",
+  "ko": "자람검무",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:053": {
+  "src_hash": "19866209c0a3",
+  "ko": "음양쌍타",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:054": {
+  "src_hash": "b43770cab3a0",
+  "ko": "호지검무",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:055": {
+  "src_hash": "9c878dc1c28d",
+  "ko": "회천검무",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:056": {
+  "src_hash": "60bf55e7107a",
+  "ko": "회천검무육련",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:057": {
+  "src_hash": "1696e38ce34e",
+  "ko": "오구십자",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:058": {
+  "src_hash": "572c6125101e",
+  "ko": "영아・현요인",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:059": {
+  "src_hash": "1ffde2fbd27f",
+  "ko": "공아・열풍인",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:060": {
+  "src_hash": "8a8ef08c34d5",
+  "ko": "폭아・나선인",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:061": {
+  "src_hash": "398cdef04f8c",
+  "ko": "흉아・나락인",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:062": {
+  "src_hash": "cbfb4f440813",
+  "ko": "운하오",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:063": {
+  "src_hash": "a88ab68299fc",
+  "ko": "낙수오",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:064": {
+  "src_hash": "552b4c13e378",
+  "ko": "까마귀 춤",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:065": {
+  "src_hash": "529172f38f3d",
+  "ko": "염무・후엽류",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:066": {
+  "src_hash": "a81c799cbb09",
+  "ko": "염무・호접람",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:067": {
+  "src_hash": "95381b04f762",
+  "ko": "염무・수목련",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:068": {
+  "src_hash": "ba33784d4108",
+  "ko": "매몽무",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:069": {
+  "src_hash": "b259067a5062",
+  "ko": "타마야 구슬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:070": {
+  "src_hash": "1a6c8888354d",
+  "ko": "천수선",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:071": {
+  "src_hash": "004068ea75f3",
+  "ko": "양귀비던지기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:072": {
+  "src_hash": "95eafe798032",
+  "ko": "허공열단",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:073": {
+  "src_hash": "dc23f6f4d561",
+  "ko": "수뢰축",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:074": {
+  "src_hash": "878427746810",
+  "ko": "봉도원격",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:075": {
+  "src_hash": "d0f119a66af6",
+  "ko": "경축창",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:076": {
+  "src_hash": "f8792158030d",
+  "ko": "대회전강습격",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:077": {
+  "src_hash": "76c580074b67",
+  "ko": "회전 도비탄",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:078": {
+  "src_hash": "ef714766e1e2",
+  "ko": "금강종 위협",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:079": {
+  "src_hash": "c60b288ae7d8",
+  "ko": "다이다라쇄",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:080": {
+  "src_hash": "8ea81263e70b",
+  "ko": "메기머리깨기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:081": {
+  "src_hash": "7cc51e7c15ec",
+  "ko": "적구",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:082": {
+  "src_hash": "cc66005bdab2",
+  "ko": "우는 뱀",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:083": {
+  "src_hash": "689c08ba92dc",
+  "ko": "비련작",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:084": {
+  "src_hash": "c102d43f2eef",
+  "ko": "향천주",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:085": {
+  "src_hash": "0f1398a375ab",
+  "ko": "금룡순",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:086": {
+  "src_hash": "cdb64107665d",
+  "ko": "비밀병기１",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:087": {
+  "src_hash": "bc827ad192f5",
+  "ko": "비밀병기２",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:088": {
+  "src_hash": "5a474227274e",
+  "ko": "전륜참",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:089": {
+  "src_hash": "4e5f5da4e8ce",
+  "ko": "튀는 팽이",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:090": {
+  "src_hash": "b208fe54148c",
+  "ko": "재후봉",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:091": {
+  "src_hash": "c4ab7c9d96cc",
+  "ko": "상조홍각",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:092": {
+  "src_hash": "b739366cfe1a",
+  "ko": "비조취조열",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:093": {
+  "src_hash": "7c9d2c07eff3",
+  "ko": "용조남타습",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:094": {
+  "src_hash": "38d28783c49d",
+  "ko": "천심역린",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:095": {
+  "src_hash": "f19d0065cbc2",
+  "ko": "연옥염",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:096": {
+  "src_hash": "2322cd6fba3f",
+  "ko": "들이박기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:097": {
+  "src_hash": "2f014b0775bd",
+  "ko": "마무리 치기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:098": {
+  "src_hash": "e13f254ab4fe",
+  "ko": "황토의 암열",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:099": {
+  "src_hash": "31a81d29cedf",
+  "ko": "쿠사나기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:100": {
+  "src_hash": "2700b5bd6cf4",
+  "ko": "몸통 박치기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:101": {
+  "src_hash": "358bb0962465",
+  "ko": "뒤꿈치 찍기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:102": {
+  "src_hash": "051b139357c9",
+  "ko": "우박",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:103": {
+  "src_hash": "68de254b941d",
+  "ko": "송별의 부채",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:104": {
+  "src_hash": "4f62710bd7ef",
+  "ko": "도르니에 어택",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:105": {
+  "src_hash": "ba726848e644",
+  "ko": "시취",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:106": {
+  "src_hash": "367e4ee3d3de",
+  "ko": "계 찌르기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:107": {
+  "src_hash": "5e243230508d",
+  "ko": "몽천포옹",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:108": {
+  "src_hash": "df8ab74f9f99",
+  "ko": "시시고로시",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:109": {
+  "src_hash": "6cb45e559cb7",
+  "ko": "웃호",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:110": {
+  "src_hash": "97da10b135e4",
+  "ko": "육괴탄",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:111": {
+  "src_hash": "35e86cc1dd4f",
+  "ko": "천계",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:112": {
+  "src_hash": "4f2a6557f72f",
+  "ko": "사갈",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:113": {
+  "src_hash": "28cb56ba3d74",
+  "ko": "바리에・앙브로페",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:114": {
+  "src_hash": "6318d838472a",
+  "ko": "마타도르",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:115": {
+  "src_hash": "391b829bc8ce",
+  "ko": "야히코용추섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:116": {
+  "src_hash": "4c86140349e0",
+  "ko": "야히코용상섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:117": {
+  "src_hash": "755b8d73cf57",
+  "ko": "야히코용권섬",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:118": {
+  "src_hash": "3284bc4d3da7",
+  "ko": "음양교차",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:119": {
+  "src_hash": "b8430ec2cf42",
+  "ko": "오니필살기１",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:120": {
+  "src_hash": "4545789f3f95",
+  "ko": "오니필살기２",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:121": {
+  "src_hash": "c0c520c08251",
+  "ko": "오니필살기３",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:122": {
+  "src_hash": "50fc3413504c",
+  "ko": "오니필살기４",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:123": {
+  "src_hash": "21b4a6d04970",
+  "ko": "오니필살기５",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:124": {
+  "src_hash": "0ad319cd20aa",
+  "ko": "오니필살기６",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:125": {
+  "src_hash": "44c7fd9ff48f",
+  "ko": "오니필살기７",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:126": {
+  "src_hash": "529a2c0cba6f",
+  "ko": "오니필살기８",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:127": {
+  "src_hash": "0b7a4198f610",
+  "ko": "일진상풍살",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:128": {
+  "src_hash": "90531a68f4ba",
+  "ko": "머리・난타",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:129": {
+  "src_hash": "11bcc23f9473",
+  "ko": "정강이치기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:130": {
+  "src_hash": "e5c90b966cc8",
+  "ko": "상풍인",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:131": {
+  "src_hash": "62d4dcc6979c",
+  "ko": "상단 필살기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:132": {
+  "src_hash": "44e26334d7e4",
+  "ko": "원거리 필살기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:133": {
+  "src_hash": "671ad5c52912",
+  "ko": "중단 필살기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:134": {
+  "src_hash": "21d81a36a0f3",
+  "ko": "반격기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:135": {
+  "src_hash": "6bd142ea71fd",
+  "ko": "하단 필살기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:136": {
+  "src_hash": "f4a005ce0d08",
+  "ko": "난타기",
+  "status": "draft",
+  "note": ""
+ },
+ "MAIN:skill:137": {
+  "src_hash": "31a1eb48787a",
+  "ko": "궁극 필살기",
+  "status": "draft",
+  "note": ""
+ }
+}
