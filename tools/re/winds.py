@@ -94,3 +94,18 @@ def grab(hwnd):
     src.DeleteDC()
     win32gui.ReleaseDC(hwnd, hdc)
     return im
+
+
+# title menu reference crops (not in the repo: game frames), Japanese and Korean menu
+TITLE_REFS = ("work/ref_title_menu_win.png", "work/ref_title_menu_win_ko.png")
+_refs = None
+
+
+def at_title(frame):
+    """True when the frame shows the title menu of either build."""
+    global _refs
+    from PIL import ImageChops, ImageStat
+    if _refs is None:
+        _refs = [Image.open(p).convert("RGB") for p in TITLE_REFS if os.path.exists(p)]
+    crop = frame.crop((150, 370, 370, 510))
+    return any(sum(ImageStat.Stat(ImageChops.difference(crop, r)).mean) / 3 < 15 for r in _refs)

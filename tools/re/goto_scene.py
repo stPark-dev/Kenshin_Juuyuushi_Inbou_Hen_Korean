@@ -23,7 +23,6 @@ import sys
 import threading
 import time
 
-from PIL import Image, ImageChops, ImageStat
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import winds  # noqa: E402
@@ -55,15 +54,13 @@ if "--skip" in args:
 CUE, SCENE, OUT, PRESSES = args[0], int(args[1]), args[2], int(args[3])
 STEP = float(args[4]) if len(args) > 4 else 4
 FROM = int(args[5]) if len(args) > 5 else 40
-REF = Image.open("work/ref_title_menu_win.png").convert("RGB")
 os.makedirs(OUT, exist_ok=True)
 p = winds.launch(CUE)
 h = winds.game_window(p.pid)
 
 
 def at_title():
-    crop = winds.grab(h).crop((150, 370, 370, 510))
-    return sum(ImageStat.Stat(ImageChops.difference(crop, REF)).mean) / 3 < 15
+    return winds.at_title(winds.grab(h))
 
 
 for i in range(120):

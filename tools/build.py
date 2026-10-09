@@ -32,6 +32,7 @@ import refs
 import scenefont
 import script
 import textio
+import titlemenu
 
 SOURCE_SHA256 = "738f320c105dc7ab63515553112bd78a62041305ee4f3ebfeaf5b7df8bb2abd8"
 VERIFIED_MAX_GROUP = 435372  # translated ZROUP24, loaded and shown at runtime (original max 382,396)
@@ -198,6 +199,7 @@ def menu_build(exe, sysgrp, data, rows, ko, code_of, assets):
     grp = sysgrp.replace("MAPCODE.Z32", bootlz.encode(new_map)).replace("BTLCODE.Z32", bootlz.encode(btl))
     grp = grp.replace("NAMEFONT.TXT", nf_txt).replace("NAMEFONT.BIN", nf_bin)
     grp = grp.replace("NAMEDIC.TXT", nameentry.namedic(code_of))
+    grp = grp.replace("TITLE.BIN", titlemenu.apply(sysgrp.get("TITLE.BIN"), assets.font))
     report = {"translated": {n: len(enc[n]) for n in MENU_FILES}, "main_font": len(efont),
               "mapcode_font": len(mfont), "packed": len(packed)}
     return {"exe": exe[:mainprog.BLOB] + packed + bytes(room - len(packed)), "SYSTEM.GRP": grparc.build(grp)}, report

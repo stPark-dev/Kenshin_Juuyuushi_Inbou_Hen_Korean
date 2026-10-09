@@ -30,7 +30,6 @@ import os
 import sys
 import time
 
-from PIL import Image, ImageChops, ImageStat
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import winds  # noqa: E402
@@ -43,7 +42,6 @@ if "--state" in args:
     STATE = int(args[i + 1])
     del args[i:i + 2]
 CUE, OUT, CMD = args[:3]
-REF = Image.open("work/ref_title_menu_win.png").convert("RGB")
 os.makedirs(OUT, exist_ok=True)
 open(CMD, "w").close()
 p = winds.launch(CUE, STATE)
@@ -61,8 +59,7 @@ def grab():
 
 
 def at_title():
-    crop = grab().crop((150, 370, 370, 510))
-    return sum(ImageStat.Stat(ImageChops.difference(crop, REF)).mean) / 3 < 15
+    return winds.at_title(grab())
 
 
 for i in range(120):
