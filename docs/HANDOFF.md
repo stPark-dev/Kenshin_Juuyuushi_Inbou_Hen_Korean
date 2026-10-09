@@ -117,7 +117,7 @@ python3 tools/build.py --src original/*.bin --out build/kenshin_ko.bin \
 ## 7. 다음에 할 일 (순서)
 
 1. ~~`text/glossary.json`의 `check` 항목~~ 사용자 확정(D24). 남은 check 4개: 我孫子·前川宮内·焔霊·火産霊神(정발 표기 확인).
-2. `text/glossary_items.json`의 `check`: 12개 확정(D24), 남은 44개(메뉴 전용 30개 紙力士 포함) 사용자 확인.
+2. `text/glossary_items.json`의 `check`: 25개 확정(D24·D25), 남은 31개(추억의 니시키에, 紙力士 30개, 모두 메뉴 전용)는 아이템 메뉴 경로 조사 때 사용자 확인.
 3. ~~대형 장면 시험(ZROUP24)~~ 완료(D21).
 4. 대사 초벌 완료. 런타임 확인 우선순위(`goto_scene.py`로 장면 바로 진입): ~~가로형 메뉴(D17), 종이 스모 능력치 칸~~ 완료(D22), ~~ZROUP17 참조 없는 이벤트, ZROUP41 퀴즈 정답 판정~~ 완료(D23). 그다음 남은 PUN-PROVISIONAL·LOCALIZE-RIDDLE 행 정리 전에 새 장면의 화자·이름을 용어집에 먼저 등록 → 에이전트 병렬, 검수, 커밋. 잠정 용어(今十勇士, 南里) 사용자 결정 반영.
 5. 메뉴·아이템 이름 경로 조사(실행 파일 압축 형식 해석).

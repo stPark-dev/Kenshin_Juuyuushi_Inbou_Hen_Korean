@@ -168,8 +168,8 @@
    "id": 10,
    "ja": "兵法指南",
    "ko": "병법 지남서",
-   "status": "check",
-   "note": "",
+   "status": "approved",
+   "note": "사용자 확정(2026-10-09): 현행 유지",
    "contexts": {
     "ZROUP10": 2,
     "ZROUP17": 2,
@@ -217,8 +217,8 @@
    "id": 13,
    "ja": "鼈甲",
    "ko": "대모",
-   "status": "check",
-   "note": "鼈甲=거북 등껍질 공예 재료",
+   "status": "approved",
+   "note": "鼈甲=거북 등껍질 공예 재료; 사용자 확정(2026-10-09): 현행 유지",
    "contexts": {
     "ZROUP25": 3
    }
@@ -276,8 +276,8 @@
    "id": 18,
    "ja": "瑠璃",
    "ko": "청금석",
-   "status": "check",
-   "note": "瑠璃(유리)=청금석",
+   "status": "approved",
+   "note": "瑠璃(유리)=청금석; 사용자 확정(2026-10-09): 현행 유지",
    "contexts": {
     "ZROUP16": 2,
     "ZROUP18": 2
@@ -300,8 +300,8 @@
    "id": 20,
    "ja": "弁慶草",
    "ko": "꿩의비름",
-   "status": "check",
-   "note": "弁慶草 식물명",
+   "status": "approved",
+   "note": "弁慶草 식물명; 사용자 확정(2026-10-09): 현행 유지",
    "contexts": {
     "ZROUP05": 2,
     "ZROUP10": 2,
@@ -475,8 +475,8 @@
    "id": 35,
    "ja": "小太刀",
    "ko": "소태도",
-   "status": "check",
-   "note": "小太刀(코다치). 원작 표기 확인",
+   "status": "approved",
+   "note": "小太刀(코다치). 원작 표기 확인; 사용자 확정(2026-10-09): 현행 유지",
    "contexts": {
     "ZROUP41": 1,
     "ZROUP47": 6,
@@ -522,8 +522,8 @@
    "id": 40,
    "ja": "尖兵拵え",
    "ko": "선봉의 칼",
-   "status": "check",
-   "note": "尖兵拵え",
+   "status": "approved",
+   "note": "尖兵拵え; 사용자 확정(2026-10-09): 현행 유지",
    "contexts": {
     "ZROUP05": 2,
     "ZROUP10": 1
@@ -541,16 +541,16 @@
    "id": 42,
    "ja": "相州伝",
    "ko": "소슈덴",
-   "status": "check",
-   "note": "相州伝(유파명)",
+   "status": "approved",
+   "note": "相州伝(유파명); 사용자 확정(2026-10-09): 현행 유지",
    "contexts": {}
   },
   {
    "id": 43,
    "ja": "備前伝",
    "ko": "비젠덴",
-   "status": "check",
-   "note": "備前伝(유파명)",
+   "status": "approved",
+   "note": "備前伝(유파명); 사용자 확정(2026-10-09): 현행 유지",
    "contexts": {}
   },
   {
@@ -647,8 +647,8 @@
    "id": 53,
    "ja": "青嵐",
    "ko": "세이란",
-   "status": "check",
-   "note": "青嵐, 명검 이름",
+   "status": "approved",
+   "note": "青嵐, 명검 이름; 사용자 확정(2026-10-09): 현행 유지(명검 이름 음역)",
    "contexts": {
     "ZROUP39": 3
    }
@@ -657,8 +657,8 @@
    "id": 54,
    "ja": "凍雲",
    "ko": "토운",
-   "status": "check",
-   "note": "凍雲, 명검 이름",
+   "status": "approved",
+   "note": "凍雲, 명검 이름; 사용자 확정(2026-10-09): 현행 유지(명검 이름 음역)",
    "contexts": {
     "ZROUP39": 3
    }
@@ -686,8 +686,8 @@
    "id": 57,
    "ja": "直刀・鬼首",
    "ko": "직도・오니쿠비",
-   "status": "check",
-   "note": "鬼首",
+   "status": "approved",
+   "note": "鬼首; 사용자 확정(2026-10-09): 현행 유지(명검 이름 음역)",
    "contexts": {
     "ZROUP33": 1
    }
@@ -761,8 +761,8 @@
    "id": 63,
    "ja": "鉢金",
    "ko": "이마 가리개",
-   "status": "check",
-   "note": "鉢金",
+   "status": "approved",
+   "note": "鉢金; 사용자 확정(2026-10-09): 현행 유지",
    "contexts": {
     "ZROUP10": 2
    }
@@ -1219,8 +1219,8 @@
    "id": 107,
    "ja": "柏餅",
    "ko": "카시와모치",
-   "status": "check",
-   "note": "떡갈잎 떡",
+   "status": "approved",
+   "note": "떡갈잎 떡; 사용자 확정(2026-10-09): 현행 유지",
    "contexts": {
     "ZROUP06": 1
    }
