@@ -619,13 +619,13 @@
  },
  "ZROUP06:331b4": {
   "src_hash": "c5a481ef34d6",
-  "ko": "코지^c　손님，묵어 가시겠어요？^c　２０전이에요．^s",
+  "ko": "여관 주인^c　손님，묵어 가시겠어요？^c　２０전이에요．^s",
   "status": "draft",
-  "note": "NEW NAME: 公示=코지 (innkeeper speaker label; literally public notice, possibly a placeholder; reading uncertain)"
+  "note": "公示=여관 주인 (사용자 확정: ZROUP06 무명 여관 주인 화자명. 원문 公示는 자리 표시로 보임)"
  },
  "ZROUP06:331ec": {
   "src_hash": "85c89eda08c8",
-  "ko": "코지^c　손님，^c　함부로 들어오지 마세요．",
+  "ko": "여관 주인^c　손님，^c　함부로 들어오지 마세요．",
   "status": "draft",
   "note": ""
  },

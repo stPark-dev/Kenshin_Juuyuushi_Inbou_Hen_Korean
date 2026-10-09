@@ -42,8 +42,8 @@
    "id": 3,
    "ja": "人丹",
    "ko": "인단",
-   "status": "check",
-   "note": "仁丹류 휴대 환약. 표기 확인",
+   "status": "approved",
+   "note": "仁丹류 휴대 환약. 표기 확인; 사용자 확정(2026-10-09)",
    "contexts": {
     "ZROUP04": 2,
     "ZROUP10": 6,
@@ -101,8 +101,8 @@
    "id": 6,
    "ja": "緑柏丸",
    "ko": "녹백환",
-   "status": "check",
-   "note": "한자음",
+   "status": "approved",
+   "note": "한자음; 사용자 확정(2026-10-09)",
    "contexts": {
     "ZROUP09": 2,
     "ZROUP11": 2,
@@ -119,8 +119,8 @@
    "id": 7,
    "ja": "杏竹豆",
    "ko": "행죽두",
-   "status": "check",
-   "note": "정체 불명, 한자음",
+   "status": "provisional",
+   "note": "정체 불명, 한자음; 독음 확인 전까지 잠정(사용자 지시 2026-10-09)",
    "contexts": {
     "ZROUP01": 1,
     "ZROUP04": 2,
@@ -151,8 +151,8 @@
    "id": 9,
    "ja": "茜草丸",
    "ko": "천초환",
-   "status": "check",
-   "note": "茜草=꼭두서니(천초근)",
+   "status": "approved",
+   "note": "茜草=꼭두서니(천초근); 사용자 확정(2026-10-09)",
    "contexts": {
     "ZROUP05": 2,
     "ZROUP10": 2,
@@ -319,8 +319,8 @@
    "id": 21,
    "ja": "蛇髭丹",
    "ko": "사자단",
-   "status": "check",
-   "note": "蛇髭丹, 한자음",
+   "status": "approved",
+   "note": "蛇髭丹, 한자음; 사용자 확정(2026-10-09)",
    "contexts": {
     "ZROUP17": 1,
     "ZROUP22": 1,
@@ -334,8 +334,8 @@
    "id": 22,
    "ja": "虎杖丹",
    "ko": "호장단",
-   "status": "check",
-   "note": "虎杖=호장근",
+   "status": "approved",
+   "note": "虎杖=호장근; 사용자 확정(2026-10-09)",
    "contexts": {
     "ZROUP10": 2,
     "ZROUP16": 2,
@@ -351,8 +351,8 @@
    "id": 23,
    "ja": "羊蹄丹",
    "ko": "양제단",
-   "status": "check",
-   "note": "羊蹄=소리쟁이",
+   "status": "approved",
+   "note": "羊蹄=소리쟁이; 사용자 확정(2026-10-09)",
    "contexts": {
     "ZROUP17": 4,
     "ZROUP23": 6,
@@ -390,8 +390,8 @@
    "id": 26,
    "ja": "逆刃刀・真打",
    "ko": "역날검・진타",
-   "status": "check",
-   "note": "真打. 원작 표기 확인",
+   "status": "approved",
+   "note": "真打. 원작 표기 확인; 사용자 확정(2026-10-09)",
    "contexts": {
     "ZROUP41": 2
    }
@@ -445,9 +445,9 @@
   {
    "id": 32,
    "ja": "木刀・樫",
-   "ko": "목도・떡갈나무",
-   "status": "check",
-   "note": "樫",
+   "ko": "참나무 목도",
+   "status": "approved",
+   "note": "樫; 사용자 확정(2026-10-09)",
    "contexts": {}
   },
   {
@@ -495,9 +495,9 @@
   {
    "id": 37,
    "ja": "数打ち物",
-   "ko": "대량 생산 칼",
-   "status": "check",
-   "note": "数打ち物",
+   "ko": "양산형 칼",
+   "status": "approved",
+   "note": "数打ち物; 사용자 확정(2026-10-09)",
    "contexts": {}
   },
   {
@@ -674,9 +674,9 @@
   {
    "id": 56,
    "ja": "九字切の太刀",
-   "ko": "구자 새긴 태도",
-   "status": "check",
-   "note": "九字切",
+   "ko": "구자베기 태도",
+   "status": "approved",
+   "note": "九字切; 사용자 확정(2026-10-09)",
    "contexts": {
     "ZROUP33": 2,
     "ZROUP37": 1
@@ -781,9 +781,9 @@
   {
    "id": 65,
    "ja": "手甲",
-   "ko": "토시",
-   "status": "check",
-   "note": "手甲",
+   "ko": "손등 보호대",
+   "status": "approved",
+   "note": "手甲; 사용자 확정(2026-10-09)",
    "contexts": {
     "ZROUP16": 2,
     "ZROUP22": 1

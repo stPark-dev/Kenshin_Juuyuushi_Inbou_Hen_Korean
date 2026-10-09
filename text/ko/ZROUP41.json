@@ -1017,7 +1017,7 @@
   "src_hash": "bd923d68b319",
   "ko": "시라누이당^c",
   "status": "draft",
-  "note": "NEW NAME: 不知火党=시라누이당; NEW NAME: 回天党=카이텐당; NEW NAME: 多西組=타사이조"
+  "note": "NEW NAME: 不知火党=시라누이당; NEW NAME: 回天党=카이텐당; NEW NAME: 多西組=타니시조 (사용자 확정)"
  },
  "ZROUP41:2976c": {
   "src_hash": "7497f89be3fd",
@@ -1033,7 +1033,7 @@
  },
  "ZROUP41:29784": {
   "src_hash": "0fe7f14dfe99",
-  "ko": "타사이조^c",
+  "ko": "타니시조^c",
   "status": "draft",
   "note": ""
  },
@@ -1669,9 +1669,9 @@
  },
  "ZROUP41:2a168": {
   "src_hash": "066bcfc3a1ca",
-  "ko": "”흉인・쿠로가사”로 세상을 떠들썩하게 한 인키리는？^s",
+  "ko": "”흉인・검은 삿갓”으로 세상을 떠들썩하게 한 인키리는？^s",
   "status": "draft",
-  "note": "NEW NAME: 黒笠=쿠로가사 (alias); NEW NAME: 鵜堂刃衛=우도 진에 (existing usage)"
+  "note": "黒笠=검은 삿갓 (사용자 확정, 별칭은 뜻으로); 鵜堂刃衛=우도 진에"
  },
  "ZROUP41:2a19c": {
   "src_hash": "4f2277b1cadc",
@@ -4159,31 +4159,31 @@
  },
  "ZROUP41:2c570": {
   "src_hash": "e4806357bd9a",
-  "ko": "십용사 음모편에서^c주인공이 쓸 수 있는 무기 이름에^c실제로 쓰인 숫자는？^s",
+  "ko": "십용사 음모편에서^c주인공이 쓸 수 있는 무기 이름에^c들어 있는 숫자는？^s",
   "status": "draft",
-  "note": "Unsure: weapons 菊一文字(키쿠이치몬지, one) and 八角木刀(팔각 목도, eight) both exist in items; data says first (one) is correct. In Korean only 팔각 목도 shows its number. Kept literal; review."
+  "note": "Data-first 一 is correct (菊一文字=키쿠이치몬지). Choices carry the Japanese reading so the 이치 in 키쿠이치몬지 is findable; meaning of each choice unchanged."
  },
  "ZROUP41:2c5c0": {
   "src_hash": "6812c2418752",
-  "ko": "일^c",
+  "ko": "일（이치）^c",
   "status": "draft",
   "note": ""
  },
  "ZROUP41:2c5c8": {
   "src_hash": "0dcaa64c5977",
-  "ko": "육^c",
+  "ko": "육（로쿠）^c",
   "status": "draft",
   "note": ""
  },
  "ZROUP41:2c5d0": {
   "src_hash": "5ee8b96f3315",
-  "ko": "팔^c",
+  "ko": "팔（하치）^c",
   "status": "draft",
   "note": ""
  },
  "ZROUP41:2c5d8": {
   "src_hash": "ba0d501c2c2f",
-  "ko": "이^c",
+  "ko": "이（니）^c",
   "status": "draft",
   "note": ""
  },
@@ -6169,9 +6169,9 @@
  },
  "ZROUP41:2e410": {
   "src_hash": "8d88f15caed9",
-  "ko": "쿠로가사 사건의 흑막・시부미의 직책은？^s",
+  "ko": "검은 삿갓 사건의 흑막・시부미의 직책은？^s",
   "status": "draft",
-  "note": "NEW NAME: 黒笠=쿠로가사; NEW NAME: 渋海=시부미"
+  "note": "黒笠=검은 삿갓 (사용자 확정); 渋海=시부미"
  },
  "ZROUP41:2e434": {
   "src_hash": "7fff95506543",
@@ -6799,9 +6799,9 @@
  },
  "ZROUP41:2eda0": {
   "src_hash": "d326df58fc6d",
-  "ko": "막부 말기의 명도공・아라이 샷쿠의 손자 이름은？^s",
+  "ko": "막부 말기의 명도공・아라이 샤쿠의 손자 이름은？^s",
   "status": "draft",
-  "note": "NEW NAME: 新井赤空=아라이 샷쿠"
+  "note": "新井赤空=아라이 샤쿠 (사용자 확정); NEW NAME: 伊織=이오리; 青空=세이쿠; 梓=아즈사; 上総=카즈사"
  },
  "ZROUP41:2edc8": {
   "src_hash": "0bb4a7eb3b3d",
@@ -6829,7 +6829,7 @@
  },
  "ZROUP41:2ede8": {
   "src_hash": "070892a02888",
-  "ko": "켄신이 도공・아라이 샷쿠의 마지막 한 자루를 손에 넣은 곳은？^s",
+  "ko": "켄신이 도공・아라이 샤쿠의 마지막 한 자루를 손에 넣은 곳은？^s",
   "status": "draft",
   "note": ""
  },

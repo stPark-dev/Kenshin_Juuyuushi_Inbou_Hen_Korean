@@ -12,6 +12,7 @@ armed at the title screen; one added later to already-run code never fires.
 --skip N lets the first N window ops of the new scene pass (a place-name label
 on entry is one). --op 30 switches at the next frame yield (VM op 0x30) instead,
 so no NPC has to be reached; the scene's own thread then runs the routine.
+After the switch, frames a0..a5 are captured at 1 s intervals (quiz choices, menus).
 usage: goto_scene.py image.cue scene outdir presses [interval] [from_scene] [--text OFFSET [--skip N]]
 """
 import os
@@ -132,4 +133,7 @@ for i in range(1, PRESSES + 1):
 if TEXT is not None:
     print("waiting for a dialogue (talk to anyone)", flush=True)
     t.join(1800)
+    for i in range(6):  # the routine's own frames (a quiz shows its choices after the question)
+        time.sleep(1)
+        winds.grab(h).save(f"{OUT}/a{i}.png")
 print("done", flush=True)
