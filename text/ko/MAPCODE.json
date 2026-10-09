@@ -683,18 +683,6 @@
   "status": "draft",
   "note": ""
  },
- "MAPCODE:801cbd00": {
-  "src_hash": "c68d783ef6d1",
-  "ko": "はひふへほ　ぁぃぅぇぉ　삭제　결정",
-  "status": "draft",
-  "note": "이름 입력 가나 표는 일본어 유지(한글 이름 입력 조사 전), 버튼만 번역"
- },
- "MAPCODE:801cbdd2": {
-  "src_hash": "444bcf839574",
-  "ko": "ハヒフヘホ　ァィゥェォ　삭제　결정",
-  "status": "draft",
-  "note": "이름 입력 가나 표는 일본어 유지(한글 이름 입력 조사 전), 버튼만 번역"
- },
  "MAPCODE:801cbe07": {
   "src_hash": "78ee66d67ed7",
   "ko": "　　　　　　　　　　　　　　예",

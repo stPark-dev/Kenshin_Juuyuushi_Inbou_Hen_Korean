@@ -30,7 +30,9 @@ LEADS = list(range(0x88, 0xA0)) + list(range(0xE0, 0xEB))
 
 
 def is_hangul(ch):
-    return "가" <= ch <= "힣"
+    """A Hangul syllable or compatibility jamo (the name-entry grid): drawn from
+    Galmuri under the shared code table."""
+    return "가" <= ch <= "힣" or "ㄱ" <= ch <= "ㅣ"
 
 
 def tokens(text):

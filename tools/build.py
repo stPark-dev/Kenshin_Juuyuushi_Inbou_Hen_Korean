@@ -23,6 +23,7 @@ import iso
 import kfont
 import koenc
 import mainprog
+import nameentry
 import ovltext
 import menuwin
 import refs
@@ -117,6 +118,9 @@ def scene_build(g, ko_map, assets, code_of=None):
 
 
 MENU_FILES = ("MAIN", "MAPCODE", "BTLCODE")
+# the name-entry grid rows are generated (nameentry), not translated
+GRID_IDS = [f"MAPCODE:{a:x}" for a in (0x801CBC51, 0x801CBC74, 0x801CBC97, 0x801CBCBA, 0x801CBCDD, 0x801CBD00,
+                                       0x801CBD23, 0x801CBD46, 0x801CBD69, 0x801CBD8C, 0x801CBDAF, 0x801CBDD2)]
 
 
 def menu_sources(raw, disc):
@@ -168,17 +172,23 @@ def menu_build(exe, sysgrp, data, rows, ko, code_of, assets):
     new_map = ovltext.apply("MAPCODE", mapcode, enc["MAPCODE"])
     mfont = {c: g for c, g in mold.items() if c[0] < 0x88}
     final = [raw_ for a, raw_, _ in ovltext.movable("MAPCODE", new_map)] + [r for _, r, _ in ovltext.fixed("MAPCODE", new_map)]
-    need = {r[i:i + 2] for r in final for i in range(0, len(r), 2)} - set(efont) - set(mfont)
+    # the grid rows draw from NAMEFONT, which the name screen loads
+    grid = {enc["MAPCODE"][g] for g in GRID_IDS}
+    need = {r[i:i + 2] for r in final if r not in grid for i in range(0, len(r), 2)} - set(efont) - set(mfont)
     by_code = {code_of[c]: c for c in hangul["MAPCODE"]}
     for c in sorted(need):
         mfont[c] = render(by_code[c]) if c in by_code else (mold.get(c) or old.get(c) or assets.namefont[c])
     new_main = exetext.apply(main, enc["MAIN"], efont)
     new_map = ovltext.set_mapcode_font(new_map, mfont)
+    new_map = nameentry.patch_specials(new_map, code_of)
+    nf_txt, nf_bin = nameentry.namefont(assets.namefont, code_of, render)
     packed = bootlz.encode(new_main)
     room = len(exe) - mainprog.BLOB
     if len(packed) > room:
         raise ValueError(f"packed main program is {len(packed)} bytes, room {room}")
     grp = sysgrp.replace("MAPCODE.Z32", bootlz.encode(new_map)).replace("BTLCODE.Z32", bootlz.encode(btl))
+    grp = grp.replace("NAMEFONT.TXT", nf_txt).replace("NAMEFONT.BIN", nf_bin)
+    grp = grp.replace("NAMEDIC.TXT", nameentry.namedic(code_of))
     report = {"translated": {n: len(enc[n]) for n in MENU_FILES}, "main_font": len(efont),
               "mapcode_font": len(mfont), "packed": len(packed)}
     return {"exe": exe[:mainprog.BLOB] + packed + bytes(room - len(packed)), "SYSTEM.GRP": grparc.build(grp)}, report
@@ -232,8 +242,12 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
         f = Path(ko_dir) / f"{n}.json"
         menu_ko[n], probs = textio.usable_translations(menu_rows[n], json.loads(f.read_text(encoding="utf-8")) if f.is_file() else {}, statuses)
         problems += probs
-    extra = [t for n in MENU_FILES for t in menu_ko[n].values()]
-    code_of = shared_codes([(g, ko_map) for *_, g, ko_map in work], assets.menu_codes, extra)
+    names = any(menu_ko.values())  # Hangul name entry comes with the menu translation
+    if names:
+        menu_ko["MAPCODE"].update(dict(zip(GRID_IDS, nameentry.grid_texts())))
+    extra = [t for n in MENU_FILES for t in menu_ko[n].values()] + (["".join(sorted(nameentry.chars()))] if names else [])
+    reserved_names = frozenset(d.encode("cp932") for d in nameentry.DEFAULTS)
+    code_of = shared_codes([(g, ko_map) for *_, g, ko_map in work], assets.menu_codes | reserved_names, extra)
     if any(menu_ko.values()):
         try:
             files, rep = menu_build(exe, sysgrp, data, menu_rows, menu_ko, code_of, assets)
