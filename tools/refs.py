@@ -74,8 +74,10 @@ def classify(g):
     return out
 
 
-def rebuild(g, replacements, font_codes=None, font_glyphs=None):
-    """Return GROUP bytes with `replacements` {offset: raw} applied (no NUL inside raw)."""
+def rebuild(g, replacements, font_codes=None, font_glyphs=None, old_slots=None):
+    """Return GROUP bytes with `replacements` {offset: raw} applied (no NUL inside raw).
+    `old_slots` {offset: raw} rewrites the original slot of a string that is moved
+    (it must fit the slot); without it the old slot keeps the source text."""
     slots = {s.offset: s.slot for s in g.strings}
     for off, raw in replacements.items():
         if off not in slots:
@@ -97,6 +99,12 @@ def rebuild(g, replacements, font_codes=None, font_glyphs=None):
         if ref.status != "movable":
             blocked.append(f"0x{off:x} ({ref.status}, {len(raw)} bytes > slot {slots[off] - 1})")
             continue
+        old = (old_slots or {}).get(off)
+        if old is not None:
+            if len(old) >= slots[off] or b"\0" in old:
+                raise ValueError(f"0x{off:x}: old-slot text does not fit")
+            script.tokenize(old)
+            out[off : off + slots[off]] = old + bytes(slots[off] - len(old))
         new = len(out)
         out += raw + b"\0"
         out += bytes(-len(out) % 4)

@@ -20,6 +20,7 @@ import grparc
 import iso
 import kfont
 import koenc
+import mainprog
 import menuwin
 import refs
 import scenefont
@@ -36,6 +37,7 @@ class Assets:
     font: dict
     box: tuple
     namefont: dict
+    menu_codes: frozenset = frozenset()  # codes in the menu fonts, never given to Hangul
 
 
 def check_source(raw):
@@ -48,33 +50,54 @@ def load_assets(raw, disc, galmuri_path):
     sysgrp = grparc.parse(iso.read_file(raw, disc, "SYSTEM.GRP"))
     nf = scenefont.load_namefont(sysgrp.get("NAMEFONT.TXT"), sysgrp.get("NAMEFONT.BIN"))
     font = kfont.load_bdf(galmuri_path)
-    return Assets(font=font, box=kfont.hangul_box(font), namefont=nf)
+    return Assets(font=font, box=kfont.hangul_box(font), namefont=nf,
+                  menu_codes=frozenset(mainprog.menu_font_codes(raw, disc)))
 
 
-def scene_build(g, ko_map, assets):
-    """Apply {offset: korean text} to a parsed GROUP; return (bytes, report)."""
-    originals = {s.offset: s.raw for s in g.strings}
-    slots = {s.offset: s.slot for s in g.strings}
-    hangul = {c for t in ko_map.values() for c in t if koenc.is_hangul(c)}
+def reserved_codes(g, ko_map):
+    """SJIS codes a scene keeps as Japanese: untranslated strings and non-Hangul in translations."""
     reserved = set()
     for s in g.strings:
         if s.offset not in ko_map:
             reserved |= {t.raw for t in script.tokenize(s.raw) if t.kind == "char"}
     for t in ko_map.values():
         reserved |= {c.encode("cp932") for c in t if ord(c) >= 0x80 and not koenc.is_hangul(c) and _sjis(c)}
-    code_of = koenc.assign_codes(hangul, reserved)
+    return reserved
+
+
+def shared_codes(scenes, menu_codes=frozenset()):
+    """One Hangul code table for every scene (and the menus): [(g, ko_map)] -> {syllable: code}.
+    Menus look codes up in the menu fonts before the scene font, so a code must mean
+    the same syllable everywhere and stay clear of every Japanese character in use."""
+    hangul, reserved = set(), set(menu_codes)
+    for g, ko_map in scenes:
+        hangul |= {c for t in ko_map.values() for c in t if koenc.is_hangul(c)}
+        reserved |= reserved_codes(g, ko_map)
+    return koenc.assign_codes(hangul, reserved)
+
+
+def scene_build(g, ko_map, assets, code_of=None):
+    """Apply {offset: korean text} to a parsed GROUP; return (bytes, report).
+    `code_of` is the shared Hangul code table; without it the scene gets its own."""
+    originals = {s.offset: s.raw for s in g.strings}
+    slots = {s.offset: s.slot for s in g.strings}
+    hangul = {c for t in ko_map.values() for c in t if koenc.is_hangul(c)}
+    if code_of is None:
+        code_of = shared_codes([(g, ko_map)], assets.menu_codes)
     raws = {off: koenc.encode(text, originals[off], code_of) for off, text in ko_map.items()}
     missing = sorted(c for c in hangul if c not in assets.font)
     if missing:
         raise ValueError(f"Hangul font has no glyph for {''.join(missing)}")
     hglyphs = {code_of[c]: kfont.render(assets.font[c], assets.box) for c in hangul}
-    # font covers the whole final pool: in-place text, old slots of moved strings
-    # (left unchanged by refs.rebuild), then appended text
+    # a moved string's old slot gets the start of its translation, so a reference we
+    # do not know of still finds glyphs, without keeping the source's kanji in the font
     moved = [o for o, r in sorted(raws.items()) if len(r) >= slots[o]]
-    final = [raws[s.offset] if s.offset in raws and s.offset not in moved else s.raw for s in g.strings]
+    old = {o: _prefix(raws[o], slots[o] - 1) for o in moved}
+    # font covers the whole final pool: in-place text, old slots, then appended text
+    final = [old[s.offset] if s.offset in old else raws.get(s.offset, s.raw) for s in g.strings]
     final += [raws[o] for o in moved]
     codes, glyphs = scenefont.build(final, hglyphs, dict(zip(g.font_codes, g.font_glyphs)), assets.namefont)
-    out = refs.rebuild(g, raws, codes, glyphs)
+    out = refs.rebuild(g, raws, codes, glyphs, old)
     patches, unfit = menuwin.fit(g, ko_map)
     out = menuwin.apply(out, patches)  # code bytes keep their offsets in the rebuilt file
     report = {
@@ -88,6 +111,16 @@ def scene_build(g, ko_map, assets):
     if unfit:
         report["menu_problems"] = [f"0x{off:x}: {'; '.join(p)}" for off, p in unfit]
     return out, report
+
+
+def _prefix(raw, room):
+    """The longest run of whole tokens of `raw` that is at most `room` bytes."""
+    out = b""
+    for t in script.tokenize(raw):
+        if len(out) + len(t.raw) > room:
+            break
+        out += t.raw
+    return out
 
 
 def _sjis(c):
@@ -104,6 +137,7 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
     if assets is None:
         assets = load_assets(raw, disc, galmuri)
     changes, problems, warnings, scenes = {}, [], [], {}
+    work = []
     for name in sorted(n for n in disc.files if n.startswith("ZROUP") and n.endswith(".GRP")):
         scene = name[:-4]
         grp = grparc.parse(iso.read_file(raw, disc, name))
@@ -114,10 +148,12 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
         ko = json.loads(kof.read_text(encoding="utf-8")) if kof.is_file() else {}
         ko_map, probs = textio.usable_translations(rows, ko, statuses)
         problems += probs
-        if not ko_map:
-            continue
+        if ko_map:
+            work.append((name, scene, grp, member, g, ko_map))
+    code_of = shared_codes([(g, ko_map) for *_, g, ko_map in work], assets.menu_codes) if work else {}
+    for name, scene, grp, member, g, ko_map in work:
         try:
-            new, rep = scene_build(g, ko_map, assets)
+            new, rep = scene_build(g, ko_map, assets, code_of)
         except ValueError as e:
             problems.append(f"{scene}: {e}")
             continue

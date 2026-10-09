@@ -77,3 +77,14 @@ def test_source_identity_is_checked(tmp_path):
     p.write_bytes(b"\0" * 2352)
     with pytest.raises(ValueError, match="SHA-256"):
         build.check_source(p.read_bytes())
+
+
+@pytest.mark.skipif(not have_assets, reason="corpus or Galmuri14 not available")
+def test_shared_codes_are_one_table_clear_of_menu_and_kept_japanese():
+    g40 = script.parse_group((GRP / "ZROUP40" / "GROUP40.BIN").read_bytes())
+    g41 = script.parse_group((GRP / "ZROUP41" / "GROUP41.BIN").read_bytes())
+    menu = {"愛".encode("cp932"), "茜".encode("cp932")}
+    code_of = build.shared_codes([(g40, {0xF35C: "가나"}), (g41, {})], frozenset(menu))
+    assert set(code_of) == {"가", "나"}
+    kept = build.reserved_codes(g40, {0xF35C: "가나"}) | build.reserved_codes(g41, {})
+    assert not (set(code_of.values()) & (menu | kept))
