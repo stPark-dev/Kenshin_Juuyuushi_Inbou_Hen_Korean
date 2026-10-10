@@ -170,6 +170,20 @@ def plan(raw, disc, changes):
     ]
 
 
+def plan_sectors(raw, writer, users):
+    """Writes replacing the user data of Form 1 sectors in place ({lba: 2048 bytes}),
+    keeping their subheaders: movie video sectors, which sit between XA audio."""
+    lbas = sorted(users)
+    for lba in lbas:
+        if not cdsector.is_form1(raw[lba * RAW:(lba + 1) * RAW]):
+            raise ValueError(f"{writer}: LBA {lba} is not a Form 1 sector")
+        if len(users[lba]) != 2048:
+            raise ValueError(f"{writer}: LBA {lba} needs 2048 bytes")
+    subs = [raw[lba * RAW + 16:lba * RAW + 24] for lba in lbas]
+    sectors = _encode(lbas, subs, [users[lba] for lba in lbas])
+    return [Write(writer, lba, raw[lba * RAW:(lba + 1) * RAW], sec) for lba, sec in zip(lbas, sectors)]
+
+
 def apply(source, writes):
     """Verify all writes against the source, then return the patched image."""
     if len(source) % RAW:

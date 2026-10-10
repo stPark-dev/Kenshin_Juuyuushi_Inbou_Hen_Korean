@@ -29,6 +29,7 @@ import mainprog
 import nameentry
 import ovltext
 import menuwin
+import movie
 import refs
 import scenefont
 import script
@@ -238,6 +239,13 @@ def _sjis(c):
         return False
 
 
+def _movie_texts(path, statuses):
+    if not path.is_file():
+        return {}
+    ko = json.loads(path.read_text(encoding="utf-8"))
+    return {k: e for k, e in ko.items() if e.get("status") in statuses and e.get("ko")}
+
+
 def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
     raw = Path(src).read_bytes()
     check_source(raw)
@@ -289,7 +297,17 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
         if rep["size"] > VERIFIED_MAX_GROUP:
             warnings.append(f"{scene}: {member} is {rep['size']} bytes, above the verified maximum {VERIFIED_MAX_GROUP}")
         changes[name] = grparc.build(grp.replace(member, new))
-    image = iso.apply(raw, iso.plan(raw, disc, changes) if changes else [])
+    writes = iso.plan(raw, disc, changes) if changes else []
+    movie_ko = _movie_texts(Path(ko_dir) / "MOVIE.json", statuses)
+    if movie_ko:  # opening movie text (D35); frames are re-encoded in their own sectors
+        try:
+            users, n = movie.ru12(raw, disc, grparc.parse(iso.read_file(raw, disc, "SYSTEM.GRP")).get("TITLE.BIN"),
+                                  assets.font, movie_ko)
+            writes += iso.plan_sectors(raw, "movie:RU12", users)
+            scenes["RU12"] = {"frames": n, "sectors": len(users)}
+        except (ValueError, KeyError) as e:
+            problems.append(f"RU12: {e}")
+    image = iso.apply(raw, writes)
     out = Path(out)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(image)
