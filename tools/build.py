@@ -21,6 +21,7 @@ import bootlz
 import btlicon
 import credits
 import exetext
+import fieldsign
 import grparc
 import iso
 import kfont
@@ -239,6 +240,26 @@ def _sjis(c):
         return False
 
 
+def _sign_edits(raw, disc, assets):
+    """{ZROUP GRP name: {entry index: packed MDT}} with the field signs redrawn."""
+    grps = {n: grparc.parse(iso.read_file(raw, disc, n)) for n in sorted(disc.files)
+            if n.startswith("ZROUP") and n.endswith(".GRP")}
+    sources = {}
+    for g in grps.values():
+        names = [e.name for e in g.entries]
+        for e in g.entries:
+            if e.name.endswith(".MDT") and e.name not in sources and e.name[:-1] + "S" in names:
+                mds = g.entries[names.index(e.name[:-1] + "S")].data
+                sources[e.name] = (bootlz.decode(e.data, 0)[0], bootlz.decode(mds, 0)[0])
+    refs, masks = fieldsign.load_refs(sources, assets.icon_fonts)
+    out = {}
+    for n, g in grps.items():
+        edits, _ = fieldsign.grp_edits(g, refs, masks, bootlz)
+        if edits:
+            out[n] = edits
+    return out
+
+
 def _movie_texts(path, statuses):
     if not path.is_file():
         return {}
@@ -286,6 +307,9 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
             scenes["MENU"] = rep
         except (ValueError, KeyError) as e:
             problems.append(f"MENU: {e}")
+    signs = _sign_edits(raw, disc, assets) if names else {}  # field signs (D36) go with the menus
+    if signs:
+        scenes["SIGNS"] = {"grp_files": len(signs), "maps": sum(len(v) for v in signs.values())}
     for name, scene, grp, member, g, ko_map in work:
         try:
             new, rep = scene_build(g, ko_map, assets, code_of)
@@ -296,7 +320,15 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
         problems += [f"{scene}: menu {p}" for p in rep.get("menu_problems", [])]
         if rep["size"] > VERIFIED_MAX_GROUP:
             warnings.append(f"{scene}: {member} is {rep['size']} bytes, above the verified maximum {VERIFIED_MAX_GROUP}")
-        changes[name] = grparc.build(grp.replace(member, new))
+        grp = grp.replace(member, new)
+        for i, data in signs.pop(name, {}).items():
+            grp = grp.replace_at(i, data)
+        changes[name] = grparc.build(grp)
+    for name, edits in signs.items():
+        grp = grparc.parse(iso.read_file(raw, disc, name))
+        for i, data in edits.items():
+            grp = grp.replace_at(i, data)
+        changes[name] = grparc.build(grp)
     writes = iso.plan(raw, disc, changes) if changes else []
     movie_ko = _movie_texts(Path(ko_dir) / "MOVIE.json", statuses)
     if movie_ko:  # opening and battle tutorial movies (D35); frames re-encoded in their own sectors

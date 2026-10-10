@@ -47,6 +47,11 @@ class Grp:
         entries = tuple(dc_replace(x, data=bytes(data)) if x is e else x for x in self.entries)
         return Grp(self.header, entries, self.raw)
 
+    def replace_at(self, index, data):
+        """Replace entry `index` (for GRPs that store a name twice)."""
+        entries = tuple(dc_replace(x, data=bytes(data)) if i == index else x for i, x in enumerate(self.entries))
+        return Grp(self.header, entries, self.raw)
+
     def _find(self, name):
         found = [e for e in self.entries if e.name == name]
         if not found:
