@@ -7,7 +7,8 @@ Ending credits without playing (2026-10-10, docs/survey.md §3.1.9):
 turns the title call in the main loop into `j 0x8002ea90` (the ending path:
 ending movie, ROLL credits, clear-data save). After boot the opening movie and the
 attract demo still play (~3 min) before the title would come; then the ending
-movie (~5 min) and the credits (~6 min). Patch the disc, not RAM: the main loop's
+movie (~5 min) and the credits (~6 min); add `8002eabc 00000000` to skip the
+ending movie (nop its call). Patch the disc, not RAM: the main loop's
 blocks are compiled before the title, so a GDB poke there does not take.
 """
 import sys; sys.path.insert(0, "tools")

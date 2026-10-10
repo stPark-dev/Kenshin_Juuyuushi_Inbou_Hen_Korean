@@ -19,6 +19,7 @@ from pathlib import Path
 
 import bootlz
 import btlicon
+import credits
 import exetext
 import grparc
 import iso
@@ -144,8 +145,10 @@ def menu_sources(raw, disc):
     data = {"MAIN": mainprog.unpack(exe)}
     for n in ("MAPCODE", "BTLCODE"):
         data[n] = bootlz.decode(sysgrp.get(f"{n}.Z32"), 0)[0]
+    data["ROLL"] = bootlz.decode(sysgrp.get("ROLL.Z32"), 0)[0]
     rows = {"MAIN": exetext.extract(data["MAIN"])}
     rows.update({n: ovltext.extract(n, data[n]) for n in ("MAPCODE", "BTLCODE")})
+    rows["ROLL"] = credits.extract(data["ROLL"])
     return exe, sysgrp, data, rows
 
 
@@ -207,6 +210,9 @@ def menu_build(exe, sysgrp, data, rows, ko, code_of, assets):
     grp = grp.replace("TITLE.BIN", titlemenu.apply(title, assets.font))
     report = {"translated": {n: len(enc[n]) for n in MENU_FILES}, "main_font": len(efont),
               "mapcode_font": len(mfont), "packed": len(packed)}
+    if ko.get("ROLL"):  # ending credits: own font and code table (D34)
+        roll, report["credits"] = credits.apply(data["ROLL"], ko["ROLL"], assets.font, assets.box, assets.namefont)
+        grp = grp.replace("ROLL.Z32", bootlz.encode(roll))
     return {"exe": exe[:mainprog.BLOB] + packed + bytes(room - len(packed)), "SYSTEM.GRP": grparc.build(grp)}, report
 
 
@@ -254,11 +260,11 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
             work.append((name, scene, grp, member, g, ko_map))
     exe, sysgrp, data, menu_rows = menu_sources(raw, disc)
     menu_ko = {}
-    for n in MENU_FILES:
+    for n in MENU_FILES + ("ROLL",):
         f = Path(ko_dir) / f"{n}.json"
         menu_ko[n], probs = textio.usable_translations(menu_rows[n], json.loads(f.read_text(encoding="utf-8")) if f.is_file() else {}, statuses)
         problems += probs
-    names = any(menu_ko.values())  # Hangul name entry comes with the menu translation
+    names = any(menu_ko[n] for n in MENU_FILES)  # Hangul name entry comes with the menu translation
     if names:
         menu_ko["MAPCODE"].update(dict(zip(GRID_IDS, nameentry.grid_texts())))
     extra = [t for n in MENU_FILES for t in menu_ko[n].values()] + (["".join(sorted(nameentry.chars()))] if names else [])
