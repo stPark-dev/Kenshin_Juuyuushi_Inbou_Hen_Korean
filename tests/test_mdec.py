@@ -62,3 +62,9 @@ def test_source_frames_round_trip():
     assert np.abs(again.astype(int) - rgb).mean() < 2
     users = mdec.chunk_sectors(raw, rec, 30, mdec.encode(rgb, q))
     assert all(len(u) == 2048 and u[:4] == mdec.MAGIC for u in users.values())
+
+
+def test_speakerless_rows_scroll():
+    layout = movie.RU13_LAYOUT
+    rows = movie._rows("", ["가", "나", "다", "라"], 4, layout)
+    assert [t for _, _, t in rows] == ["나", "다", "라"] and rows[0][:2] == (24, 171)

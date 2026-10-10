@@ -299,14 +299,17 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
         changes[name] = grparc.build(grp.replace(member, new))
     writes = iso.plan(raw, disc, changes) if changes else []
     movie_ko = _movie_texts(Path(ko_dir) / "MOVIE.json", statuses)
-    if movie_ko:  # opening movie text (D35); frames are re-encoded in their own sectors
+    if movie_ko:  # opening and battle tutorial movies (D35); frames re-encoded in their own sectors
         try:
             users, n = movie.ru12(raw, disc, grparc.parse(iso.read_file(raw, disc, "SYSTEM.GRP")).get("TITLE.BIN"),
                                   assets.font, movie_ko)
             writes += iso.plan_sectors(raw, "movie:RU12", users)
             scenes["RU12"] = {"frames": n, "sectors": len(users)}
+            users, n = movie.ru13(raw, disc, assets.font, movie_ko)
+            writes += iso.plan_sectors(raw, "movie:RU13", users)
+            scenes["RU13"] = {"frames": n, "sectors": len(users)}
         except (ValueError, KeyError) as e:
-            problems.append(f"RU12: {e}")
+            problems.append(f"movie: {e}")
     image = iso.apply(raw, writes)
     out = Path(out)
     out.parent.mkdir(parents=True, exist_ok=True)

@@ -194,29 +194,35 @@ class Glyphs:
             x += 8 if ch == " " else 16
 
 
-def _rows(name, lines, shown):
-    """[(x, y, text)] with `shown` characters of the text typed."""
+def _rows(name, lines, shown, layout=None):
+    """[(x, y, text)] with `shown` characters of the text typed; a row past the
+    window scrolls the earlier ones (and the speaker) out."""
+    name_x, text_x, tops = layout or (NAME_X, TEXT_X, ROW_TOPS)
     rows, left = [], shown
     for ln in lines:
         rows.append(ln[:max(0, left)])
         left -= len(ln)
     rows = [r for r in rows if r] or [""]
-    allrows = [(NAME_X, name)] + [(TEXT_X, r) for r in rows]
-    allrows = allrows[-3:]
-    return [(x, ROW_TOPS[i], t) for i, (x, t) in enumerate(allrows)]
+    allrows = ([(name_x, name)] if name else []) + [(text_x, r) for r in rows]
+    allrows = allrows[-len(tops):]
+    return [(x, tops[i], t) for i, (x, t) in enumerate(allrows)]
 
 
-def dialogue(get, specs, texts, glyphs):
-    """{frame: new RGB}; texts: [(speaker, korean with newlines)] per Line."""
+def dialogue(get, specs, texts, glyphs, clean=None, layout=None, width=272):
+    """{frame: new RGB}; texts: [(speaker or "", korean with newlines)] per Line.
+    `clean(f)` gives the frame without the Japanese text and a stroke count that
+    grows with the typing (default: inpaint the strokes found in TEXT_ROWS)."""
+    clean = clean or (lambda f: erase(get(f)))
+    rows = len((layout or (0, 0, ROW_TOPS))[2])
     out = {}
     for spec, (name, ko) in zip(specs, texts):
         lines = ko.split("\n")
-        if len(lines) > 3 or any(glyphs.width(ln) > 272 for ln in lines):
+        if any(glyphs.width(ln) > width for ln in lines) or (name and len(lines) > rows):
             raise ValueError(f"frame {spec.first}: Korean line too long for the window")
         total = sum(len(ln) for ln in lines)
-        clean, counts = {}, {}
+        imgs, counts = {}, {}
         for f in range(spec.first, spec.last + 1):
-            clean[f], counts[f] = erase(get(f))
+            imgs[f], counts[f] = clean(f)
         # typing progress: strokes in the text rows grow as characters appear
         base = min(counts.values())
         top = max(counts.values()) - base or 1
@@ -224,8 +230,8 @@ def dialogue(get, specs, texts, glyphs):
         for f in range(spec.first, spec.last + 1):
             seen = max(seen, counts[f] - base)
             shown = total if f == spec.last else round(total * seen / top)
-            img = clean[f]
-            for x, y, t in _rows(name, lines, shown):
+            img = imgs[f]
+            for x, y, t in _rows(name, lines, shown, layout):
                 glyphs.draw(img, x, y, t)
             out[f] = img
         if spec.fade:
@@ -380,4 +386,72 @@ def ru12(raw, disc, title, galmuri, ko):
     edits.update(dialogue(get, RU12_LINES, texts, Glyphs(galmuri)))
     edits.update(namecards(get, RU12_NAMES))
     edits.update(closing_logo(get, title_background(title), LOGO_PNG))
+    return apply(raw, rec, edits), len(edits)
+
+
+# Battle tutorial (RU13): a speakerless box (rows from (24, 171), 16 px pitch,
+# three rows, scrolling) over a still battle scene, so each paragraph's text is
+# undone from an empty-box frame of the same shot (pixels that differ from it).
+# The special move list (590-710) is white labels over the dimmed scene; those
+# strokes are inpainted and the Korean labels (the game's menu terms) drawn.
+RU13_LINES = (Line(43, 118), Line(119, 266), Line(267, 361), Line(362, 461), Line(462, 566),
+              Line(567, 594), Line(595, 691), Line(717, 820), Line(821, 932), Line(933, 1007),
+              Line(1008, 1106), Line(1158, 1264))
+RU13_EMPTY = ((43, 118, 119), (119, 266, 119), (267, 361, 267), (362, 461, 362), (462, 566, 462),
+              (567, 589, 567), (590, 691, 595), (717, 932, 821), (933, 1007, 933), (1008, 1106, 1008),
+              (1158, 1264, 1158))  # first, last, empty-box frame
+RU13_BOX = (14, 166, 310, 222)
+RU13_LAYOUT = (24, 24, (171, 187, 203))
+RU13_LIST = (590, 710)
+LIST_ROWS = (46, 70, 94, 118)
+LIST_LABELS = ((32, ("상단 필살기", "중단 필살기", "하단 필살기")),
+               (184, ("원거리 필살기", "반격기", "난타기", "궁극 필살기")))
+LIST_AREAS = ((30, 44, 118, 136), (182, 44, 302, 136))
+
+
+def _template_clean(get):
+    def clean(f):
+        t = next(e for a, b, e in RU13_EMPTY if a <= f <= b)
+        frame, empty = get(f), get(t)
+        x0, y0, x1, y1 = RU13_BOX
+        d = np.abs(frame - empty)[y0:y1, x0:x1].max(axis=2)
+        m = cv2.dilate((d > 28).astype(np.uint8), np.ones((3, 3), np.uint8)) > 0
+        img = frame.copy()
+        img[y0:y1, x0:x1][m] = empty[y0:y1, x0:x1][m]
+        return img, int(m.sum())
+    return clean
+
+
+def move_list(img, glyphs):
+    """Korean labels over the special move list of one frame (float RGB)."""
+    a = np.clip(img, 0, 255).astype(np.uint8)
+    mask = np.zeros(a.shape[:2], np.uint8)
+    for x0, y0, x1, y1 in LIST_AREAS:
+        lum = cv2.cvtColor(np.ascontiguousarray(a[y0:y1, x0:x1]), cv2.COLOR_RGB2GRAY)
+        core = (cv2.morphologyEx(lum, cv2.MORPH_TOPHAT, np.ones((9, 9), np.uint8)) > 40) & (lum > 140)
+        mask[y0:y1, x0:x1] = cv2.dilate(core.astype(np.uint8), np.ones((3, 3), np.uint8))
+    out = cv2.inpaint(a, mask, 3, cv2.INPAINT_TELEA).astype(float)
+    for x, labels in LIST_LABELS:
+        for y, text in zip(LIST_ROWS, labels):
+            glyphs.draw(out, x, y, text)
+    return out
+
+
+def ru13(raw, disc, galmuri, ko):
+    """{lba: user data} for the Korean battle tutorial."""
+    rec = disc.files["RU13.MOV"]
+    get = decoder(raw, rec)
+    glyphs = Glyphs(galmuri)
+    texts = []
+    for line in RU13_LINES:
+        e = ko.get(f"RU13:{line.first}")
+        if e is None:
+            raise ValueError(f"RU13:{line.first}: no translation")
+        texts.append(("", e["ko"]))
+    edits = {f: v.astype(float) for f, v in
+             dialogue(get, RU13_LINES, texts, glyphs, _template_clean(get), RU13_LAYOUT, width=280).items()}
+    first, last = RU13_LIST
+    for f in range(first, last + 1):
+        edits[f] = move_list(edits.get(f, get(f)), glyphs)
+    edits = {f: np.clip(np.rint(v), 0, 255).astype(np.uint8) for f, v in edits.items()}
     return apply(raw, rec, edits), len(edits)
