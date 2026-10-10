@@ -4,8 +4,8 @@
 
 플레이스테이션용 『るろうに剣心 -明治剣客浪漫譚- 十勇士陰謀編』(일본판, SCPS-10048)의 한글 패치 제작 프로젝트입니다.
 
-> **현재 상태: 배포 후보(v1.0)**
-> 대사·메뉴·이름 입력·타이틀·영상 글자·필드 간판·엔딩 크레딧까지 한글화했습니다. 제작자의 통 플레이 검증을 거쳐 배포합니다.
+> **현재 상태: v1.0 배포 (검수 진행 중)**
+> 대사·메뉴·이름 입력·타이틀·영상 글자·필드 간판·엔딩 크레딧까지 한글화해 [v1.0을 배포](https://github.com/stPark-dev/Kenshin_Juuyuushi_Inbou_Hen_Korean/releases/tag/v1.0)했습니다. 다만 **검수가 아직 끝나지 않았습니다.** 제작자가 실제로 플레이하며 확인하는 중이라 오역·어색한 문장·화면 깨짐·진행 막힘이 남아 있을 수 있습니다. 발견하시면 [이슈](https://github.com/stPark-dev/Kenshin_Juuyuushi_Inbou_Hen_Korean/issues)나 [돈골's 한글팩 제보](https://hangul.dongolpack.workers.dev/reports/?resource=kenshin-juuyuushi)로 알려 주세요.
 
 ## 진행 상황
 
