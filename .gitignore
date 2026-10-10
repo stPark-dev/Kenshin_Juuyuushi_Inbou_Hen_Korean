@@ -20,3 +20,4 @@ __pycache__/
 
 # Japanese source text (regenerated from the disc)
 text/src/
+dist/

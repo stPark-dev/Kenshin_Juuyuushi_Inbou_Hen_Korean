@@ -106,7 +106,7 @@ def apply(name, data, texts):
         d[a - BASE:b - BASE] = bytes(b - a)
     final = [(a, texts.get(f"{name}:{a:x}", raw), sites) for a, raw, sites in mov]
     where = {}
-    for raw in sorted({r for _, r, _ in final}, key=len, reverse=True):
+    for raw in sorted({r for _, r, _ in final}, key=lambda r: (-len(r), r)):  # ties by bytes: same output every run
         for p in free:
             if p[0] + len(raw) + 1 <= p[1]:
                 where[raw] = p[0]

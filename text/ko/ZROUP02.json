@@ -2,1417 +2,1417 @@
  "ZROUP02:30790": {
   "src_hash": "7b8445403dbe",
   "ko": "^4c7예^Cc9아니오^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:307a8": {
   "src_hash": "9ace0547ddbf",
   "ko": "^4c9예^Cc7아니오^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:307c0": {
   "src_hash": "7b8445403dbe",
   "ko": "^4c7예^Cc9아니오^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:307d8": {
   "src_hash": "9ace0547ddbf",
   "ko": "^4c9예^Cc7아니오^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:307f0": {
   "src_hash": "247d90a2bbf9",
   "ko": "^4c7^N^!c9카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:3082c": {
   "src_hash": "3d161548449b",
   "ko": "^4c9^N^!c7카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30868": {
   "src_hash": "556198ebc4ee",
   "ko": "^4c9^N^!c9카미야　카오루^cc7묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:308a4": {
   "src_hash": "ae5e6d646981",
   "ko": "^4c9^N^!c9카미야　카오루^cc9묘진　야히코^cc7설명을 듣는다^cc9그만둔다^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:308e0": {
   "src_hash": "40e614e22b2c",
   "ko": "^4c9^N^!c9카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc7그만둔다^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:3091c": {
   "src_hash": "fe31c2fb5bf5",
   "ko": "메구미^c　다쳤다면 내 약으로 고쳐 줄게．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30954": {
   "src_hash": "6070fb2dcdd4",
   "ko": "상처가 나았다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30964": {
   "src_hash": "b485cb0d783e",
   "ko": "겐사이^c　왜？",
-  "status": "draft",
+  "status": "reviewed",
   "note": "玄斎(단독 화자)=겐사이 (glossary 玄斎先生 기준)"
  },
  "ZROUP02:30974": {
   "src_hash": "1dbcc7b9158f",
   "ko": "겐사이^c　아야메들이랑 놀아 주게나．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30998": {
   "src_hash": "f88c4c1f37c2",
   "ko": "아야메^c　아야메……배고파．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:309c4": {
   "src_hash": "e6ce07e10a72",
   "ko": "스즈메^c　스즈메，배고파요．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:309ec": {
   "src_hash": "9e978074a6cb",
   "ko": "카오루^c　정신이 들었구나．괜찮아？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30a0c": {
   "src_hash": "8771fbcc4a87",
   "ko": "켄신^c　^N 공，괜찮소？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30a30": {
   "src_hash": "5621f4c4a159",
   "ko": "카오루^c　어？",
-  "status": "draft",
+  "status": "reviewed",
   "note": "동일 원문 표기 통일"
  },
  "ZROUP02:30a40": {
   "src_hash": "ae88a7a246df",
   "ko": "야히코^c　이름은 어떻게 아는 거야？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30a60": {
   "src_hash": "b131de837c29",
   "ko": "켄신^c　아니，좀 사정이 있소．^c　^N 공，소인을 기억하오？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30ac4": {
   "src_hash": "64caca68e96c",
   "ko": "켄신^c　어라……．^c　뭐，어쩔 수 없지요．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30af8": {
   "src_hash": "62cb16032d0f",
   "ko": "카오루^c　켄신은 전에 말했던 우리 집 식객이야．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30b30": {
   "src_hash": "9d17855e1105",
   "ko": "야히코^c　켄신이 돌아오면 백 명이 와도 끄떡없지！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30b60": {
   "src_hash": "5a4b32fa7b1b",
   "ko": "사노스케^c　그건 그렇고，너 어디 갔었던 거냐？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30b9c": {
   "src_hash": "6049330c620f",
   "ko": "켄신^c　그렇소．^c　요즘 수상한 무리가 늘어난 듯하여 좀 조사하던 참이었소．^c　설마 그런 곳에서 사노와 카오루 공을 만날 줄이야……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30c38": {
   "src_hash": "f70c40df4cbd",
   "ko": "야히코^c　뭐야，그거 우연이었어？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30c5c": {
   "src_hash": "0f9c473bc3d9",
   "ko": "켄신^c　미안하오．저 공장에서 무언가 수상한 약을 만드는 듯해서 조사하고 있었소．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30cc4": {
   "src_hash": "57ba75a19b3f",
   "ko": "카오루^c　약？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30cd0": {
   "src_hash": "025693d7a2e5",
   "ko": "켄신^c　음，암시에 걸리기 쉽게 만드는 약이오．^c　말이나 빛 신호 따위와 함께 쓰면 사람을 마음대로 조종할 수 있다……고 하오．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30d58": {
   "src_hash": "67cecada7217",
   "ko": "야히코^c　네즈 패거리가 쓰던 약이다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30d78": {
   "src_hash": "d8452c2a568d",
   "ko": "켄신^c　상대의 정체가 이제야 뚜렷이 보이기 시작한 듯하오．^c　소인의 힘，빌려 쓰지 않겠소？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30de0": {
   "src_hash": "0e1c35ba3939",
   "ko": "카오루^c　그런 건 안 돼！^c　켄신도 있는 편이 좋아．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30e14": {
   "src_hash": "dc67977ba4bf",
   "ko": "야히코^c　응，켄신도 같이 가자．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30e34": {
   "src_hash": "30e895c5e794",
   "ko": "켄신^c　으음……억지로 끌어들이는 듯한 짓은 하고 싶지 않았소만．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30e80": {
   "src_hash": "88b1c59266a3",
   "ko": "사노스케^c　이 마당에 그런 소리 할 때가 아니잖아．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30eb4": {
   "src_hash": "a6dcb0d00f08",
   "ko": "켄신^c　미안하오，^N 공．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30ed8": {
   "src_hash": "f31cd8345917",
   "ko": "켄신^c　앞으로 잘 부탁하오．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30f00": {
   "src_hash": "caefba55892e",
   "ko": "c6히무라 켄신c7이 동료가 되었다！^c^N，카미츠메류 체술을^c떠올렸다！！",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 神爪流=카미츠메류 (reading uncertain). 체술=体術"
  },
  "ZROUP02:30f44": {
   "src_hash": "0ee364505d1d",
   "ko": "켄신^c　고맙소，^c　^N 공．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30f70": {
   "src_hash": "251e34564340",
   "ko": "켄신^c　그렇소？^c　이런 식으로 다시 만나게 될 줄은 생각지도 못했소．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30fc4": {
   "src_hash": "62cb16032d0f",
   "ko": "카오루^c　켄신은 전에 말했던 우리 집 식객이야．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:30ffc": {
   "src_hash": "b3650af98be4",
   "ko": "야히코^c　그나저나 놀랐어．^c　둘이 아는 사이였다니．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:3103c": {
   "src_hash": "5a4b32fa7b1b",
   "ko": "사노스케^c　그건 그렇고，너 어디 갔었던 거냐？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31078": {
   "src_hash": "8fc7e16071cb",
   "ko": "켄신^c　그렇소．^c　요즘 수상한 무리가 늘어난 듯하여 좀 조사하던 참이었소．^c　설마 사노와 카오루 공도 같은 사건을 쫓고 있었을 줄이야……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31114": {
   "src_hash": "f70c40df4cbd",
   "ko": "야히코^c　뭐야，그거 우연이었어？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31138": {
   "src_hash": "0f9c473bc3d9",
   "ko": "켄신^c　미안하오．저 공장에서 무언가 수상한 약을 만드는 듯해서 조사하고 있었소．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:311a0": {
   "src_hash": "57ba75a19b3f",
   "ko": "카오루^c　약？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:311ac": {
   "src_hash": "025693d7a2e5",
   "ko": "켄신^c　음，암시에 걸리기 쉽게 만드는 약이오．^c　말이나 빛 신호 따위와 함께 쓰면 사람을 마음대로 조종할 수 있다……고 하오．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31234": {
   "src_hash": "67cecada7217",
   "ko": "야히코^c　네즈 패거리가 쓰던 약이다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31254": {
   "src_hash": "d8452c2a568d",
   "ko": "켄신^c　상대의 정체가 이제야 뚜렷이 보이기 시작한 듯하오．^c　소인의 힘，빌려 쓰지 않겠소？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:312bc": {
   "src_hash": "0ee364505d1d",
   "ko": "켄신^c　고맙소，^c　^N 공．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:312e8": {
   "src_hash": "61a1240b7e1c",
   "ko": "겐사이 선생^c　어떤가？잘 지내고 있나？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31318": {
   "src_hash": "8ae3f786502c",
   "ko": "겐사이 선생^c　그런가……다쳤다면 메구미 씨한테 치료받게나．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31368": {
   "src_hash": "7ebb9879a429",
   "ko": "겐사이 선생^c　사람은 건강한 게 제일이지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31394": {
   "src_hash": "9c912ef5470c",
   "ko": "겐사이 선생^c　아니，손녀들한테 과자를……？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:313bc": {
   "src_hash": "6ee05ec4bea4",
   "ko": "겐사이 선생^c　오오，마침 잘 왔네．^c　자，이걸 받게．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:313fc": {
   "src_hash": "f83e130c932d",
   "ko": "c6우혁초c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": "牛革草=소가죽풀 (아이템명, 의역)"
  },
  "ZROUP02:31418": {
   "src_hash": "27e3d56a816a",
   "ko": "겐사이 선생^c　뭘，신경 쓰지 말게．늘 손녀들을 돌봐 주는 답례일세．^c　……그리고 메구미 씨한테는 비밀일세．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31484": {
   "src_hash": "949a60006f7c",
   "ko": "아야메^c　앗，사탕다！^c　그거……아야메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:314c0": {
   "src_hash": "3c637a39e116",
   "ko": "아야메^c　앗，카시와모치다！^c　그거……아야메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31500": {
   "src_hash": "611296fe7ddf",
   "ko": "아야메^c　앗，만주다！^c　그거……아야메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31544": {
   "src_hash": "74327b0991ea",
   "ko": "아야메^c　앗，경단다！^c　그거……아야메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31584": {
   "src_hash": "6a130ea9187f",
   "ko": "아야메^c　앗，센베다！^c　그거……아야메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:315c4": {
   "src_hash": "a7070bcc9d15",
   "ko": "아야메^c　앗，물엿다！^c　그거……아야메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31604": {
   "src_hash": "dffe6080eae4",
   "ko": "아야메^c　앗，비스킷다！^c　그거……아야메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31644": {
   "src_hash": "cb5a8ad5af25",
   "ko": "아야메^c　앗，초콜릿다！^c　그거……아야메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31688": {
   "src_hash": "9d5f918c99e7",
   "ko": "아야메^c　…………심술쟁이！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:316a8": {
   "src_hash": "4521b75ad893",
   "ko": "아야메^c　와아！^c　오빠，고마워．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:316d8": {
   "src_hash": "d53a280b6b1f",
   "ko": "아야메^c　와아！^c　언니，고마워．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31708": {
   "src_hash": "937507d4e558",
   "ko": "아야메^c　아야메도 과자 먹고 싶다……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31734": {
   "src_hash": "aa3f55e5e300",
   "ko": "스즈메^c　앗，사탕다！^c　그거……스즈메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31774": {
   "src_hash": "7731d3077ce8",
   "ko": "스즈메^c　앗，카시와모치다！^c　그거……스즈메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:317b8": {
   "src_hash": "f36bc4f48274",
   "ko": "스즈메^c　앗，만주다！^c　그거……스즈메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31800": {
   "src_hash": "6f984d3e9d80",
   "ko": "스즈메^c　앗，경단다！^c　그거……스즈메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31844": {
   "src_hash": "24dd49f02099",
   "ko": "스즈메^c　앗，센베다！^c　그거……스즈메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31888": {
   "src_hash": "6873799ea274",
   "ko": "스즈메^c　앗，물엿다！^c　그거……스즈메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:318cc": {
   "src_hash": "3f6e755510d5",
   "ko": "스즈메^c　앗，비스킷다！^c　그거……스즈메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31910": {
   "src_hash": "8708a9e1e404",
   "ko": "스즈메^c　앗，초콜릿다！^c　그거……스즈메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31958": {
   "src_hash": "3934d7c34c4b",
   "ko": "스즈메^c　으앙……심술쟁이．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:3197c": {
   "src_hash": "a11acf77b8f7",
   "ko": "스즈메^c　와아！고마워．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:319a0": {
   "src_hash": "9e5d208aaf85",
   "ko": "스즈메^c　스즈메도 과자 주세요．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:319d0": {
   "src_hash": "56ee91ff1617",
   "ko": "메구미^c　그런데……아야메랑 스즈메 못 봤어？^c　둘 다 밖에 놀러 나가서는 아직 안 들어왔거든．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31a40": {
   "src_hash": "07a42e3987bc",
   "ko": "메구미^c　잠깐，당신들！^c　아야메랑 스즈메한테 단것만 잔뜩 먹였지！^c　둘이 충치라도 생기면 어쩔 거야！？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31ad4": {
   "src_hash": "e17d39196c2e",
   "ko": "카오루^c　미안해……^c　너무 좋아하길래 그만……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31b14": {
   "src_hash": "10899cf4d85e",
   "ko": "메구미^c　정말！정신 좀 차려．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31b34": {
   "src_hash": "164236221b26",
   "ko": "카오루^c　…………네．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31b4c": {
   "src_hash": "db11722e4c6a",
   "ko": "카오루^c　메구미 씨，실은……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31b68": {
   "src_hash": "f153682f50f0",
   "ko": "메구미^c　뭐，두통 때문에 괴로워하는 사람이 있다고？^c　그 약을 만들려면 ”빨간 꽃”과 ”하얀 열매”가 필요해．^c　^N 군，가져다줘．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31bf0": {
   "src_hash": "9b363da8fd48",
   "ko": "메구미^c　”빨간 꽃”과 ”하얀 열매”야．^c　헷갈리지 마．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31c28": {
   "src_hash": "db11722e4c6a",
   "ko": "카오루^c　메구미 씨，실은……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31c44": {
   "src_hash": "b4d670c98c96",
   "ko": "메구미^c　뭐，복통 때문에 괴로워하는 사람이 있다고？^c　그 약을 만들려면 ”파란 뿌리”와 ”노란 꽃”이 필요해．^c　^N 군，가져다줘．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31ccc": {
   "src_hash": "27f8bc096106",
   "ko": "메구미^c　”파란 뿌리”와 ”노란 꽃”야．^c　헷갈리지 마．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31d04": {
   "src_hash": "db11722e4c6a",
   "ko": "카오루^c　메구미 씨，실은……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31d20": {
   "src_hash": "8ce2e21618ed",
   "ko": "메구미^c　뭐，현기증 때문에 괴로워하는 사람이 있다고？^c　그 약을 만들려면 ”분홍 열매”와 ”보라 뿌리”가 필요해．^c　^N 군，가져다줘．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31da8": {
   "src_hash": "6a05486e75e9",
   "ko": "메구미^c　”분홍 열매”와 ”보라 뿌리”야．^c　헷갈리지 마．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31de0": {
   "src_hash": "db11722e4c6a",
   "ko": "카오루^c　메구미 씨，실은……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31dfc": {
   "src_hash": "f7ec524300d3",
   "ko": "메구미^c　뭐，숙취 때문에 괴로워하는 사람이 있다고？^c　그 약을 만들려면 ”빨간 뿌리”와 ”파란 꽃”이 필요해．^c　^N 군，가져다줘．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31e8c": {
   "src_hash": "e407f5f33237",
   "ko": "메구미^c　”빨간 뿌리”와 ”파란 꽃”야．^c　헷갈리지 마．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31ec4": {
   "src_hash": "db11722e4c6a",
   "ko": "카오루^c　메구미 씨，실은……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31ee0": {
   "src_hash": "0f1329b5ac11",
   "ko": "메구미^c　뭐，오한 때문에 괴로워하는 사람이 있다고？^c　그 약을 만들려면 ”하얀 꽃”과 ”노란 열매”가 필요해．^c　^N 군，가져다줘．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31f68": {
   "src_hash": "99272e2c10dc",
   "ko": "메구미^c　”하얀 꽃”과 ”노란 열매”야．^c　헷갈리지 마．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31fa0": {
   "src_hash": "db11722e4c6a",
   "ko": "카오루^c　메구미 씨，실은……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:31fbc": {
   "src_hash": "cc7ea643be64",
   "ko": "메구미^c　뭐，열 때문에 괴로워하는 사람이 있다고？^c　그 약을 만들려면 ”분홍 꽃”과 ”파란 열매”가 필요해．^c　^N 군，가져다줘．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32040": {
   "src_hash": "8c7067bd9f6f",
   "ko": "메구미^c　”분홍 꽃”과 ”파란 열매”야．^c　헷갈리지 마．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32078": {
   "src_hash": "db11722e4c6a",
   "ko": "카오루^c　메구미 씨，실은……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32094": {
   "src_hash": "ab9c4f33dfc0",
   "ko": "메구미^c　뭐，기침 때문에 괴로워하는 사람이 있다고？^c　그 약을 만들려면 ”보라 꽃”과 ”빨간 열매”가 필요해．^c　^N 군，가져다줘．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:3211c": {
   "src_hash": "8b9f763e040d",
   "ko": "메구미^c　”보라 꽃”과 ”빨간 열매”야．^c　헷갈리지 마．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32154": {
   "src_hash": "b298c58408b3",
   "ko": "메구미^c　약을 만들려면 우선 재료부터 모아야지．부탁할게．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32194": {
   "src_hash": "7413ca5900b7",
   "ko": "메구미^c　알았어．그럼 다음에 봐．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:321bc": {
   "src_hash": "0a45cfeb474d",
   "ko": "메구미^c　약 안 만들어도 돼？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:321e0": {
   "src_hash": "7413ca5900b7",
   "ko": "메구미^c　알았어．그럼 다음에 봐．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32208": {
   "src_hash": "bf9a1ed2e4b4",
   "ko": "메구미^c　그럼 조제할게．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32228": {
   "src_hash": "92ac7c1db51a",
   "ko": "메구미^c　자，말한 대로 만들었어．^c　가져가렴．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32268": {
   "src_hash": "84beea2c93e4",
   "ko": "c6조제한 약c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32288": {
   "src_hash": "d591d5033f77",
   "ko": "메구미^c　그럼 어떤 재료를 섞을래？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:322b4": {
   "src_hash": "e8ba4c9482f6",
   "ko": "카오루^c　메구미 씨，이 꽃 본 적 없어？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:322d8": {
   "src_hash": "415ebe3c8b22",
   "ko": "c6지하정원 꽃c7을 건넸다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:322f4": {
   "src_hash": "37b8367298ac",
   "ko": "메구미^c　뭐야……처음 보는 꽃이네．^c　직업이 직업인지라 약초나 화초는 잘 안다고 생각했는데．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32354": {
   "src_hash": "ed6c8d168177",
   "ko": "카오루^c　그렇구나……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32368": {
   "src_hash": "d23f30d321d0",
   "ko": "메구미^c　뭐，알아볼게．^c　뭔가 알게 되면 알려 줄게．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:323a4": {
   "src_hash": "1b471dd798a4",
   "ko": "메구미^c　이 사람들은 내가 간호하고 있어．그 밖에 내가 해 줄 수 있는 일 있어？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:323f0": {
   "src_hash": "2db8fccacefd",
   "ko": "메구미^c　카미츠메 마을？들어 본 것 같기도 하네．^c　기자인 토키카와 씨한테 물어보는 건 어때？^c　도쿄 남쪽 신문사에 있을 거야．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 神爪=카미츠메 (reading uncertain); 時川=토키카와; 東京=도쿄(관용 표기)"
  },
  "ZROUP02:32474": {
   "src_hash": "0bb44fdfcc23",
   "ko": "메구미^c　응，그 정도야 쉽지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32494": {
   "src_hash": "6070fb2dcdd4",
   "ko": "상처가 나았다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:324a4": {
   "src_hash": "3e95bc336c1b",
   "ko": "메구미^c　그 밖에 내가 해 줄 수 있는 일 있어？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:324c8": {
   "src_hash": "9b2e7a4f105d",
   "ko": "메구미^c　카미츠메 마을？난 몰라．토키카와 기자한테 물어봐．^c　도쿄 남쪽 신문사에 있을 거야．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32538": {
   "src_hash": "2c41ddf14de1",
   "ko": "메구미^c　아，^N 씨．^c　잠깐 한눈판 사이에 시노모리 아오시가 사라져 버렸어．^c　아직 상처도 다 낫지 않았는데……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:325c0": {
   "src_hash": "1cc5b8d9ce01",
   "ko": "사노스케^c　그 녀석이라면 괜찮을 거다．^c　잠시나마 한편이 됐다는 게 더 믿기지 않을 정도라고．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32634": {
   "src_hash": "3674135b9abb",
   "ko": "메구미^c　……그렇겠지．그럴 거라고 생각은 하는데．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32660": {
   "src_hash": "9f44a74cffd1",
   "ko": "아오시^c　…………………………．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32680": {
   "src_hash": "62b516602733",
   "ko": "메구미^c　상처가 꽤 깊어．^c　안정을 취해야 해．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:326b0": {
   "src_hash": "7baf4ecdd6d2",
   "ko": "사이토^c　으윽…………．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:326c8": {
   "src_hash": "62b516602733",
   "ko": "메구미^c　상처가 꽤 깊어．^c　안정을 취해야 해．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:326f8": {
   "src_hash": "f443c746a010",
   "ko": "사이토^c　당했군．^c　이 내가 말이지……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32730": {
   "src_hash": "35414aea9968",
   "ko": "사콘지^c　으윽……운노 님……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 左近児=사콘지 (reading uncertain)"
  },
  "ZROUP02:32750": {
   "src_hash": "2d8fb50342de",
   "ko": "　젊은이여 오라！！문하생 모집 중^c　　　　　　　　　　　마에카와 도장",
-  "status": "draft",
+  "status": "reviewed",
   "note": "간판 문구. 원문은 전각 공백 패딩으로 둘째 줄 오른쪽 정렬; ^c + 전각 공백으로 재현"
  },
  "ZROUP02:32798": {
   "src_hash": "12d37ccdc2f6",
   "ko": "야히코^c　시부카와 마을에 가는 게 먼저잖아．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 渋川町=시부카와 마을"
  },
  "ZROUP02:327bc": {
   "src_hash": "bcf1938a214c",
   "ko": "사노스케^c　그러고 보니 그놈들，^c　”카미츠메 마을”이 어쩌고 했지．^c　^N의 잃어버린 기억과 관계있을지도 몰라．알아볼까．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:3283c": {
   "src_hash": "6dd45f472e37",
   "ko": "카오루^c　메구미 씨한테도 물어보자．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32860": {
   "src_hash": "16d181c37db7",
   "ko": "사치오^c　으음，배가 아파．누가 좀 살려 줘．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 左千夫=사치오"
  },
  "ZROUP02:32890": {
   "src_hash": "08795ae2530f",
   "ko": "카오루^c　큰일이네．메구미 씨한테 부탁하자．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:328bc": {
   "src_hash": "9230455460f7",
   "ko": "사치오^c　으음，으음……배가 아파．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:328e8": {
   "src_hash": "2b6c91a39f0e",
   "ko": "사치오^c　아아，약을 가져다줬구나．^c　고마워……꿀꺽．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:3292c": {
   "src_hash": "4d7c3013e930",
   "ko": "사치오^c　으갸악！？^c　더，더 아파졌잖아！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32964": {
   "src_hash": "579e44682a7f",
   "ko": "메구미^c　내 처방과 다른 약을 먹였구나．자칫하면 목숨이 위험하다고！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:329b4": {
   "src_hash": "3dbe02c50d7e",
   "ko": "메구미^c　실망이야，^N 군．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:329d0": {
   "src_hash": "2b6c91a39f0e",
   "ko": "사치오^c　아아，약을 가져다줬구나．^c　고마워……꿀꺽．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32a14": {
   "src_hash": "15d736b278c9",
   "ko": "사치오^c　……나은 것 같아．^c　정말 잘 듣는 약이네，고마워！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32a54": {
   "src_hash": "9399ebb56e3f",
   "ko": "메구미^c　지나가다가 ^N 군 일행이 보여서．^c　다행이다，내 약이 잘 들었구나．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32ab8": {
   "src_hash": "94d1bc6d2833",
   "ko": "메구미^c　힘내，^N 군．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32ad4": {
   "src_hash": "7e9463500d1b",
   "ko": "c6파란 뿌리c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32af0": {
   "src_hash": "4b8b668ef995",
   "ko": "c6하얀 열매c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32b0c": {
   "src_hash": "0ce732e830ae",
   "ko": "아야메^c　앗，건빵다！^c　그거……아야메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32b4c": {
   "src_hash": "0b45bc009c1e",
   "ko": "스즈메^c　앗，건빵다！^c　그거……스즈메한테 주는 거야？^S",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32b90": {
   "src_hash": "734249de77b7",
   "ko": "메구미^c　아，맞다．^c　그 꽃에 대해 좀 더 조사해 봤어．^c　양귀비 종류인데 특별한 아종이야．^c　중독성과 습관성이 아주 강해．^c　누군지는 모르지만 이런 걸 재배하다니…………사람이 할 짓이 아니야．^c　반드시 본때를 보여 줘！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32c84": {
   "src_hash": "4eceb15fd50e",
   "ko": "야히코^c　대단하던데！^c　그런 기술을 갖고 있으면서 숨기고 있었다니！^c　그거 대체 뭐야？^c　어디서 배운 거야？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32d00": {
   "src_hash": "811fece9eebc",
   "ko": "카오루^c　괜찮아！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32d10": {
   "src_hash": "811fece9eebc",
   "ko": "카오루^c　괜찮아！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32d20": {
   "src_hash": "f03b92946da1",
   "ko": "카오루^c　모르는구나……．^c　괜찮아，무리하지 마．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32d58": {
   "src_hash": "a1a8043d1770",
   "ko": "야히코^c　미，미안……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32d74": {
   "src_hash": "9e60cd155973",
   "ko": "사노스케^c　그렇지．몸이 저절로 움직였다는 느낌이었어．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32db4": {
   "src_hash": "bc76c9b248e3",
   "ko": "카오루^c　그 움직임은 고무술의 일종인 것 같아．^c　처음 보는 형이었지만……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32e08": {
   "src_hash": "d4d0cb175dfb",
   "ko": "켄신^c　소인도 같은 생각이오．^c　허나 지금은 그보다 ^N 공이 먼저요．^c　몸은 이제 괜찮소？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32e78": {
   "src_hash": "cad1b6448be9",
   "ko": "파란 뿌리를 캘까요？^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32e90": {
   "src_hash": "0ac55b0c5695",
   "ko": "하얀 열매를 딸까요？^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32ea8": {
   "src_hash": "abda1c5774f3",
   "ko": "카오루^c　파란 뿌리가 예쁜 꽃이네！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32ec8": {
   "src_hash": "fecdbafa55a4",
   "ko": "카오루^c　하얀 열매가 예쁜 꽃이네！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32ee8": {
   "src_hash": "4cbead988a46",
   "ko": "겐사이 선생^c　뭐？빨간 꽃과 하얀 열매라．^c　빨간 꽃은 도쿄에서도 흔히 쓰이고，하얀 열매는 우리 집 마당에서 나지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:32f58": {
   "src_hash": "8a758cb1849a",
   "ko": "겐사이 선생^c　뭐？파란 뿌리와 노란 꽃이라．^c　파란 뿌리는 우리 집 마당에 자라 있고，노란 꽃은 니이자 마을에서 많이 나지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 新座村=니이자 마을 (reading uncertain)"
  },
  "ZROUP02:32fcc": {
   "src_hash": "8f49be7bb04e",
   "ko": "겐사이 선생^c　뭐？분홍 열매와 보라 뿌리라．^c　분홍 열매는 공장이 들어서기 전에는 시모츠마 마을에서 많이 났었지．보라 뿌리는 절임에 빠질 수 없고．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 下妻町=시모츠마 마을"
  },
  "ZROUP02:3305c": {
   "src_hash": "df16d91c4784",
   "ko": "겐사이 선생^c　뭐？빨간 뿌리와 파란 꽃이라．^c　빨간 뿌리는 시부카와 마을에서，파란 꽃은 닛코에서 흔히 쓰인다네．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 日光=닛코"
  },
  "ZROUP02:330c4": {
   "src_hash": "dfbd1d2f9eda",
   "ko": "겐사이 선생^c　뭐？하얀 꽃과 노란 열매라．^c　하얀 꽃은 산후의 어머니에게 좋은 꽃이고，노란 열매는 시모츠마 마을에서 많이 나지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33138": {
   "src_hash": "3795ff0f957b",
   "ko": "겐사이 선생^c　뭐？분홍 꽃과 파란 열매라．^c　분홍 꽃은 시부카와 마을 강가에 핀다더군．파란 열매는 시부카와 마을 명산일세．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:331b8": {
   "src_hash": "cd9d56a8e7d2",
   "ko": "겐사이 선생^c　뭐？보라 꽃과 빨간 열매라．^c　보라 꽃은 나가야 아이들한테 인기 만점이고，빨간 열매는 가끔 채소 가게에 있지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:3322c": {
   "src_hash": "51a1361b380a",
   "ko": "메구미^c　당신，누구？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33244": {
   "src_hash": "ed4ef81a4d26",
   "ko": "겐사이^c　누구셨더라？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33264": {
   "src_hash": "8caa272a0202",
   "ko": "쿠니마츠^c　이제 나가려는 참인데 마누라 준비가 영 끝나질 않는군．^c　부글，부글，부글，부글．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 邦松=쿠니마츠"
  },
  "ZROUP02:332cc": {
   "src_hash": "3b6387ab36e0",
   "ko": "쿠니마츠^c　마누라 준비가 영 끝나질 않으니 어머니가 졸기 시작하셨잖아．^c　욱，욱，욱，욱．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33338": {
   "src_hash": "3d47c21d429d",
   "ko": "우메^c　난 밖에 나가느니 화로 옆에서 느긋하게 있고 싶은데 말이야．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: うめ=우메"
  },
  "ZROUP02:33388": {
   "src_hash": "b592909a54b4",
   "ko": "우메^c　화로 옆은 너무 따뜻해서 졸음이 오는구먼．^c　꾸벅，꾸벅，꾸벅……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:333e0": {
   "src_hash": "7d6a91ce006f",
   "ko": "우메^c　꾸벅，꾸벅……쿨，쿨．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:3340c": {
   "src_hash": "eea69584f1ea",
   "ko": "유미코^c　우리 집 양반은 서둘러，서둘러 하고 성화라니까．^c　단장을 해야 밖에 나가든가 말든가 하지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 由美子=유미코"
  },
  "ZROUP02:33484": {
   "src_hash": "5200fb81956b",
   "ko": "유미코^c　정말，남자들은 성미가 급하다니까－？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:334b4": {
   "src_hash": "dba37aefba42",
   "ko": "마이코^c　와아，와아．^c　다 같이 나들이 가니까 좋아！！",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 舞子=마이코"
  },
  "ZROUP02:334f4": {
   "src_hash": "7b3ff3476bc5",
   "ko": "마이코^c　언니들도 같이 나들이 갈래？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33520": {
   "src_hash": "c4c347cee032",
   "ko": "미요^c　어때，우리 고양이 미짱，^c　엄청엄청 귀엽지？",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 美代=미요"
  },
  "ZROUP02:3356c": {
   "src_hash": "e788a62826ab",
   "ko": "미요^c　있잖아，미짱이^c　아까부터 안절부절못해．^c　배가 고픈 걸까？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:335c8": {
   "src_hash": "f2334f3eac8d",
   "ko": "사치오^c　으음，으음，으음，으음．^c　배，배가 엄청 아파．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33618": {
   "src_hash": "9aad799438b3",
   "ko": "사치오^c　쿨，쿨，쿨，으음．으음．배가 아파．음냐，음냐．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:3366c": {
   "src_hash": "a1912d3098ef",
   "ko": "츠루코^c　우리 집 양반이 경단을 너무 먹어서 배탈이 났지 뭐야．못 말리는 사람이라니까．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 鶴子=츠루코"
  },
  "ZROUP02:336bc": {
   "src_hash": "2d62168fe237",
   "ko": "츠루코^c　우리 집 양반 이제야 잠들었네．^c　손이 많이 간다니까．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33708": {
   "src_hash": "de266777760e",
   "ko": "켄코^c　이래 봬도 나도 옛날엔 꽤 이름난 검객이었는데，지금은 금방 숨이 차 버려서……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 硯考=켄코 (reading uncertain)"
  },
  "ZROUP02:3377c": {
   "src_hash": "74e797f2badc",
   "ko": "켄코^c　자네도 이 도장에서 단련하면 지금보다 훨씬 강해질 수 있을 걸세！！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:337d8": {
   "src_hash": "1dd5287cc4c0",
   "ko": "세이이치^c　어이 거기 서，헉，헉．^c　꼭 잡고 말 테다，헥，헥．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 誠一=세이이치"
  },
  "ZROUP02:33824": {
   "src_hash": "e62493adcbf9",
   "ko": "세이이치^c　메롱．메롱．헉，헉．^c　절대 안 잡힐 거다，헥，헥．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33870": {
   "src_hash": "57294263abcc",
   "ko": "히로유키^c　지금 술래잡기하는 중이니까^c　방해하지 마．^c　잡힌단 말이야－．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 裕之=히로유키"
  },
  "ZROUP02:338c4": {
   "src_hash": "1abca84a0707",
   "ko": "히로유키^c　아까 잡혀 버렸어．^c　지금은 내가 술래야．거기 서！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33908": {
   "src_hash": "1391f3d2ea46",
   "ko": "요시테루^c　마무리 일격에는 필살기를 쓰면 좋소．^c　그러면 상을 볼 수 있소……！？",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 義輝=요시테루"
  },
  "ZROUP02:3397c": {
   "src_hash": "40dc4b4cea3d",
   "ko": "요시테루^c　상단에는 하단을，하단에는 중단을．^c　이것이 싸움의 요체요．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:339c8": {
   "src_hash": "a65b7e83a0ff",
   "ko": "요시테루^c　필살기에는 수행으로 익히는 기술 말고도 실전에서 익혀 가는 기술도 있소．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33a20": {
   "src_hash": "6d9dc5179f67",
   "ko": "후코^c　오늘은 날씨가 좋네！！^c　그런데 바람이 세서 머리가 엉클어져．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 風子=후코"
  },
  "ZROUP02:33a68": {
   "src_hash": "33bd7e1e5653",
   "ko": "후코^c　어머，야히코！！^c　지금 마에카와 선생님한테 가는 거야？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33aac": {
   "src_hash": "9303078c4e08",
   "ko": "산조^c　겐사이 선생 진료소의 메구미 공은 도쿄 제일의 미인이라 생각하오．^c　이 몸，남몰래 연모하고 있소……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 三蔵=산조 (reading uncertain; 三条 산조와 같은 표기)"
  },
  "ZROUP02:33b18": {
   "src_hash": "c62b01646a41",
   "ko": "코타로^c　그저께 내 동생이 시부카와 마을로 이사 갔거든．^c　가게 되면 안부 좀 전해 주게나．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 小太郎=코타로"
  },
  "ZROUP02:33b8c": {
   "src_hash": "2ceddf4fe2ec",
   "ko": "코타로^c　어제 시부카와로 이사 간 동생한테서 편지가 왔어．^c　아주 잘 지내는 모양이라 한시름 놓았지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33c04": {
   "src_hash": "52d3d495f699",
   "ko": "토요키치^c　어버버버…………저，저는^c　검술 미인 씨의 팬이에요！^c　이，이거 받아 주세요！",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 豊吉=토요키치. 剣術小町=검술 미인"
  },
  "ZROUP02:33c6c": {
   "src_hash": "a85ed6ba145f",
   "ko": "c6카미야 카오루・３c7 그림책을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33c94": {
   "src_hash": "388261adc5b8",
   "ko": "카오루^c　고마워．^c　다음엔 도장에도 놀러 와．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33ccc": {
   "src_hash": "478a8a8cb1ef",
   "ko": "토요키치^c　……………………화끈＠",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33cec": {
   "src_hash": "6c3193e90868",
   "ko": "토요키치^c　저，저，저 이번에 카미야 도장에 놀러 가요．두근두근하네．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33d3c": {
   "src_hash": "097f095874cc",
   "ko": "요시아키^c　상대가 잔챙이라면 언제든 도망칠 수 있어．^c　못 당하겠다 싶으면 도망치는 것도 병법이지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 良彰=요시아키"
  },
  "ZROUP02:33dac": {
   "src_hash": "293b0d027987",
   "ko": "타케시^c　맹수에게는 일반 기술이 잘 안 통하니 필살기는 익혀 둬서 손해 볼 게 없어요．^c　하긴 곰 같은 건 둘 다 잘 안 통하지만요．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 剛史=타케시"
  },
  "ZROUP02:33e30": {
   "src_hash": "04bdb6a00421",
   "ko": "요시히토^c　잔챙이와의 전투는 동료가 전원 쓰러질 때까지 패배가 되지 않으니，^c　도망치는 건 무사도에 어긋난다！^c　……하는 강직한 분도 안심하세요．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 良仁=요시히토"
  },
  "ZROUP02:33ec4": {
   "src_hash": "2a4d28aabeb3",
   "ko": "토요키치^c　얼마 전에 검술 미인 씨한테 연습 지도를 받았어요．^c　정말 아름다운 분이라 그만 반해 버렸어요．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33f40": {
   "src_hash": "c73021b4adf3",
   "ko": "토요키치^c　아아，또 만나고 싶다……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33f68": {
   "src_hash": "b50b222fe644",
   "ko": "아야메^c　늘 고마워．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33f88": {
   "src_hash": "e4844fa94f8f",
   "ko": "스즈메^c　늘 고마워！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33fa8": {
   "src_hash": "86f6c93f2eae",
   "ko": "마에카와^c　무슨 볼일인가？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33fc0": {
   "src_hash": "296d77ca9399",
   "ko": "마에카와^c　누가 수련하겠나？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33fe0": {
   "src_hash": "ea248f4a3fe1",
   "ko": "마에카와^c　그럼 시작하지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:33ffc": {
   "src_hash": "ec280b0ef5d3",
   "ko": "마에카와^c　알겠네．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:34010": {
   "src_hash": "a43112cf84ce",
   "ko": "마에카와^c　수고했네．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:34024": {
   "src_hash": "865cca5bbdb8",
   "ko": "마에카와^c　그럼 설명하겠네．^c　화면 밖에서 도장생들이 잇달아 나타나 공격해 온다．^c　그들은 도복 색에 따라 공격 방법이 달라서 c2초록c7 도복은 c2상단c7，c5분홍c7 도복은 c5중단c7，c3파랑c7 도복은 c3하단c7 공격을 해 온다．^c　이에 맞서 이쪽은 적이 멈춰 선 순간에 c2△c7 버튼으로 c2상단c7，c5□c7 버튼으로 c5중단c7，c3×c7 버튼으로 c3하단c7 공격을 할 수 있다．^c　이 도장에서는 c6하단 필살기c7 수련을 할 수 있다．^c　c2상단c7 공격에는 c3하단c7을，c5중단c7 공격에는 c5중단c7을，c3하단c7 공격에는 c3하단c7을 내는 걸세．^c　알겠나？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:34260": {
   "src_hash": "b1393fe76cb4",
   "ko": "마에카와^c　오，카오루 씨，오랜만이군．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:34284": {
   "src_hash": "cdcddb661a21",
   "ko": "카오루^c　오랜만이에요，마에카와 선생님．^c",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:342a8": {
   "src_hash": "307c48fe0552",
   "ko": "카오루^c　여긴 마에카와 도장이야．^c　늘 여기로 출장 연습을 와．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:342e8": {
   "src_hash": "47fb404d9d28",
   "ko": "마에카와^c　그쪽은？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:342fc": {
   "src_hash": "3df07e615b40",
   "ko": "카오루^c　인연이 있어서 지금 저희 도장에 머물고 있어요．^c",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:34334": {
   "src_hash": "57f8c4d04081",
   "ko": "마에카와^c　오늘은 연습하러 왔나？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:34350": {
   "src_hash": "80361e1dbbc9",
   "ko": "카오루^c　지금 이런저런 일이 있어서 여러 곳을 돌아다니고 있어서，인사드리러 왔어요．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:343b0": {
   "src_hash": "72dd92927d4d",
   "ko": "마에카와^c　그런가……．^c　그럼 각지에 있는 내 지인들 도장에 연락해 둘 테니 찾아가 보게．^c　언제든 수련할 수 있도록 해 두겠네．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:34448": {
   "src_hash": "8cc2d5f830a2",
   "ko": "카오루^c　감사합니다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:34468": {
   "src_hash": "af8568689873",
   "ko": "마에카와^c　물론 여기서도 수련할 수 있네．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:34494": {
   "src_hash": "df9f530bd488",
   "ko": "카오루^c　연습하고 있을 때가 아니야！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP02:344b8": {
   "src_hash": "db5c381f8398",
   "ko": "^4c7치료받는다^Cc9카미츠메 마을에 대해 묻는다^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": "가로 메뉴: 원문 폭 안에 들도록 축약(줄바꿈 삽입 금지)"
  },
  "ZROUP02:344ec": {
   "src_hash": "2433e1c30bfb",
   "ko": "^4c9치료받는다^Cc7카미츠메 마을에 대해 묻는다^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": "가로 메뉴: 원문 폭 안에 들도록 축약(줄바꿈 삽입 금지)"
  }
 }

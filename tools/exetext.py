@@ -124,7 +124,7 @@ def apply(main, texts, glyphs):
     # strings: first-fit, longest first, identical strings shared
     final = {sid: texts.get(sid, raw) for sid, raw in strings(main)}
     where = {}
-    for raw in sorted(set(final.values()), key=len, reverse=True):
+    for raw in sorted(set(final.values()), key=lambda r: (-len(r), r)):  # ties by bytes: same output every run
         where[raw] = alloc(len(raw) + 1)
         m[where[raw] - BASE:where[raw] - BASE + len(raw)] = raw
     for name, at, n, _ in TABLES:

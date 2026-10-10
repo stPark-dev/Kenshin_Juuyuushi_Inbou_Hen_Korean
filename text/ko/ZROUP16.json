@@ -2,565 +2,565 @@
  "ZROUP16:28aa4": {
   "src_hash": "7b8445403dbe",
   "ko": "^4c7예^Cc9아니오^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28abc": {
   "src_hash": "9ace0547ddbf",
   "ko": "^4c9예^Cc7아니오^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28ad4": {
   "src_hash": "7b8445403dbe",
   "ko": "^4c7예^Cc9아니오^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28aec": {
   "src_hash": "9ace0547ddbf",
   "ko": "^4c9예^Cc7아니오^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28b04": {
   "src_hash": "41c35702ded9",
   "ko": "^4　닌자 저택^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28b14": {
   "src_hash": "ee47c157e6ab",
   "ko": "^4닌자저택・이층^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": "칸 제한(참조 없음): 닌자 저택의 띄어쓰기 생략"
  },
  "ZROUP16:28b28": {
   "src_hash": "14dd355da543",
   "ko": "^4동굴^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28b34": {
   "src_hash": "91d70d7d874d",
   "ko": "^4　미호 계곡^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 美浦=미호 (지도 표지, 독음 미확인: 미우라 가능)"
  },
  "ZROUP16:28b48": {
   "src_hash": "6032628b2dee",
   "ko": "^4닌자저택・지하^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": "칸 제한(참조 없음): 닌자 저택의 띄어쓰기 생략"
  },
  "ZROUP16:28b5c": {
   "src_hash": "218035c2c695",
   "ko": "스위치가 있습니다．^c레버를 움직이겠습니까？^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28b8c": {
   "src_hash": "734a23cdee40",
   "ko": "사노스케^c　갇혔다고！？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28bac": {
   "src_hash": "018fa70d2634",
   "ko": "야히코^c　젠장，내보내라！！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28bcc": {
   "src_hash": "c268e7deb884",
   "ko": "시노^c　저는 쿠노이치 시노．^c　이 방은 저와 이 라이타를 쓰러뜨리기 전에는 열리지 않습니다．^c　앞으로 가고 싶다면 싸우세요！",
-  "status": "draft",
+  "status": "reviewed",
   "note": "NEW NAME: 紫乃=시노. 쿠노이치=여자 닌자"
  },
  "ZROUP16:28c50": {
   "src_hash": "473f4148ff3d",
   "ko": "청년^c　거기까지！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28c64": {
   "src_hash": "a646830ef7d5",
   "ko": "시노^c　옛！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28c74": {
   "src_hash": "ac972f1d7b95",
   "ko": "야히코^c　으으……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28c88": {
   "src_hash": "0827e8f7a7af",
   "ko": "청년^c　그대들에게 묻겠다．^c　그대들은 무엇을 위해 싸우는가？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28cc4": {
   "src_hash": "0a13b61567b1",
   "ko": "카오루^c　어……뭐？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28cd8": {
   "src_hash": "c924f976cd8e",
   "ko": "청년^c　어째서 우리 신 십용사와 맞서는 것이냐．우리를 악이라고 판단한 끝의 일인가？^c　실제로 난리의 악행을 알면서，^c　어째서 그자의 편을 드는 것이냐．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28d60": {
   "src_hash": "2a9e3b68ee05",
   "ko": "야히코^c　딱히 난리라는 녀석 편을 든 적은 없어．^c　만난 적도 없고．^c　하지만 너희가 하는 짓은 절대로 정의가 아니야！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28df0": {
   "src_hash": "d778853c54e5",
   "ko": "청년^c　우리는 그저，우리가 본래 살던 세상을 되찾고 싶을 뿐이다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28e38": {
   "src_hash": "1899efe70ca3",
   "ko": "사노스케^c　본래 살던 세상이라고？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28e58": {
   "src_hash": "8d2e11f35914",
   "ko": "청년^c　우리는 닌자다．^c　어둠 속에 숨어 지내면서도 이 나라의 모습에 분명히 영향을 끼쳐 왔다．^c　그런데 메이지 시대가 되자마자，^c　권력자들은 마치 우리를 오물처럼 깔보며 내치려 했다……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:28f28": {
   "src_hash": "7887d9f8bf35",
   "ko": "청년^c　숨은 마을은 습격당하고，^c　여자와 아이들이 많이 죽었다．^c　라이타는 그때 살아남은 아이지……．우리는 메이지 시대를 증오했다．^c　우리의 터전을 불태우고 쫓아낸 자들을 증오했다．^c　그리고 우리가 쌓은 평화 위에 태평하게 눌러앉은 무지한 백성들을 증오한 것이다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29024": {
   "src_hash": "88d1ec56210d",
   "ko": "켄신^c　……신 십용사란 궁지에 몰린 닌자들의 모임이란 말이오？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29070": {
   "src_hash": "a3d4f1ed70fb",
   "ko": "청년^c　물론 그렇지 않다．^c　난리 가문의 비망록을 보았겠지．^c　땅을 빼앗기고 자살한 것은 유리의 아버지다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:290dc": {
   "src_hash": "28355804846d",
   "ko": "사노스케^c　그 거만한 여자의！？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:290fc": {
   "src_hash": "39840926d48f",
   "ko": "청년^c　막부 말기에 활약한 지사도 있다．^c　폐불훼석을 계기로 방랑을 시작한 승려들도 있다．^c　우리는 모두 이 메이지 시대에서 튕겨 나온 어중간한 자들이다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29194": {
   "src_hash": "5cb2d40217d4",
   "ko": "카오루^c　그게……신 십용사．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:291b0": {
   "src_hash": "1a59d20b01cd",
   "ko": "청년^c　너는……카미츠메 사람인가．^c　그래，너희 마을은 성급히 날뛴 유리 일당에게 불탔었지．^c　미안하다．^c　너와는 서로 이해할 수 있을 것 같구나．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2924c": {
   "src_hash": "fb2ecb02a1a4",
   "ko": "청년^c　……그럴지도 모르지．^c　우리 동료가 너희를 습격한 것은 사실이다．^c　용서할 수 없겠지……．^c　솔직히 말하면 우리도 조금 지쳤다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:292e0": {
   "src_hash": "3df80836c8a1",
   "ko": "청년^c　우리는 그저，우리가 본래 살던 세상을 되찾고 싶었다．^c　그런데 어느새 싸움에 싸움이 이어지는 나날……．^c　다른 자들은 어떨지 몰라도，^c　우리가 바란 것은 이런 것이 아니다．^c　우리는 이곳을 떠나려 한다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:293d8": {
   "src_hash": "3f12e22c321c",
   "ko": "사노스케^c　정말이냐．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:293f0": {
   "src_hash": "f13190606017",
   "ko": "청년^c　그래，이렇게까지 뿔뿔이 흩어져서야 십용사라 할 수도 없지．^c　원한도 미움도 잊고 조용히 살아가자……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29460": {
   "src_hash": "351c24cceb43",
   "ko": "시노^c　저희도 따라가겠어요．^c　그렇지，라이타？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2949c": {
   "src_hash": "ec0a5b3227fa",
   "ko": "라이타^c　넷！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:294ac": {
   "src_hash": "be3e59110126",
   "ko": "청년^c　하지만 기억해 두어라．^c　남은 십용사는 순수한 분노와 원한으로 똘똘 뭉쳐 있다．^c　특히 수령인 사나다 님을 적으로 돌리면 마치 귀신을 상대하는 꼴이 되겠지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29558": {
   "src_hash": "7d2d5a996cd8",
   "ko": "사노스케^c　흥！^c　그딴 거 하나도 안 무서워．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29584": {
   "src_hash": "232375262cce",
   "ko": "청년^c　그런가……．^c　그렇다면 동쪽으로 가라．^c　마을 수호신 사당에 지하로 통하는 길이 있다．그럼，카미츠메 마을 사람이여．^c　무사하기를 빌겠다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29604": {
   "src_hash": "adecfc7a7c5c",
   "ko": "청년^c　……훗．^c　우리를 원망해 마땅한 너에게서 그런 말을 듣게 될 줄이야．^c　가슴에 와닿는구나……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29668": {
   "src_hash": "1d2dbc476e7d",
   "ko": "청년^c　우리는 그저，우리가 본래 살던 세상을 되찾고 싶었다．^c　그런데 어느새 싸움에 싸움이 이어지는 나날……．^c　다른 자들은 어떨지 몰라도，^c　우리가 바란 것은 이런 것이 아니다．^c　우리는 이곳을 떠나려 한다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29760": {
   "src_hash": "3f12e22c321c",
   "ko": "사노스케^c　정말이냐．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29778": {
   "src_hash": "5252084a18e3",
   "ko": "청년^c　그래，이렇게까지 뿔뿔이 흩어져서야 십용사라 할 수도 없지．^c　카미츠메 사람의 말대로，^c　원한도 미움도 잊고 조용히 살아가자……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29800": {
   "src_hash": "482d9ce47a63",
   "ko": "청년^c　그런가……고맙다．^c　그럼 떠나기 전에 본래 모습으로 돌아가 볼까．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29848": {
   "src_hash": "8c8cb9679fa9",
   "ko": "카오루^c　두，둔갑했어！？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29860": {
   "src_hash": "7211594b8eb8",
   "ko": "코키치^c　실례되는 소리 말게．^c　이것도 인술이라네．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29894": {
   "src_hash": "77cd5ccb4c06",
   "ko": "야히코^c　그래도 징그러워……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:298b8": {
   "src_hash": "476b28fdd36a",
   "ko": "코키치^c　뭐，괜찮겠지．^c　그보다 기억해 두게．^c　남은 십용사는 순수한 분노와 원한으로 똘똘 뭉쳐 있네．^c　특히 수령인 사나다 님을 적으로 돌리면 마치 귀신을 상대하는 꼴이 될 걸세．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29980": {
   "src_hash": "e6bd2dc6c05b",
   "ko": "코키치^c　그런가……．^c　그렇다면 동쪽으로 가게．^c　마을 수호신 사당에 지하로 통하는 길이 있네．그럼，카미츠메 마을 사람이여．^c　무사하기를 비네．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29a00": {
   "src_hash": "184980af439e",
   "ko": "청년^c　너는……카미츠메 사람인가．^c　그래，너희 마을은 성급히 날뛴 유리 일당에게 불탔었지．^c　화내는 것도 무리는 아니다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29a80": {
   "src_hash": "00a397960f0b",
   "ko": "청년^c　……그렇겠지．^c　우리도 이제 이런 생활에는 지쳐 가던 참이다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29ad4": {
   "src_hash": "96121b688fe6",
   "ko": "청년^c　우리는 그저，우리가 본래 살던 세상을 되찾고 싶었다．^c　우리와 같은 처지의 사람을 늘리고 싶었던 것은 아니다．^c　그런데 어느새 증오에 떠밀려 싸움으로 날을 지새우고 있었지……．^c　이제야말로 우리는 이곳을 떠나겠다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29bd0": {
   "src_hash": "3f12e22c321c",
   "ko": "사노스케^c　정말이냐．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29be8": {
   "src_hash": "f13190606017",
   "ko": "청년^c　그래，이렇게까지 뿔뿔이 흩어져서야 십용사라 할 수도 없지．^c　원한도 미움도 잊고 조용히 살아가자……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29c58": {
   "src_hash": "77807ab1ced0",
   "ko": "청년^c　호오，화내지 않는다……는 건가．^c　우리를 원망해 마땅한 너에게서 그런 말을 듣게 될 줄이야．^c　가슴에 와닿는구나……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29cd4": {
   "src_hash": "3aaf9b49c359",
   "ko": "사노스케^c　뭐야，네놈．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29cf0": {
   "src_hash": "1d713ecd6c7d",
   "ko": "청년^c　더 이상 손대는 것은 용서하지 않겠다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29d14": {
   "src_hash": "ac972f1d7b95",
   "ko": "야히코^c　으으……",
-  "status": "draft",
+  "status": "reviewed",
   "note": "칸 제한(참조 없음): 같은 대사의 기존 번역에서 끝 마침표만 생략"
  },
  "ZROUP16:29d28": {
   "src_hash": "5e96f8635ad9",
   "ko": "청년^c　으으……제，제법이군．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29d48": {
   "src_hash": "9a8b022e039d",
   "ko": "청년^c　하지만……그 힘은 무엇을 위한 것이냐．^c　그대들은 무엇을 위해 싸우는가？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29d90": {
   "src_hash": "321d30a694d5",
   "ko": "c6키쿠이치몬지c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29dac": {
   "src_hash": "b02ff0f05c23",
   "ko": "야히코^c　……그런데 그 유리라는 여자를 구해 준 영감은 어디로 간 거야？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29e04": {
   "src_hash": "7f9b56044fbf",
   "ko": "카오루^c　아까 그 남자……，^c　그 할아버지와 아는 사이일까？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29e44": {
   "src_hash": "f74327f99d80",
   "ko": "모두 회복했다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29e54": {
   "src_hash": "b60722da7836",
   "ko": "저장하겠습니까？^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29e68": {
   "src_hash": "fd42a11f4ac9",
   "ko": "c6마노c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29e80": {
   "src_hash": "1dad06922724",
   "ko": "c6녹백환c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29e9c": {
   "src_hash": "91b1af891607",
   "ko": "c6사슬 갑옷c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29eb8": {
   "src_hash": "4a43dd0082df",
   "ko": "c6손등 보호대c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29ed0": {
   "src_hash": "fd42a11f4ac9",
   "ko": "c6마노c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29ee8": {
   "src_hash": "a6801791413d",
   "ko": "c6석면 사슬옷c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29f08": {
   "src_hash": "559f9e091a62",
   "ko": "c6사자단c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": "아이템명: 원문 둘째 글자(머리카락)가 용어집 사자단 항목(수염)과 다름. 같은 아이템으로 보고 사자단 적용, 확인 필요"
  },
  "ZROUP16:29f24": {
   "src_hash": "d4d4e8dd1882",
   "ko": "c6호장단c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29f40": {
   "src_hash": "108ae40fef79",
   "ko": "c6목도・흑단c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29f60": {
   "src_hash": "882397d13214",
   "ko": "아무것도 들어 있지 않다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29f74": {
   "src_hash": "bdec0bc754ed",
   "ko": "c6청금석c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29f98": {
   "src_hash": "0abd1003b482",
   "ko": "c6녹백환c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29fc0": {
   "src_hash": "e1845a2661b0",
   "ko": "c6사슬 갑옷c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:29fe8": {
   "src_hash": "15b45eaa46e9",
   "ko": "c6손등 보호대c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a00c": {
   "src_hash": "bdec0bc754ed",
   "ko": "c6청금석c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a030": {
   "src_hash": "f776e00594dc",
   "ko": "c6석면 사슬옷c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a05c": {
   "src_hash": "f9d05673779f",
   "ko": "c6사자단c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "아이템명: 원문 둘째 글자(머리카락)가 용어집 사자단 항목(수염)과 다름. 같은 아이템으로 보고 사자단 적용, 확인 필요"
  },
  "ZROUP16:2a084": {
   "src_hash": "4ab64a3a9f0d",
   "ko": "c6호장단c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a0ac": {
   "src_hash": "6a611feb558c",
   "ko": "c6목도・흑단c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a0d8": {
   "src_hash": "dc57cb288e37",
   "ko": "이 꽃을 따 가겠습니까？^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a0f8": {
   "src_hash": "6503aa046a2f",
   "ko": "카오루^c　꽃이 피어 있어．^c　…………예쁘다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a128": {
   "src_hash": "a9d1ed1f7715",
   "ko": "카오루^c　많이 갖고 있어 봐야 소용없겠지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a158": {
   "src_hash": "8fe258cb480e",
   "ko": "c6꽃c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a170": {
   "src_hash": "bff91aaba2cd",
   "ko": "^4c7그래도 나쁜 짓이야．^Cc9그 마음은 잘 알아．^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a1ac": {
   "src_hash": "a58aaeb314e7",
   "ko": "^4c9그래도 나쁜 짓이야．^Cc7그 마음은 잘 알아．^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a1e8": {
   "src_hash": "97263ee79d52",
   "ko": "^4c7복수 말고도^c살아갈 방법이 있을 거야．^cc9너희와^c한통속이 될 생각은 없어．^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a240": {
   "src_hash": "d4353869996c",
   "ko": "^4c9복수 말고도^c살아갈 방법이 있을 거야．^cc7너희와^c한통속이 될 생각은 없어．^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a298": {
   "src_hash": "bc1861d827d2",
   "ko": "^4c7화난 게 아니야．^Cc9너희를 평생 용서 못 해．^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP16:2a2d4": {
   "src_hash": "018b043c9f8f",
   "ko": "^4c9화난 게 아니야．^Cc7너희를 평생 용서 못 해．^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  }
 }

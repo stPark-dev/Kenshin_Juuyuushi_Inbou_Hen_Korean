@@ -2,853 +2,853 @@
  "MAPCODE:801cafbd": {
   "src_hash": "b34fc1badc71",
   "ko": "켄신",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cafc8": {
   "src_hash": "78bf554ad063",
   "ko": "카오루",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cafd1": {
   "src_hash": "27869a9e02ef",
   "ko": "야히코",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cafdc": {
   "src_hash": "4e7dbe1fb4a0",
   "ko": "사노스케",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cafe9": {
   "src_hash": "0016846651d6",
   "ko": "사이토",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801caff2": {
   "src_hash": "bf5b5832cf8b",
   "ko": "아오시",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb20c": {
   "src_hash": "7900738feaf3",
   "ko": "원거리：카마이타치를 날린다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb227": {
   "src_hash": "e08d7ecce443",
   "ko": "상단：공중에서의 일격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb23c": {
   "src_hash": "d540d68034f0",
   "ko": "원거리：작렬탄을 던진다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb259": {
   "src_hash": "c09a2482c4d3",
   "ko": "반격：분신술로 피한다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb26c": {
   "src_hash": "e57a830ebad8",
   "ko": "난타：３연격 뒤 폭파",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb281": {
   "src_hash": "6d603c25eb69",
   "ko": "중단：고속 연속 공격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb294": {
   "src_hash": "95b5f8cc2f0c",
   "ko": "하단：뛰어올라 대공 공격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb2ad": {
   "src_hash": "5d62e5c0d380",
   "ko": "중단：상대 위에 올라 공격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb2c8": {
   "src_hash": "b6d055b00246",
   "ko": "궁극：분신 공격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb2d7": {
   "src_hash": "0cb205b35d53",
   "ko": "난타：분신술을 쓴 연격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb2f2": {
   "src_hash": "813f4df7f995",
   "ko": "중단：회전하며 연속 공격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb30d": {
   "src_hash": "659fcc20cb6f",
   "ko": "중단：상대 등 뒤로 돈다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb328": {
   "src_hash": "6c077b4c09a1",
   "ko": "난타：마구 베기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb337": {
   "src_hash": "4a205a82a07e",
   "ko": "원거리：땅을 달리는 돌팔매",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb352": {
   "src_hash": "229d2b11761d",
   "ko": "상단：공중에서 내려치기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb36d": {
   "src_hash": "02f00293833f",
   "ko": "하단：칼집 쓴 ２단 발도술",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb388": {
   "src_hash": "ecbc5e873590",
   "ko": "상단：칼집 쓴 ２단 발도술",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb3a3": {
   "src_hash": "b9da4aa13413",
   "ko": "원거리：칼을 쏘는 발도술",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb3c0": {
   "src_hash": "ff826ce82385",
   "ko": "하단：올려 치며 뛰어오른다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb3d9": {
   "src_hash": "1bc470110acf",
   "ko": "반격：회전하며 공격 회피",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb3f4": {
   "src_hash": "cab5969032a9",
   "ko": "중단：송곳 회전 공격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb407": {
   "src_hash": "f4af7a676b7b",
   "ko": "궁극：아홉 곳 동시 베기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb41e": {
   "src_hash": "98633bd852e4",
   "ko": "궁극：초신속 발도술",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb433": {
   "src_hash": "8bb80c8d713e",
   "ko": "중단：몸통 박치기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb442": {
   "src_hash": "cb80498e2947",
   "ko": "중단：강력한 몸통 박치기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb457": {
   "src_hash": "ccd51c0d8ee6",
   "ko": "중단：엇갈리며 몸통 치기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb472": {
   "src_hash": "c2c49544f37f",
   "ko": "상단：엇갈리며 머리 치기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb48d": {
   "src_hash": "02433a2ac5bf",
   "ko": "반격：흘려 넘기고 찌르기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb4aa": {
   "src_hash": "f99b272e55a2",
   "ko": "하단：올려 치기와 내려치기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb4c5": {
   "src_hash": "49bf43f27c83",
   "ko": "궁극：칼자루로 치는 궁극기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb4dc": {
   "src_hash": "983330f6db2e",
   "ko": "궁극：야히코가 만든 궁극기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb4f3": {
   "src_hash": "6fec0234870d",
   "ko": "난타：야히코가 만든 난타기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb50a": {
   "src_hash": "8a2d1caf8712",
   "ko": "난타：적에게서 배운 기술",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb521": {
   "src_hash": "8a2d1caf8712",
   "ko": "난타：적에게서 배운 기술",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb538": {
   "src_hash": "aa08cd97318c",
   "ko": "중단：적에게서 배운 기술",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb54f": {
   "src_hash": "fa44628f608e",
   "ko": "난타：강력한 난타기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb562": {
   "src_hash": "263798c729fc",
   "ko": "중단：연속 몸통 박치기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb575": {
   "src_hash": "28eeb9166ddd",
   "ko": "하단：모래기둥과 발차기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb590": {
   "src_hash": "5abfa9549769",
   "ko": "하단：상대를 공중에 띄운다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb5ad": {
   "src_hash": "e9dfd3b14f55",
   "ko": "반격：공격을 몸으로 받는다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb5c8": {
   "src_hash": "11e64f669002",
   "ko": "중단：전력의 정권 일격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb5df": {
   "src_hash": "6f33b7bc1df0",
   "ko": "난타：연속으로 때린다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb5f0": {
   "src_hash": "ead707666dc8",
   "ko": "궁극：무엇이든 분쇄한다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb607": {
   "src_hash": "8a42e5db93f0",
   "ko": "궁극：이중의 극 상위 기술",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb620": {
   "src_hash": "0a78fa21ab0b",
   "ko": "반격：잔상을 남기며 공격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb639": {
   "src_hash": "70f6750df6e7",
   "ko": "난타：베고 아돌로 마무리",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb656": {
   "src_hash": "0f86a56c9ffe",
   "ko": "궁극：영거리 사정의 아돌",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb66d": {
   "src_hash": "17dfd88f1c2e",
   "ko": "중단：사이토의 대표 찌르기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb688": {
   "src_hash": "db2cba4bcdcc",
   "ko": "상단：비스듬히 찌르는 아돌",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb6a3": {
   "src_hash": "354de01448ea",
   "ko": "하단：일명 대공 아돌",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb6ba": {
   "src_hash": "917481951750",
   "ko": "반격：소태도로 흘려 넘긴다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb6d1": {
   "src_hash": "f57963d7ada8",
   "ko": "난타：좌우 동시 연속 공격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb6ea": {
   "src_hash": "519171fb805f",
   "ko": "중단：종횡 동시 공격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb6fd": {
   "src_hash": "59fe167dd1eb",
   "ko": "난타：연타로 몰아붙여 강타",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb718": {
   "src_hash": "9d1470de1116",
   "ko": "하단：회전하며 ３연격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb733": {
   "src_hash": "6dcedc268e50",
   "ko": "궁극：이도류 최강 ６연참",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb750": {
   "src_hash": "8c90e78eb56d",
   "ko": "중단：좌우 동시 공격",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb763": {
   "src_hash": "f8abc635b12c",
   "ko": "상단：켄신에게 배운 자기류",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb780": {
   "src_hash": "4425a174c041",
   "ko": "하단：켄신에게 배운 자기류",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb79d": {
   "src_hash": "4177e0b95776",
   "ko": "반격：켄신에게 배운 자기류",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb7ba": {
   "src_hash": "bf7035d0d411",
   "ko": "하단：칼을 맞부딪쳐 절단",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb7d5": {
   "src_hash": "92f74f28c09d",
   "ko": "중단：원을 그리며 쳐낸다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb7ee": {
   "src_hash": "d9aaf77c4977",
   "ko": "난타：연속으로 머리를 친다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb809": {
   "src_hash": "eb768655d966",
   "ko": "하단：내려치고 찌른다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb820": {
   "src_hash": "212a09905299",
   "ko": "상단：무기를 짚고 공중으로",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb9c0": {
   "src_hash": "229db38182f6",
   "ko": "전",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb9c3": {
   "src_hash": "08aa298deb11",
   "ko": "단",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb9c6": {
   "src_hash": "b0ad51e820eb",
   "ko": "체력",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb9cb": {
   "src_hash": "d7857bdba32b",
   "ko": "기력",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb9d0": {
   "src_hash": "348087d9e3a4",
   "ko": "도　구",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb9d7": {
   "src_hash": "7002a5f9f978",
   "ko": "전　력",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb9de": {
   "src_hash": "839c397ff647",
   "ko": "순　서",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb9e5": {
   "src_hash": "a5297f1cbb0e",
   "ko": "설　정",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb9ec": {
   "src_hash": "66f2f1ec9ca4",
   "ko": "기　록",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb9f3": {
   "src_hash": "09a63b32cd72",
   "ko": "저　장",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cb9fa": {
   "src_hash": "5397a186bbde",
   "ko": "로　드",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba01": {
   "src_hash": "3a7048749959",
   "ko": "로 선택・방향키로 순서 변경",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba20": {
   "src_hash": "abff63290fe6",
   "ko": "일반　　중요",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba2d": {
   "src_hash": "100ed3e172c1",
   "ko": "장　비",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba34": {
   "src_hash": "200315a7c456",
   "ko": "필살기",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba3b": {
   "src_hash": "9ac00e5a33ac",
   "ko": "공",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba3e": {
   "src_hash": "2c419469697d",
   "ko": "방",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba41": {
   "src_hash": "0410e82b948f",
   "ko": "속",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba44": {
   "src_hash": "cc9df0b5c6a2",
   "ko": "경험",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba49": {
   "src_hash": "60acaf80a466",
   "ko": "다음",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba4e": {
   "src_hash": "d26279fd16bc",
   "ko": "슬롯１",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba59": {
   "src_hash": "e3baafbe1769",
   "ko": "슬롯２",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba64": {
   "src_hash": "768cb98cfdae",
   "ko": "메모리 카드 확인 중",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba81": {
   "src_hash": "f62f93285fe0",
   "ko": "파일 확인 중",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cba98": {
   "src_hash": "44714e45601e",
   "ko": "메모리 카드가 없습니다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbab3": {
   "src_hash": "adb7e8240a98",
   "ko": "메모리 카드가 포맷되지",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbad0": {
   "src_hash": "3016a1c7c2d2",
   "ko": "않았습니다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbadf": {
   "src_hash": "c89b1ce1f4ba",
   "ko": "포맷하시겠습니까？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbaf6": {
   "src_hash": "398ba28da04b",
   "ko": "예",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbafb": {
   "src_hash": "7e3865de42a5",
   "ko": "아니오",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbb02": {
   "src_hash": "f1c198c9b257",
   "ko": "포맷하고 있습니다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbb19": {
   "src_hash": "c7222a143865",
   "ko": "메모리 카드를 빼지 마십시오",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbb3c": {
   "src_hash": "42668ee837a1",
   "ko": "다른 소프트가 사용 중",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbb59": {
   "src_hash": "b3a17f9f56e7",
   "ko": "데이터가 없습니다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbb6c": {
   "src_hash": "b1ef97617395",
   "ko": "로 삭제",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbb75": {
   "src_hash": "73024032ca09",
   "ko": "데이터를 덮어씁니다　　　　예",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbb96": {
   "src_hash": "40e721a56b0f",
   "ko": "괜찮습니까？　　　　　　　　아니오",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbbb9": {
   "src_hash": "642ac6971c3b",
   "ko": "메모리 카드가 교체되었습니다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbbd8": {
   "src_hash": "81eeb9e62fa3",
   "ko": "데이터 저장 중",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbbef": {
   "src_hash": "459541dc098f",
   "ko": "데이터 불러오는 중",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbc08": {
   "src_hash": "77ef5d489223",
   "ko": "저장에 실패했습니다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbc1f": {
   "src_hash": "ecc1b3511714",
   "ko": "로드에 실패했습니다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbc36": {
   "src_hash": "d624b7de9169",
   "ko": "문자 사전 준비 중",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbe07": {
   "src_hash": "78ee66d67ed7",
   "ko": "　　　　　　　　　　　　　　예",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbe28": {
   "src_hash": "375b7fcfe024",
   "ko": "이 이름으로 할까요？　　　아니오",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbe68": {
   "src_hash": "923bfcc132c9",
   "ko": "　：입력・변환 결정",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbe81": {
   "src_hash": "3e72587100b0",
   "ko": "　：삭제・변환 취소",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbe9e": {
   "src_hash": "1e6a3ef4bbf7",
   "ko": "　：변환・다음 후보",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbeb5": {
   "src_hash": "468add836cbe",
   "ko": "　：무변환",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbec0": {
   "src_hash": "2caccbf21f33",
   "ko": "　　：문자 종류 전환",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbedb": {
   "src_hash": "06c82f7f5ba6",
   "ko": "소지수",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbee2": {
   "src_hash": "e93327b4e07d",
   "ko": "구　입",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbee9": {
   "src_hash": "c75c23225730",
   "ko": "판　매",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbef0": {
   "src_hash": "e6b86c0798c7",
   "ko": "덤",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbef7": {
   "src_hash": "54bbf31f4191",
   "ko": "구입수",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbefe": {
   "src_hash": "e4c513e11921",
   "ko": "계",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbf04": {
   "src_hash": "2a0179ef1e48",
   "ko": "판매수",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbf0b": {
   "src_hash": "52722cd06c68",
   "ko": "무기점",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbf12": {
   "src_hash": "2506d251c056",
   "ko": "도구점",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbf19": {
   "src_hash": "333cf3d4fef5",
   "ko": "저장을 마쳤습니다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbf2c": {
   "src_hash": "1a23bcdab704",
   "ko": "돈",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbf2f": {
   "src_hash": "f7d290ab843e",
   "ko": "클리어 후의 세이브 데이터는，",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbf50": {
   "src_hash": "119ea059ed4d",
   "ko": "타이틀 화면에서 로드하십시오",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbf71": {
   "src_hash": "eb9aa4ae1fdb",
   "ko": "다른 소프트가 사용 중이라",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbf8e": {
   "src_hash": "679235bb79a1",
   "ko": "빈 블록이 없습니다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbfa7": {
   "src_hash": "e8b7cc090a43",
   "ko": "기존 데이터 덮어쓰기는 되지만",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbfc8": {
   "src_hash": "bfa1b61e46a4",
   "ko": "새 데이터는 못 만듭니다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cbfe5": {
   "src_hash": "40c27ee4b88b",
   "ko": "메모리 카드에 데이터를",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cc006": {
   "src_hash": "6a986e7cc90c",
   "ko": "만들지 못합니다",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801cc028": {
   "src_hash": "6f80d077b007",
   "ko": "장비 불가",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "MAPCODE:801dd3d2": {
   "src_hash": "a3858c631ddf",
   "ko": "주인공을 선택하십시오",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  }
 }

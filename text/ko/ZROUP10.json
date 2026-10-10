@@ -2,1189 +2,1189 @@
  "ZROUP10:2cf60": {
   "src_hash": "7b8445403dbe",
   "ko": "^4c7예^Cc9아니오^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2cf78": {
   "src_hash": "9ace0547ddbf",
   "ko": "^4c9예^Cc7아니오^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2cf90": {
   "src_hash": "7b8445403dbe",
   "ko": "^4c7예^Cc9아니오^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2cfa8": {
   "src_hash": "9ace0547ddbf",
   "ko": "^4c9예^Cc7아니오^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2cfc0": {
   "src_hash": "f74327f99d80",
   "ko": "모두 회복했다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2cfd0": {
   "src_hash": "b60722da7836",
   "ko": "저장하겠습니까？^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2cfe4": {
   "src_hash": "247d90a2bbf9",
   "ko": "^4c7^N^!c9카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d020": {
   "src_hash": "3d161548449b",
   "ko": "^4c9^N^!c7카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d05c": {
   "src_hash": "556198ebc4ee",
   "ko": "^4c9^N^!c9카미야　카오루^cc7묘진　야히코^cc9설명을 듣는다^cc9그만둔다^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d098": {
   "src_hash": "ae5e6d646981",
   "ko": "^4c9^N^!c9카미야　카오루^cc9묘진　야히코^cc7설명을 듣는다^cc9그만둔다^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d0d4": {
   "src_hash": "40e614e22b2c",
   "ko": "^4c9^N^!c9카미야　카오루^cc9묘진　야히코^cc9설명을 듣는다^cc7그만둔다^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d110": {
   "src_hash": "bc66fb6a25b5",
   "ko": "성",
-  "status": "draft",
+  "status": "reviewed",
   "note": "참조 없는 한 글자 문자열(성스러울 성). 쓰임새 미확인"
  },
  "ZROUP10:2d114": {
   "src_hash": "e10ad2a08bdd",
   "ko": "텐구^c　당장 이곳을 떠나거라．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d13c": {
   "src_hash": "339cb7934b11",
   "ko": "텐구^c　그러지 않으면 죽음보다 끔찍한 일을 당하게 될 것이니라．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d17c": {
   "src_hash": "a051ce5f18a9",
   "ko": "세이신^c　이곳은 수행을 쌓는 영산입니다．^c　상관없는 속세 분들은 돌아가 주십시오．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d1cc": {
   "src_hash": "03bbb3b36806",
   "ko": "세이신^c　수행에 방해가 됩니다．^c　돌아가 주십시오．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d1fc": {
   "src_hash": "70dd0b609ca0",
   "ko": "자물쇠가 잠겨 있다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d210": {
   "src_hash": "cb067e5f480b",
   "ko": "야히코^c　아까 그 열쇠를 써 볼까？^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d238": {
   "src_hash": "43cd979973d8",
   "ko": "c6큰 열쇠c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d254": {
   "src_hash": "dc47af970dc7",
   "ko": "c6큰 열쇠c7를 되돌렸다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": "참조 없는 문자열, 칸 제한(31바이트)으로 보물 상자 생략"
  },
  "ZROUP10:2d274": {
   "src_hash": "43abaad0a4e2",
   "ko": "카오루^c　와아，예쁘다＠^c　이런 지하에 꽃이 피어 있다니．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d2b4": {
   "src_hash": "90c7fa87f6e3",
   "ko": "세이신^c　뭐，뭘 하고 있는 겁니까！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d2dc": {
   "src_hash": "0cd04d4cbf99",
   "ko": "카오루^c　앗……죄송해요．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d2fc": {
   "src_hash": "9d49b26fb359",
   "ko": "세이신^c　으으……．숨겨 둔 열쇠까지 찾아내서 이 지하 정원까지 들어오다니……．^c　살려서 돌려보낼 수는 없습니다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d37c": {
   "src_hash": "eb6a3fcaefc8",
   "ko": "사노스케^c　그 허둥대는 꼴……예사롭지 않은데．^c　이 꽃에 무슨 비밀이라도 있다는 거냐．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d3d4": {
   "src_hash": "7bc7c9d400cd",
   "ko": "세이신^c　무，무，무슨 그런！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d3f8": {
   "src_hash": "6476876ad959",
   "ko": "사노스케^c　정곡을 찔렀나 보군．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d410": {
   "src_hash": "4b9062a22282",
   "ko": "세이신^c　시，시끄러워！^c　덤벼라아아아아！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d444": {
   "src_hash": "c7985639d409",
   "ko": "세이신^c　으윽．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d458": {
   "src_hash": "abe646a4b6cd",
   "ko": "사노스케^c　이렇게까지 허둥대는 걸 보면，이 녀석도 네즈나 아나야마의 한패인가．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d4a4": {
   "src_hash": "d39c9ca1744d",
   "ko": "카오루^c　그건 그렇고，이 꽃밭이랑 대체 무슨 관계가 있다는 거야．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d4ec": {
   "src_hash": "422c270a915e",
   "ko": "사이토^c　글쎄．^c　그 녀석한테 직접 물어보면 되겠지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d524": {
   "src_hash": "5c8d37e57853",
   "ko": "아오시^c　글쎄．^c　그자에게 직접 물으면 된다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d554": {
   "src_hash": "de00afbdebf1",
   "ko": "사노스케^c　어이！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d568": {
   "src_hash": "73603ce974d5",
   "ko": "세이신^c　마，말 못 합니다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d584": {
   "src_hash": "194406bcef44",
   "ko": "사노스케^c　호오，^c　더 아픈 꼴을 당하고 싶다 이거지？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d5bc": {
   "src_hash": "e24cd5a1bd5c",
   "ko": "세이신^c　히이이익！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d5d0": {
   "src_hash": "fe778cc5823a",
   "ko": "세이신^c　마，말하겠습니다！^c　이，이 지하정원 꽃에는 환각 작용이 있습니다．^c　저，저희는 이 꽃을 재배하는 게 일입니다아．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d658": {
   "src_hash": "9dd17368a0d0",
   "ko": "카오루^c　뭐라고！？^c　그래서 이 꽃을 늘려서 어쩌려는 거야！？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d6a0": {
   "src_hash": "cac5cb4e05ff",
   "ko": "세이신^c　고，공장에 가져가서 가공해서……，순도가 더 높고 작용이 강한 약을 만든다고 합니다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d708": {
   "src_hash": "032f6330c4b5",
   "ko": "카오루^c　공장이라니，어디 있는데？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d728": {
   "src_hash": "dc35deee49d2",
   "ko": "세이신^c　힉！저，저는 모릅니다！^c　주인님이라면 분명 알고 계시겠지만……，^c　저는 모른다고요．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d7a0": {
   "src_hash": "6d3fbef775f7",
   "ko": "사노스케^c　주인이라고？^c　그 녀석，이 근처에 있냐？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d7d8": {
   "src_hash": "518acaea3cc2",
   "ko": "세이신^c　이，있고말고요！^c　이，이제 용서해 주십시오．^c　더는 말 못 합니다아．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d834": {
   "src_hash": "72c215430c52",
   "ko": "사이토^c　이 정도면 충분하군．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d848": {
   "src_hash": "5596360023c8",
   "ko": "아오시^c　충분하군．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d85c": {
   "src_hash": "639d1ea747aa",
   "ko": "사노스케^c　그럼 일단 꽃을 꺾어 가자고．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d88c": {
   "src_hash": "8cdac6f3dbc9",
   "ko": "사노스케^c　자，^c　그 주인님이라는 녀석을 찾으러 가 볼까．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d8c0": {
   "src_hash": "91aef42d5e1d",
   "ko": "사노스케^c　글쎄．만약을 위해 꽃을 꺾어 가져갈까？^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d8fc": {
   "src_hash": "254c97767160",
   "ko": "사노스케^c　옳거니．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d914": {
   "src_hash": "9fc2ddee0ff1",
   "ko": "c6지하정원 꽃c7을 꺾었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d930": {
   "src_hash": "a10d098e47b6",
   "ko": "야히코^c　바위가 움직여 있어．^c　녀석들 여기로 도망쳤군．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d96c": {
   "src_hash": "4c43cf690542",
   "ko": "덩치^c　뭐냐，네놈들은！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d98c": {
   "src_hash": "9d101f9e3a9c",
   "ko": "꼬마 사내^c　하하아，네즈가 말하던 게 네놈들이로군．^c　소승들 주변을 캐고 다니는 수상한 놈들！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2d9ec": {
   "src_hash": "ce6dbe4cf079",
   "ko": "야히코^c　그 중이 말하던 주인이라는 게 너로구나！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2da2c": {
   "src_hash": "c45ebae89390",
   "ko": "사노스케^c　네놈들 네즈의 한패지？^c　해괴한 꽃이나 키우고……，^c　대체 무슨 꿍꿍이냐！？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2da98": {
   "src_hash": "688722528312",
   "ko": "세이카이^c　크크큭……내 이름은 세이카이．^c　그리고 아우 이사다．^c　우리가 바라는 것은 우리가 살았던 시대를 다시 되찾는 것뿐．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2db18": {
   "src_hash": "2e77c4317eea",
   "ko": "사노스케^c　네놈들이 살았던 시대라고？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2db44": {
   "src_hash": "73f89db0931a",
   "ko": "이사^c　잡담은 끝이다！^c　간다，형님！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2db78": {
   "src_hash": "5727cafac9f2",
   "ko": "이사^c　누오오옷！^c　이……이 정도로오！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dbac": {
   "src_hash": "07a3ad5824be",
   "ko": "야히코^c　위험해！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dbc0": {
   "src_hash": "eea12eb45ded",
   "ko": "사이토^c　훗．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dbd0": {
   "src_hash": "f0efa295888a",
   "ko": "아오시^c　……………………．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dbec": {
   "src_hash": "40f1377b5b4e",
   "ko": "세이카이^c　그……그만둬라，이사！^c　네 거구가 이런 동굴 안에서 날뛰면……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dc48": {
   "src_hash": "12f6eb94189b",
   "ko": "이사^c　그오오오오옷！！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dc68": {
   "src_hash": "2b20ab3d03fb",
   "ko": "카오루^c　꺄악！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dc78": {
   "src_hash": "92a03e647c4b",
   "ko": "사노스케^c　이크！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dc8c": {
   "src_hash": "0e2179548677",
   "ko": "세이카이^c　진정해라，이사！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dca8": {
   "src_hash": "7bd82e99ebc0",
   "ko": "이사^c　가아아아아앗！！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dcc8": {
   "src_hash": "d6132276710b",
   "ko": "이사^c　우오옷！？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dce0": {
   "src_hash": "3779541472e0",
   "ko": "세이카이^c　이사아아아아！！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dcfc": {
   "src_hash": "05389346f4b0",
   "ko": "세이카이^c　이，이사…………멍청한 놈．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dd20": {
   "src_hash": "c6808bd89c0c",
   "ko": "세이카이^c　우리 십용사를 방해한 것을 반드시 후회하게 해 주마！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dd64": {
   "src_hash": "83c61f952f1f",
   "ko": "사노스케^c　놓칠까 보냐！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dd7c": {
   "src_hash": "5e8ec8a01b12",
   "ko": "세이카이^c　크크큭……기다리고 있었다．^c　이번에야말로 네놈들의 최후다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ddc4": {
   "src_hash": "3231306831cd",
   "ko": "세이카이^c　이대로라면 네놈들은 타 죽는다．아니，질식하는 게 먼저일지도 모르겠군．^c　어쨌든 우리를 쓰러뜨리지 못하면 네놈들에게 미래는 없다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2de50": {
   "src_hash": "fcccafc1e84a",
   "ko": "세이카이^c　큭……이，이길 수 없단 말인가……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2de78": {
   "src_hash": "a461d5883081",
   "ko": "세이카이^c　이젠 글렀다……^c　도，도망칠 수밖에……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dea8": {
   "src_hash": "ac748a18c77f",
   "ko": "세이카이^c　끄아아악！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dec0": {
   "src_hash": "ea72a17cb446",
   "ko": "사노스케^c　뭐야！？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ded8": {
   "src_hash": "eeea61933630",
   "ko": "야히코^c　누구 있냐！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2def0": {
   "src_hash": "38d5b806a558",
   "ko": "카오루^c　……기척이 없어．^c　누군지 모르겠지만 이미 사라진 것 같아．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2df40": {
   "src_hash": "1f05145595e2",
   "ko": "사노스케^c　쳇！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2df54": {
   "src_hash": "9f10f35e8a59",
   "ko": "아오시^c　……그 사내，세이카이……라고 했던가．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2df80": {
   "src_hash": "bd5e44145d25",
   "ko": "야히코^c　그래，그게 어쨌다는 거야．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dfa8": {
   "src_hash": "ac2daa04f766",
   "ko": "아오시^c　세이카이와 그 아우 이사……．^c　아나야마，그리고 네즈……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2dfe8": {
   "src_hash": "840e616a49e6",
   "ko": "카오루^c　잠깐！^c　그 이름，귀에 익어．^c　분명 사나다……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e02c": {
   "src_hash": "64efc4b53186",
   "ko": "아오시^c　그렇다．사나다 십용사……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e050": {
   "src_hash": "5b276a8c5f18",
   "ko": "사노스케^c　뭐라고오？^c　사나다 십용사라면 몇백 년 전 얘기잖아．^c　그런 녀석들이 이 메이지 시대에 있을 리가 없잖아！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e0d8": {
   "src_hash": "4a3a91ff8112",
   "ko": "야히코^c　그래도 그 녀석들……^c　“우리가 살았던 시대”를 되찾겠다고 했다고．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e130": {
   "src_hash": "211e15227149",
   "ko": "사노스케^c　쳇！^c　다시 전국 시대로 되돌아가겠다는 거냐．시시하긴．^c　그냥 우연일 게 뻔해．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e19c": {
   "src_hash": "bd2371229455",
   "ko": "아오시^c　……그렇다면 좋겠지만．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e1bc": {
   "src_hash": "fb0814c79717",
   "ko": "사이토^c　아까 그 녀석，세이카이라고 이름을 댔지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e1f0": {
   "src_hash": "bd5e44145d25",
   "ko": "야히코^c　그래，그게 어쨌다는 거야．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e218": {
   "src_hash": "b5e834d6d7de",
   "ko": "사이토^c　세이카이，이사，아나야마，^c　그리고 네즈……라．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e24c": {
   "src_hash": "840e616a49e6",
   "ko": "카오루^c　잠깐！^c　그 이름，귀에 익어．^c　분명 사나다……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e290": {
   "src_hash": "93f3a17372bd",
   "ko": "사이토^c　그래．^c　그 유명한 사나다 십용사의 이름이지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e2c4": {
   "src_hash": "5b276a8c5f18",
   "ko": "사노스케^c　뭐라고오？^c　사나다 십용사라면 몇백 년 전 얘기잖아．^c　그런 녀석들이 이 메이지 시대에 있을 리가 없잖아！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e34c": {
   "src_hash": "3b697a1ebee6",
   "ko": "야히코^c　그래도 그 녀석들……^c　”우리가 살았던 시대”를 되찾겠다고 했다고．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e3a4": {
   "src_hash": "211e15227149",
   "ko": "사노스케^c　쳇！^c　다시 전국 시대로 되돌아가겠다는 거냐．시시하긴．^c　그냥 우연일 게 뻔해．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e410": {
   "src_hash": "0a55e865c24e",
   "ko": "사이토^c　……그렇다면 다행이지만．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e438": {
   "src_hash": "578458c6da75",
   "ko": "야히코^c　뭔가 떨어져 있어．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e454": {
   "src_hash": "8cb38c43bf76",
   "ko": "c6부절 로２c7를 손에 넣었다！！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e478": {
   "src_hash": "5ce05f0582c9",
   "ko": "야히코^c　세이카이 일당의 부절이군．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e498": {
   "src_hash": "84a2b32dad71",
   "ko": "야히코^c　혹시 공장 위치가 적혀 있는 거 아냐！？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e4dc": {
   "src_hash": "af0f5cf68af4",
   "ko": "야히코^c　이거다！^c　시모츠마 마을이라는 데가 수상해．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e50c": {
   "src_hash": "a645429bdfb7",
   "ko": "사노스케^c　좋았어！^c　당장 가 보자고！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e540": {
   "src_hash": "0a68129b44d0",
   "ko": "사이토^c　이거야 원…………．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e560": {
   "src_hash": "f0efa295888a",
   "ko": "아오시^c　……………………．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e57c": {
   "src_hash": "a2cdf1402545",
   "ko": "^4　영산^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e588": {
   "src_hash": "774e8891cd95",
   "ko": "야히코^c　이제 이런 데 볼일 없어！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e5ac": {
   "src_hash": "34a3788ee5f0",
   "ko": "카오루^c　꽃을 가지고 돌아갈까？^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e5cc": {
   "src_hash": "bea1981d0a87",
   "ko": "카오루^c　꽤 깊은 산이네．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e5e8": {
   "src_hash": "d48277de5dce",
   "ko": "사노스케^c　얼른 출구를 찾는 게 좋겠군．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e620": {
   "src_hash": "6455b2ce6af6",
   "ko": "야히코^c　그래．다들 흩어져서 출구를 찾아보자．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e65c": {
   "src_hash": "2eaf8f18155f",
   "ko": "카오루^c　또 길을 잃었나 봐．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e680": {
   "src_hash": "db303660a0d4",
   "ko": "사노스케^c　그래．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e694": {
   "src_hash": "0e2fa302b601",
   "ko": "야히코^c　다들 흩어져서 출구를 찾아보자．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e6c8": {
   "src_hash": "7c1e2a3a86aa",
   "ko": "안지^c　…………옴！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e6e0": {
   "src_hash": "7c1e2a3a86aa",
   "ko": "안지^c　…………옴！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e6f8": {
   "src_hash": "7908f0abbecf",
   "ko": "안지^c　…………！？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e710": {
   "src_hash": "5bba67cd8627",
   "ko": "안지^c　……길 잃은 자인가？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e728": {
   "src_hash": "72f24fa73c6c",
   "ko": "안지^c　따라오너라．^c　숲을 빠져나가는 길을 알려 주마．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e760": {
   "src_hash": "c64ad97c9a69",
   "ko": "안지^c　이 숲에는 곰과 늑대가 나오기에 발을 들이는 자는 없다고 들었건만……．^c　아무래도 수행할 곳을 옮기는 편이 좋겠군．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e7ec": {
   "src_hash": "946283bf5b23",
   "ko": "안지^c　이 길로 곧장 가면 숲의 출구에 닿을 것이다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e828": {
   "src_hash": "51c8f448b666",
   "ko": "안지^c　조심해서 가거라……．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e844": {
   "src_hash": "f9ca4cf017e4",
   "ko": "야히코의 목소리^c　어어어어이！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e860": {
   "src_hash": "69121edabfd5",
   "ko": "야히코^c　^N！^c　이런 데 있었냐？",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e888": {
   "src_hash": "1bd00e5623e2",
   "ko": "야히코^c　^N！^c　겨우 찾았다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e8ac": {
   "src_hash": "16f384f459e2",
   "ko": "사노스케^c　아무리 기다려도 네가 안 돌아와서 찾고 있었다고．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e8f8": {
   "src_hash": "563a422cff13",
   "ko": "카오루^c　정말 걱정했단 말이야．^c　이제 길 잃지 마．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e934": {
   "src_hash": "1886b9ca6701",
   "ko": "사노스케^c　자，이런 숲에 오래 있을 필요 없지．^c　냉큼 빠져나가자고．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e97c": {
   "src_hash": "fa23a6bb147d",
   "ko": "카오루^c　그쪽이 출구구나．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e998": {
   "src_hash": "9b4be717f56a",
   "ko": "야히코^c　좋아！가자．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e9b4": {
   "src_hash": "980d7ff51dac",
   "ko": "아오시^c……………………．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e9d0": {
   "src_hash": "969f60ce4ade",
   "ko": "켄신^c그렇구려．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2e9e8": {
   "src_hash": "832979728994",
   "ko": "카오루^c　그쪽은 길을 잃을 것 같으니까 가지 말자．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ea20": {
   "src_hash": "d4d4e8dd1882",
   "ko": "c6호장단c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ea3c": {
   "src_hash": "3bccead84b97",
   "ko": "c6곰기름c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ea58": {
   "src_hash": "1b88f72606c4",
   "ko": "c6병법 비전서c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ea74": {
   "src_hash": "1b88f72606c4",
   "ko": "c6병법 비전서c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ea90": {
   "src_hash": "60326b9d5078",
   "ko": "c6여행 도구c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eab0": {
   "src_hash": "231c670cf09c",
   "ko": "c6애기똥풀c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eacc": {
   "src_hash": "1b88f72606c4",
   "ko": "c6병법 비전서c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eae8": {
   "src_hash": "231c670cf09c",
   "ko": "c6애기똥풀c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eb04": {
   "src_hash": "bf65a7e3d18e",
   "ko": "c6석면 외투c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eb20": {
   "src_hash": "439da501834d",
   "ko": "c6인단c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eb38": {
   "src_hash": "92496eaff8b0",
   "ko": "c6꿩의비름c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eb54": {
   "src_hash": "f83e130c932d",
   "ko": "c6우혁초c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eb70": {
   "src_hash": "4f13f327b69c",
   "ko": "c6팔각 목도c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eb8c": {
   "src_hash": "18e3c50678dc",
   "ko": "c6천초환c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eba8": {
   "src_hash": "315cc78c2a4a",
   "ko": "c6천문동c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ebc4": {
   "src_hash": "1f7f7e701dcb",
   "ko": "c6이마 가리개c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ebdc": {
   "src_hash": "fd42a11f4ac9",
   "ko": "c6마노c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ebf4": {
   "src_hash": "fd42a11f4ac9",
   "ko": "c6마노c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ec0c": {
   "src_hash": "1b88f72606c4",
   "ko": "c6병법 비전서c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ec28": {
   "src_hash": "fd42a11f4ac9",
   "ko": "c6마노c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ec40": {
   "src_hash": "15f36a6e6422",
   "ko": "c6자작나무목도c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ec60": {
   "src_hash": "9892098c4574",
   "ko": "c6병법 지남서c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ec7c": {
   "src_hash": "882397d13214",
   "ko": "아무것도 들어 있지 않다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ec90": {
   "src_hash": "4ab64a3a9f0d",
   "ko": "c6호장단c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ecb8": {
   "src_hash": "cde687b9107f",
   "ko": "c6곰기름c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ece0": {
   "src_hash": "43ba42ff0131",
   "ko": "c6병법 비전서c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ed08": {
   "src_hash": "43ba42ff0131",
   "ko": "c6병법 비전서c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ed30": {
   "src_hash": "2116a5c997fe",
   "ko": "c6여행 도구c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ed5c": {
   "src_hash": "7eb5a0ee9e3c",
   "ko": "c6애기똥풀c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ed84": {
   "src_hash": "43ba42ff0131",
   "ko": "c6병법 비전서c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2edac": {
   "src_hash": "7eb5a0ee9e3c",
   "ko": "c6애기똥풀c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2edd4": {
   "src_hash": "8e5a77289a94",
   "ko": "c6철사 외투c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2edfc": {
   "src_hash": "e00eb0a008b6",
   "ko": "c6인단c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ee20": {
   "src_hash": "c84094165ada",
   "ko": "c6꿩의비름c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ee48": {
   "src_hash": "e7b655b0635a",
   "ko": "c6우혁초c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ee70": {
   "src_hash": "b264bea4328d",
   "ko": "c6선봉의 칼c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ee98": {
   "src_hash": "80e1495924d7",
   "ko": "c6천초환c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eec0": {
   "src_hash": "63e73ca1843d",
   "ko": "c6천문동c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eee8": {
   "src_hash": "c8e404e36dae",
   "ko": "c6이마 가리개c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ef0c": {
   "src_hash": "9117ce82cd87",
   "ko": "c6마노c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ef30": {
   "src_hash": "9117ce82cd87",
   "ko": "c6마노c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ef54": {
   "src_hash": "43ba42ff0131",
   "ko": "c6병법 비전서c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2ef7c": {
   "src_hash": "9117ce82cd87",
   "ko": "c6마노c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2efa0": {
   "src_hash": "c0338ef8216e",
   "ko": "c6자작나무목도c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2efcc": {
   "src_hash": "55931b24c027",
   "ko": "c6병법 지남서c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2eff4": {
   "src_hash": "dc57cb288e37",
   "ko": "이 꽃을 따 가겠습니까？^s",
-  "status": "draft",
+  "status": "reviewed",
   "note": "동일 원문 표기 통일"
  },
  "ZROUP10:2f014": {
   "src_hash": "6503aa046a2f",
   "ko": "카오루^c　꽃이 피어 있어．^c　…………예쁘다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f044": {
   "src_hash": "a9d1ed1f7715",
   "ko": "카오루^c　많이 갖고 있어 봐야 소용없겠지．",
-  "status": "draft",
+  "status": "reviewed",
   "note": "동일 원문 표기 통일"
  },
  "ZROUP10:2f074": {
   "src_hash": "8fe258cb480e",
   "ko": "c6꽃c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f08c": {
   "src_hash": "37bfd0aec806",
   "ko": "c6임기응변부적c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f0ac": {
   "src_hash": "40fc907fccea",
   "ko": "c6임기응변부적c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f0d8": {
   "src_hash": "f83e130c932d",
   "ko": "c6우혁초c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f0f4": {
   "src_hash": "e7b655b0635a",
   "ko": "c6우혁초c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f11c": {
   "src_hash": "439da501834d",
   "ko": "c6인단c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f134": {
   "src_hash": "e00eb0a008b6",
   "ko": "c6인단c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f158": {
   "src_hash": "439da501834d",
   "ko": "c6인단c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f170": {
   "src_hash": "e00eb0a008b6",
   "ko": "c6인단c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f194": {
   "src_hash": "ee993db3f966",
   "ko": "c6행죽두c7를 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f1b0": {
   "src_hash": "a4a2efa0c9de",
   "ko": "c6행죽두c7는 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f1d8": {
   "src_hash": "37bfd0aec806",
   "ko": "c6임기응변부적c7을 손에 넣었다！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ZROUP10:2f1f8": {
   "src_hash": "40fc907fccea",
   "ko": "c6임기응변부적c7은 가득 차서 더 가질 수 없다．",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  }
 }

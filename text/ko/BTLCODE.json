@@ -2,145 +2,145 @@
  "BTLCODE:801e3fc4": {
   "src_hash": "73ef86ed729f",
   "ko": "완승！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e3fcb": {
   "src_hash": "511904a90f8c",
   "ko": "승리！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e3fd2": {
   "src_hash": "1b191929c1a1",
   "ko": "패배！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e3fd9": {
   "src_hash": "64a8499d88b6",
   "ko": "경험치",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e3fe0": {
   "src_hash": "70c6f69192ca",
   "ko": "　획득",
-  "status": "draft",
+  "status": "reviewed",
   "note": "사용자 지시(2026-10-09): 숫자 뒤 띄어쓰기, 칸(3자)에 맞춰 느낌표 생략"
  },
  "BTLCODE:801e3fe7": {
   "src_hash": "eedd8e62e17e",
   "ko": "단 승단",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e3ff0": {
   "src_hash": "b0ad51e820eb",
   "ko": "체력",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e3ff5": {
   "src_hash": "4a2d39ea0356",
   "ko": "공격력",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e3ffc": {
   "src_hash": "0c9582c0ab21",
   "ko": "방어력",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e4003": {
   "src_hash": "52a006baad29",
   "ko": "민첩도",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e400a": {
   "src_hash": "a2520975e575",
   "ko": "상승！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e4011": {
   "src_hash": "5f5c7974bbbb",
   "ko": "３연승",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e401a": {
   "src_hash": "b0f1d1d443ef",
   "ko": "４연승",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e4023": {
   "src_hash": "a51b046483f8",
   "ko": "５연승",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e402c": {
   "src_hash": "b23737b01dd5",
   "ko": "　습득！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e4039": {
   "src_hash": "a6202cec9357",
   "ko": "　획득！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e4048": {
   "src_hash": "fc77f51f6cb7",
   "ko": "성공！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801e404f": {
   "src_hash": "b012606bb0ed",
   "ko": "실패！",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801c7988": {
   "src_hash": "1372c4f604a8",
   "ko": "켄신",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801c7998": {
   "src_hash": "fa542bb85e5f",
   "ko": "카오루",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801c79a8": {
   "src_hash": "f545dd7a4ab4",
   "ko": "야히코",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801c79b8": {
   "src_hash": "4e7dbe1fb4a0",
   "ko": "사노스케",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801c79c8": {
   "src_hash": "108a5683f05f",
   "ko": "사이토",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "BTLCODE:801c79d8": {
   "src_hash": "bf5b5832cf8b",
   "ko": "아오시",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  }
 }

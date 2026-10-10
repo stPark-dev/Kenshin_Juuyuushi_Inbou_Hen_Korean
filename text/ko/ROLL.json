@@ -2,331 +2,331 @@
  "ROLL:002": {
   "src_hash": "e03b7c80da99",
   "ko": "원작　　{4:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:003": {
   "src_hash": "b0249a793cf2",
   "ko": "（{1:4}「주간　소년　점프」　연재）",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:006": {
   "src_hash": "abe419aa523e",
   "ko": "주제가　「１／２」",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:007": {
   "src_hash": "d92d80287240",
   "ko": "　작사・작곡・노래　　{10:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:010": {
   "src_hash": "923ac68988cb",
   "ko": "삽입곡　「일곱　빛깔　바람」",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:011": {
   "src_hash": "ac7729e977ba",
   "ko": "　　　　　　작사　　{8:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:012": {
   "src_hash": "1da21d523a39",
   "ko": "　작곡・편곡　　{8:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:013": {
   "src_hash": "85cb6915df34",
   "ko": "　　　　　　노래　　{8:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:020": {
   "src_hash": "653358955fba",
   "ko": "프로듀서",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:024": {
   "src_hash": "6cd5e5ddd95b",
   "ko": "디렉터",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:028": {
   "src_hash": "ab45ffd012a2",
   "ko": "음악　작곡",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:032": {
   "src_hash": "8a04e4000cd8",
   "ko": "음악　프로듀서",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:036": {
   "src_hash": "932caefce28a",
   "ko": "사운드　프로듀서",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:040": {
   "src_hash": "bc72e99dea0f",
   "ko": "사운드　어시스턴트　디렉터",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:044": {
   "src_hash": "a3b61a24ea47",
   "ko": "효과음＆프로그램",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:047": {
   "src_hash": "e8d776e21059",
   "ko": "효과음",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:053": {
   "src_hash": "ed7d8fc389a8",
   "ko": "프로모션",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:060": {
   "src_hash": "5ad4d5ca9c74",
   "ko": "디버그　팀",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:070": {
   "src_hash": "ee6c8207c5eb",
   "ko": "성우",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:072": {
   "src_hash": "8989e3862e45",
   "ko": "　히무라　켄신・・・・・・・{9:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:073": {
   "src_hash": "7dd973607294",
   "ko": "　카미야　카오루・・・・・{9:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:074": {
   "src_hash": "6b2f9ee0f389",
   "ko": "　사가라　사노스케・・・{9:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:075": {
   "src_hash": "6e6753adda4f",
   "ko": "　묘진　야히코・・・・・・・{9:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:076": {
   "src_hash": "984fd9cb16c5",
   "ko": "　시노모리　아오시・・・{9:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:077": {
   "src_hash": "84c0bf7e1872",
   "ko": "　사이토　하지메・・・・・{9:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:078": {
   "src_hash": "a3258aaf6326",
   "ko": "　사나다・・・・・・・・・・・・{9:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:079": {
   "src_hash": "de658c00d09d",
   "ko": "　주인공・・・・・・・・・・・・{9:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:086": {
   "src_hash": "5fb56d37d181",
   "ko": "녹음　연출",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:089": {
   "src_hash": "ef8226b96138",
   "ko": "음향　효과",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:092": {
   "src_hash": "d2f0c3a2b99e",
   "ko": "캐스팅　협력",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:098": {
   "src_hash": "83e4f7c3db6e",
   "ko": "녹음　스튜디오　{9:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:101": {
   "src_hash": "85b0e956a79b",
   "ko": "ＭＡ　스튜디오　{7:}",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:106": {
   "src_hash": "da28c8a3b2ac",
   "ko": "　디렉션",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:109": {
   "src_hash": "6c60d5dd8ecb",
   "ko": "　시나리오",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:112": {
   "src_hash": "aee09f2eb352",
   "ko": "　프로그램",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:116": {
   "src_hash": "6d7d07596058",
   "ko": "　기획",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:122": {
   "src_hash": "9ea7303c93b2",
   "ko": "　그래픽",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:143": {
   "src_hash": "d548140967d8",
   "ko": "　감수",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:147": {
   "src_hash": "bef5b73258e0",
   "ko": "애니메이션　파트",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:151": {
   "src_hash": "e705b3a4c3a2",
   "ko": "　연출",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:155": {
   "src_hash": "54f505e546ff",
   "ko": "　편집",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:158": {
   "src_hash": "4cc0a56e9fb9",
   "ko": "　원화",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:183": {
   "src_hash": "8df9a1ff9206",
   "ko": "동화　검사",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:186": {
   "src_hash": "f8adcf1c49b3",
   "ko": "동화",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:196": {
   "src_hash": "9102833c5662",
   "ko": "미술・배경",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:199": {
   "src_hash": "1f8a531ec62a",
   "ko": "색　지정",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:203": {
   "src_hash": "5378ba464ba9",
   "ko": "제작",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:211": {
   "src_hash": "20ae84bd70a7",
   "ko": "　제작　프로듀서",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:214": {
   "src_hash": "7147e98226c7",
   "ko": "　제작",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:217": {
   "src_hash": "ea2e1245664f",
   "ko": "　무비　오퍼레이터",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:223": {
   "src_hash": "a1320d419a7e",
   "ko": "　전투　오퍼레이터",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:237": {
   "src_hash": "a1320d419a7e",
   "ko": "　전투　오퍼레이터",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:245": {
   "src_hash": "ea2e1245664f",
   "ko": "　무비　오퍼레이터",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:275": {
   "src_hash": "cc0df43c5878",
   "ko": "설명서　제작",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  },
  "ROLL:308": {
   "src_hash": "b0865ee533d0",
   "ko": "총괄　프로듀서",
-  "status": "draft",
+  "status": "reviewed",
   "note": ""
  }
 }
