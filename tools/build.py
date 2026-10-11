@@ -244,14 +244,7 @@ def _sign_edits(raw, disc, assets):
     """{ZROUP GRP name: {entry index: packed MDT}} with the field signs redrawn."""
     grps = {n: grparc.parse(iso.read_file(raw, disc, n)) for n in sorted(disc.files)
             if n.startswith("ZROUP") and n.endswith(".GRP")}
-    sources = {}
-    for g in grps.values():
-        names = [e.name for e in g.entries]
-        for e in g.entries:
-            if e.name.endswith(".MDT") and e.name not in sources and e.name[:-1] + "S" in names:
-                mds = g.entries[names.index(e.name[:-1] + "S")].data
-                sources[e.name] = (bootlz.decode(e.data, 0)[0], bootlz.decode(mds, 0)[0])
-    refs, masks = fieldsign.load_refs(sources, assets.icon_fonts)
+    refs, masks = fieldsign.load_refs(fieldsign.load_sources(raw, disc), assets.icon_fonts)
     out = {}
     for n, g in grps.items():
         edits, _ = fieldsign.grp_edits(g, refs, masks, bootlz)

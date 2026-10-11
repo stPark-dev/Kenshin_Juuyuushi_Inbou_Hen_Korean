@@ -65,3 +65,25 @@ def test_t001_signs_redrawn(sources):
     # only the sign areas change
     diff = np.frombuffer(new, np.uint8) != np.frombuffer(mdt, np.uint8)
     assert 0 < diff.sum() < 4000
+
+
+def test_art_round_trip(sources, tmp_path):
+    """A picture of the Galmuri redraw, rescaled to an odd size, comes back as the same colours."""
+    import cv2
+    s = next(x for x in fieldsign.SIGNS if x.name == "jinrikisha")
+    mdt, mds = sources[s.ref]
+    ref = fieldsign.reference(s, mdt, mds)
+    rgb = fieldsign.ref_rgb(ref, mds)
+    art = ref.tpl.copy()
+    art[ref.core] = ref.tpl[0, 0]  # erase the strokes: a clearly different picture
+    pal = fieldsign.ref_rgb(fieldsign.Reference(s, art, ref.ink, ref.origin), mds)
+    big = cv2.resize(pal, (1000, 1000 * art.shape[0] // art.shape[1]), interpolation=cv2.INTER_NEAREST)
+    cv2.imwrite(str(tmp_path / "jinrikisha.png"), cv2.cvtColor(big, cv2.COLOR_RGB2BGR))
+    img = cv2.cvtColor(cv2.imread(str(tmp_path / "jinrikisha.png")), cv2.COLOR_BGR2RGB)
+    back = fieldsign.art_indices(ref, mds, img)
+    new = fieldsign.redraw_art(ref.tpl.copy(), ref, back, rgb)
+    x0, y0, x1, y1 = s.box
+    ox, oy = ref.origin
+    sl = (slice(y0 - oy, y1 - oy), slice(x0 - ox, x1 - ox))
+    got = fieldsign.ref_rgb(fieldsign.Reference(s, new, ref.ink, ref.origin), mds)[sl]
+    assert (got == pal[sl]).all()

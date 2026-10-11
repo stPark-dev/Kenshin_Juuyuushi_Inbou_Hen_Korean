@@ -20,9 +20,14 @@ Established 2026-10-10 (docs/survey.md §3.1.11):
 
 import struct
 from dataclasses import dataclass
+from pathlib import Path
 
 import cv2
 import numpy as np
+
+import bootlz
+import grparc
+import iso
 
 CLUT = 0x5584
 MATCH = 0.25  # structure mismatch accepted as the same sign
@@ -232,8 +237,56 @@ def glyph_mask(text, font, vertical, bold=False):
     return np.hstack(cols[:-1])
 
 
+def ref_rgb(ref, mds):
+    """RGB (0-255) of the reference window under its palette row."""
+    r = clut_rows(mds)[ref.sign.row]
+    return (np.stack([(r & 31), (r >> 5) & 31, (r >> 10) & 31], -1)[ref.tpl] * 8).astype(np.uint8)
+
+
+def art_indices(ref, mds, img):
+    """A redrawn picture of the reference window (RGB, any size: an upscaled export
+    edited elsewhere) as reference indices. It is scaled back to the window and each
+    pixel takes the nearest colour the window already uses, so no palette changes."""
+    h, w = ref.tpl.shape
+    k = 8  # each window pixel becomes k x k; the centre half of the cell votes
+    big = cv2.resize(img[..., :3].astype(np.float32), (w * k, h * k), interpolation=cv2.INTER_LINEAR)
+    r = clut_rows(mds)[ref.sign.row]
+    used = np.unique(ref.tpl)
+    pal = np.stack([(r & 31), (r >> 5) & 31, (r >> 10) & 31], -1)[used].astype(np.float32) * 8
+    near = np.argmin(((big[:, :, None, :] - pal[None, None]) ** 2).sum(-1), -1)
+    cells = near.reshape(h, k, w, k)[:, k // 4:-k // 4, :, k // 4:-k // 4].transpose(0, 2, 1, 3).reshape(h, w, -1)
+    votes = np.apply_along_axis(np.bincount, -1, cells, minlength=len(used))
+    return used[np.argmax(votes, -1)].astype(np.uint8)
+
+
+def redraw_art(win, ref, art, rgb):
+    """A copy `win` with the text box replaced by `art` (reference indices). Pixels the
+    art leaves as they were keep the copy's own values; the others take the copy index
+    that stands for that reference index here (or for its nearest colour)."""
+    back = {}
+    for a, b in zip(win.ravel().tolist(), ref.tpl.ravel().tolist()):
+        back.setdefault(b, {}).setdefault(a, 0)
+        back[b][a] += 1
+    back = {b: max(d, key=d.get) for b, d in back.items()}
+    col = {int(v): rgb[ref.tpl == v][0].astype(int) for v in np.unique(ref.tpl)}
+    out = win.copy()
+    x0, y0, x1, y1 = ref.sign.box
+    rx, ry = ref.origin
+    for y in range(y0 - ry, y1 - ry):
+        for x in range(x0 - rx, x1 - rx):
+            v = int(art[y, x])
+            if v == ref.tpl[y, x]:
+                continue
+            if v not in back:
+                v = min(back, key=lambda b: ((col[b] - col[v]) ** 2).sum())
+            out[y, x] = back[v]
+    return out
+
+
 def redraw(win, ref, mapping, text_mask, x, y):
     """New indices for a copy `win` found at (x, y) of its sheet (shape of ref.tpl)."""
+    if isinstance(text_mask, tuple):  # ("art", indices, rgb): a redrawn picture
+        return redraw_art(win, ref, text_mask[1], text_mask[2])
     to_ref = np.vectorize(lambda v: mapping.get(int(v), -1))(win)
     ink = ref.ink & (np.isin(to_ref, np.unique(ref.tpl[ref.ink])) | (to_ref == -1))
     tiles = _tiles(win.shape, x, y)
@@ -299,12 +352,39 @@ def apply(mdt, refs, masks):
     return bytes(d), found
 
 
-def load_refs(sources, fonts):
+ART = Path(__file__).resolve().parent.parent / "assets" / "signs"  # <name>.png: redrawn signs
+
+
+def load_sources(raw, disc):
+    """{map file name: (MDT, MDS)} (decoded) of every map on the disc, first copy of each name."""
+    sources = {}
+    for n in sorted(disc.files):
+        if not (n.startswith("ZROUP") and n.endswith(".GRP")):
+            continue
+        g = grparc.parse(iso.read_file(raw, disc, n))
+        names = [e.name for e in g.entries]
+        for e in g.entries:
+            if e.name.endswith(".MDT") and e.name not in sources and e.name[:-1] + "S" in names:
+                mds = g.entries[names.index(e.name[:-1] + "S")].data
+                sources[e.name] = (bootlz.decode(e.data, 0)[0], bootlz.decode(mds, 0)[0])
+    return sources
+
+
+def load_refs(sources, fonts, art_dir=ART):
     """References and text masks; sources: {map file name: (MDT bytes, MDS bytes)},
-    fonts: (Galmuri11-Bold, Galmuri9)."""
+    fonts: (Galmuri11-Bold, Galmuri9). A sign with a picture in art_dir uses it
+    (mask ("art", indices, rgb)) instead of the Galmuri text."""
     by_size = {11: fonts[0], 9: fonts[1]}
     refs = [reference(s, *sources[s.ref]) for s in SIGNS]
-    masks = {s.name: glyph_mask(s.text, by_size[s.font], s.vertical, s.bold) for s in SIGNS}
+    masks = {}
+    for s, ref in zip(SIGNS, refs):
+        p = Path(art_dir) / f"{s.name}.png" if art_dir else None
+        if p and p.is_file():
+            mds = sources[s.ref][1]
+            img = cv2.cvtColor(cv2.imread(str(p), cv2.IMREAD_COLOR), cv2.COLOR_BGR2RGB)
+            masks[s.name] = ("art", art_indices(ref, mds, img), ref_rgb(ref, mds))
+        else:
+            masks[s.name] = glyph_mask(s.text, by_size[s.font], s.vertical, s.bold)
     return refs, masks
 
 
