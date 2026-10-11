@@ -4,8 +4,8 @@
 
 플레이스테이션용 『るろうに剣心 -明治剣客浪漫譚- 十勇士陰謀編』(일본판, SCPS-10048)의 한글 패치 제작 프로젝트입니다.
 
-> **현재 상태: v1.0 배포 (검수 진행 중)**
-> 대사·메뉴·이름 입력·타이틀·영상 글자·필드 간판·엔딩 크레딧까지 한글화해 [v1.0을 배포](https://github.com/stPark-dev/Kenshin_Juuyuushi_Inbou_Hen_Korean/releases/tag/v1.0)했습니다. 다만 **검수가 아직 끝나지 않았습니다.** 제작자가 실제로 플레이하며 확인하는 중이라 오역·어색한 문장·화면 깨짐·진행 막힘이 남아 있을 수 있습니다. 발견하시면 [이슈](https://github.com/stPark-dev/Kenshin_Juuyuushi_Inbou_Hen_Korean/issues)나 [돈골's 한글팩 제보](https://hangul.dongolpack.workers.dev/reports/?resource=kenshin-juuyuushi)로 알려 주세요.
+> **현재 상태: v1.1 배포 (검수 진행 중)**
+> 대사·메뉴·이름 입력·타이틀·영상 글자·인물 소개 영상 자막·필드 간판·엔딩 크레딧까지 한글화해 [v1.1을 배포](https://github.com/stPark-dev/Kenshin_Juuyuushi_Inbou_Hen_Korean/releases/tag/v1.1)했습니다. v1.1에서 이름 입력을 음절 직접 입력으로 바꾸고(기본 이름 히지리·히카루), 인물 소개 영상에 자막을 넣었습니다. 다만 **검수가 아직 끝나지 않았습니다.** 제작자가 실제로 플레이하며 확인하는 중이라 오역·어색한 문장·화면 깨짐·진행 막힘이 남아 있을 수 있습니다. 발견하시면 [이슈](https://github.com/stPark-dev/Kenshin_Juuyuushi_Inbou_Hen_Korean/issues)나 [돈골's 한글팩 제보](https://hangul.dongolpack.workers.dev/reports/?resource=kenshin-juuyuushi)로 알려 주세요.
 
 ## 진행 상황
 
@@ -13,10 +13,11 @@
 |---|---|
 | 대사 (문자열 10,401개, 58개 장면) | 번역 완료 |
 | 메뉴·아이템·기술·전투 메시지 | 번역 완료 (D28·D29), 전투 명령 아이콘 (D31) |
-| 이름 입력 | 한글 입력 (D30) |
+| 이름 입력 | 일본 이름용 한글 음절 직접 입력, 기본 이름 히지리·히카루 (D39) |
 | 타이틀 로고·메뉴 | 완료 (D32·D33) |
 | 엔딩 크레딧 | 역할명·인물 이름 번역, 실제 인명·회사명 원문 (D34) |
 | 영상 글자 (오프닝 RU12, 전투 설명 RU13) | 완료 (D35) |
+| 인물 소개 영상 (RU01) 음성 자막 | 완료 (D38) |
 | 필드 간판 21종 | 완료 (D36) |
 | 원본 유지 | 저작권 표기, 전투 게이지 突 문양, 작은 등롱·깃발 |
 
@@ -51,7 +52,7 @@ python3 tools/build.py \
 배포 패키지(xdelta 패치, cue, 안내문, 글꼴 라이선스)는 다음으로 만듭니다. [xdelta3](https://github.com/jmacd/xdelta-gpl/releases)가 필요하고, 만든 패치를 원본에 다시 적용해 빌드 결과와 같은지 확인합니다.
 
 ```sh
-python3 tools/release.py --src "original/<원본>.bin" --galmuri ../galmuri/Galmuri14.bdf --xdelta <xdelta3 경로> --version 1.0
+python3 tools/release.py --src "original/<원본>.bin" --galmuri ../galmuri/Galmuri14.bdf --xdelta <xdelta3 경로> --version 1.1
 ```
 
 테스트는 `python3 -m pytest -q tests/`로 돌립니다. 원본 데이터가 필요한 테스트는 `original/`의 이미지와 `work/`의 추출본이 있을 때만 실행됩니다.
