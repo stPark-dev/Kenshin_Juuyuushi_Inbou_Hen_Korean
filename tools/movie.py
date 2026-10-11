@@ -3,7 +3,8 @@ Korean overlays (assets/movie, tools/movieart.py) in its place, re-encode them
 into their own sectors.
 
 Established 2026-10-10 (docs/survey.md §3.1.10, D35). Only RU12 (opening) and
-RU13 (battle tutorial) show text. A frame keeps its sectors (the movie table
+RU13 (battle tutorial) show text; RU01 (character introductions, voice only) gets
+burnt-in subtitles (D38). A frame keeps its sectors (the movie table
 seeks by frame), so a re-encoded frame must fit its chunks; the encoder raises
 qscale until it does.
 
@@ -453,5 +454,58 @@ def ru13(raw, disc, galmuri, ko):
     first, last = RU13_LIST
     for f in range(first, last + 1):
         edits[f] = move_list(edits.get(f, get(f)), glyphs)
+    edits = {f: np.clip(np.rint(v), 0, 255).astype(np.uint8) for f, v in edits.items()}
+    return apply(raw, rec, edits), len(edits)
+
+
+# Character introductions (RU01, movie table 0-5: Kenshin 0-270, Kaoru 285-516,
+# Yahiko 525-653, Sanosuke 675-862, Aoshi 885-1039, Saito 1050-1253). Voice only,
+# so the Korean is burnt in as subtitles: Galmuri14, white with a black outline,
+# centred on the bottom rows of the 288x208 frame over a band darkened to BAND. Frames from the voice timing
+# (15 fps; Whisper word times of the XA track, tools/xa.py), each line held a
+# few frames after the voice and never into the next line or clip.
+RU01_SUBS = ((33, 95), (96, 166), (167, 199), (200, 231), (323, 353), (372, 443), (444, 490), (491, 516),
+             (552, 594), (609, 650), (701, 745), (785, 858), (904, 931), (948, 994), (1004, 1037),
+             (1061, 1107), (1110, 1154))
+SUB_BOTTOM, SUB_WIDTH = 204, 280  # bottom row ends at y 204; widest line in px
+BAND = 0.45  # brightness kept under a subtitle line
+
+
+def subtitle(img, glyphs, text, bottom=SUB_BOTTOM):
+    """Draw centred subtitle lines (white, 1 px black outline all round, over a
+    darkened band) on img (float)."""
+    lines = text.split("\n")
+    w = img.shape[1]
+    mask = np.zeros(img.shape[:2], np.uint8)
+    for i, ln in enumerate(lines):
+        y = bottom - 16 * (len(lines) - i)
+        x = (w - glyphs.width(ln)) // 2
+        img[max(0, y - 1):y + 17, max(0, x - 4):x + glyphs.width(ln) + 4] *= BAND
+        for ch in ln:
+            if ch != " ":
+                ys, xs = glyphs.points(ch)
+                ok = (y + ys < img.shape[0]) & (x + xs < w)
+                mask[y + ys[ok], x + xs[ok]] = 1
+            x += 8 if ch == " " else 16
+    ring = cv2.dilate(mask, np.ones((3, 3), np.uint8)) > 0
+    img[ring] = SHADOW
+    img[mask > 0] = INK
+    return img
+
+
+def ru01(raw, disc, galmuri, ko):
+    """{lba: user data} for the subtitled character introductions."""
+    rec = disc.files["RU01.MOV"]
+    get = decoder(raw, rec)
+    glyphs = Glyphs(galmuri)
+    edits = {}
+    for first, last in RU01_SUBS:
+        e = ko.get(f"RU01:{first}")
+        if e is None:
+            continue  # untranslated (or not yet reviewed for this policy): no subtitle
+        if any(glyphs.width(ln) > SUB_WIDTH for ln in e["ko"].split("\n")):
+            raise ValueError(f"RU01:{first}: subtitle line too long")
+        for f in range(first, last + 1):
+            edits[f] = subtitle(get(f).copy(), glyphs, e["ko"])
     edits = {f: np.clip(np.rint(v), 0, 255).astype(np.uint8) for f, v in edits.items()}
     return apply(raw, rec, edits), len(edits)

@@ -333,6 +333,10 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
             users, n = movie.ru13(raw, disc, assets.font, movie_ko)
             writes += iso.plan_sectors(raw, "movie:RU13", users)
             scenes["RU13"] = {"frames": n, "sectors": len(users)}
+            users, n = movie.ru01(raw, disc, assets.font, movie_ko)
+            if users:  # character introductions: burnt-in subtitles (D38)
+                writes += iso.plan_sectors(raw, "movie:RU01", users)
+                scenes["RU01"] = {"frames": n, "sectors": len(users)}
         except (ValueError, KeyError) as e:
             problems.append(f"movie: {e}")
     image = iso.apply(raw, writes)

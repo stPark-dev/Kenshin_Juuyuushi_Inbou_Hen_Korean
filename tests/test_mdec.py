@@ -68,3 +68,31 @@ def test_speakerless_rows_scroll():
     layout = movie.RU13_LAYOUT
     rows = movie._rows("", ["가", "나", "다", "라"], 4, layout)
     assert [t for _, _, t in rows] == ["나", "다", "라"] and rows[0][:2] == (24, 171)
+
+
+def test_subtitle_is_centred_with_outline():
+    font = {"가": {"bbx": (2, 2, 0, 0), "bits": [0b11, 0b11]}}
+    g = movie.Glyphs.__new__(movie.Glyphs)
+    g.font, g.bw, g.bh, g.cache = font, 2, 2, {}
+    img = np.full((40, 64, 3), 200.0)
+    movie.subtitle(img, g, "가", bottom=30)
+    ink = np.argwhere((img == movie.INK).all(-1))
+    assert len(ink) == 4 and abs(ink[:, 1].mean() - 32) < 1
+    assert (img == movie.SHADOW).all(-1).sum() == 12  # the 3x3 ring round a 2x2 stroke
+    assert img[0, 0, 0] == 200 and img[ink[0][0], 25, 0] == 200 * movie.BAND
+
+
+@pytest.mark.skipif(not BIN, reason="disc image not available")
+def test_ru01_v2_frames_and_xa_audio():
+    import xa
+    raw = Path(BIN).read_bytes()
+    rec = iso.load(raw).files["RU01.MOV"]
+    w, h, data = mdec.frames(raw, rec)[100]
+    assert (w, h, int.from_bytes(data[6:8], "little")) == (288, 208, 2)
+    rgb = mdec.decode(w, h, data)
+    assert 40 < rgb.mean() < 220
+    secs = [raw[(rec.lba + i) * 2352:(rec.lba + i + 1) * 2352] for i in range(rec.size // 2048)]
+    audio = [s for s in secs if xa.is_audio(s)]
+    pcm, rate = xa.decode(audio[:150])  # about 8 s
+    assert rate == 37800 and pcm.shape[1] == 2
+    assert 300 < np.abs(pcm.astype(int)).mean() < 8000  # voice, not noise or silence

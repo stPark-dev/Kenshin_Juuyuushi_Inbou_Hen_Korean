@@ -119,8 +119,8 @@ def _sign(v, n):
 def decode_blocks(w, h, data):
     """Dequantised coefficients [(kind, mx, my, 8x8)] and the bit length used."""
     q, ver = int.from_bytes(data[4:6], "little"), int.from_bytes(data[6:8], "little")
-    if ver != 3:
-        raise ValueError(f"bitstream version {ver}, only 3 is handled")
+    if ver not in (2, 3):
+        raise ValueError(f"bitstream version {ver}, only 2 and 3 are handled")
     b = Bits(data[8:])
     prev = {"y": 0, "cb": 0, "cr": 0}
     out = []
@@ -128,12 +128,15 @@ def decode_blocks(w, h, data):
         for my in range((h + 15) // 16):
             for kind in KINDS:
                 coef = np.zeros(64)
-                size = b.lookup(DCL_T if kind == "y" else DCC_T, 8)
-                diff = 0
-                if size:
-                    v = b.get(size)
-                    diff = v if v >> (size - 1) else v - (1 << size) + 1
-                prev[kind] += diff * 4
+                if ver == 2:  # v2: DC is a plain 10-bit value
+                    prev[kind] = _sign(b.get(10), 10)
+                else:
+                    size = b.lookup(DCL_T if kind == "y" else DCC_T, 8)
+                    diff = 0
+                    if size:
+                        v = b.get(size)
+                        diff = v if v >> (size - 1) else v - (1 << size) + 1
+                    prev[kind] += diff * 4
                 coef[0] = prev[kind] * QT[0]
                 i = 0
                 while True:
