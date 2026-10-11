@@ -199,7 +199,7 @@ def menu_build(exe, sysgrp, data, rows, ko, code_of, assets):
         mfont[c] = render(by_code[c]) if c in by_code else (mold.get(c) or old.get(c) or assets.namefont[c])
     new_main = exetext.apply(main, enc["MAIN"], efont)
     new_map = ovltext.set_mapcode_font(new_map, mfont)
-    new_map = nameentry.patch_specials(new_map, code_of)
+    new_map = nameentry.patch_input(nameentry.patch_specials(new_map, code_of), code_of)
     nf_txt, nf_bin = nameentry.namefont(assets.namefont, code_of, render)
     packed = bootlz.encode(new_main)
     room = len(exe) - mainprog.BLOB
@@ -290,8 +290,7 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
     if names:
         menu_ko["MAPCODE"].update(dict(zip(GRID_IDS, nameentry.grid_texts())))
     extra = [t for n in MENU_FILES for t in menu_ko[n].values()] + (["".join(sorted(nameentry.chars()))] if names else [])
-    reserved_names = frozenset(d.encode("cp932") for d in nameentry.DEFAULTS)
-    code_of = shared_codes([(g, ko_map) for *_, g, ko_map in work], assets.menu_codes | reserved_names, extra)
+    code_of = shared_codes([(g, ko_map) for *_, g, ko_map in work], assets.menu_codes, extra)
     if any(menu_ko.values()):
         try:
             files, rep = menu_build(exe, sysgrp, data, menu_rows, menu_ko, code_of, assets)

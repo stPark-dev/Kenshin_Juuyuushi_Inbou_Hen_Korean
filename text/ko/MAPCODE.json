@@ -697,33 +697,33 @@
  },
  "MAPCODE:801cbe68": {
   "src_hash": "923bfcc132c9",
-  "ko": "　：입력・변환 결정",
+  "ko": "　：입력",
   "status": "reviewed",
-  "note": ""
+  "note": "D39 이름 입력 방식 변경(음절 직접 입력, 변환 없음)에 맞춤"
  },
  "MAPCODE:801cbe81": {
   "src_hash": "3e72587100b0",
-  "ko": "　：삭제・변환 취소",
+  "ko": "　：삭제",
   "status": "reviewed",
-  "note": ""
+  "note": "D39 이름 입력 방식 변경(음절 직접 입력, 변환 없음)에 맞춤"
  },
  "MAPCODE:801cbe9e": {
   "src_hash": "1e6a3ef4bbf7",
-  "ko": "　：변환・다음 후보",
+  "ko": "　：쪽 넘기기",
   "status": "reviewed",
-  "note": ""
+  "note": "D39 이름 입력 방식 변경(음절 직접 입력, 변환 없음)에 맞춤"
  },
  "MAPCODE:801cbeb5": {
   "src_hash": "468add836cbe",
-  "ko": "　：무변환",
+  "ko": "　：－",
   "status": "reviewed",
-  "note": ""
+  "note": "D39 이름 입력 방식 변경(음절 직접 입력, 변환 없음)에 맞춤"
  },
  "MAPCODE:801cbec0": {
   "src_hash": "2caccbf21f33",
-  "ko": "　　：문자 종류 전환",
+  "ko": "　　：쪽 넘기기",
   "status": "reviewed",
-  "note": ""
+  "note": "D39 이름 입력 방식 변경(음절 직접 입력, 변환 없음)에 맞춤"
  },
  "MAPCODE:801cbedb": {
   "src_hash": "06c82f7f5ba6",
@@ -851,4 +851,4 @@
   "status": "reviewed",
   "note": ""
  }
-}
+}
