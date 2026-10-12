@@ -4,8 +4,8 @@
 
 플레이스테이션용 『るろうに剣心 -明治剣客浪漫譚- 十勇士陰謀編』(일본판, SCPS-10048)의 한글 패치 제작 프로젝트입니다.
 
-> **현재 상태: v1.1 배포 (검수 진행 중)**
-> 대사·메뉴·이름 입력·타이틀·영상 글자·인물 소개 영상 자막·필드 간판·엔딩 크레딧까지 한글화해 [v1.1을 배포](https://github.com/stPark-dev/Kenshin_Juuyuushi_Inbou_Hen_Korean/releases/tag/v1.1)했습니다. v1.1에서 이름 입력을 음절 직접 입력으로 바꾸고(기본 이름 히지리·히카루), 인물 소개 영상에 자막을 넣었습니다. 다만 **검수가 아직 끝나지 않았습니다.** 제작자가 실제로 플레이하며 확인하는 중이라 오역·어색한 문장·화면 깨짐·진행 막힘이 남아 있을 수 있습니다. 발견하시면 [이슈](https://github.com/stPark-dev/Kenshin_Juuyuushi_Inbou_Hen_Korean/issues)나 [돈골's 한글팩 제보](https://hangul.dongolpack.workers.dev/reports/?resource=kenshin-juuyuushi)로 알려 주세요.
+> **현재 상태: v1.2 배포 (검수 진행 중)**
+> 대사·메뉴·이름 입력·타이틀·영상 글자·인물 소개 영상 자막·필드 간판·월드맵 지명·단체전 제목 그림·엔딩 크레딧까지 한글화해 [v1.2를 배포](https://github.com/stPark-dev/Kenshin_Juuyuushi_Inbou_Hen_Korean/releases/tag/v1.2)했습니다. v1.2에서 월드맵 지명과 단체전 제목 그림(전원대전·승자진출전)을 한글화하고, 겐사이 진료소 간판을 바로잡았습니다. 다만 **검수가 아직 끝나지 않았습니다.** 제작자가 실제로 플레이하며 확인하는 중이라 오역·어색한 문장·화면 깨짐·진행 막힘이 남아 있을 수 있습니다. 발견하시면 [이슈](https://github.com/stPark-dev/Kenshin_Juuyuushi_Inbou_Hen_Korean/issues)나 [돈골's 한글팩 제보](https://hangul.dongolpack.workers.dev/reports/?resource=kenshin-juuyuushi)로 알려 주세요.
 
 ## 진행 상황
 
@@ -52,7 +52,7 @@ python3 tools/build.py \
 배포 패키지(xdelta 패치, cue, 안내문, 글꼴 라이선스)는 다음으로 만듭니다. [xdelta3](https://github.com/jmacd/xdelta-gpl/releases)가 필요하고, 만든 패치를 원본에 다시 적용해 빌드 결과와 같은지 확인합니다.
 
 ```sh
-python3 tools/release.py --src "original/<원본>.bin" --galmuri ../galmuri/Galmuri14.bdf --xdelta <xdelta3 경로> --version 1.1
+python3 tools/release.py --src "original/<원본>.bin" --galmuri ../galmuri/Galmuri14.bdf --xdelta <xdelta3 경로> --version 1.2
 ```
 
 테스트는 `python3 -m pytest -q tests/`로 돌립니다. 원본 데이터가 필요한 테스트는 `original/`의 이미지와 `work/`의 추출본이 있을 때만 실행됩니다.
