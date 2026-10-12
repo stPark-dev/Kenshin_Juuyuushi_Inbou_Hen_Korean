@@ -37,6 +37,7 @@ import script
 import textio
 import titlelogo
 import titlemenu
+import worldmap
 
 SOURCE_SHA256 = "738f320c105dc7ab63515553112bd78a62041305ee4f3ebfeaf5b7df8bb2abd8"
 VERIFIED_MAX_GROUP = 435372  # translated ZROUP24, loaded and shown at runtime (original max 382,396)
@@ -205,7 +206,9 @@ def menu_build(exe, sysgrp, data, rows, ko, code_of, assets):
     room = len(exe) - mainprog.BLOB
     if len(packed) > room:
         raise ValueError(f"packed main program is {len(packed)} bytes, room {room}")
+    amap, new_map = worldmap.apply(sysgrp.get("AMAPDAT.BIN"), new_map, assets.icon_fonts[0])  # place names
     grp = sysgrp.replace("MAPCODE.Z32", bootlz.encode(new_map)).replace("BTLCODE.Z32", bootlz.encode(btl))
+    grp = grp.replace("AMAPDAT.BIN", amap)
     grp = grp.replace("NAMEFONT.TXT", nf_txt).replace("NAMEFONT.BIN", nf_bin)
     grp = grp.replace("NAMEDIC.TXT", nameentry.namedic(code_of))
     title = titlelogo.apply(sysgrp.get("TITLE.BIN"), LOGO)

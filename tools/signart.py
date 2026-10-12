@@ -29,7 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SCALE = 8
 JP = {
     "jinrikisha": "人力車帳場", "yado": "宿", "yaoya": "八百屋", "sakana": "魚", "sakaya": "酒屋",
-    "gyunabe": "牛鍋", "unagi": "うなぎ", "kahii": "可否茶屋", "bansho": "番所", "ezoshi": "絵草紙",
+    "gyunabe": "牛鍋", "unagi": "うなぎ", "kahii": "可否茶屋", "shinryo": "診療所", "ezoshi": "絵草紙",
     "ezoshi2": "絵草紙", "meikyo": "明鏡止水", "komamono": "小間物屋", "kuji": "くじ",
     "senkyaku": "千客万来", "yado2": "宿", "dango": "だんご", "akabeko": "赤べこ",
     "shinbun": "新聞社", "kasshin": "神谷活心流", "keisatsu": "警察署",

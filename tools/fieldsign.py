@@ -57,7 +57,7 @@ SIGNS = (
     Sign("gyunabe", "T001.MDT", 2, 2, (147, 224, 159, 248), "전골", 9, True, True, dark=False),
     Sign("unagi", "T001.MDT", 2, 2, (160, 224, 173, 248), "장어", 9, True, True, dark=False),
     Sign("kahii", "T001.MDT", 3, 0, (5, 120, 91, 135), "카히 찻집", 11),
-    Sign("bansho", "T008.MDT", 0, 2, (113, 185, 143, 196), "파출소", 9),
+    Sign("shinryo", "T008.MDT", 0, 2, (113, 185, 143, 196), "진료소", 9),  # 診療所 (Gensai's clinic)
     Sign("ezoshi", "T034.MDT", 2, 2, (68, 53, 83, 93), "그림책", 9, True, True),
     Sign("ezoshi2", "T057.MDT", 1, 2, (211, 105, 223, 137), "그림책", 9, True, True),
     Sign("meikyo", "T118.MDT", 1, 1, (66, 47, 126, 60), "명경지수", 11),
