@@ -6660,6 +6660,20 @@
    "kind": "game",
    "status": "candidate",
    "note": "새 이름(번역 메모에서 수집). 등장: ZROUP41"
+  },
+  {
+   "ja": "総当たり戦",
+   "ko": "총회동전",
+   "kind": "term",
+   "status": "approved",
+   "note": "단체전 방식명. 사용자 결정(D42). 전투 제목 그림·ZROUP13·14·42·47 대사"
+  },
+  {
+   "ja": "勝ち抜き戦",
+   "ko": "승자진출전",
+   "kind": "term",
+   "status": "approved",
+   "note": "단체전 방식명(勝ちぬき戦 표기 포함). 사용자 결정(D42), 띄어쓰기 없음"
   }
  ]
 }

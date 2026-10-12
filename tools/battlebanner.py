@@ -41,12 +41,12 @@ class Banner:
     offset: int  # of the 8-byte header in GROUP00.BIN
     ident: int
     jp: str
-    ko: str  # as the dialogue names it (ZROUP13/14)
+    ko: str  # as the dialogue names it (ZROUP13/14/42/47, D42)
 
 
 BANNERS = (
-    Banner("league", 0x17140, 0, "総当たり戦", "리그전"),
-    Banner("kachinuki", 0x18148, 1, "勝ち抜き戦", "승자 진출전"),
+    Banner("league", 0x17140, 0, "総当たり戦", "총회동전"),
+    Banner("kachinuki", 0x18148, 1, "勝ち抜き戦", "승자진출전"),
 )
 
 
