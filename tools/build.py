@@ -17,6 +17,7 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
+import battlebanner
 import bootlz
 import btlicon
 import credits
@@ -311,6 +312,14 @@ def build(src, ko_dir, out, statuses, assets=None, galmuri=None):
         except ValueError as e:
             problems.append(f"{scene}: {e}")
             continue
+        if member == "GROUP00.BIN":  # team battle banners (D41) live in the scene 0 file (translated, so always here)
+            try:
+                new, done = battlebanner.apply(new)
+            except ValueError as e:
+                problems.append(f"{scene}: banners: {e}")  # the scene text is kept
+            else:
+                if done:
+                    rep = {**rep, "banners": done}
         scenes[scene] = rep
         problems += [f"{scene}: menu {p}" for p in rep.get("menu_problems", [])]
         if rep["size"] > VERIFIED_MAX_GROUP:
