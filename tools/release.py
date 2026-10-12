@@ -2,7 +2,7 @@
 
 Usage:
   python tools/release.py --src original/<image>.bin --galmuri ../galmuri/Galmuri14.bdf \
-      --xdelta <path to xdelta3> [--version 1.1] [--out dist]
+      --xdelta <path to xdelta3> [--version 1.2] [--out dist]
 
 Writes dist/<package>/ (patch, cue, README, checksums, font licence) and
 dist/<package>.zip. The disc image itself is never packaged. The patch is
@@ -44,7 +44,8 @@ def readme(version, patch_name, patched_sha, patched_size, author):
 ■ 한글화 범위
 - 대사 전부, 메뉴·아이템·기술 이름과 설명, 전투 메시지와 명령 아이콘
 - 이름 입력(일본 이름에 쓰는 한글 음절을 골라 바로 입력, 기본 이름 히지리·히카루), 타이틀 로고와 메뉴
-- 오프닝 영상과 전투 설명 영상의 글자, 인물 소개 영상 음성 자막, 필드 간판, 엔딩 크레딧
+- 오프닝 영상과 전투 설명 영상의 글자, 인물 소개 영상 음성 자막, 필드 간판, 월드맵 지명,
+  단체전 제목 그림(전원대전·승자진출전), 엔딩 크레딧
 - 원본 그대로: 저작권 표기, 실제 인물·회사 이름(크레딧), 작은 등롱·깃발 무늬, 전투 게이지 문양
 
 ■ 필요한 원본 이미지 (1트랙 MODE2/2352 bin)
@@ -71,7 +72,7 @@ def readme(version, patch_name, patched_sha, patched_size, author):
 - 한글화: {author}
 - 번역·기술 작업: Claude(Anthropic의 AI)가 초벌 번역과 검수, 도구 제작을 맡고, 제작자가 표기와 방침을
   확정했습니다. 사람이 문장 하나하나를 검수한 번역은 아닙니다.
-- 타이틀 로고: 제작자 제공 그림
+- 타이틀 로고, 단체전 제목 그림: 제작자 제공 그림
 - 한글 글꼴: Galmuri (Lee Minseo, SIL Open Font License 1.1, LICENSE-Galmuri.txt)
 - 영상 속 한글 일부는 맑은 고딕·궁서 글꼴로 그린 그림입니다.
 
@@ -87,7 +88,7 @@ def main(argv=None):
     ap.add_argument("--src", required=True)
     ap.add_argument("--galmuri", required=True)
     ap.add_argument("--xdelta", required=True)
-    ap.add_argument("--version", default="1.1")
+    ap.add_argument("--version", default="1.2")
     ap.add_argument("--author", default="stPark-dev")
     ap.add_argument("--ko-dir", default="text/ko")
     ap.add_argument("--out", default="dist")

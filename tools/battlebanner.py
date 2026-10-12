@@ -5,17 +5,20 @@
 
 Established 2026-10-12 (docs/survey.md §3.1.13):
 - The lineup screen before a team battle (script op 0x83: type 0x50, background,
-  enemy groups, then field exit 3) shows one of two banners. They are stored only
-  in ZROUP00.GRP's GROUP00.BIN, raw: at BANNERS[i].offset a u32 id, u16 width in
-  bytes (128), u16 height (32), then 128x32 8bpp pixels. The 256-colour CLUT
-  shared by both is at CLUT. A test image with banner 0 striped showed the stripes
-  in ZROUP01's team battle (DuckStation), so other scenes read it from there too.
-- Index 0 (colour 0x0000) is transparent (the lineup draws a brown plate behind
-  the banner, which shows there); the pictures use 33 distinct colours.
+  enemy groups, then field exit 3) shows one of two banners. The lineup is scene
+  0's own script (GROUP00.BIN sits at the scene base meanwhile and picks the banner
+  at 0xA20-0xA46 from the battle type), and the banners are stored only there,
+  raw, each as two blocks of u32 kind, u16 128, u16 32: kind 1 = its own
+  256-colour CLUT (512 bytes) at Banner.clut, kind 0 = 128x32 8bpp pixels at
+  Banner.image. 総当たり戦 is gold on brown, 勝ち抜き戦 purple and cyan (original
+  disc, battle type forced to 0x90). A test image with banner 0 striped showed
+  the stripes in ZROUP01's team battle (DuckStation).
+- Index 0 (colour 0x0000) is transparent (the lineup draws a plate behind the
+  banner, which shows there); each picture uses 33 distinct colours.
 
-A redrawn picture saved as assets/banners/<name>.png (any size, RGBA or RGB with
-KEY magenta for transparency) is scaled back to 128x32; each pixel takes the
-nearest colour the original banners already use, so the CLUT is never changed.
+A redrawn picture saved as assets/banners/<name>.png (any size, 4:1, RGBA or RGB
+with the banner's key colour for transparency) is scaled back to 128x32; each pixel takes the
+nearest colour its original already uses, so the CLUTs are never changed.
 """
 
 import struct
@@ -28,9 +31,8 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parent.parent
 ART = ROOT / "assets" / "banners"
-CLUT = 0x16F40
 W, H = 128, 32
-KEY = (255, 0, 255)  # transparent where the picture has no alpha
+MAGENTA, GREEN = (255, 0, 255), (0, 255, 0)  # transparency keys where a picture has no alpha
 SCALE = 8
 assert SCALE >= 4
 
@@ -38,51 +40,53 @@ assert SCALE >= 4
 @dataclass(frozen=True)
 class Banner:
     name: str
-    offset: int  # of the 8-byte header in GROUP00.BIN
-    ident: int
+    clut: int  # block headers (8 bytes) in GROUP00.BIN
+    image: int
+    key: tuple  # far from every colour of the banner
     jp: str
     ko: str  # as the dialogue names it (ZROUP13/14/42/47, D42)
 
 
 BANNERS = (
-    Banner("league", 0x17140, 0, "総当たり戦", "총회동전"),
-    Banner("kachinuki", 0x18148, 1, "勝ち抜き戦", "승자진출전"),
+    Banner("league", 0x16F38, 0x17140, MAGENTA, "総当たり戦", "전원대전"),
+    Banner("kachinuki", 0x18148, 0x18350, GREEN, "勝ち抜き戦", "승자진출전"),  # purple: magenta would clash
 )
 
 
 def _check(group00):
     for b in BANNERS:
-        if struct.unpack_from("<IHH", group00, b.offset) != (b.ident, W, H):
-            raise ValueError(f"GROUP00.BIN: no {W}x{H} banner {b.ident} at 0x{b.offset:x}")
-    if struct.unpack_from("<H", group00, CLUT)[0] != 0:
-        raise ValueError("GROUP00.BIN: banner CLUT entry 0 is not transparent")
+        for at, kind in ((b.clut, 1), (b.image, 0)):
+            if struct.unpack_from("<IHH", group00, at) != (kind, W, H):
+                raise ValueError(f"GROUP00.BIN: no {b.name} banner block {kind} at 0x{at:x}")
+        if struct.unpack_from("<H", group00, b.clut + 8)[0] != 0:
+            raise ValueError(f"GROUP00.BIN: {b.name} CLUT entry 0 is not transparent")
 
 
-def _clut(group00):
-    return np.frombuffer(group00, "<u2", 256, CLUT).astype(np.int32)
+def _clut(group00, b):
+    return np.frombuffer(group00, "<u2", 256, b.clut + 8).astype(np.int32)
 
 
 def _pixels(group00, b):
-    return np.frombuffer(group00, np.uint8, W * H, b.offset + 8).reshape(H, W)
+    return np.frombuffer(group00, np.uint8, W * H, b.image + 8).reshape(H, W)
 
 
-def rgba(idx, group00):
-    """Colours (RGBA, alpha 0 or 255) of banner indices; colour 0x0000 is transparent."""
-    c = _clut(group00)[idx]
+def rgba(idx, group00, b):
+    """Colours (RGBA, alpha 0 or 255) of indices under banner b's CLUT; 0x0000 is transparent."""
+    c = _clut(group00, b)[idx]
     return np.stack([(c & 31) * 8, (c >> 5 & 31) * 8, (c >> 10 & 31) * 8, np.where(c == 0, 0, 255)], -1).astype(np.uint8)
 
 
 def export(group00):
     """{name: 32x128 RGBA} of the source banners."""
     _check(group00)
-    return {b.name: rgba(_pixels(group00, b), group00) for b in BANNERS}
+    return {b.name: rgba(_pixels(group00, b), group00, b) for b in BANNERS}
 
 
-def palette_indices(group00):
-    """One index per distinct opaque colour the banners use (the lowest such index)."""
+def palette_indices(group00, b):
+    """One index per distinct opaque colour banner b uses (the lowest such index)."""
     _check(group00)
-    clut = _clut(group00)
-    used = np.unique(np.concatenate([_pixels(group00, b).ravel() for b in BANNERS]))
+    clut = _clut(group00, b)
+    used = np.unique(_pixels(group00, b))
     first = {}
     for i in used.tolist():
         if clut[i] != 0:
@@ -90,18 +94,18 @@ def palette_indices(group00):
     return sorted(first.values())
 
 
-def indices(img, group00):
-    """A picture (RGB or RGBA, any size) as 32x128 banner indices: scaled back, each pixel
-    voted by the centre of its cell, snapped to the banners' colours; transparent -> 0."""
+def indices(img, group00, b):
+    """A picture (RGB or RGBA, any size) as 32x128 indices of banner b: scaled back, each
+    pixel voted by the centre of its cell, snapped to b's colours; transparent -> 0."""
     img = np.asarray(img)
     k = SCALE
     big = cv2.resize(img.astype(np.float32), (W * k, H * k), interpolation=cv2.INTER_LINEAR)
     rgb = big[..., :3]
-    clear = np.abs(rgb - np.array(KEY, np.float32)).max(-1) < 48
+    clear = np.abs(rgb - np.array(b.key, np.float32)).max(-1) < 48
     if img.shape[-1] == 4:
         clear |= big[..., 3] < 128
-    cand = palette_indices(group00)
-    pal = rgba(np.array(cand), group00)[:, :3].astype(np.float32)
+    cand = palette_indices(group00, b)
+    pal = rgba(np.array(cand), group00, b)[:, :3].astype(np.float32)
     near = np.argmin(((rgb[:, :, None, :] - pal[None, None]) ** 2).sum(-1), -1)
     label = np.where(clear, len(cand), near)  # last label: transparent
     q = k // 4  # SCALE >= 4, or the centre slice is empty
@@ -138,7 +142,7 @@ def apply(group00, art_dir=ART):
         p = Path(art_dir) / f"{b.name}.png"
         if not p.is_file():
             continue
-        out[b.offset + 8:b.offset + 8 + W * H] = indices(_read(p), group00).tobytes()
+        out[b.image + 8:b.image + 8 + W * H] = indices(_read(p), group00, b).tobytes()
         done.append(b.name)
     return bytes(out), done
 
@@ -154,9 +158,9 @@ def _load():
     return grparc.parse(iso.read_file(raw, iso.load(raw), "ZROUP00.GRP")).get("GROUP00.BIN")
 
 
-def _save(path, pic, k=SCALE):
+def _save(path, pic, key, k=SCALE):
     pic = np.kron(pic, np.ones((k, k, 1), np.uint8))
-    pic[pic[..., 3] == 0, :3] = KEY  # opaque RGB: the transparent part shows as magenta
+    pic[pic[..., 3] == 0, :3] = key  # opaque RGB: the transparent part shows in the key colour
     cv2.imwrite(str(path), cv2.cvtColor(pic[..., :3], cv2.COLOR_RGB2BGR))
 
 
@@ -164,8 +168,9 @@ def cli_export(out):
     out.mkdir(parents=True, exist_ok=True)
     pics = export(_load())
     for b in BANNERS:
-        _save(out / f"{b.name}.png", pics[b.name])
-    rows = "\n".join(f"| `{b.name}.png` | {b.jp} | **{b.ko}** |" for b in BANNERS)
+        _save(out / f"{b.name}.png", pics[b.name], b.key)
+    keys = {MAGENTA: "분홍색 #FF00FF", GREEN: "초록색 #00FF00"}
+    rows = "\n".join(f"| `{b.name}.png` | {b.jp} | **{b.ko}** | {keys[b.key]} |" for b in BANNERS)
     (out / "README.md").write_text(PROMPT.format(scale=SCALE, w=W * SCALE, h=H * SCALE, table=rows), encoding="utf-8")
     print(f"{len(BANNERS)} banners -> {out}")
 
@@ -176,23 +181,25 @@ def cli_check(out):
     g = _load()
     new, done = apply(g)
     before, after = export(g), export(new)
-    for name in done:
-        gap = np.zeros((H, 2, 4), np.uint8)
-        _save(out / f"{name}.png", np.hstack([before[name], gap, after[name]]))
+    for b in BANNERS:
+        if b.name in done:
+            gap = np.zeros((H, 2, 4), np.uint8)
+            _save(out / f"{b.name}.png", np.hstack([before[b.name], gap, after[b.name]]), b.key)
     print(f"{len(done)} pictures in {ART} -> {out}")
 
 
 PROMPT = """# 전투 제목 그림 다시 그리기
 
-`league.png`·`kachinuki.png` = 원본 그림({scale}배 확대, {w}×{h}). 분홍색(#FF00FF)은 투명한 부분으로,
-게임에서는 그 뒤에 깔리는 갈색 판이 보입니다.
+`league.png`·`kachinuki.png` = 원본 그림({scale}배 확대, {w}×{h}). 그림마다 투명색이 다릅니다(아래 표:
+전원대전은 분홍, 보라색 그림인 승자진출전은 초록). 투명한 곳에는 게임이 뒤에 까는 판이 보입니다.
+두 그림은 팔레트가 따로 있어서 전원대전은 금색·갈색, 승자진출전은 보라·하늘색으로만 표현됩니다.
 
 ## ChatGPT에 보낼 요청 (그림마다 한 장씩)
 
 > 첨부한 픽셀아트 제목 그림의 일본어 글자를 한국어 "<한국어>"로 바꿔 줘.
 > - 이미지 크기와 비율({w}×{h})은 그대로. 잘라내거나 여백을 넣지 말 것.
-> - 갈색 판과 테두리, 노란 글자의 그라데이션과 검은 외곽선 스타일은 원본과 같게.
-> - 분홍색(#FF00FF) 배경은 분홍색 그대로 둘 것(투명 처리용).
+> - 판과 테두리, 글자의 색·그라데이션·외곽선 스타일은 원본과 같게(원본에 있는 색만 쓸 것).
+> - 투명색(<투명색>) 부분은 그 색 그대로 둘 것.
 > - 원본은 {scale}배 확대된 저해상도 픽셀아트다. {scale}×{scale} 블록 단위의 계단 모양으로 그릴 것.
 
 ## 결과 넣기
@@ -201,8 +208,8 @@ PROMPT = """# 전투 제목 그림 다시 그리기
 (AI가 정사각형 등으로 주면 그림 부분만 4:1로 잘라 저장). 128×32로 줄이고 색은 원본 그림이
 쓰던 색 중 가장 가까운 것으로 맞춥니다. `python tools/battlebanner.py check`로 확인한 뒤 빌드합니다.
 
-| 파일 | 원문 | 한국어(대사 표기) |
-|---|---|---|
+| 파일 | 원문 | 한국어(대사 표기) | 투명색 |
+|---|---|---|---|
 {table}
 """
 

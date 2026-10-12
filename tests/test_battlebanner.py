@@ -42,36 +42,36 @@ def test_banners_found_in_source(group00):
 def test_export_import_round_trip(group00):
     for b in battlebanner.BANNERS:
         pic = battlebanner.export(group00)[b.name]
-        idx = battlebanner.indices(_up(pic), group00)
-        back = battlebanner.rgba(idx, group00)
+        idx = battlebanner.indices(_up(pic), group00, b)
+        back = battlebanner.rgba(idx, group00, b)
         assert (back == pic).all()
 
 
 def test_import_without_alpha_uses_magenta_as_transparent(group00):
     pic = battlebanner.export(group00)["league"]
     rgb = pic[..., :3].copy()
-    rgb[pic[..., 3] == 0] = battlebanner.KEY
-    idx = battlebanner.indices(_up(rgb), group00)
+    rgb[pic[..., 3] == 0] = battlebanner.BANNERS[0].key
+    idx = battlebanner.indices(_up(rgb), group00, battlebanner.BANNERS[0])
     assert ((idx == 0) == (pic[..., 3] == 0)).all()
 
 
 def test_import_snaps_to_banner_colours(group00):
     noise = np.random.default_rng(1).integers(0, 256, (64, 256, 3), np.uint8)
-    idx = battlebanner.indices(noise, group00)
+    idx = battlebanner.indices(noise, group00, battlebanner.BANNERS[0])
     assert idx.shape == (battlebanner.H, battlebanner.W)
-    assert set(np.unique(idx)) <= set(battlebanner.palette_indices(group00)) | {0}
+    b = battlebanner.BANNERS[0]
+    assert set(np.unique(idx)) <= set(battlebanner.palette_indices(group00, b)) | {0}
 
 
 def test_apply_changes_only_the_picture(group00, tmp_path):
     pic = battlebanner.export(group00)["kachinuki"].copy()
-    pic[4:8, 4:40, :3] = 0  # an opaque black bar
-    pic[4:8, 4:40, 3] = 255
+    pic[4:8, 4:40] = pic[1, 1]  # a bar in the frame colour
     cv2.imwrite(str(tmp_path / "kachinuki.png"), cv2.cvtColor(_up(pic), cv2.COLOR_RGBA2BGRA))
     new, done = battlebanner.apply(group00, tmp_path)
     assert done == ["kachinuki"] and len(new) == len(group00)
     b = next(b for b in battlebanner.BANNERS if b.name == "kachinuki")
     diff = [i for i in range(len(group00)) if new[i] != group00[i]]
-    assert diff and all(b.offset + 8 <= i < b.offset + 8 + battlebanner.W * battlebanner.H for i in diff)
+    assert diff and all(b.image + 8 <= i < b.image + 8 + battlebanner.W * battlebanner.H for i in diff)
     assert (battlebanner.export(new)["kachinuki"] == pic).all()
 
 
@@ -81,7 +81,7 @@ def test_apply_without_pictures_is_identity(group00, tmp_path):
 
 def test_apply_refuses_unexpected_layout(group00, tmp_path):
     bad = bytearray(group00)
-    struct.pack_into("<HH", bad, battlebanner.BANNERS[0].offset + 4, 64, 32)
+    struct.pack_into("<HH", bad, battlebanner.BANNERS[0].image + 4, 64, 32)
     with pytest.raises(ValueError):
         battlebanner.export(bytes(bad))
     with pytest.raises(ValueError):
@@ -106,3 +106,31 @@ def test_unreadable_picture_is_a_value_error(group00, tmp_path):
     (tmp_path / "league.png").write_bytes(b"not a png")
     with pytest.raises(ValueError):
         battlebanner.apply(group00, tmp_path)
+
+
+def test_each_banner_has_its_own_palette(group00):
+    # 総当たり戦 is gold on brown, 勝ち抜き戦 purple and cyan (seen on the original disc)
+    pics = battlebanner.export(group00)
+    for name, warm in (("league", True), ("kachinuki", False)):
+        p = pics[name]
+        rgb = p[p[..., 3] == 255, :3].astype(int)
+        assert (rgb[:, 0].mean() > rgb[:, 2].mean()) == warm
+    # no palette bytes read as picture: the first row is the frame, the same in both
+    assert (pics["league"][0, :, 3] == pics["kachinuki"][0, :, 3]).all()
+
+
+def test_apply_never_touches_the_palettes(group00, tmp_path):
+    for b in battlebanner.BANNERS:
+        cv2.imwrite(str(tmp_path / f"{b.name}.png"), np.full((64, 256, 3), 255, np.uint8))
+    new, _ = battlebanner.apply(group00, tmp_path)
+    for b in battlebanner.BANNERS:
+        assert new[b.clut:b.clut + 8 + 512] == group00[b.clut:b.clut + 8 + 512]
+
+
+def test_purple_banner_uses_green_key(group00):
+    b = battlebanner.BANNERS[1]
+    pic = battlebanner.export(group00)[b.name]
+    rgb = pic[..., :3].copy()
+    rgb[pic[..., 3] == 0] = b.key
+    idx = battlebanner.indices(_up(rgb), group00, b)
+    assert ((idx == 0) == (pic[..., 3] == 0)).all()
